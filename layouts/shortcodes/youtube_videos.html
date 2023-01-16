@@ -1,0 +1,17 @@
+<div class="youtube-container">
+    <!-- Retrieving Video list from Waziup Youtube channel. 
+    Get the key from here: https://console.developers.google.com/apis/credentials -->
+    {{ $urlPre := "https://www.googleapis.com" }}
+    {{ $key := "AIzaSyA572aZ-VMatfSZfGs7wjaZ-2dc39_meGY" }}
+    {{ $channel := "UCGbGcMnBxiJG6Q29LyuKOJQ" }}
+    {{ $urlPath := print "/youtube/v3/search?key=" $key "&channelId=" $channel "&part=snippet,id&order=date&maxResults=30&type=video" }}
+    {{ $data := getJSON $urlPre $urlPath }}
+    {{ range $data.items }}
+      <div class="item">
+            <a href="https://www.youtube.com/watch?v={{ .id.videoId }}" target="_blank">
+                <img src="https://img.youtube.com/vi/{{ .id.videoId }}/0.jpg"></img>
+            </a>
+            <h3>{{ htmlUnescape .snippet.title }}</h3>
+      </div>
+    {{ end }}
+  </div>

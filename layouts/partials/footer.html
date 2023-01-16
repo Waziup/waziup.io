@@ -1,0 +1,50 @@
+{{ with .Params.hide_footer }}
+<!-- No footer here! -->
+{{ else }}
+<footer class="page-footer">
+  <div class="footer-items" id="foot-sec-1">
+    <!-- Website made by {{ .Site.Params.name }} in {{ now.Year }} -->
+    <img src="/img/logo.svg" width="200px" alt="" />
+    <div>
+        <span>FAQ</span> | <span>Career</span> | <span>Contact</span>
+    </div>
+    <p>&copy; 2022-2023 Waziup e.V. <span style="color: coral;">Imprint Privacy</span></p>
+  </div>
+  <div class="footer-items" id="foot-sec-2">
+    <div class="loc-cont-mail">
+      <span class="material-symbols-outlined">location_on</span>
+      <div class="multiline-paragraph">
+        <p>Räcknitzhohe 50-52</p>
+        <p>01217 Dresden, Germany</p>
+      </div>
+    </div>
+    <div class="loc-cont-mail">
+      <span class="material-symbols-outlined">call</span>
+      <div class="multiline-paragraph">
+        <p>+491555664433</p>
+      </div>
+    </div>
+    <div class="loc-cont-mail">
+      <span class="material-symbols-outlined">mail</span>
+      <div class="multiline-paragraph">
+        <p>contatct@waziup.io</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-items" id="foot-sec-3">
+    <h4>About the company</h4>
+    <p>
+      Lorem ipsum dolor sit amet consectetur. Elementum fringilla pulvinar neque
+      sagittis tincidunt pulvinar nec dolor sit amet consectetur. Ringilla pulvinar neque
+      sagittis tincidunt pulvinar.
+    </p>
+    <div class="media-icons">
+      <img src="/img/facebook.svg" alt="" />
+      <img src="/img/twitter.svg" alt="" />
+      <img src="/img/github.svg" alt="" />
+      <img src="/img/medium.svg" alt="" />
+      <img src="/img/youtube.svg" alt="" />
+    </div>
+  </div>
+</footer>
+{{ end }}

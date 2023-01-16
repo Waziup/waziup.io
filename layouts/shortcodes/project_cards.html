@@ -1,0 +1,21 @@
+{{ $shortcode := .}}
+{{ $projectPage := $shortcode.Page.GetPage "projects" }} 
+<!-- Title of project page: {{$projectPage.Title }}.<br /> -->
+
+{{ $projects := first 6 $projectPage.Pages }}
+
+<div class="card-group">
+  {{ range sort $projects ".Date" "desc" }}
+    {{ $project := . }}
+
+  <!-- - Project: {{.Title}}<br> -->
+  {{ $cover := $project.Resources.GetMatch .Params.cover }}
+  {{ partial "card.html" (dict
+    "Permalink" $project.Permalink
+    "Cover" $cover.RelPermalink
+    "Title" $project.Params.category
+    "Description" $project.Description
+    "Date" ($project.Date.Format "January 2, 2006") )}}
+
+  {{ end }}
+</div>

@@ -1,0 +1,42 @@
+body {
+    width: auto;
+    margin: 0px;
+    font-family: sans-serif;
+  }
+  
+  nav{
+    height: 80px;
+  }
+  
+  nav ul {
+    // list-style: none;
+    padding: 3px 5px;
+    background: #111;
+    height: 100%;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+  
+    a {
+      color: #fff;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  
+    li {
+      display: inline;
+    }
+  }
+  
+  footer {
+    background: #f2f2f2;
+    padding: 2px 2px;
+    font-size: .7em;
+    text-align: center;
+  }
+  
+  #map {
+    height: 300px;
+  }

@@ -1,0 +1,7 @@
+<div class="page-banner" style="background-image: url({{ .Get "banner" }}); ">
+    <div class="transparent-cover">
+        <div class="typography">
+            {{ .Inner |  markdownify }}
+        </div>
+    </div>
+</div>

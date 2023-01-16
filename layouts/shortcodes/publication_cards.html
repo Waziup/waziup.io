@@ -1,0 +1,21 @@
+{{ $shortcode := .}}
+{{ $publicationsPage := $shortcode.Page.GetPage "publications" }} 
+<!-- Title of publications page: {{$publicationsPage.Title }}.<br /> -->
+
+{{ $publications := first 6 $publicationsPage.Pages }}
+
+<div class="card-group" style="margin-top: auto; display: none;" id="pub-card-group">
+  {{ range sort $publications ".Date" "desc" }}
+    {{ $publications := . }}
+
+  <!-- - publications: {{.Title}}<br> -->
+  {{ $cover := $publications.Resources.GetMatch .Params.cover }}
+  {{ partial "card.html" (dict
+    "Permalink" $publications.Permalink
+    "Cover" $cover.RelPermalink
+    "Title" $publications.Params.category
+    "Description" $publications.Description
+    "Date" ($publications.Date.Format "January 2, 2006") )}}
+
+  {{ end }}
+</div>
