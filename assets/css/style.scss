@@ -357,6 +357,12 @@ body {
 			display: inline-flex;
 			gap: 1rem;
 		}
+
+		>p>a {
+			&:hover {
+				text-decoration: underline;
+			}
+		}
 	}
 }
 
@@ -537,7 +543,8 @@ body {
 
 .floating-image {
 	float: right;
-	height: 250px;
+	max-height: 450px;
+	max-width: 250px;
 	// width: 30vw;
 	padding-right: 5vw;
 }
@@ -545,6 +552,8 @@ body {
 .floating-image-reverse {
 	float: left;
 	padding-left: 5vw;
+	max-height: 450px;
+	max-width: 250px;
 	padding-right: 0;
 }
 
@@ -793,7 +802,8 @@ body {
 		a>img {
 			width: -webkit-fill-available;
 		}
-		>h3{
+
+		>h3 {
 			padding: 0 .5rem;
 		}
 	}

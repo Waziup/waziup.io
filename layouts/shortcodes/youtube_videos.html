@@ -9,7 +9,7 @@
     {{ range $data.items }}
       <div class="item">
             <a href="https://www.youtube.com/watch?v={{ .id.videoId }}" target="_blank">
-                <img src="https://img.youtube.com/vi/{{ .id.videoId }}/0.jpg"></img>
+                <img src="https://img.youtube.com/vi/{{ .id.videoId }}/mqdefault.jpg"></img>
             </a>
             <h3>{{ htmlUnescape .snippet.title }}</h3>
       </div>
