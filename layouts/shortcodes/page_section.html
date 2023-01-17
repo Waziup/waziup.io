@@ -1,7 +1,13 @@
-<div class="page-section {{ if eq (.Get "reverse") "true" }}page-section-reverse{{end}}">
+<div class="page-section {{ if eq (.Get "reverse") "true" }}page-section-reverse{{end}}" style="{{.Get "style"}}">
     <div class="background-canvas left-item" style="background-image: url({{ .Get "image" }})"></div>
     <div class="right-item">
         <div class="flex-column" style="flex-grow: 1; justify-content: center;">{{ .Inner |  markdownify }}</div>
-        <button class="btn-lemo">Learn more</button>
+        <div style="display: flex; gap: 1rem;">
+            <button class="btn-lemo-solid {{ if eq (.Get "button-style") "lined" }}btn-lemo-lined{{end}}" >Learn more</button>
+        {{ if eq (.Get "button") "multiple" }}
+            <button class="btn-lemo-solid btn-lemo-lined" >Try Now</button>
+        {{end}}
+        </div>
+        
     </div>
 </div>
