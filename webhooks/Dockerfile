@@ -1,0 +1,42 @@
+FROM debian:stretch
+
+# Install dependencies
+RUN echo "deb http://ftp.us.debian.org/debian testing main contrib non-free" > /etc/apt/sources.list.d/testing.list \
+  && apt-get -qq update \
+  && DEBIAN_FRONTEND=noninteractive apt-get -qq install -y --no-install-recommends git ca-certificates curl ssh webhook \
+  && rm -rf /var/lib/apt/lists/*
+
+# Configuration variables
+ENV HUGO_VERSION 0.82.0
+ENV HUGO_BINARY hugo_${HUGO_VERSION}_Linux-64bit.deb
+ENV SASS_VERSION 1.32.8
+ENV SASS_BINARY dart-sass-1.32.8-linux-x64.tar.gz
+
+ENV GIT_REPO_CONTENT_PATH ''
+ENV GIT_REPO_BRANCH 'master'
+ENV TARGET_DIR '/target'
+
+ENV GIT_SSH_ID_FILE '/ssh/id_rsa'
+
+# Download and install hugo and sass
+RUN \
+  curl -sL -o /tmp/hugo.deb \
+  https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY} && \
+  dpkg -i /tmp/hugo.deb && \
+  rm /tmp/hugo.deb && \
+  curl -sL -o /tmp/dart-sass.tar.gz \
+  https://github.com/sass/dart-sass/releases/download/${SASS_VERSION}/${SASS_BINARY} && \
+  tar -C /usr/local -xzf /tmp/dart-sass.tar.gz && \
+  rm /tmp/dart-sass.tar.gz
+  
+
+WORKDIR /tmp
+
+# Expose default webhook port
+EXPOSE 9000
+
+COPY hooks.json /etc/hooks.json
+
+COPY scripts /scripts
+
+ENTRYPOINT [ "bash", "/scripts/start.sh" ]
