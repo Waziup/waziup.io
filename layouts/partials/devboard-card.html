@@ -1,0 +1,23 @@
+<!-- <a class="card" href="{{ .Permalink }}">
+  <img src="{{ .Cover }}" alt="" />
+  <div class="card-content">
+    <span class="card-category">{{ .Title }}</span>
+    <p>{{ .Description }}</p>
+    <span>{{ .Date }}</span>
+  </div>
+onclick="window.location.href='{{ .Permalink }}';"
+</a> -->
+
+<div class="dev-board-card">
+  <div class="flex-row">
+    <h3>{{ .Title }}</h3>
+    <!-- <img src="{{ .Icon }}" alt="wazidev-icon"/> -->
+  </div>
+  <p>{{ .Description }}</p>
+  <button
+    class="btn-lemo-solid"
+    style="border-radius: 2rem"
+  >
+    specs
+  </button>
+</div>
