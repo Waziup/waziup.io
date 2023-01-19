@@ -369,6 +369,7 @@ body {
 }
 
 .page-section {
+	margin-top: 3rem;
 	padding: 2vw 5vw 2vw 5vw;
 	display: flex;
 	justify-content: space-between;
@@ -380,6 +381,7 @@ body {
 		flex-direction: column;
 		width: 40%;
 		height: 25rem;
+		object-fit: contain;
 	}
 
 	>.right-item {
@@ -389,9 +391,8 @@ body {
 		height: 100%;
 		color: #515B60;
 
-		>h1,
-		h2 {
-			margin-bottom: auto;
+		>h1 {
+			margin: .5rem auto;
 		}
 	}
 }
@@ -448,7 +449,7 @@ body {
 	box-shadow: none;
 	cursor: pointer;
 	font-size: 1em;
-	margin-top: 2rem;
+	// margin-top: 2rem;
 }
 
 .btn-lemo-lined {
@@ -681,7 +682,7 @@ body {
 		.left-item {
 			width: 100%;
 			height: 15.63rem;
-			background-size: cover;
+			object-fit: contain;
 		}
 
 		.right-item {
@@ -689,7 +690,7 @@ body {
 			width: 100%;
 			color: #515B60;
 
-			>h1 {
+			div>h1 {
 				font-size: 1.5em;
 			}
 		}
@@ -811,6 +812,102 @@ body {
 
 		>h3 {
 			padding: 0 .5rem;
+		}
+	}
+}
+
+.card-certification-narrow {
+	margin-top: .5rem;
+	gap: .5rem;
+
+	.card {
+		display: flex;
+		flex-direction: row;
+		width: 48%;
+		border-radius: .25rem;
+		transition: .5s;
+		cursor: pointer;
+
+		&:hover {
+			background-color: rgb(233, 233, 233);
+		}
+
+		.media {
+			padding: .5rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			>img {
+				height: 3rem;
+				width: 3rem;
+			}
+		}
+
+		.content {
+			display: flex;
+			flex-grow: 1;
+			flex-direction: column;
+			gap: .5rem;
+			padding: .5rem .2rem;
+		}
+	}
+
+}
+
+.hide {
+	display: none;
+}
+
+.section-banner {
+	margin-top: 10rem;
+	width: 100%;
+	height: 90vh;
+	background-repeat: no-repeat;
+	background-size: content;
+	// position: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	// padding-left: 5vw;
+
+	.blur {
+		backdrop-filter: blur(5px);
+		width: 50%;
+		height: 100%;
+		padding-left: 5vw;
+
+		.text {
+			margin-top: 2vw;
+			width: 100%;
+			height: 60%;
+
+
+			>h1 {
+				color: #2f62c0;
+			}
+
+			div>p {
+				margin-top: 2rem;
+			}
+		}
+	}
+
+	.action-button-lined {
+		background-color: transparent;
+		color: #2f62c0;
+		border: 2px #2f62c0 solid;
+		display: flex;
+		width: fit-content;
+		align-items: center;
+		justify-content: center;
+		padding: .6rem 1rem;
+		border-radius: .2rem;
+		cursor: pointer;
+
+		&:hover{
+			background-color: #2f62c0;
+			color: #fff;
 		}
 	}
 }
