@@ -10,7 +10,7 @@ services:
       - 9000:9000
       - 81:81
     environment: 
-      HUGO_BASE_URL: https://www.staging.waziup.io/
+      HUGO_BASE_URL: http://website.staging.waziup.io/
       WEBHOOK_SECRET:
       GIT_REPO_URL: https://github.com/Waziup/waziup.io-new.git 
       GIT_REPO_BRANCH: main
