@@ -1,10 +1,10 @@
 ---
-title: Imprint
+title: Imprint2
 ---
 
 {{<text_passage>}}
 
-# IMPRINT
+# IMPRINT2
 
 Waziup e.V.    
 Lipsiusstr 18  
