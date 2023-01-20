@@ -13,4 +13,4 @@ echo ">>> Building master ..."
 bash /scripts/refresh.sh
 
 echo ">>> Starting webhook ..."
-/usr/bin/webhook -hooks /etc/hooks.json -verbose
+sudo /usr/bin/webhook -hooks /etc/hooks.json -verbose
