@@ -7,7 +7,7 @@ RUN apt-get -qq update \
 
 # Configuration variables
 ENV HUGO_VERSION 0.110.0
-ENV HUGO_BINARY hugo_${HUGO_VERSION}_linux-amd64.deb
+ENV HUGO_BINARY hugo_extended_${HUGO_VERSION}_linux-amd64.deb
 ENV SASS_VERSION 1.32.8
 ENV SASS_BINARY dart-sass-1.32.8-linux-x64.tar.gz
 
