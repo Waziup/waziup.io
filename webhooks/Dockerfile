@@ -2,7 +2,7 @@ FROM debian:stretch
 
 # Install dependencies
 RUN apt-get -qq update \
-  && DEBIAN_FRONTEND=noninteractive apt-get -qq install -y --no-install-recommends git ca-certificates curl ssh webhook \
+  && DEBIAN_FRONTEND=noninteractive apt-get -qq install -y --no-install-recommends git ca-certificates curl ssh webhook nginx \
   && rm -rf /var/lib/apt/lists/*
 
 # Configuration variables
@@ -35,7 +35,7 @@ WORKDIR /tmp
 EXPOSE 9000
 
 COPY hooks.json /etc/hooks.json
-
 COPY scripts /scripts
+ADD nginx.conf /etc/nginx/conf.d/default.conf
 
 ENTRYPOINT [ "bash", "/scripts/start.sh" ]

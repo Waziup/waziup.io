@@ -7,8 +7,10 @@ services:
     restart: unless-stopped
     container_name: webhooks
     volumes:
-      - html:/target
       - ./data/webhooks/id_rsa:/ssh/id_rsa:ro
+    ports:
+      - 9000:9000
+      - 81:81
     environment: 
       HUGO_BASE_URL: https://lab.staging.waziup.io/
       WEBHOOK_SECRET:

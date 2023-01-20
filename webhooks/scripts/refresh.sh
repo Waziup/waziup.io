@@ -13,7 +13,6 @@ mkdir -p ${TARGET_DIR}
 cd ${CONTENT_DIR}/${GIT_REPO_CONTENT_PATH}
 
 echo ">>> Hugo building '$HUGO_BASE_URL' ..."
-/usr/local/dart-sass/sass src/css/index.scss static/dist/css/index.css
 sed -i "s|^\(baseURL\s*=\s*\).*\$|\1\"$HUGO_BASE_URL\"|" config.toml
 hugo ${HUGO_PARAMS}
 
