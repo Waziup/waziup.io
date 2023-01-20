@@ -4,7 +4,7 @@ title: Imprint
 
 {{<text_passage>}}
 
-# IMPRINT
+# IMPRINT2
 
 Waziup e.V.    
 Lipsiusstr 18  
