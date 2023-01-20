@@ -1,14 +1,13 @@
 FROM debian:stretch
 
 # Install dependencies
-RUN echo "deb http://ftp.us.debian.org/debian testing main contrib non-free" > /etc/apt/sources.list.d/testing.list \
-  && apt-get -qq update \
+RUN apt-get -qq update \
   && DEBIAN_FRONTEND=noninteractive apt-get -qq install -y --no-install-recommends git ca-certificates curl ssh webhook \
   && rm -rf /var/lib/apt/lists/*
 
 # Configuration variables
-ENV HUGO_VERSION 0.82.0
-ENV HUGO_BINARY hugo_${HUGO_VERSION}_Linux-64bit.deb
+ENV HUGO_VERSION 0.110.0
+ENV HUGO_BINARY hugo_${HUGO_VERSION}_linux-amd64.deb
 ENV SASS_VERSION 1.32.8
 ENV SASS_BINARY dart-sass-1.32.8-linux-x64.tar.gz
 
