@@ -15,8 +15,6 @@ ENV GIT_REPO_CONTENT_PATH ''
 ENV GIT_REPO_BRANCH 'master'
 ENV TARGET_DIR '/target'
 
-ENV GIT_SSH_ID_FILE '/ssh/id_rsa'
-
 # Download and install hugo and sass
 RUN \
   curl -sL -o /tmp/hugo.deb \

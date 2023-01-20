@@ -6,13 +6,11 @@ services:
     image: webhooks
     restart: unless-stopped
     container_name: webhooks
-    volumes:
-      - ./data/webhooks/id_rsa:/ssh/id_rsa:ro
     ports:
       - 9000:9000
       - 81:81
     environment: 
-      HUGO_BASE_URL: https://lab.staging.waziup.io/
+      HUGO_BASE_URL: https://www.staging.waziup.io/
       WEBHOOK_SECRET:
       GIT_REPO_URL: git@github.com:Waziup/waziup.io-new.git
       GIT_REPO_BRANCH: main

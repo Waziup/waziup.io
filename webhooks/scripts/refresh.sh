@@ -8,7 +8,7 @@ echo "Working directory: ${CONTENT_DIR}"
 mkdir -p ${CONTENT_DIR}
 
 echo ">>> Cloning branch '$BRANCH' ..."
-GIT_SSH_COMMAND="ssh -oStrictHostKeyChecking=no -i ${GIT_SSH_ID_FILE}" git clone ${GIT_REPO_URL} --branch $GIT_REPO_BRANCH --single-branch ${CONTENT_DIR}
+GIT_SSH_COMMAND="ssh -oStrictHostKeyChecking=no" git clone ${GIT_REPO_URL} --branch $GIT_REPO_BRANCH --single-branch ${CONTENT_DIR}
 mkdir -p ${TARGET_DIR}
 cd ${CONTENT_DIR}/${GIT_REPO_CONTENT_PATH}
 
