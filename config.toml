@@ -2,9 +2,10 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 # theme = "papaya"
 title = 'My New Hugo Site'
+ignoreErrors = ["error-remote-getjson"]
 [params]
 name= 'nahin'
-ignoreErrors = ["error-remote-getjson"]
+
 
 
 
