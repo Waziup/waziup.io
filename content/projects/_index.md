@@ -3,7 +3,7 @@ title: Projects
 ---
 {{<page_banner banner="/img/demo-banner.png" >}}
 
-# this is Media Page
+# this is Project Page
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices.
 
