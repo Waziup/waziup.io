@@ -10,8 +10,6 @@
   {{ $cover := $devboards.Resources.GetMatch .Params.cover }} {{ partial
   "devboard-card.html" (dict
   "Title" $devboards.Params.title 
-  "Icon" $devboards.Params.icon 
-  "Description" $devboards.Description 
-  "Permalink" $devboards.Permalink )}} 
+  "Description" $devboards.Description )}} 
   {{ end }}
 </div>
