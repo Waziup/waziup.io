@@ -2,4 +2,5 @@
     {{ .Inner |  markdownify }}
 </div> -->
 
-<img class="floating-image {{ if eq (.Get "float") "left" }}floating-image-reverse{{end}}" src="{{ .Get "image" }}"/>
+<img class="floating-image {{ if eq (.Get "float") "left"
+}}floating-image-reverse{{end}}" src="{{ .Get "image" }}"/>

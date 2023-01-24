@@ -585,16 +585,13 @@ body {
 .floating-image {
 	float: right;
 	max-height: 450px;
-	max-width: 250px;
-	// width: 30vw;
+	width: 400px;
 	padding-right: 5vw;
 }
 
 .floating-image-reverse {
 	float: left;
 	padding-left: 5vw;
-	max-height: 450px;
-	max-width: 250px;
 	padding-right: 0;
 }
 
@@ -674,6 +671,7 @@ body {
 		height: 200px;
 		width: 100%;
 		padding-right: 5vw;
+		padding-left: 5vw;
 	}
 
 	.page-footer {
@@ -759,7 +757,6 @@ body {
 	.card-group>.card {
 		width: 100%;
 	}
-
 
 	.text-passage {
 		text-align: justify;
