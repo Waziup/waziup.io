@@ -38,9 +38,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla lu
 {{</page_section>}}
 
 {{<section_banner banner="/img/edge-lab.png" >}}
-
-# SOME MESSAGE ABOUT CAPACITY BUILDING
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-{{</section_banner >}}
+# Deploy Your IoT Lab with Us!
+Waziup IoT Labs offer digital prototyping and experimentation possibilities with hardware and software. With our expertise and engagement in the developers and entrepreneurs community for IoT innovations have helped the Universities, Tech-Hubs, DIHs, Makerspaces creating and managing the IoT Labs.
+{{</section_banner>}}
+<!-- {{<full_length_banner banner="/img/edge-lab.png">}} -->

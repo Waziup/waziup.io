@@ -1,8 +1,14 @@
-<div class="section-banner" style="background-image: url({{ .Get "banner" }}); ">
-   <div class="blur">
+<!-- <div class="section-banner" style="background-image: url({{ .Get "banner" }}) ; ">
     <div class="text">
-        {{ .Inner | markdownify }}
+        
     </div>
+   <button class="action-button-lined">Contact us</button>
+</div> -->
+
+<div class="section-banner" >
+    <img class="media" src="{{ .Get "banner" }}" />
+    <div class="content">
+            {{ .Inner | markdownify }}
     <button class="action-button-lined">Contact us</button>
-   </div>
+    </div>
 </div>

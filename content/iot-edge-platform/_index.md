@@ -2,7 +2,7 @@
 title: IoT Edge Platform
 ---
 
-{{<page_banner banner="/img/edge-lab.png" >}}
+{{<page_banner banner="/img/iot-edge-banner.png" >}}
 
 # sOME MESSAGE ABOUT cAPACITY BUILDING
 
