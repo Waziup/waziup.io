@@ -10,30 +10,36 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla lu
 
 {{</page_banner >}}
 
-{{<page_section image="/img/learning-center.png" reverse="true" style="padding-right: 0" button="multiple" button-style="solid" with-certification="false">}}
+{{<page_section image="/img/learning-center.png" reverse="true"  button="multiple" button-style="solid" with-certification="false">}}
 
-# Some texts that talks about the Online Certification.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+# IoT Learning Center
+Take your IoT knowledge to the next level with Waziup's IoT Learning Platform. Our platform offers a wide range of courses and resources, including online tutorials, webinars, and hands-on training, that are designed to help individuals, institutes and SMEs of all skill levels advance in the field of IoT. Visit the platform now and start your journey to IoT mastery.
+
+We have developed the Learning Center for: 
+
+- **IoT Startups and Companies** looking for a quick way to prototype and deploy applications
+- **IoT Hobbyist/Enthusiast** looking to develop solutions to improve or learn a new skill
+- **Students and Trainers** looking for a learning platform
 
 {{</page_section>}}
 
 {{<page_section image="/img/certificate.png" style="padding-left: 0; width:45%" button="none" >}}
 
-# Some texts that talks about the Online Certification.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
+# Waziup's Certified Professional Programs
+Elevate your career and stand out in the industry with the certification offered by Waziup. Our certification program is designed to provide individuals with the knowledge and skills needed to excel in the field of IoT, Big Data and Cloud Computing. With Waziup certification, you'll have the competitive edge needed to succeed in today's rapidly changing technology landscape. Don't miss out on this opportunity to advance your career and be recognized as a leader in the field. Sign up now and join the ranks of certified professionals.
 
 {{</page_section>}}
 
-{{<page_section image="/img/wazihack.png" reverse="true" style="padding-right: 0" button="multiple" button-style="solid" with-certification="false">}}
+{{<page_section image="/img/wazihack.png" reverse="true"  button="multiple" button-style="solid" with-certification="false">}}
 
-# Some texts that talks about the Online Certification.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+# Join the Innovative Hackathon Event Hosted by Waziup!
+Waziup's hackathon will unleash the inventiveness of people from all walks of life and skill levels. Waziup Hackathon is a must-attend event because it offers a cash prize for the winning team and the chance to present skills and ideas to business leaders. Join us as we explore the potential of each person's abilities and creativity while networking with other like-minded people.
+ 
+We provide you with: 
+- Online platform, Resource and Assistance for hosting the event.
+- Marketing and promoting the event to attract participants.
+- Providing mentorship and guidance to participants.
+
 
 {{</page_section>}}
 
