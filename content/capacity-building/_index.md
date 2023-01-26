@@ -4,7 +4,7 @@ title: Capacity Building
 
 {{<page_banner banner="/img/capa-cover.png" >}}
 
-# sOME MESSAGE ABOUT cAPACITY BUILDING
+# WAZIUP'S CAPACITY BUILDING PROGRAM
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices.
 

@@ -196,7 +196,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	color: rgb(0, 0, 0);
-	font-size: 1.5rem;
+	font-size: 1.5em;
 	font-weight: 300;
 	opacity: 1;
 }
@@ -783,9 +783,6 @@ body {
 	.nav {
 		>.nav-btn {
 			display: inline-block;
-			position: absolute;
-			right: 0px;
-			top: 0px;
 
 			>label {
 				display: inline-block;
@@ -862,6 +859,12 @@ body {
 		width: 100%;
 		padding-right: 5vw;
 		padding-left: 5vw;
+	}
+	.page-banner {
+		height: 50vh;
+	}
+	.typography {
+		font-size: 1.3em;
 	}
 
 	.page-footer {
