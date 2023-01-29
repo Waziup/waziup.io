@@ -14,10 +14,13 @@ onclick="window.location.href='{{ .Permalink }}';"
     <!-- <img src="{{ .Icon }}" alt="wazidev-icon"/> -->
   </div>
   <p>{{ .Description }}</p>
-  <button
-    class="btn-lemo-solid"
-    style="border-radius: 2rem"
-  >
+  <button id="myBtn" class="btn-lemo-solid" style="border-radius: 2rem">
     specs
   </button>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>This is a modal.</p>
+    </div>
+  </div>
 </div>

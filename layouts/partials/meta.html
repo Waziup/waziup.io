@@ -1,8 +1,6 @@
 <meta charset="utf-8" />
 <title>{{ .Page.Title }}</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-{{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify }}
-{{ $style := resources.Get "css/style.scss" | resources.ToCSS | resources.Minify}}
+<meta name="viewport" content="width=device-width, initial-scale=1">{{ $style := resources.Get "css/style.scss" | resources.ToCSS | resources.Minify}}
 <link rel="stylesheet" href="{{ $style.Permalink }}" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 <link rel="manifest" href="site.webmanifest">
