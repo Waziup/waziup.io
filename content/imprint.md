@@ -2,7 +2,7 @@
 title: Imprint
 ---
 
-{{<text_passage>}}
+
 
 # IMPRINT
 
@@ -72,4 +72,4 @@ We do not give any warranty in respect of the timeliness, accuracy or completene
 Registered trademarks and proprietary names, and copyrighted text and images, are not generally indicated as such on our Web pages.
 But the absence of such indications in no way implies that these names, images or text belong to the public domain in the context of trademark or copyright law.
 
-{{</text_passage>}}
+

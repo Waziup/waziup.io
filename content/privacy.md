@@ -2,7 +2,7 @@
 title: Privacy Policy
 ---
 
-{{<text_passage>}}
+
 Data protection declaration:
 ===
 
@@ -131,4 +131,3 @@ contact@waziup.org
 
 We will update this notice from time to time. If you have any comments or questions concerning this notice please contact contact@waziup.org.
 
-{{</text_passage>}}

@@ -9,6 +9,8 @@
     <img class="media" src="{{ .Get "banner" }}" />
     <div class="content">
             {{ .Inner | markdownify }}
-    <button class="action-button-lined">Contact us</button>
+    {{ if eq (.Get "button") "show" }}
+        <button class="action-button-lined">Contact us</button>
+    {{end}}
     </div>
 </div>

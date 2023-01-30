@@ -43,7 +43,7 @@ We provide you with:
 
 {{</page_section>}}
 
-{{<section_banner banner="/img/edge-lab.png" >}}
+{{<section_banner banner="/img/edge-lab.png" button="show" >}}
 # Deploy Your IoT Lab with Us!
 Waziup IoT Labs offer digital prototyping and experimentation possibilities with hardware and software. With our expertise and engagement in the developers and entrepreneurs community for IoT innovations have helped the Universities, Tech-Hubs, DIHs, Makerspaces creating and managing the IoT Labs.
 {{</section_banner>}}
