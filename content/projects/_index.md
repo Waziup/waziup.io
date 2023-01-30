@@ -9,23 +9,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla lu
 
 {{</page_banner >}}
 
-{{<text_passage>}}
 
-## eita kisu hoilo?
-The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
 
-{{</text_passage>}}
+## Innovating with IoT
+Waziup is at the forefront of IoT innovation, delivering cutting-edge solutions that are helping organizations across a range of industries to harness the power of data and transform the way they do business. With a focus on open-source technologies and user-friendly design, the Waziup projects are making it easier than ever for businesses to take advantage of IoT and drive real, meaningful change. Whether you're looking to improve your operations, enhance your products and services, or simply stay ahead of the curve, the Waziup projects are the perfect tool for anyone looking to innovate with IoT.
 
-{{<page_section image="/img/demo.jpg" with-certification="false">}}
 
-# Transforming Data Processing with the Intel-Iris Project
-Acutting-edge initiative aimed at revolutionizing the way that data is processed, managed, and analyzed. By leveraging the latest advances in artificial intelligence and edge computing, the Intel-Iris project is creating a new paradigm for data management that is more efficient, flexible, and secure. With a focus on empowering organizations of all sizes to harness the full potential of their data, the Intel-Iris project is providing a comprehensive suite of tools and technologies to help organizations of all sizes to make the most of their data. Whether you're looking to implement a new IoT solution, optimize an existing one, or simply looking for a more effective way to manage your data, the Intel-Iris project has something to offer. Join the growing community of organizations that are already taking advantage of this innovative project and discover the benefits of data-driven decision making today."
+
+{{<page_section image="/img/demo.jpg">}}
+
+# Revolutionizing Irrigation for Small-Scale Farms: The Intel-IrriS PRIMA Project
+Intel-IrriS is a PRIMA project from Section 2 Multitopic 2020 Thematic Area 1-Water management addressing low cost, lean solutions for enhancing irrigation efficiency of small-scale farms. This will provide the smallholder farmers a more efficient management of its available water by deploying of an open, low-cost and autonomous irrigation control system based on IoT and smart technologies. 
 
 {{</page_section>}}
 
-{{<page_section image="/img/demo.jpg" reverse="true" with-certification="false">}}
-# Transforming Farming Management with the Osiris Project
-The Osiris Project of the European Union is a cutting-edge initiative aimed at transforming the way that farming data is collected, analyzed, and utilized. With a focus on developing technologies that empower farmers and other industry professionals to make data-driven decisions, the Osiris project is revolutionizing the way that farming operations are managed. Whether you're looking to improve crop yields, streamline your operations, or simply make better use of your data, the Osiris project has the tools and technologies you need to succeed. Join the growing community of professionals who are already taking advantage of this innovative project and start making the most of your farming data today.
+{{<page_section image="/img/demo.jpg" reverse="true">}}
+# Empowering Smart Cities: The HUBiquitous Project
+HUBiquitous is a Horizon 2020’s Innovation Action aiming at creating a joint Africa-Europe Startup & Innovation Ecosystem for long-term collaborations and partnerships. The project has the ambition to increase the technology leveland capacity building of 30 local Digital Innovation Hubs (DIHs)/TechHubs in 5 African countries.
 
 {{</page_section>}}
 

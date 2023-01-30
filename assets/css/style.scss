@@ -19,12 +19,14 @@ $container-max-width: 100% !default;
 $header-height: 3.5rem !default;
 $menu-width: 16rem !default;
 $toc-width: 16rem !default;
+$pageInset: 5vw;
 
 $xs: 0px;
 $sm: 600px;
 $md: 900px;
 $lg: 1200px;
 $xl: 1536px;
+
 
 
 * {
@@ -66,7 +68,7 @@ body {
 		display: flex;
 		align-items: center;
 		float: right;
-		font-size: 18px;
+		font-size: 1.1em;
 		height: inherit;
 		margin-right: 2vw;
 
@@ -119,7 +121,8 @@ body {
 		// position: relative;
 
 		.dropbtn {
-			font-size: 18px;
+			display: flex;
+			font-size: 1em;
 			border: none;
 			outline: none;
 			color: white;
@@ -171,11 +174,13 @@ body {
 
 .page-banner {
 	height: 40vh;
-	width: 100%;
+	// width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #515B60;
-	position: 50%;
+	margin: 0 -$pageInset;
+	margin-top: 5rem;
+	margin-bottom: auto;
 
 	.transparent-cover {
 		height: 100%;
@@ -204,8 +209,8 @@ body {
 .container {
 	max-width: $container-max-width ;
 	margin: 0 auto;
-	margin-top: 5rem;
 	min-height: calc(100vh - 295px);
+	padding: 0 5vw;
 }
 
 .page-footer {
@@ -288,8 +293,8 @@ body {
 }
 
 .page-section {
-	margin-top: 3rem;
-	padding: 2vw 5vw 2vw 5vw;
+	margin-top: 5rem;
+	// padding: 2vw 5vw 2vw 5vw;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -422,9 +427,10 @@ body {
 }
 
 .text-passage {
+	font-size: 1.2em;
 	display: flex;
 	flex-direction: column;
-	padding: .5vw 5vw 1vw 5vw;
+	// padding: .5vw 5vw 1vw 5vw;
 	color: #515B60;
 }
 
@@ -704,8 +710,8 @@ body {
 .section-banner {
 	position: relative;
 	text-align: center;
+	margin: auto -5vw;
 	margin-top: 5rem;
-	width: 100%;
 
 	.media {
 		width: 100%;

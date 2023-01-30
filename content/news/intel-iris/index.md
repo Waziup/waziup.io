@@ -22,16 +22,14 @@ The flex-direction property is a sub-property of the Flexible Box Layout module.
 {{</text_passage>}}
 
 {{<text_passage>}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
+X Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
 {{</text_passage>}}
 
 {{<floating_image image="pic.png" float="left">}}{{</floating_image>}}
 
-{{<text_passage>}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
+Y Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
 
 Lorem ipsum dolor sit amet consectetur. A non condimentum donec vivamus venenatis sollicitudin egestas. Malesuada sit quis morbi arcu. At viverra lacus eget porta orci. In lobortis placerat id vitae diam at orci. Varius nam massa cursus commodo consectetur pharetra ultrices mauris. Nam malesuada purus urna nunc. Ut consequat morbi consequat dui. Ut sapien porttitor feugiat ultrices sed orci aliquam enim gravida. Odio a tortor lectus porta gravida mattis consectetur scelerisque. Adipiscing consectetur tristique velit gravida morbi sagittis at lacus. Nisl aliquet eget duis diam urna eleifend. Ac aenean eu tellus facilisis et. Auctor egestas in lorem nec semper nisi felis dolor mi. Tincidunt est neque sed velit in amet massa tristique convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
-{{</text_passage>}}
 
 {{<floating_image image="pic.png" float="left">}}{{</floating_image>}}
 

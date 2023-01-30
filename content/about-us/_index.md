@@ -1,10 +1,11 @@
 ---
-title: Capacity Building
+title: About Us
+# hide_footer: true   // this meta info indicates the footer hiding thing.
 ---
 
-{{<page_banner banner="/img/capa-cover.png" >}}
+{{<page_banner banner="/img/about-us-banner.png" >}}
 
-# WAZIUP'S CAPACITY BUILDING PROGRAM
+# WE FOSTER IoT SOLUTIONS FOR SUSTAINABLE DEVELOPMENT
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices.
 
@@ -12,18 +13,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla lu
 
 {{<page_section image="/img/learning-center.png" reverse="true"  button="multiple" button-style="solid">}}
 
-# IoT Learning Center
-Take your IoT knowledge to the next level with Waziup's IoT Learning Platform. Our platform offers a wide range of courses and resources, including online tutorials, webinars, and hands-on training, that are designed to help individuals, institutes and SMEs of all skill levels advance in the field of IoT. Visit the platform now and start your journey to IoT mastery.
+# Who Are We?
+WAZIUP e.V. is promoting cutting-edge technologies and capacity building toward emerging countries. We have developed affordable and adaptable end-to-end IoT Solutions. WAZIUP Open Source IoT and Cloud platform aims to accelerate social innovation and empower local IoT entrepreneurship. We are engaged in IoT capacity building for startups and entrepreneurs via bootcamps, workshops and hackathons; enabling them to build low-cost and innovative IoT products. 
 
-We have developed the Learning Center for: 
+We offer:
 
-- **IoT Startups and Companies** looking for a quick way to prototype and deploy applications
-- **IoT Hobbyist/Enthusiast** looking to develop solutions to improve or learn a new skill
-- **Students and Trainers** looking for a learning platform
+- **Hardware & Boxes** IoT components for the development of IoT prototypes.
+- **Cloud Platform**  Cloud Platform to develop, deploy and connect IoT solution with LoRa network.
+- **Capacity Building** Capacity building to developers & engineers, IoT enthusiasts, startups & DIHs.
+- **IoT Lab Services** Consulting services to set up and maintain IoT Lab in universities, Tech hubs etc.
+
 
 {{</page_section>}}
 
-{{<page_section image="/img/certificate.png" style="padding-left: 0; width:45%" button="none"  with-certification="true">}}
+{{<page_section image="/img/certificate.png" style="padding-left: 0; width:45%" button="none" >}}
 
 # Waziup's Certified Professional Programs
 Elevate your career and stand out in the industry with the certification offered by Waziup. Our certification program is designed to provide individuals with the knowledge and skills needed to excel in the field of IoT, Big Data and Cloud Computing. With Waziup certification, you'll have the competitive edge needed to succeed in today's rapidly changing technology landscape. Don't miss out on this opportunity to advance your career and be recognized as a leader in the field. Sign up now and join the ranks of certified professionals.
