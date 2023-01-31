@@ -768,8 +768,7 @@ body {
 }
 
 .full-length-banner {
-	padding: 2rem 5vw;
-
+	padding: 2rem 0;
 	>img {
 		height: 100%;
 		width: 100%;
@@ -780,7 +779,7 @@ body {
 
 
 // Media queries
-@media screen and (min-width: 1950px) {
+@media screen and (min-width: $xl) {
 	.container {
 		// padding: 1rem * 2 1rem;
 		background-color: rgb(250, 250, 250);
@@ -789,7 +788,7 @@ body {
 	}
 }
 
-@media (max-width:1300px) {
+@media (max-width:$lg) {
 	.nav {
 		>.nav-btn {
 			display: inline-block;
