@@ -55,3 +55,7 @@ With our commitment to open-source technologies and user-friendly design, we're 
 
 {{<team_members>}}
 
+{{<title_center>}}Our Partners{{</title_center>}}
+
+{{<partners>}}
+
