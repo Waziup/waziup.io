@@ -11,9 +11,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla lu
 
 {{</page_banner >}}
 
+{{<title_center>}}Who Are We?{{</title_center>}}
+
 {{<page_section image="/img/what-we-do.png" reverse="true"  button="multiple" button-style="solid">}}
 
-# Who Are We?
+<!-- # Who Are We? -->
 WAZIUP e.V. is promoting cutting-edge technologies and capacity building toward emerging countries. We have developed affordable and adaptable end-to-end IoT Solutions. WAZIUP Open Source IoT and Cloud platform aims to accelerate social innovation and empower local IoT entrepreneurship. We are engaged in IoT capacity building for startups and entrepreneurs via bootcamps, workshops and hackathons; enabling them to build low-cost and innovative IoT products. 
 
 We offer:
@@ -25,7 +27,7 @@ We offer:
 
 {{</page_section>}}
 
-# Our Echosystem
+{{<title_center>}}Our Echosystem{{</title_center>}}
 
 {{<page_section image="/img/startup.png" style="padding-left: 0; width:45%" button="none" >}}
 

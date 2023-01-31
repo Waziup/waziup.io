@@ -1,7 +1,7 @@
 ---
 title: Projects
 ---
-{{<page_banner banner="/img/demo-banner.png" >}}
+{{<page_banner banner="/img/project-banner.png" >}}
 
 # this is Project Page
 
