@@ -13,19 +13,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla lu
 
 {{<title_center>}}Who Are We?{{</title_center>}}
 
-{{<page_section image="/img/what-we-do.png" reverse="true"  button="multiple" button-style="solid">}}
+{{<page_section image="/img/what-we-do.png" image-height="20rem" reverse="true"  button="multiple" button-style="solid">}}
 
 <!-- # Who Are We? -->
 WAZIUP e.V. is promoting cutting-edge technologies and capacity building toward emerging countries. We have developed affordable and adaptable end-to-end IoT Solutions. WAZIUP Open Source IoT and Cloud platform aims to accelerate social innovation and empower local IoT entrepreneurship. We are engaged in IoT capacity building for startups and entrepreneurs via bootcamps, workshops and hackathons; enabling them to build low-cost and innovative IoT products. 
 
-We offer:
-
-- **Hardware & Boxes** IoT components for the development of IoT prototypes.
-- **Cloud Platform**  Cloud Platform to develop, deploy and connect IoT solution with LoRa network.
-- **Capacity Building** Capacity building to developers & engineers, IoT enthusiasts, startups & DIHs.
-- **IoT Lab Services** Consulting services to set up and maintain IoT Lab in universities, Tech hubs etc.
-
 {{</page_section>}}
+{{<our_services>}}
 
 {{<title_center>}}Our Echosystem{{</title_center>}}
 
@@ -47,7 +41,11 @@ With our commitment to open-source technologies and user-friendly design, we're 
 
 {{</page_section>}}
 
-{{<title_center>}}We Are Growing Faster{{</title_center>}}
+{{<title_center>}}Our Ecosystem{{</title_center>}}
+
+{{<ecosystem_cards>}}
+
+{{<title_center>}}Our Network{{</title_center>}}
 
 {{<section_banner banner="/img/network-map.png">}}{{</section_banner>}}
 
