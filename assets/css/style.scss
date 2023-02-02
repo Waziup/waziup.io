@@ -27,6 +27,9 @@ $md: 900px;
 $lg: 1200px;
 $xl: 1536px;
 
+$waziup-orange-deep: #F35E19;
+$waziup-orange-light: #F48652;
+
 
 
 * {
@@ -523,8 +526,8 @@ body {
 
 .floating-image {
 	float: right;
-	max-height: 450px;
-	width: 400px;
+	// max-height: 450px;
+	// width: 400px;
 	margin: auto 0 auto 2vw;
 }
 
@@ -945,12 +948,58 @@ $background-color_2: #fefefe;
 			color: #fff;
 			font-size: larger;
 		}
-		>span{
+
+		>span {
 			font-size: 4rem
 		}
 	}
 }
 
+.home-banner {
+	// width: 100%;
+	margin: 0 -15vw;
+	height: calc(100vh - 80px);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	.text {
+		padding: 5vw;
+		width: 50%;
+
+		>h1 {
+			color: $waziup-orange-deep;
+			font-size: 5em;
+		}
+	}
+}
+
+.home-video-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 2rem;
+	margin: 3vw auto;
+
+	.iframe-container {
+		position: relative;
+		width: 50%;
+		height: 300px;
+	
+		>iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+		}
+	}
+
+	.text-container {
+		width: 50%;
+		>h2{
+			font-weight: 400;
+		}
+	}
+}
 
 
 
@@ -1253,9 +1302,11 @@ $background-color_2: #fefefe;
 		}
 	}
 
-	.about{
-	flex-direction: column;
-	>.card{
-		width: 100%;
-	}}
+	.about {
+		flex-direction: column;
+
+		>.card {
+			width: 100%;
+		}
+	}
 }

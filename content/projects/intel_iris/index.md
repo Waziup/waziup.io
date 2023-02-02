@@ -21,7 +21,7 @@ The flex-direction property is a sub-property of the Flexible Box Layout module.
 
 
 
-{{<floating_image image="intel-iris.png" float="right">}}{{</floating_image>}}
+{{<floating_image image="intel-iris.png" float="right" width="400px" >}}
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.

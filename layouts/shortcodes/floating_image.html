@@ -1,6 +1,6 @@
-<!-- <div class="text-passage-with-image ">
-    {{ .Inner |  markdownify }}
-</div> -->
-
-<img class="floating-image {{ if eq (.Get "float") "left"
-}}floating-image-reverse{{end}}" src="{{ .Get "image" }}"/>
+<img 
+class="floating-image {{ if eq (.Get "float") "left"
+}}floating-image-reverse{{end}}" src="{{ .Get "image" }}"
+height="{{ .Get "height" }}"
+width="{{ .Get "width" }}"
+/>
