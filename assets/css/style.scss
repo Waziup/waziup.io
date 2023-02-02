@@ -525,13 +525,12 @@ body {
 	float: right;
 	max-height: 450px;
 	width: 400px;
-	padding-right: 5vw;
+	margin: auto 0 auto 2vw;
 }
 
 .floating-image-reverse {
 	float: left;
-	padding-left: 5vw;
-	padding-right: 0;
+	margin: auto 2vw auto 0;
 }
 
 .news-recent {

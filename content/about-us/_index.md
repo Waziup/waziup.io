@@ -21,26 +21,6 @@ WAZIUP e.V. is promoting cutting-edge technologies and capacity building toward 
 {{</page_section>}}
 {{<our_services>}}
 
-{{<title_center>}}Our Echosystem{{</title_center>}}
-
-{{<page_section image="/img/startup.png" style="padding-left: 0; width:45%" button="none" >}}
-
-# Empowering Startups to Reach Their Full Potential
-Our innovative IoT solutions are designed to empower startups and provide them with the tools they need to succeed. Whether you're looking to streamline your operations, improve your products and services, or gain a competitive edge, Waziup has the expertise and experience to help you achieve your goals.
-
-With our commitment to open-source technologies and user-friendly design, we're making it easier than ever for startups to take advantage of IoT. We're here to help you navigate the complex world of technology and turn your ideas into realities.
-
-{{</page_section>}}
-
-{{<page_section image="/img/techhub.png" reverse="true"  button="multiple" button-style="solid">}}
-
-# Transforming TechHubs to Reach Their Full Potential
-Our innovative IoT solutions are designed to empower tech-hubs and provide them with the tools they need to succeed. Whether you're looking to streamline your operations, improve your products and services, or gain a competitive edge, Waziup has the expertise and experience to help you achieve your goals.
-
-With our commitment to open-source technologies and user-friendly design, we're making it easier than ever for startups to take advantage of IoT. We're here to help you navigate the complex world of technology and turn your ideas into realities.
-
-{{</page_section>}}
-
 {{<title_center>}}Our Ecosystem{{</title_center>}}
 
 {{<ecosystem_cards>}}
