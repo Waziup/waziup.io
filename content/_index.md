@@ -10,10 +10,14 @@ banner: /img/home-banner.webp
 {{<home_video_container>}}
 
 
-{{<floating_image image="/img/home-lora.svg"  width="60%">}}
+<!-- {{<floating_image image="/img/home-lora.svg"  width="60%">}} -->
 
-# Title
+{{<page_section image="/img/home-lora.svg" image-height="20rem" reverse="true"  button="" button-style="solid">}}
 
-asdf adf sadf sdfs das df ds gsdgf gf gfdg fd ga g dfgagdfgag fd gsdfgsdfgd
+# Powered by LoRaWAN Technology and Many More
+
+WAZIUP is promoting cutting-edge technologies and capacity building toward emerging countries. We are engaged in IoT capacity building for startups and entrepreneurs via bootcamps, workshops and hackathons; enabling them to build low-cost and innovative IoT products. 
+
+{{</page_section>}}
 
 

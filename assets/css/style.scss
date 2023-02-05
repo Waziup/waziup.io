@@ -886,7 +886,7 @@ $background-color_2: #fefefe;
 	flex-wrap: wrap;
 	justify-content: space-around;
 
-	.media {
+	.card {
 		position: relative;
 		border-radius: 12px;
 		width: 45%;
@@ -957,7 +957,7 @@ $background-color_2: #fefefe;
 
 .home-banner {
 	// width: 100%;
-	margin: 0 -15vw;
+	margin: 0 -5vw;
 	height: calc(100vh - 80px);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1000,6 +1000,8 @@ $background-color_2: #fefefe;
 		}
 	}
 }
+
+
 
 
 
@@ -1280,24 +1282,17 @@ $background-color_2: #fefefe;
 	.eco-img-container {
 		margin: 3vw 0;
 
-		.media {
-			position: relative;
-			border-radius: 12px;
+		.card {
 			width: 100%;
-			color: #fff;
 
 			>h1 {
-				position: absolute;
 				top: .2rem;
 				left: 2rem;
-				font-size: 2.5em;
 			}
 
 			>p {
-				position: absolute;
 				top: 3rem;
 				left: 2rem;
-				font-size: 2em;
 			}
 		}
 	}
