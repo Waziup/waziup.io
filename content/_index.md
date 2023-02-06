@@ -20,4 +20,8 @@ WAZIUP is promoting cutting-edge technologies and capacity building toward emerg
 
 {{</page_section>}}
 
+{{<title_center>}}Value Driven IoT Projects{{</title_center>}}
+
+{{<home_project_cards>}}
+
 

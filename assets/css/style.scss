@@ -885,13 +885,12 @@ $background-color_2: #fefefe;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	gap: 2rem;
 
 	.card {
 		position: relative;
 		border-radius: 12px;
-		width: 45%;
-		// height: 18rem;
-		// padding: 2rem;
+		width: 48%;
 		color: #fff;
 
 		>img {
@@ -911,6 +910,24 @@ $background-color_2: #fefefe;
 			top: 5rem;
 			left: 3rem;
 			font-size: 2em;
+			margin-right: 3rem;
+		}
+
+		>button {
+			border: 1px solid #fff;
+			background-color: transparent;
+			position: absolute;
+			top: 8rem;
+			left: 30%;
+			padding: .5rem 1.8rem;
+			font-size: 1.2em;
+			color: #fff;
+			text-align: center;
+
+			&:hover{
+				background-color: #fff;
+				color: #193861;
+			}
 		}
 	}
 }
@@ -984,7 +1001,7 @@ $background-color_2: #fefefe;
 		position: relative;
 		width: 50%;
 		height: 300px;
-	
+
 		>iframe {
 			position: absolute;
 			top: 0;
@@ -995,7 +1012,8 @@ $background-color_2: #fefefe;
 
 	.text-container {
 		width: 50%;
-		>h2{
+
+		>h2 {
 			font-weight: 400;
 		}
 	}
