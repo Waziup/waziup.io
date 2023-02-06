@@ -924,7 +924,7 @@ $background-color_2: #fefefe;
 			color: #fff;
 			text-align: center;
 
-			&:hover{
+			&:hover {
 				background-color: #fff;
 				color: #193861;
 			}
@@ -986,6 +986,7 @@ $background-color_2: #fefefe;
 		>h1 {
 			color: $waziup-orange-deep;
 			font-size: 5em;
+			margin: 0;
 		}
 	}
 }
@@ -1035,6 +1036,10 @@ $background-color_2: #fefefe;
 		background-color: #fafafa;
 		margin: auto 10vw;
 		margin-top: 5rem;
+	}
+
+	.home-banner {
+		margin: 0 -15vw;
 	}
 }
 
