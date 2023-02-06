@@ -3,8 +3,10 @@ title: Home
 banner: /img/home-banner.webp
 ---
 
-{{<home_banner banner="/img/home-banner.webp">}}
+{{<home_banner banner="/img/home-banner-long.webp">}}
 # Empowering Start-ups and SMEs with IoT and AI
+
+## Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla.
 {{</home_banner>}}
 
 {{<home_video_container>}}
@@ -12,7 +14,7 @@ banner: /img/home-banner.webp
 
 <!-- {{<floating_image image="/img/home-lora.svg"  width="60%">}} -->
 
-{{<page_section image="/img/home-lora.svg" image-height="20rem" reverse="true"  button="" button-style="solid">}}
+{{<page_section image="/img/home-lora.svg" image-height="20rem" reverse="true"  button="" button-style="solid" style="margin-top: 5rem">}}
 
 # Powered by LoRaWAN Technology and Many More
 

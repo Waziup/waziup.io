@@ -873,7 +873,7 @@ $background-color_2: #fefefe;
 	margin: 2vw auto;
 
 	>img {
-		// width: 100%;
+		width: 8rem;
 		object-fit: cover;
 	}
 
@@ -981,12 +981,16 @@ $background-color_2: #fefefe;
 
 	.text {
 		padding: 5vw;
-		width: 50%;
+		width: 55%;
 
 		>h1 {
 			color: $waziup-orange-deep;
-			font-size: 5em;
+			font-size: 3em;
 			margin: 0;
+		}
+		>h2{
+			color: #fff;
+			font-weight: 500;
 		}
 	}
 }
@@ -996,7 +1000,7 @@ $background-color_2: #fefefe;
 	justify-content: space-between;
 	align-items: center;
 	gap: 2rem;
-	margin: 3vw auto;
+	margin: 5vw auto;
 
 	.iframe-container {
 		position: relative;
