@@ -1,17 +1,33 @@
 <div class="home-video-container">
   <div class="iframe-container">
+    <img src="/img/video-thumbnail.png" alt="" id="vid-thumb" onclick="playVideo()">
     <iframe
-      width="560"
+      width="533"
       height="300"
-      src="https://www.youtube.com/embed/hu-v-eukLAc?autoplay=0;rel=0&loop=0;controls=0&amp;showinfo=0&autohide=1"
+      src="https://www.youtube.com/embed/hu-v-eukLAc?autoplay=1;rel=0&loop=0;controls=0&amp;showinfo=0&autohide=1"
       title="YouTube video player"
       frameborder="0"
       rel="0"
       allowfullscreen
+      id="vid-home"
     >
     </iframe>
   </div>
   <div class="text-container">
-    <h2>Providing low-cost and open-source IoT technology and services, Waziup is helping to build a more connected and technologically advanced Africa.</h2>
+    {{ .Inner | markdownify }}
+    <button class="btn-lemo-solid btn-lemo-lined">Contact Us</button>
   </div>
 </div>
+
+
+<script>
+
+  function playVideo() {
+    var videoThumbnail = document.getElementById("vid-thumb");
+    var videoHome = document.getElementById("vid-home");
+
+    videoThumbnail.style.display = "none";
+    videoHome.style.display = "block";
+    
+  }
+</script>

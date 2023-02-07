@@ -14,7 +14,7 @@
       name="radioButtonTest"
       value="1"
       id="button1"
-      onclick="myFunction()"
+      onclick="toggleCards()"
       checked
     />
     <label for="button1">NEWS ARTICLE</label>
@@ -24,7 +24,7 @@
       name="radioButtonTest"
       value="2"
       id="button2"
-      onclick="myFunction()"
+      onclick="toggleCards()"
     />
     <label for="button2">PUBLICATION</label>
   </div>
@@ -32,7 +32,7 @@
 
 <script>
 
-  function myFunction() {
+  function toggleCards() {
     var pubCard = document.getElementById("pub-card-group");
     var newsCard = document.getElementById("news-card-group");
 
