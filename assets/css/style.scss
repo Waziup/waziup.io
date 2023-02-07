@@ -429,7 +429,7 @@ body {
 	gap: .7rem;
 
 	>.line {
-		width: 4rem;
+		width: 8%;
 		border-top: .35rem solid coral;
 		border-radius: 1rem;
 	}
@@ -1045,6 +1045,7 @@ $background-color_1: #ccc;
 
 /* Automatic Navigation */
 .slider {
+	margin-top: 3vw;
 	width: 100%;
 	height: 500px;
 	border-radius: .2rem;
@@ -1144,7 +1145,7 @@ $background-color_1: #ccc;
 		.navigation-auto {
 			position: absolute;
 			display: flex;
-			width: 20vw;
+			width: 18vw;
 			justify-content: center;
 			margin-top: 460px;
 
@@ -1155,7 +1156,7 @@ $background-color_1: #ccc;
 				transition: 1s;
 
 				&:not(:last-child) {
-					margin-right: 40px;
+					margin-right: 1rem;
 				}
 			}
 		}
@@ -1164,7 +1165,7 @@ $background-color_1: #ccc;
 
 	.navigation-mannual {
 		position: absolute;
-		width: 20vw;
+		width: 18vw;
 		margin-top: -40px;
 		display: flex;
 		justify-content: center;
@@ -1178,7 +1179,7 @@ $background-color_1: #ccc;
 		transition: 1s;
 
 		&:not(:last-child) {
-			margin-right: 40px;
+			margin-right: 1rem;
 		}
 
 		&:hover {
