@@ -10,8 +10,6 @@ banner: /img/home-banner.webp
 {{</home_banner>}}
 
 {{<home_video_container>}}
-# The kickstart to get you started with IoT.
-
 ## Waziup provides low-cost and open-source IoT technology and services, Waziup is helping to build a more connected and technologically advanced Africa.
 {{</home_video_container>}}
 
@@ -26,7 +24,7 @@ WAZIUP is promoting cutting-edge technologies and capacity building toward emerg
 
 {{</page_section>}}
 
-{{<title_center>}}Value Driven IoT Projects{{</title_center>}}
+{{<title>}}Value Driven IoT Projects{{</title>}}
 
 {{<text_passage>}}
 Waziup is at the forefront of IoT innovation, delivering cutting-edge solutions that are helping organizations across a range of industries to harness the power of data and transform the way they do business.

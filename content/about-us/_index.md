@@ -11,7 +11,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla lu
 
 {{</page_banner >}}
 
-{{<title_center>}}Who Are We?{{</title_center>}}
+{{<title>}}Who Are We?{{</title>}}
 
 {{<page_section image="/img/what-we-do.png" image-height="20rem" reverse="true"  button="multiple" button-style="solid">}}
 
@@ -21,19 +21,19 @@ WAZIUP e.V. is promoting cutting-edge technologies and capacity building toward 
 {{</page_section>}}
 {{<our_services>}}
 
-{{<title_center>}}Our Ecosystem{{</title_center>}}
+{{<title>}}Our Ecosystem{{</title>}}
 
 {{<ecosystem_cards>}}
 
-{{<title_center>}}Our Network{{</title_center>}}
+{{<title>}}Our Network{{</title>}}
 
 {{<section_banner banner="/img/network-map.png">}}{{</section_banner>}}
 
-{{<title_center>}}Our Experts{{</title_center>}}
+{{<title>}}Our Experts{{</title>}}
 
 {{<team_members>}}
 
-{{<title_center>}}Our Partners{{</title_center>}}
+{{<title>}}Our Partners{{</title>}}
 
 {{<partners>}}
 

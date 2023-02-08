@@ -19,5 +19,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla lu
 {{<news_cards>}}
 {{<publication_cards>}}
 
-{{<title_center>}} We are on Youtube {{</title_center>}}
+{{<title>}} We are on Youtube {{</title>}}
 {{<youtube_videos>}}
