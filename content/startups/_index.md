@@ -7,3 +7,4 @@ title: Startups
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices.
 {{</page_banner >}}
 
+{{<startup_list>}}

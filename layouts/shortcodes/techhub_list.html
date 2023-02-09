@@ -1,0 +1,20 @@
+{{ $shortcode := .}} {{ $techhubPage := $shortcode.Page.GetPage "techhubs" }} 
+<!-- Title of techhub page: {{$techhubPage.Title }}.<br /> -->
+
+{{ $techhubs := $techhubPage.Pages }}
+
+<div class="card-group">
+  {{ range sort $techhubs ".Date" "desc" }}
+    {{ $techhub := . }}
+
+  <!-- - techhub: {{.Title}}<br> -->
+  {{ $cover := $techhub.Resources.GetMatch .Params.cover }}
+  {{ partial "techhub-card.html" (dict
+    "Cover" $cover.RelPermalink
+    "Title" $techhub.Params.title
+    "Description" $techhub.Params.description
+    "Location" $techhub.Params.location
+    )}}
+
+  {{ end }}
+</div>

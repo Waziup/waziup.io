@@ -1,8 +1,7 @@
-{{ $shortcode := .}}
-{{ $startupPage := $shortcode.Page.GetPage "startups" }} 
+{{ $shortcode := .}} {{ $startupPage := $shortcode.Page.GetPage "startups" }} 
 <!-- Title of startup page: {{$startupPage.Title }}.<br /> -->
 
-{{ $startups := first 6 $startupPage.Pages }}
+{{ $startups := $startupPage.Pages }}
 
 <div class="card-group">
   {{ range sort $startups ".Date" "desc" }}
@@ -10,12 +9,13 @@
 
   <!-- - startup: {{.Title}}<br> -->
   {{ $cover := $startup.Resources.GetMatch .Params.cover }}
-  {{ partial "card.html" (dict
-    "Permalink" $startup.Permalink
+  {{ partial "startup-card.html" (dict
     "Cover" $cover.RelPermalink
-    "Title" $startup.Params.category
-    "Description" $startup.Description
-    "Date" ($startup.Date.Format "January 2, 2006") )}}
+    "Title" $startup.Params.title
+    "Description" $startup.Params.description
+    "Lead" $startup.Params.lead
+    "Location" $startup.Params.location
+    )}}
 
   {{ end }}
 </div>
