@@ -182,10 +182,10 @@ body {
 
 .page-banner {
 	height: 40vh;
-	// width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #515B60;
+	padding: 1rem;
 	margin: 0 -$pageInset;
 	margin-top: 5rem;
 	margin-bottom: auto;
@@ -1313,7 +1313,7 @@ input[type=submit]:hover {
 		width: 50%;
 	}
 
-	.card{
+	.card {
 		width: 48%;
 		padding: .4rem;
 		border: 1px solid #ccc;
@@ -1372,6 +1372,38 @@ $background-color_3: white;
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
+}
+
+.career-positions {
+	margin: 3rem auto;
+	display: flex;
+	flex-direction: column;
+	gap: .5rem;
+
+	.card {
+		padding: 1rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+
+		.text {
+			display: flex;
+			flex-direction: column;
+			flex-grow: 1;
+
+			>h2 {
+				margin: 0;
+			}
+		}
+
+		.btn-section {
+			height: 100%;
+		}
+
+	}
 }
 
 
