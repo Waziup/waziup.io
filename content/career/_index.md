@@ -4,7 +4,7 @@ title: Career
 ---
 
 {{<page_banner banner="/img/career-banner.svg" >}}
-# We Are Hirring!
+# WE ARE HIRING!
 {{</page_banner >}}
 
 # Waziup Work Culture

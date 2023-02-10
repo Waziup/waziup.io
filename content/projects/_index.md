@@ -3,7 +3,7 @@ title: Projects
 ---
 {{<page_banner banner="/img/project-banner.png" >}}
 
-# this is Project Page
+# OUR VALUE PROJECTS
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices.
 
