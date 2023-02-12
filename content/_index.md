@@ -3,7 +3,7 @@ title: Home
 banner: /img/home-banner.webp
 ---
 
-{{<home_banner banner="/img/home-banner-long.webp">}}
+{{<home_banner banner="/img/home-banner.svg">}}
 # Empowering Startups and SMEs with IoT and AI
 
 ## Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla.

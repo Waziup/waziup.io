@@ -1,6 +1,6 @@
 <div class="page-section {{ if eq (.Get "reverse") "true" }}page-section-reverse{{end}}" >
     <div class="background-canvas left-item">
-        <img src="{{ .Get "image" }}" alt="" style="width: 100%; object-fit: cover; height: {{.Get "image-height"}}">
+        <img src="{{ .Get "image" }}" alt="" >
     </div>
     <div class="right-item">
         <div class="flex-column" style="flex-grow: 1; justify-content: center;">{{ .Inner |  markdownify }}</div>
