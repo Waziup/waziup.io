@@ -34,3 +34,5 @@ HUBiquitous is a Horizon 2020’s Innovation Action aiming at creating a joint A
 
 
 {{<project_cards>}}
+
+{{<subscribe_section>}}

@@ -38,3 +38,5 @@ Amet pharetra vestibulum purus odio ac integer. Ante duis morbi nulla vulputate 
 {{<title>}}Case Study{{</title>}}
 
 {{<slider>}}
+
+{{<subscribe_section>}}

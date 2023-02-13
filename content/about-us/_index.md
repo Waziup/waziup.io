@@ -37,3 +37,4 @@ WAZIUP e.V. is promoting cutting-edge technologies and capacity building toward 
 
 {{<partners>}}
 
+{{<subscribe_section>}}

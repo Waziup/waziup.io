@@ -450,9 +450,8 @@ body {
 		border-radius: 1rem;
 	}
 }
-@media (max-width: $sm) {
-	
-}
+
+@media (max-width: $sm) {}
 
 .text-passage {
 	font-size: 1.2em;
@@ -468,6 +467,7 @@ body {
 	margin-top: 3rem;
 	flex-wrap: wrap;
 	gap: 2.5rem;
+	justify-content: space-between;
 
 	.card {
 		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
@@ -1046,21 +1046,21 @@ $background-color_m2: #fefefe;
 	height: calc(100vh - 80px);
 	background-size: cover;
 	background-repeat: no-repeat;
-	
+
 	padding: 10vw;
 	text-align: center;
 
 
-		>h1 {
-			color: $waziup-orange-deep;
-			font-size: 5em;
-			// margin: 0;
-		}
+	>h1 {
+		color: $waziup-orange-deep;
+		font-size: 5em;
+		// margin: 0;
+	}
 
-		>h2 {
-			color: #fff;
-			font-weight: 500;
-		}
+	>h2 {
+		color: #fff;
+		font-weight: 500;
+	}
 
 }
 
@@ -1076,7 +1076,7 @@ $background-color_m2: #fefefe;
 
 		>iframe {
 			width: 100%;
-			height: 300px;
+			height: 350px;
 			display: none;
 		}
 
@@ -1461,7 +1461,57 @@ $background-color_3: white;
 	}
 }
 
+.subscribe-section {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .5rem;
+	padding: 2rem;
+	margin: 5vw auto;
+	border-radius: 1rem;
 
+	.left-item {
+		width: 64%;
+		display: flex;
+		flex-direction: column;
+		color: #fff;
+
+		>h2,
+		h4 {
+			margin-top: auto;
+		}
+	}
+
+	.right-item {
+		width: 34%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		>img {
+			width: 128px;
+		}
+	}
+}
+
+@media(max-width: $sm) {
+
+	.subscribe-section {
+
+		.left-item {
+			width: 100%;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.right-item {
+			width: 100%;
+
+			>img {
+				width: 50%;
+			}
+		}
+	}
+}
 
 
 
@@ -1476,7 +1526,8 @@ $background-color_3: white;
 		margin-top: 5rem;
 	}
 
-	.home-banner, .page-banner {
+	.home-banner,
+	.page-banner {
 		margin: 0 -30vw;
 	}
 }
@@ -1488,7 +1539,8 @@ $background-color_3: white;
 		margin-top: 5rem;
 	}
 
-	.home-banner, .page-banner {
+	.home-banner,
+	.page-banner {
 		margin: 0 -20vw;
 	}
 
@@ -1844,7 +1896,7 @@ $background-color_3: white;
 	}
 
 	.home-banner {
-		// margin: auto -5vw;
+		margin: auto -5vw;
 
 		>.text {
 			width: 100%;
@@ -1861,15 +1913,15 @@ $background-color_3: white;
 		align-items: flex-start;
 	}
 
-	.section-banner>.content>h1{
+	.section-banner>.content>h1 {
 		color: inherit;
 	}
 
-	.card-group>.startup-card{
+	.card-group>.startup-card {
 		width: 100%;
 	}
 
-	.home-banner>h1{
+	.home-banner>h1 {
 		font-size: 3.5em;
 	}
 

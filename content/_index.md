@@ -40,3 +40,5 @@ Waziup is at the forefront of IoT innovation, delivering cutting-edge solutions 
 
 {{<news_cards>}}
 {{<publication_cards>}}
+
+{{<subscribe_section>}}
