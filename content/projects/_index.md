@@ -3,7 +3,7 @@ title: Projects
 ---
 {{<page_banner banner="/img/project-banner.png" >}}
 
-# OUR VALUE PROJECTS
+# OUR VALUE DRIVEN PROJECTS
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices.
 
