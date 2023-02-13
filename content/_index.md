@@ -24,7 +24,7 @@ WAZIUP is promoting cutting-edge technologies and capacity building toward emerg
 
 {{</page_section>}}
 
-{{<title>}}Value Driven IoT Projects{{</title>}}
+{{<title text-style="align-items: center;">}}Value Driven IoT Projects{{</title>}}
 
 {{<text_passage>}}
 Waziup is at the forefront of IoT innovation, delivering cutting-edge solutions that are helping organizations across a range of industries to harness the power of data and transform the way they do business.
@@ -32,4 +32,9 @@ Waziup is at the forefront of IoT innovation, delivering cutting-edge solutions 
 
 {{<home_project_cards>}}
 
+{{<title text-style="align-items: center;">}}Latest Updates{{</title>}}
 
+{{<radio_btn_new_pub>}}
+
+{{<news_cards>}}
+{{<publication_cards>}}

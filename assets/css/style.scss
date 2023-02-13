@@ -450,8 +450,8 @@ body {
 
 .text-passage {
 	font-size: 1.2em;
-	text-align: center;
-	padding: 5vh 8vw;
+	text-align: left;
+	padding: 5vh 0;
 	color: #515B60;
 }
 
@@ -676,23 +676,14 @@ body {
 			float: left;
 			padding: .5em 1em;
 			cursor: pointer;
-			// border: 1px solid #28608f;
 			margin-right: -1px;
-			color: #263238;
-			background-color: #EBEBEB;
-
-			&:first-of-type {
-				// border-radius: .7em 0 0 .7em;
-			}
-
-			&:last-of-type {
-				// border-radius: 0 .7em .7em 0;
-			}
+			color: #b3b3b3;
+			font-size: 1.2em;
+			font-weight: 600;
 		}
 
 		&:checked+label {
-			background-color: #F48652;
-			color: #fff;
+			color: $waziup-orange-light;
 		}
 	}
 }
