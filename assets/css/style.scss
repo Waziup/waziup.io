@@ -186,7 +186,7 @@ body {
 	background-size: cover;
 	background-color: #515B60;
 	padding: 2rem;
-	margin: 0 -$pageInset;
+	margin: 0 -5vw;
 	margin-top: 5rem;
 	margin-bottom: auto;
 
@@ -315,7 +315,7 @@ body {
 	.left-item {
 		display: flex;
 		flex-direction: column;
-		width: 45%;
+		width: 55%;
 
 		>img {
 			width: 100%;
@@ -326,7 +326,7 @@ body {
 	.right-item {
 		display: flex;
 		flex-direction: column;
-		width: 50%;
+		width: 45%;
 		height: 100%;
 		color: #515B60;
 
@@ -342,6 +342,10 @@ body {
 
 		>div>ul>li {
 			margin: 0 0 1rem 0;
+		}
+
+		>div>h2 {
+			font-weight: 400;
 		}
 
 	}
@@ -480,7 +484,8 @@ body {
 		>img {
 			border-radius: 5px 5px 0 0;
 			width: 100%;
-			height: 200px;
+			height: 300px;
+			object-fit: cover;
 		}
 
 		.card-content {
@@ -721,7 +726,7 @@ body {
 }
 
 .card-certification-narrow {
-	margin-top: .5rem;
+	margin: 2rem auto;
 	gap: .5rem;
 	display: flex;
 	flex-wrap: wrap;
@@ -734,9 +739,10 @@ body {
 		transition: .2s;
 		cursor: pointer;
 		padding: .6rem;
+		background-color: #f1f1f1;
 
 		&:hover {
-			background-color: rgb(233, 233, 233);
+			background-color: #e9e9e9;
 		}
 
 		.media {
@@ -1466,25 +1472,24 @@ $background-color_3: white;
 ////////////////////// Media queries////////////////////
 @media screen and (min-width: $xxl) {
 	.container {
-		margin: auto 15vw;
+		margin: auto 20vw;
 		margin-top: 5rem;
 	}
 
-	.home-banner {
-		margin: 0 -25vw;
+	.home-banner, .page-banner {
+		margin: 0 -30vw;
 	}
 }
 
 @media screen and (max-width: $xl) {
 	.container {
-		// padding: 1rem * 2 1rem;
 		background-color: #fafafa;
 		margin: auto 5vw;
 		margin-top: 5rem;
 	}
 
-	.home-banner {
-		margin: 0 -15vw;
+	.home-banner, .page-banner {
+		margin: 0 -20vw;
 	}
 
 }
@@ -1839,7 +1844,7 @@ $background-color_3: white;
 	}
 
 	.home-banner {
-		margin: auto -5vw;
+		// margin: auto -5vw;
 
 		>.text {
 			width: 100%;

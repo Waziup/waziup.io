@@ -20,15 +20,21 @@ We have developed the Learning Center for:
 - **IoT Startups and Companies** looking for a quick way to prototype and deploy applications
 - **IoT Hobbyist/Enthusiast** looking to develop solutions to improve or learn a new skill
 - **Students and Trainers** looking for a learning platform
-
 {{</page_section>}}
 
-{{<page_section image="/img/certificate.png" style="padding-left: 0; width:45%" button="none"  with-certification="true">}}
+{{<line_break>}}
+{{<line_break>}}
+{{<line_break>}}
+
+{{<page_section image="/img/certificate.png" style="padding-left: 0; width:45%" button="multiple"  with-certification="true">}}
 
 # Waziup's Certified Professional Programs
 Elevate your career and stand out in the industry with the certification offered by Waziup. Our certification program is designed to provide individuals with the knowledge and skills needed to excel in the field of IoT and Cloud Computing. With Waziup certification, you'll have the competitive edge needed to succeed in today's rapidly changing technology landscape. 
-
 {{</page_section>}}
+
+{{<line_break>}}
+{{<line_break>}}
+{{<line_break>}}
 
 {{<page_section image="/img/wazihack.png" reverse="true"  button="multiple" button-style="solid">}}
 

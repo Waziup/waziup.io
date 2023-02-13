@@ -13,8 +13,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla lu
 
 {{</news_info>}}
 
-{{<radio_btn_new_pub>}}
+{{<title>}}
+Latest Updates
+{{</title>}}
 
+{{<radio_btn_new_pub>}}
 
 {{<news_cards>}}
 {{<publication_cards>}}
