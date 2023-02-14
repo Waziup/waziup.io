@@ -1,6 +1,10 @@
-<img 
-class="floating-image {{ if eq (.Get "float") "left"
-}}floating-image-reverse{{end}}" src="{{ .Get "image" }}"
-height="{{ .Get "height" }}"
-width="{{ .Get "width" }}"
-/>
+<div
+    class="floating-image {{ if eq (.Get "float") "left"}}floating-image-reverse{{end}}"
+    style="{{ .Get "style" }}"
+>
+  <img 
+    src="{{ .Get "image" }}" 
+    height="{{ .Get "height" }}" 
+    width="{{ .Get "width" }}" 
+  />
+</div>

@@ -5,21 +5,48 @@ title: About Us
 
 {{<page_banner banner="/img/about-us-banner.png" >}}
 
-# WE FOSTER IoT SOLUTIONS FOR SUSTAINABLE DEVELOPMENT
+# About Us
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices.
 
 {{</page_banner >}}
 
-{{<title>}}Who Are We?{{</title>}}
 
-{{<page_section image="/img/what-we-do.png" image-height="20rem" reverse="true"  button="multiple" button-style="solid">}}
+{{<floating_image image="au-s1.webp" float="right" width="750px">}}
 
-<!-- # Who Are We? -->
-WAZIUP e.V. is promoting cutting-edge technologies and capacity building toward emerging countries. We have developed affordable and adaptable end-to-end IoT Solutions. WAZIUP Open Source IoT and Cloud platform aims to accelerate social innovation and empower local IoT entrepreneurship. We are engaged in IoT capacity building for startups and entrepreneurs via bootcamps, workshops and hackathons; enabling them to build low-cost and innovative IoT products. 
+#### About Us
 
-{{</page_section>}}
-{{<our_services>}}
+# We Foster IoT Solutions For Sustainable Development
+
+{{<au-circle-icon-text icon="/img/icons/mission-star.svg">}}
+## Our Mission
+
+Our Mission is to be the industry’s top-ratede provider issuer enterprise targeting satisfying the most to our clients.
+{{</au-circle-icon-text>}}
+
+{{<au-circle-icon-text icon="/img/icons/vision-star.svg">}}
+## Our Vision
+
+Our Vision is to be a top Web Design company in the IT sector and progress in our current position in the market.
+{{</au-circle-icon-text>}}
+
+{{<end_floating_image>}}
+
+{{<line_break>}}
+{{<line_break>}}
+{{<line_break>}}
+
+
+{{<floating_image image="au-s1.webp" float="left" >}}
+#### WHY CHOOSE US
+
+# We Are Building A Sustainable Future
+
+WAZIUP e.V. is promoting cutting-edge technologies and capacity building toward emerging countries. We have developed affordable and adaptable end-to-end IoT Solutions. WAZIUP Open Source IoT and Cloud platform aims to accelerate social innovation and empower local IoT entrepreneurship. We are engaged in IoT capacity building for startups and entrepreneurs via bootcamps, workshops and hackathons; enabling them to build low-cost and innovative IoT products.
+
+{{<icon_names>}}
+
+{{<end_floating_image>}}
 
 {{<title>}}Our Ecosystem{{</title>}}
 

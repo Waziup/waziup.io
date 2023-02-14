@@ -60,13 +60,14 @@
         </div>
         {{end}}
      
-        <div style="display: flex; gap: 1rem;">
+        {{ if eq (.Get "show-buttons") "true" }}
+        <div style="display: flex; gap: 1rem; ">
             <button class="btn-lemo-solid btn-lemo-lined{{ if eq (.Get "button-style") "lined" }}btn-lemo-lined{{end}}" >Learn more</button>
             
             {{ if eq (.Get "button") "multiple" }}
             <button class="btn-lemo-solid " >Try Now</button>
             {{end}}
         </div>
-        
+        {{end}}
     </div>
 </div>
