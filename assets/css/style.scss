@@ -599,7 +599,8 @@ body {
 
 .floating-image {
 	float: right;
-	margin: auto 0 5rem 5vw;
+	margin-right: 0;
+	margin-left: 5vw;
 	overflow: hidden;
 
 	>img {
@@ -610,7 +611,17 @@ body {
 
 .floating-image-reverse {
 	float: left;
-	margin: auto 5vw auto 0;
+	margin-right: 5vw;
+	margin-left: 0;
+}
+
+@media (max-width: $xl) {
+	.floating-image {
+		margin-top: 3rem;
+		img {
+			width: 450px;
+		}
+	}
 }
 
 .news-recent {
@@ -1578,10 +1589,10 @@ $background-color_3: white;
 .icon-text {
 	display: flex;
 	gap: 2rem;
-	margin: 3rem auto;
+	margin: 2rem auto;
 
 	.circle-container {
-		width: 5%;
+		width: 10%;
 	}
 
 	.circle {
@@ -1603,15 +1614,20 @@ $background-color_3: white;
 		width: auto;
 
 		h1,
-		h2,h3 {
+		h2,
+		h3 {
 			margin-top: 0;
 		}
 	}
 }
 
-@media(max-width: $sm) {
+// @media(max-width: $sm) {
+// 	.icon-text>.circle> {}
+// }
+
+@media(max-width: $xl) {
 	.icon-text>.circle-container {
-		width: 10%;
+		width: 15%;
 	}
 }
 

@@ -11,7 +11,7 @@ title: About Us
 {{</page_banner >}}
 
 
-{{<floating_image image="au-s1.webp" float="right" width="550px">}}
+{{<floating_image image="au-s1.webp" float="right" width="500px">}}
 
 #### About Us
 
@@ -33,10 +33,9 @@ Our Vision is to be a top Web Design company in the IT sector and progress in ou
 
 {{<line_break>}}
 {{<line_break>}}
-{{<line_break>}}
 
 
-{{<floating_image image="au-s1.webp" float="left" width="550px">}}
+{{<floating_image image="au-s1.webp" float="left" width="500px">}}
 #### WHY CHOOSE US
 
 # We Are Building A Sustainable Future
