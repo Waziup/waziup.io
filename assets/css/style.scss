@@ -191,7 +191,7 @@ body {
 	margin-top: 5rem;
 	margin-bottom: 5rem;
 
-	>img{
+	>img {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -603,7 +603,7 @@ body {
 	overflow: hidden;
 
 	>img {
-		width: 550px;
+		// width: 550px;
 		object-fit: cover;
 	}
 }
@@ -1603,13 +1603,9 @@ $background-color_3: white;
 		width: auto;
 
 		h1,
-		h2 {
+		h2,h3 {
 			margin-top: 0;
 		}
-
-		// span, p {
-		// 	font-size: larger;
-		// }
 	}
 }
 
@@ -1624,12 +1620,13 @@ $background-color_3: white;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 1rem;
-	
+
 	.item {
 		width: 22%;
 		display: flex;
 		flex-direction: column;
-		>span{
+
+		>span {
 			font-size: larger;
 		}
 	}
@@ -1639,6 +1636,7 @@ $background-color_3: white;
 	.icon-name {
 		margin-top: 2rem;
 		justify-content: center;
+
 		.item {
 			width: 45%;
 			justify-content: center;
@@ -1751,6 +1749,7 @@ $background-color_3: white;
 			}
 		}
 	}
+
 	.page-banner {
 		margin: 0 -10vw;
 	}
