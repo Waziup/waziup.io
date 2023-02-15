@@ -1,20 +1,13 @@
 ---
 title: Projects
 ---
-{{<page_banner banner="/img/project-banner.png" >}}
+{{<page_banner banner="/img/project-banner.webp" >}}
 
 # R&I PROJECTS
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices.
 
 {{</page_banner >}}
-
-
-
-<!-- {{<title >}}Our R&I Projects{{</title>}} -->
-
-<!-- Waziup is at the forefront of IoT innovation, delivering cutting-edge solutions that are helping organizations across a range of industries to harness the power of data and transform the way they do business. With a focus on open-source technologies and user-friendly design, the Waziup projects are making it easier than ever for businesses to take advantage of IoT and drive real, meaningful change. Whether you're looking to improve your operations, enhance your products and services, or simply stay ahead of the curve, the Waziup projects are the perfect tool for anyone looking to innovate with IoT. -->
-
 
 
 {{<page_section image="/img/demo.jpg">}}

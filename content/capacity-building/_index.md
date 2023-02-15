@@ -2,9 +2,9 @@
 title: Capacity Building
 ---
 
-{{<page_banner banner="/img/capacity-building-banner.png" >}}
+{{<page_banner banner="/img/capacity-banner.webp" >}}
 
-# WAZIUP'S CAPACITY BUILDING PROGRAM
+# CAPACITY BUILDING PROGRAM
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices.
 
@@ -38,7 +38,7 @@ Elevate your career and stand out in the industry with the certification offered
 
 {{<page_section image="/img/wazihack.png" reverse="true"  button="multiple" button-style="solid">}}
 
-# Join the Innovative Hackathon Event Hosted by Waziup!
+# Join Waziup Innovative Hackathon Event!
 Waziup's hackathon will unleash the inventiveness of people from all walks of life and skill levels. Waziup Hackathon is a must-attend event because it offers a cash prize for the winning team and the chance to present skills and ideas to business leaders. Join us as we explore the potential of each person's abilities and creativity while networking with other like-minded people.
  
 We provide you with: 
@@ -49,9 +49,9 @@ We provide you with:
 
 {{</page_section>}}
 
-{{<section_banner banner="/img/edge-lab.png" button="show" >}}
+<!-- {{<section_banner banner="/img/edge-lab.png" button="show" >}}
 # Deploy Your IoT Lab with Us!
 Waziup IoT Labs offer digital prototyping and experimentation possibilities with hardware and software. With our expertise and engagement in the developers and entrepreneurs community for IoT innovations have helped the Universities, Tech-Hubs, DIHs, Makerspaces creating and managing the IoT Labs.
-{{</section_banner>}}
+{{</section_banner>}} -->
 
 {{<subscribe_section>}}

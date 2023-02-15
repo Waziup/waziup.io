@@ -2,9 +2,9 @@
 title: IoT Edge Platform
 ---
 
-{{<page_banner banner="/img/iep-banner.png" >}}
+{{<page_banner banner="/img/iot-banner.webp" >}}
 
-# OUR OPEN SOURCE IoT EDGE PLATFORM
+# OPEN SOURCE IoT EDGE PLATFORM
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices.
 

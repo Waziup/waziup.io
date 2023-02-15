@@ -3,11 +3,10 @@ title: About Us
 # hide_footer: true   // this meta info indicates the footer hiding thing.
 ---
 
-{{<page_banner banner="/img/about-us-banner.png" >}}
+{{<page_banner banner="/img/about-banner.webp" >}}
 
 # About Us
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices.
 
 {{</page_banner >}}
 
