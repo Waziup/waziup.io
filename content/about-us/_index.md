@@ -12,7 +12,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla lu
 {{</page_banner >}}
 
 
-{{<floating_image image="au-s1.webp" float="right" width="750px">}}
+{{<floating_image image="au-s1.webp" float="right" >}}
 
 #### About Us
 
@@ -48,13 +48,14 @@ WAZIUP e.V. is promoting cutting-edge technologies and capacity building toward 
 
 {{<end_floating_image>}}
 
-{{<title>}}Our Ecosystem{{</title>}}
-
-{{<ecosystem_cards>}}
 
 {{<title>}}Our Network{{</title>}}
 
 {{<section_banner banner="/img/network-map.png">}}{{</section_banner>}}
+
+{{<title>}}Our Ecosystem{{</title>}}
+
+{{<ecosystem_cards>}}
 
 {{<title>}}Our Experts{{</title>}}
 
