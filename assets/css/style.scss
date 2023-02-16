@@ -623,6 +623,16 @@ body {
 		}
 	}
 }
+@media (max-width: $md) {
+	.floating-image {
+		width: 100%;
+		padding-right: 0;
+		padding-left: 0;
+		img{
+			width: 100%;
+		}
+	}
+}
 
 .news-recent {
 	padding: 2vw 0;
@@ -1674,7 +1684,7 @@ $background-color_3: white;
 	.home-banner,
 	.page-banner {
 		height: 50rem;
-		margin: 0 -30vw;
+		margin: 0 -25vw;
 		margin-bottom: 5rem;
 	}
 }
@@ -1772,12 +1782,6 @@ $background-color_3: white;
 }
 
 @media (max-width:$md) {
-	.floating-image {
-		height: 200px;
-		width: 100%;
-		padding-right: 5vw;
-		padding-left: 5vw;
-	}
 
 	.page-banner {
 		height: 30rem;
