@@ -187,9 +187,7 @@ body {
 	height: 30rem;
 	overflow: hidden;
 	padding: 2rem;
-	margin: 0 -5vw;
-	margin-top: 5rem;
-	margin-bottom: 5rem;
+	margin: 5rem -20vw;
 
 	>img {
 		position: absolute;
@@ -199,6 +197,38 @@ body {
 		height: 100%;
 		object-fit: cover;
 		// z-index: 2;
+	}
+}
+
+@media (max-width:$sm) {
+	.page-banner {
+		margin: 5rem -5vw;
+	}
+}
+
+@media (max-width:$md) {
+	.page-banner {
+		height: 30rem;
+		margin: 5rem -10vw;
+	}
+}
+
+@media (max-width:$lg) {
+	.page-banner {
+		margin: 5rem -10vw;
+	}
+}
+
+@media (max-width:$xl) {
+	.page-banner {
+		margin: 5rem -20vw;
+	}
+}
+
+@media (max-width:$xxl) {
+	.page-banner {
+		height: 50rem;
+		margin: 5rem -15vw;
 	}
 }
 
@@ -436,7 +466,8 @@ body {
 }
 
 .title {
-	margin-top: 5vw;
+	margin-top: 15vh;
+	margin-bottom: 8vh;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -457,7 +488,11 @@ body {
 	}
 }
 
-@media (max-width: $sm) {}
+@media (max-width: $sm) {
+	.title {
+		margin-top: 10vh;
+	}
+}
 
 .text-passage {
 	font-size: 1.2em;
@@ -599,6 +634,7 @@ body {
 
 .floating-image {
 	float: right;
+	margin-top: 0;
 	margin-right: 0;
 	margin-left: 5vw;
 	overflow: hidden;
@@ -617,20 +653,34 @@ body {
 
 @media (max-width: $xl) {
 	.floating-image {
-		margin-top: 3rem;
 		img {
 			width: 450px;
 		}
 	}
 }
+
 @media (max-width: $md) {
 	.floating-image {
 		width: 100%;
 		padding-right: 0;
 		padding-left: 0;
-		img{
+
+		img {
 			width: 100%;
 		}
+	}
+}
+
+@media(max-width:$sm) {
+
+	.floating-image,
+	.floating-image-reverse {
+		// margin: 3rem auto;
+		padding: 0;
+	}
+
+	.floating-image>img {
+		width: 100%;
 	}
 }
 
@@ -1631,10 +1681,6 @@ $background-color_3: white;
 	}
 }
 
-// @media(max-width: $sm) {
-// 	.icon-text>.circle> {}
-// }
-
 @media(max-width: $xl) {
 	.icon-text>.circle-container {
 		width: 15%;
@@ -1652,6 +1698,10 @@ $background-color_3: white;
 		display: flex;
 		flex-direction: column;
 
+		img {
+			max-width: 80px;
+		}
+
 		>span {
 			font-size: larger;
 		}
@@ -1665,8 +1715,8 @@ $background-color_3: white;
 
 		.item {
 			width: 45%;
-			justify-content: center;
-			align-items: center;
+			// justify-content: center;
+			// align-items: center;
 		}
 	}
 }
@@ -1677,15 +1727,12 @@ $background-color_3: white;
 ////////////////////// Media queries////////////////////
 @media screen and (min-width: $xxl) {
 	.container {
-		margin: auto 20vw;
-		margin-top: 5rem;
+		margin: 5rem 15vw;
 	}
 
-	.home-banner,
-	.page-banner {
+	.home-banner {
 		height: 50rem;
-		margin: 0 -25vw;
-		margin-bottom: 5rem;
+		margin: 5rem -25vw;
 	}
 }
 
@@ -1696,14 +1743,15 @@ $background-color_3: white;
 		margin-top: 5rem;
 	}
 
-	.home-banner,
-	.page-banner {
-		margin: 0 -20vw;
+	.home-banner {
+		margin: 5rem -20vw;
 	}
 
 }
 
 @media (max-width:$lg) {
+	.container {}
+
 	.nav {
 		>.nav-btn {
 			display: inline-block;
@@ -1776,17 +1824,10 @@ $background-color_3: white;
 		}
 	}
 
-	.page-banner {
-		margin: 0 -10vw;
-	}
+
 }
 
 @media (max-width:$md) {
-
-	.page-banner {
-		height: 30rem;
-		margin: 0 -10vw;
-	}
 
 	.typography {
 		font-size: 1.3em;
@@ -1933,19 +1974,7 @@ $background-color_3: white;
 		margin-top: 5rem;
 	}
 
-	.floating-image,
-	.floating-image-reverse {
-		margin: 3rem auto;
-		padding: 0;
-	}
 
-	.floating-image>img {
-		width: 100%;
-	}
-
-	.page-banner {
-		margin: auto -5vw;
-	}
 
 	.page-section {
 		margin: 10vh auto;
@@ -1961,10 +1990,6 @@ $background-color_3: white;
 
 	.card-group>.dev-board-card {
 		width: 100%;
-	}
-
-	.title {
-		align-items: center;
 	}
 
 	.card-certification-narrow>.card {
