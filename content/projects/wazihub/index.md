@@ -42,5 +42,5 @@ In conclusion, the Wazihub project is an exciting initiative that is transformin
 
 ### Related Contents
 
-- Download [![WaziHub Magazine 1]](wm1.pdf).
-- Download [![WaziHub Magazine 2]](/wm2.pdf).
+- Download [WaziHub Technology Magazine 2021](Wazihub_Technology_Magazine_2021.pdf).
+- Download [WaziHub Startup Magazine 2021](Wazihub_Startup_Magazine_2021.pdf).
