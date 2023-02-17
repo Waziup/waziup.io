@@ -7,11 +7,6 @@ banner: /img/home-banner.webp
 # Empowering Startups and SMEs with IoT and AI
 {{</home_banner>}}
 
-<!-- {{<home_video_container>}}
-# The workbench to get you started with IoT.
-
-### Waziup provides low-cost and open-source IoT technology and services, Waziup is helping to build a more connected and technologically advanced Africa.
-{{</home_video_container>}} -->
 
 {{<floating_video link="https://www.youtube.com/embed/hu-v-eukLAc?autoplay=0;rel=0&loop=0;controls=0&amp;showinfo=0&autohide=1">}}
 
