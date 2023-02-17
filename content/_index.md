@@ -10,8 +10,13 @@ banner: /img/home-banner.webp
 
 {{<floating_video link="https://www.youtube.com/embed/hu-v-eukLAc?autoplay=0;rel=0&loop=0;controls=0&amp;showinfo=0&autohide=1">}}
 
-# The workbench to get you started with IoT.
-Waziup provides low-cost and open-source IoT technology and services, Waziup is helping to build a more connected and technologically advanced Africa.
+# The Platform To Get You Started With IoT.
+
+### IoT Solution For Africa
+Low-cost and user-friendly IoT solutions that can be customized to fit the needs of different communities and businesses.
+
+### Sustainable development
+Developing a strong IoT ecosystem in Africa, which can promote innovation, entrepreneurship, and sustainable development.
 
 {{<end_floating_image>}}
 
@@ -41,6 +46,8 @@ Waziup is at the forefront of IoT innovation, delivering cutting-edge solutions 
 
 {{<home_project_cards>}}
 
+{{<subscribe_section>}}
+
 {{<title text-style="align-items: center;">}}Latest Updates{{</title>}}
 
 {{<radio_btn_new_pub>}}
@@ -48,4 +55,5 @@ Waziup is at the forefront of IoT innovation, delivering cutting-edge solutions 
 {{<news_cards>}}
 {{<publication_cards>}}
 
-{{<subscribe_section>}}
+{{<title text-style="align-items: center;">}}Our Partners{{</title>}}
+{{<logoshow>}}

@@ -1764,12 +1764,14 @@ $background-color_3: white;
 		}
 	}
 }
+
 @media (max-width:$sm) {
 	.slideshow-container>.mySlides>h1 {
 		font-size: 2.5em;
 		bottom: 40%;
 	}
 }
+
 @media (max-width:$xl) {
 	.slideshow-container>.mySlides>img {
 		height: 30rem;
@@ -1793,6 +1795,35 @@ $background-color_3: white;
 }
 
 
+.logoshow {
+	display: flex;
+	// overflow: hidden;
+	animation: slide 10s infinite linear;
+	margin: 2rem auto;
+
+	img {
+		flex: 0 0 auto;
+		width: 15%;
+		margin-right: 5%;
+		// border: #0D1528 1px solid;
+	}
+}
+
+@keyframes slide {
+	0% {
+		transform: translateX(150);
+	}
+
+	100% {
+		transform: translateX(-80%);
+	}
+}
+
+@media (max-width:$md) {
+	.logoshow>img {
+		width: 20%;
+	}
+}
 
 
 
