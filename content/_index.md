@@ -46,7 +46,6 @@ Waziup is at the forefront of IoT innovation, delivering cutting-edge solutions 
 
 {{<home_project_cards>}}
 
-{{<subscribe_section>}}
 
 {{<title text-style="align-items: center;">}}Latest Updates{{</title>}}
 
@@ -54,6 +53,8 @@ Waziup is at the forefront of IoT innovation, delivering cutting-edge solutions 
 
 {{<news_cards>}}
 {{<publication_cards>}}
+
+{{<subscribe_section>}}
 
 {{<title text-style="align-items: center;">}}Our Partners{{</title>}}
 {{<logoshow>}}
