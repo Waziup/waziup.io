@@ -461,11 +461,11 @@ body {
 }
 
 .title {
-	margin-top: 15vh;
-	margin-bottom: 8vh;
+	margin: 15vh auto 7.5vh auto;
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+	text-align: center;
+	width: 70%;
 	justify-content: center;
 	align-items: center;
 	font-size: 2rem;
@@ -936,11 +936,7 @@ body {
 	}
 }
 
-@media(max-width:$lg) {}
 
-@media(max-width:$xl) {}
-
-@media(max-width:$xl) {}
 
 .full-length-banner {
 	padding: 2rem 0;
@@ -948,6 +944,21 @@ body {
 	>img {
 		height: 100%;
 		width: 100%;
+	}
+}
+@media (max-width:$sm) {
+	.full-length-banner  {
+		margin: 5rem -5vw;
+	}
+}
+@media (max-width:$xl) {
+	.full-length-banner  {
+		margin: 5rem -10vw;
+	}
+}
+@media (min-width:$xxl) {
+	.full-length-banner  {
+		margin: 5rem -20vw;
 	}
 }
 

@@ -11,7 +11,7 @@ title: About Us
 {{</page_banner >}}
 
 
-{{<floating_image image="au-s1.webp" float="right" width="500px">}}
+{{<floating_image image="au-s1.webp" float="right" width="600px" style="margin-left: 10vw">}}
 
 #### About Us
 

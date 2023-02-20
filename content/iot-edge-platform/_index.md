@@ -10,20 +10,38 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla lu
 
 {{</page_banner >}}
 
-{{<title>}}WaziGate: open-source edge platform{{</title>}}
+{{<floating_image image="edge-app.webp" float="right" width="600px" style="margin-left: 6vw">}}
 
-WaziGate is an open-source edge platform that provides a powerful solution for IoT, big data, and cloud computing. Our platform is designed to bring intelligence to the edge of your network, enabling you to process, store, and analyze data closer to the source. With WaziGate, you can take control of your data and reduce latency and bandwidth costs, while still maintaining the flexibility to integrate with any cloud or data center. Our platform is built on a scalable and modular architecture, allowing you to easily add new devices, sensors, and applications as needed. Whether you're looking to develop and deploy a new IoT solution or optimize an existing one, WaziGate has the capabilities you need to get the job done. Join the growing community of WaziGate users today and see the difference that open-source edge computing can make in your organization. 
+#### Edge platform
+
+# WaziGate: Open-Source Eedge Platform
+
+{{<au-circle-icon-text icon="/img/icons/mission-star.svg">}}
+## Open Source Hardware
+
+Our Mission is to be the industry’s top-ratede provider issuer enterprise targeting satisfying the most to our clients.
+{{</au-circle-icon-text>}}
+
+{{<au-circle-icon-text icon="/img/icons/vision-star.svg">}}
+## Edge Apps
+
+Our Vision is to be a top Web Design company in the IT sector and progress in our current position in the market.
+{{</au-circle-icon-text>}}
+
+{{<au-circle-icon-text icon="/img/icons/vision-star.svg">}}
+## Lora Connection
+
+Our Vision is to be a top Web Design company in the IT sector and progress in our current position in the market.
+{{</au-circle-icon-text>}}
+
+{{<end_floating_image>}}
 
 
-{{<full_length_banner banner="/img/wazigateway-banner.png">}}
-
-{{<title>}}Revolutionize Your IoT Development with Waziup Boards{{</title>}}
-
-Waziup offers a range of powerful IoT development boards that make it easier than ever to bring your ideas to life. Whether you're a seasoned professional or just starting out, Waziup's boards provide everything you need to build and test your IoT projects with ease. With a range of powerful features and user-friendly design, Waziup's boards are the perfect tool for any IoT developer. So why wait? Take your IoT development to the next level with Waziup today!
+{{<title>}}Revolutionize With Waziup Boards{{</title>}}
 
 {{<dev_board_cards>}}
 
-{{<full_length_banner banner="/img/pic2.png">}}
+{{<full_length_banner banner="edge-kit.webp">}}
 
 {{<title>}}Cloud Platform{{</title>}}
 
