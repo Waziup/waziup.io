@@ -485,7 +485,8 @@ body {
 
 @media (max-width: $sm) {
 	.title {
-		margin-top: 10vh;
+		margin: 10vh 0 3vh;
+		width: 100%;
 	}
 }
 
@@ -623,6 +624,43 @@ body {
 				margin-bottom: .5rem;
 			}
 
+		}
+	}
+
+	.cloud-platform-circular-card {
+		width: 16%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: .8rem;
+		margin-left: 1.5rem;
+		margin-right: 1.5rem;
+
+		>img {
+			width: 100%;
+		}
+
+		>.name {
+			font-size: 1.1em;
+			font-weight: bold;
+			text-align: center;
+		}
+
+		>.desc {
+			font-size: 1em;
+			text-align: center;
+		}
+	}
+}
+@media (max-width: $sm){
+	.card-group {
+		gap: 1rem
+	}
+	.card-group>.cloud-platform-circular-card{
+		width: 100%;
+		>img{
+			width: 60%;
 		}
 	}
 }
@@ -946,18 +984,21 @@ body {
 		width: 100%;
 	}
 }
+
 @media (max-width:$sm) {
-	.full-length-banner  {
+	.full-length-banner {
 		margin: 5rem -5vw;
 	}
 }
+
 @media (max-width:$xl) {
-	.full-length-banner  {
+	.full-length-banner {
 		margin: 5rem -10vw;
 	}
 }
+
 @media (min-width:$xxl) {
-	.full-length-banner  {
+	.full-length-banner {
 		margin: 5rem -20vw;
 	}
 }
@@ -1855,15 +1896,15 @@ $background-color_3: white;
 .icon-text {
 	display: flex;
 	gap: 2rem;
-	margin: 2rem auto;
+	margin: 0 auto;
 
 	.circle-container {
 		width: 10%;
 	}
 
 	.circle {
-		height: 60px;
-		width: 60px;
+		height: 45px;
+		width: 45px;
 		background-color: $waziup-orange-light;
 		border-radius: 50%;
 		display: flex;
@@ -1871,8 +1912,8 @@ $background-color_3: white;
 		align-items: center;
 
 		>img {
-			width: 32px;
-			height: 32px;
+			width: 24px;
+			height: 24px;
 		}
 	}
 
@@ -1927,7 +1968,41 @@ $background-color_3: white;
 	}
 }
 
+.kit-branding {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
 
+	.text-content {
+		width: 50%;
+		padding: 3rem;
+		color: #fff;
+		background-color: #0D1528;
+		order: 1;
+	}
+
+	.kit-img {
+		width: 50%;
+		order: 2;
+		>img {
+			width: 100%;
+			object-fit: cover;
+			display: block;
+		}
+	}
+}
+@media(max-width: $sm){
+	.kit-branding{
+		.text-content{
+			width: 100%;
+			order: 2;
+		}
+		.kit-img{
+			width: 100%;
+			order: 1;
+		}
+	}
+}
 
 
 ////////////////////// Media queries////////////////////

@@ -41,17 +41,19 @@ Our Vision is to be a top Web Design company in the IT sector and progress in ou
 
 {{<dev_board_cards>}}
 
-{{<full_length_banner banner="edge-kit.webp">}}
+<!-- {{<full_length_banner banner="edge-kit.webp">}} -->
+
+{{<wazidev_kit_branding  image="edge-kit.webp">}}
+# WaziDev IoT  LoRa Prototyping Kit
+
+Waziup has introduced an open source, low-cost, powerful and customizable iot kit to serve the need of enthusiasts.
+{{</wazidev_kit_branding>}}
 
 {{<title>}}Cloud Platform{{</title>}}
 
-Amet pharetra vestibulum purus odio ac integer. Ante duis morbi nulla vulputate quam nunc non. Urna id mattis sit in risus turpis eu a. Tortor nunc varius amet amet pretium pulvinar. Proin fames nisl amet id. Dignissim justo amet aenean felis duis eget. Amet pharetra vestibulum purus odio ac integer. Ante duis morbi nulla vulputate quam nunc non. Urna id mattis sit in risus turpis eu a.
+{{<cp_circular_cards>}}
 
-
-{{<full_length_banner banner="/img/pic3.png">}}
-
-
-Amet pharetra vestibulum purus odio ac integer. Ante duis morbi nulla vulputate quam nunc non. Urna id mattis sit in risus turpis eu a. Tortor nunc varius amet amet pretium pulvinar. Proin fames nisl amet id. Dignissim justo amet aenean felis duis eget. 
+<!-- {{<full_length_banner banner="/img/pic3.png">}} -->
 
 {{<title>}}Case Study{{</title>}}
 

@@ -10,6 +10,9 @@ for (var i = 0; i < links.length; i++) {
   });
 }
 
+
+
+/**** slider for the homePage banner ****/
 let slideIndex = 0;
 // showSlides();
 
