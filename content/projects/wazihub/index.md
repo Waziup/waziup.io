@@ -10,11 +10,9 @@ date: 2022-03-15
 
 # WaziHub Project
 
-Enabling Tech Hubs to support Developers and Startups in building low cost end-to-end IoT solutions
-
 {{</page_banner >}}
 
-
+[SECTION_TRANSPARENT]
 
 ## The Impact of the Wazihub Project on Affordable and Accessible Solutions
 

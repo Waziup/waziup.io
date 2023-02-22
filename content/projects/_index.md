@@ -2,15 +2,12 @@
 title: Projects
 ---
 {{<page_banner banner="/img/project-banner.webp" >}}
-
 # Research and Innovation
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices.
-
 {{</page_banner >}}
 
+[SECTION_TRANSPARENT]
 
-{{<floating_image image="/projects/intel_iris/intel-custom.webp" float="left" width="500px">}}
+{{<floating_image image="/projects/intel_iris/intel-custom.webp" float="left" width="550px">}}
 
 # Revolutionizing Irrigation for Small-Scale Farms: The Intel-IrriS PRIMA Project
 
@@ -27,9 +24,8 @@ Intel-IrriS optimizes production potential while reducing water waste through al
 {{</au-circle-icon-text>}}
 
 {{<end_floating_image>}}
-{{<line_break>}}
-{{<line_break>}}
-{{<line_break>}}
+
+[SECTION_TRANSPARENT]
 
 <!-- {{<floating_image image="/projects/hubiquitous/hubiquitous-custom.webp" float="right" width="650px">}} -->
 {{<floating_video link="https://www.youtube.com/embed/cfnPDh1yvh8">}}
@@ -48,6 +44,8 @@ Promoting sustainable development in Africa through IoT applications, innovation
 {{</au-circle-icon-text>}}
 
 {{<end_floating_image>}}
+
+[SECTION_TRANSPARENT]
 
 {{<title>}} Our Projects {{</title>}}
 

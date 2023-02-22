@@ -4,9 +4,10 @@ banner: /img/home-banner.webp
 ---
 
 {{<home_banner banner="/img/home-banner.svg">}}
-# Empowering Startups and SMEs with IoT and AI
+# Empowering Startups and SMEs with IoT and Artificial Intelligence
 {{</home_banner>}}
 
+[SECTION_TRANSPARENT]
 
 {{<floating_video link="https://www.youtube.com/embed/hu-v-eukLAc?autoplay=0;rel=0&loop=0;controls=0&amp;showinfo=0&autohide=1">}}
 
@@ -32,11 +33,11 @@ WAZIUP is engaged in IoT capacity building for startups and entrepreneurs via bo
 
 [SECTION_DARK]
 
-{{<title text-style="align-items: center;">}}Our R&I Projects{{</title>}}
+{{<title text-style="align-items: center;" line-style="border-color: #fff">}}Our R&I Projects{{</title>}}
 
-{{<text_passage>}}
+{{<text_centered>}}
 Waziup is at the forefront of IoT innovation, delivering cutting-edge solutions that are helping organizations across a range of industries to harness the power of data and transform the way they do business.
-{{</text_passage>}}
+{{</text_centered>}}
 
 {{<home_project_cards>}}
 

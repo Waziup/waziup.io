@@ -4,18 +4,18 @@ title: About Us
 ---
 
 {{<page_banner banner="/img/about-banner.webp" >}}
-
 # About Us
-
-
 {{</page_banner >}}
 
+[SECTION_TRANSPARENT]
 
-{{<floating_image image="au-s1.webp" float="right" width="600px" style="margin-left: 10vw">}}
+{{<floating_image image="au-s1.webp" float="right" width="500px" style="margin-left: 5vw">}}
 
 #### About Us
 
 # We Foster IoT Solutions For Sustainable Development
+
+WAZIUP e.V. is promoting cutting-edge technologies and capacity building toward emerging countries. We have developed affordable and adaptable end-to-end IoT Solutions. WAZIUP Open Source IoT and Cloud platform aims to accelerate social innovation and empower local IoT entrepreneurship.
 
 {{<au-circle-icon-text icon="/img/icons/mission-star.svg">}}
 ## Our Mission
@@ -34,6 +34,7 @@ Our Vision is to be a top Web Design company in the IT sector and progress in ou
 {{<line_break>}}
 {{<line_break>}}
 
+[SECTION_TRANSPARENT]
 
 {{<floating_image image="au-s1.webp" float="left" width="500px">}}
 #### WHY CHOOSE US
@@ -46,14 +47,19 @@ WAZIUP e.V. is promoting cutting-edge technologies and capacity building toward 
 
 {{<end_floating_image>}}
 
+[SECTION_TRANSPARENT]
 
 {{<title>}}Our Network{{</title>}}
 
 {{<section_banner banner="/img/network-map.png">}}{{</section_banner>}}
 
-{{<title>}}Our Ecosystem{{</title>}}
+[SECTION_DARK]
+
+{{<title line-style="border-color: #fff">}}Our Ecosystem{{</title>}}
 
 {{<ecosystem_cards>}}
+
+[SECTION_TRANSPARENT]
 
 {{<title>}}Our Experts{{</title>}}
 

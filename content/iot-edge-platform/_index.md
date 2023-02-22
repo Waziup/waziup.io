@@ -10,6 +10,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla lu
 
 {{</page_banner >}}
 
+[SECTION_TRANSPARENT]
+
 {{<floating_image image="edge-app.webp" float="right" width="600px" style="margin-left: 6vw">}}
 
 #### Edge platform
@@ -36,6 +38,7 @@ Our Vision is to be a top Web Design company in the IT sector and progress in ou
 
 {{<end_floating_image>}}
 
+[SECTION_TRANSPARENT]
 
 {{<title>}}Revolutionize With Waziup Boards{{</title>}}
 
@@ -43,17 +46,21 @@ Our Vision is to be a top Web Design company in the IT sector and progress in ou
 
 <!-- {{<full_length_banner banner="edge-kit.webp">}} -->
 
+[SECTION_DARK]
+
 {{<wazidev_kit_branding  image="edge-kit.webp">}}
 # WaziDev IoT  LoRa Prototyping Kit
 
 Waziup has introduced an open source, low-cost, powerful and customizable iot kit to serve the need of enthusiasts.
 {{</wazidev_kit_branding>}}
 
+[SECTION_OFFWHITE]
+
 {{<title>}}Cloud Platform{{</title>}}
 
 {{<cp_circular_cards>}}
 
-<!-- {{<full_length_banner banner="/img/pic3.png">}} -->
+[SECTION_TRANSPARENT]
 
 {{<title>}}Case Study{{</title>}}
 

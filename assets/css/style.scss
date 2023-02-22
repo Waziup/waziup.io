@@ -30,10 +30,9 @@ $xxl: 1920px;
 
 $waziup-orange-deep: #F35E19;
 $waziup-orange-light: #F48652;
+$waziup-off-white: #F9F9F9;
 $waziup-blue: #186DBF;
 $waziup-dark: #0D1528;
-
-
 
 * {
 	box-sizing: border-box;
@@ -47,8 +46,34 @@ body {
 	background-color: #fafafa;
 }
 
-.section-blue {
-	background-color: $waziup-blue;
+.section-transparent {
+	margin: 2rem -10vw;
+	padding: 5vh 10vw 0;
+}
+
+.section-off-white {
+	background-color: $waziup-off-white;
+	margin: 0 -10vw;
+	padding: 5vh 10vw;
+	
+}
+@media (max-width:$sm) {
+	.section-off-white {
+		margin: 0 -5vw;
+		padding: 5rem 5vw;
+	}
+}
+@media (max-width:$xl) {
+	.section-off-white {
+		margin: 0 -10vw;
+		padding: 5rem 10vw;
+	}
+}
+@media (min-width:$xxl) {
+	.section-off-white {
+		margin: 0 -28vw;
+		padding: 5rem 28vw;
+	}
 }
 
 .section-dark {
@@ -62,20 +87,20 @@ body {
 }
 @media (max-width:$sm) {
 	.section-dark {
-		margin: 2rem -5vw;
-		padding: 5vh 5vw
+		margin: 5rem -5vw 0;
+		padding: 5rem 5vw;
 	}
 }
 @media (max-width:$xl) {
 	.section-dark {
-		margin: 2rem -10vw;
-		padding: 5vh 10vw
+		margin: 5rem -10vw 0;
+		padding: 5rem 10vw;
 	}
 }
 @media (min-width:$xxl) {
 	.section-dark {
-		margin: 2rem -20vw;
-		padding: 5vh 20vw
+		margin: 5rem -28vw 0;
+		padding: 5rem 28vw;
 	}
 }
 
@@ -222,7 +247,7 @@ body {
 	height: 30rem;
 	overflow: hidden;
 	padding: 2rem;
-	margin: 5rem -20vw;
+	margin: 5rem -20vw 0;
 
 	>img {
 		position: absolute;
@@ -236,7 +261,7 @@ body {
 }
 @media (max-width:$sm) {
 	.page-banner {
-		margin: 5rem -5vw;
+		margin: 5rem -5vw 0;
 	}
 }
 @media (max-width:$md) {
@@ -246,13 +271,13 @@ body {
 }
 @media (max-width:$xl) {
 	.page-banner {
-		margin: 5rem -10vw;
+		margin: 5rem -10vw 0;
 	}
 }
 @media (min-width:$xxl) {
 	.page-banner {
 		height: 50rem;
-		margin: 5rem -20vw;
+		margin: 5rem -28vw 0;
 	}
 }
 
@@ -284,6 +309,24 @@ body {
 	margin-top: 5rem;
 	min-height: calc(100vh - 295px);
 	padding: 0 5vw;
+}
+@media (max-width:$sm) {
+	.container {
+	}
+}
+@media (max-width:$md) {
+	.container {
+	}
+}
+@media (max-width:$xl) {
+	.container {
+		max-width: 1365px;
+	}
+}
+@media (min-width:$xxl) {
+	.container {
+		max-width: 1536px;
+	}
 }
 
 .page-footer {
@@ -512,20 +555,18 @@ body {
 	}
 }
 
-@media (max-width: $sm) {
+@media (max-width: $xl) {
 	.title {
-		margin: 10vh 0 3vh;
+		margin: 0 0 3vh;
 		width: 100%;
 	}
 }
 
-.text-passage {
+.text-centered{
 	font-size: 1.2em;
-	text-align: left;
+	text-align: center;
 	padding: 5vh 0;
-	color: #515B60;
 }
-
 
 .card-group {
 	padding: 2vw 0;
@@ -1289,6 +1330,22 @@ $background-color_m2: #fefefe;
 	}
 
 }
+@media (max-width:$sm) {
+	.home-banner {
+		margin: 5rem -5vw 0;
+	}
+}
+@media (max-width:$xl) {
+	.home-banner {
+		margin: 5rem -10vw 0;
+	}
+}
+@media (min-width:$xxl) {
+	.home-banner {
+		height: 50rem;
+		margin: 5rem -30vw 0;
+	}
+}
 
 .home-video-container {
 	display: flex;
@@ -1791,22 +1848,19 @@ $background-color_3: white;
 	margin: 5rem -5vw;
 }
 
-@media (max-width:$md) {
+@media (max-width:$sm) {
 	.top-banner {
-		margin: 5rem -10vw;
+		margin: 5rem -5vw 0;
 	}
 }
-
 @media (max-width:$xl) {
 	.top-banner {
-		margin: 5rem -10vw;
+		margin: 5rem -10vw 0;
 	}
 }
-
 @media (min-width:$xxl) {
 	.top-banner {
-		// height: 50rem;
-		margin: 5rem -20vw;
+		margin: 5rem -28vw 0;
 	}
 }
 
@@ -2007,7 +2061,7 @@ $background-color_3: white;
 
 	.text-content {
 		width: 50%;
-		padding: 3rem;
+		padding: 3rem 3rem 0 0;
 		color: #fff;
 		background-color: #0D1528;
 		order: 1;
@@ -2041,31 +2095,7 @@ $background-color_3: white;
 
 
 ////////////////////// Media queries////////////////////
-@media screen and (min-width: $xxl) {
-	.container {
-		margin: 5rem 15vw;
-	}
-
-	.home-banner {
-		margin: 5rem -20vw;
-	}
-}
-
-@media screen and (max-width: $xl) {
-	.container {
-		background-color: #fafafa;
-		margin: auto 5vw;
-		margin-top: 5rem;
-	}
-
-	.home-banner {
-		margin: 5rem -15vw;
-	}
-
-}
-
 @media (max-width:$lg) {
-	.container {}
 
 	.nav {
 		>.nav-btn {
@@ -2228,7 +2258,7 @@ $background-color_3: white;
 		font-size: 1.2em;
 	}
 
-	.text-passage {
+	.text-centered{
 		text-align: justify;
 	}
 
@@ -2379,7 +2409,7 @@ $background-color_3: white;
 		}
 	}
 
-	.text-passage {
+	.text-centered{
 		padding: 2vh 0;
 	}
 
