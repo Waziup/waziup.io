@@ -30,13 +30,7 @@ WAZIUP is engaged in IoT capacity building for startups and entrepreneurs via bo
 
 {{<end_floating_image>}}
 
-<!-- {{<page_section image="/img/home-lora.svg" image-height="20rem" reverse="true"  button="" button-style="lined" style="margin: 20vh auto">}}
-
-# Powered by LoRaWAN Technology and Many More
-
-## WAZIUP is engaged in IoT capacity building for startups and entrepreneurs via bootcamps, workshops and hackathons; enabling them to build low-cost and innovative IoT products. 
-
-{{</page_section>}} -->
+[SECTION_DARK]
 
 {{<title text-style="align-items: center;">}}Our R&I Projects{{</title>}}
 
@@ -46,6 +40,7 @@ Waziup is at the forefront of IoT innovation, delivering cutting-edge solutions 
 
 {{<home_project_cards>}}
 
+[SECTION_TRANSPARENT]
 
 {{<title text-style="align-items: center;">}}Latest Updates{{</title>}}
 

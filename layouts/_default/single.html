@@ -1,3 +1,8 @@
 {{ define "main" }}
-    {{ .Content }}
+    <section>
+    {{ $content := .Content}}
+    {{ $content = replace $content "<p>[SECTION_GREY]</p>" "</section><section class='section-grey'>"}}
+    {{ $content = replace $content "<p>[SECTION_WHITE]</p>" "</section><section>"}}
+    {{ safeHTML $content }}
+    </section>
 {{end}}
