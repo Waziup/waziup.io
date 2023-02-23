@@ -1,0 +1,21 @@
+{{ $shortcode := .}}
+{{ $caseStudyPage := $shortcode.Page.GetPage "case-study" }} 
+<!-- Title of caseStudy page: {{$caseStudyPage.Title }}.<br /> -->
+
+{{ $caseStudy := first 6 $caseStudyPage.Pages }}
+
+<div class="card-group" style="margin-top: auto;" id="caseStudy-card-group">
+  {{ range sort $caseStudy ".Date" "desc" }}
+    {{ $caseStudy := . }}
+
+  <!-- - caseStudy: {{.Title}}<br> -->
+  {{ $cover := $caseStudy.Resources.GetMatch .Params.cover }}
+  {{ partial "card.html" (dict
+    "Permalink" $caseStudy.Permalink
+    "Cover" $cover.RelPermalink
+    "Title" $caseStudy.Params.category
+    "Description" $caseStudy.Description
+    "Date" ($caseStudy.Date.Format "January 2, 2006") )}}
+
+  {{ end }}
+</div>
