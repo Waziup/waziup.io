@@ -48,7 +48,8 @@ Our Vision is to be a top Web Design company in the IT sector and progress in ou
 
 [SECTION_DARK]
 
-{{<wazidev_kit_branding  image="edge-kit.webp">}}
+{{<wazidev_kit_branding  image="edge-kit.webp" goto-link="/iot-edge-platform/prototyping-kit">}}
+
 # WaziDev IoT  LoRa Prototyping Kit
 
 Waziup has introduced an open source, low-cost, powerful and customizable iot kit to serve the need of enthusiasts.

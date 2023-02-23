@@ -1,6 +1,12 @@
 <div class="kit-branding"> 
     <div class="text-content">
         {{ .Inner | markdownify }}
+        <div>
+            <button 
+                class="button-lined {{ .Get "style"}}" 
+                onclick="window.location.href= '{{ .Get "goto-link"}}';"
+            >Learn more</button>
+        </div>
     </div>
     <div class="kit-img">
         <img src="{{ .Get "image" }}" alt="">

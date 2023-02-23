@@ -19,7 +19,7 @@ Unlocking the Potential of IoT in Africa
 
 HUBiquitous is an Innovation Action aiming at creating a joint Africa-Europe Startup & Innovation Ecosystem for long-term collaborations and partnerships. The project has the ambition to increase the technology level and capacity building of 30 local Digital Innovation  Hubs (DIHs)/TechHubs in 5 African countries.
 
-{{<floating_image image="logo.png" float="right" widxth="400px" >}}
+{{<floating_image image="logo.png" float="right" width="400px" >}}
 
 WAZIUP is a non-profit organization that is dedicated to supporting African entrepreneurs and innovators in developing solutions that leverage Internet of Things (IoT) technologies to address local challenges in various fields such as agriculture, health, and energy. One of the exciting initiatives that WAZIUP is currently working on is the Hubiquitous project, which aims to create an integrated platform for managing and deploying IoT solutions across multiple domains.
 

@@ -46,63 +46,7 @@ body {
 	background-color: #fafafa;
 }
 
-.section-transparent {
-	margin: 2rem -10vw;
-	padding: 5vh 10vw 0;
-}
 
-.section-off-white {
-	background-color: $waziup-off-white;
-	margin: 0 -10vw;
-	padding: 5vh 10vw;
-	
-}
-@media (max-width:$sm) {
-	.section-off-white {
-		margin: 0 -5vw;
-		padding: 5rem 5vw;
-	}
-}
-@media (max-width:$xl) {
-	.section-off-white {
-		margin: 0 -10vw;
-		padding: 5rem 10vw;
-	}
-}
-@media (min-width:$xxl) {
-	.section-off-white {
-		margin: 0 -28vw;
-		padding: 5rem 28vw;
-	}
-}
-
-.section-dark {
-	background-color: $waziup-dark;
-	color: #fff;
-	margin: 2rem -10vw;
-	padding: 5vh 10vw;
-	>div,p{
-		color: #fff
-	}
-}
-@media (max-width:$sm) {
-	.section-dark {
-		margin: 5rem -5vw 0;
-		padding: 5rem 5vw;
-	}
-}
-@media (max-width:$xl) {
-	.section-dark {
-		margin: 5rem -10vw 0;
-		padding: 5rem 10vw;
-	}
-}
-@media (min-width:$xxl) {
-	.section-dark {
-		margin: 5rem -28vw 0;
-		padding: 5rem 28vw;
-	}
-}
 
 
 .nav {
@@ -241,6 +185,41 @@ body {
 
 }
 
+.container {
+	max-width: $container-max-width ;
+	// margin: 0 auto;
+	margin-top: 5rem;
+	min-height: calc(100vh - 295px);
+	padding: 0 5vw;
+}
+
+@media (max-width:$sm) {
+	.container {
+		margin-right: 5vw;
+		margin-left: 5vw;
+	}
+}
+
+@media (max-width:$md) {
+	.container {}
+}
+
+@media (max-width:$xl) {
+	.container {
+		// max-width: 1365px;
+		margin-right: 5vw;
+		margin-left: 5vw;
+	}
+}
+
+@media (min-width:$xxl) {
+	.container {
+		// max-width: 1536px;
+		margin-right: 10vw;
+		margin-left: 10vw;
+	}
+}
+
 .page-banner {
 	position: relative;
 	display: flex;
@@ -259,25 +238,91 @@ body {
 		// z-index: 2;
 	}
 }
+
 @media (max-width:$sm) {
 	.page-banner {
 		margin: 5rem -5vw 0;
 	}
 }
-@media (max-width:$md) {
-	.page-banner {
-		height: 30rem;
-	}
-}
+
+@media (max-width:$md) {}
+
 @media (max-width:$xl) {
 	.page-banner {
+		height: 20rem;
 		margin: 5rem -10vw 0;
 	}
 }
+
 @media (min-width:$xxl) {
 	.page-banner {
-		height: 50rem;
-		margin: 5rem -28vw 0;
+		margin: 5rem -15vw 0;
+	}
+}
+
+.section-transparent {
+	margin: 2rem -10vw;
+	padding: 5vh 10vw 0;
+}
+
+.section-off-white {
+	background-color: $waziup-off-white;
+	margin: 0 -10vw;
+	padding: 5vh 10vw;
+
+}
+
+@media (max-width:$sm) {
+	.section-off-white {
+		margin: 0 -5vw;
+		padding: 5rem 5vw;
+	}
+}
+
+@media (max-width:$xl) {
+	.section-off-white {
+		margin: 0 -10vw;
+		padding: 5rem 10vw;
+	}
+}
+
+@media (min-width:$xxl) {
+	.section-off-white {
+		margin: 0 -15vw;
+		padding: 5rem 15vw;
+	}
+}
+
+.section-dark {
+	background-color: $waziup-dark;
+	color: #fff;
+	margin: 2rem -10vw;
+	padding: 5vh 10vw;
+
+	>div,
+	p {
+		color: #fff
+	}
+}
+
+@media (max-width:$sm) {
+	.section-dark {
+		margin: 5rem -5vw 0;
+		padding: 5rem 5vw;
+	}
+}
+
+@media (max-width:$xl) {
+	.section-dark {
+		margin: 5rem -10vw 0;
+		padding: 5rem 10vw;
+	}
+}
+
+@media (min-width:$xxl) {
+	.section-dark {
+		margin: 5rem -15vw 0;
+		padding: 5rem 15vw;
 	}
 }
 
@@ -303,31 +348,6 @@ body {
 	}
 }
 
-.container {
-	max-width: $container-max-width ;
-	margin: 0 auto;
-	margin-top: 5rem;
-	min-height: calc(100vh - 295px);
-	padding: 0 5vw;
-}
-@media (max-width:$sm) {
-	.container {
-	}
-}
-@media (max-width:$md) {
-	.container {
-	}
-}
-@media (max-width:$xl) {
-	.container {
-		max-width: 1365px;
-	}
-}
-@media (min-width:$xxl) {
-	.container {
-		max-width: 1536px;
-	}
-}
 
 .page-footer {
 	position: relative;
@@ -562,7 +582,7 @@ body {
 	}
 }
 
-.text-centered{
+.text-centered {
 	font-size: 1.2em;
 	text-align: center;
 	padding: 5vh 0;
@@ -1330,16 +1350,19 @@ $background-color_m2: #fefefe;
 	}
 
 }
+
 @media (max-width:$sm) {
 	.home-banner {
 		margin: 5rem -5vw 0;
 	}
 }
+
 @media (max-width:$xl) {
 	.home-banner {
 		margin: 5rem -10vw 0;
 	}
 }
+
 @media (min-width:$xxl) {
 	.home-banner {
 		height: 50rem;
@@ -1853,11 +1876,13 @@ $background-color_3: white;
 		margin: 5rem -5vw 0;
 	}
 }
+
 @media (max-width:$xl) {
 	.top-banner {
 		margin: 5rem -10vw 0;
 	}
 }
+
 @media (min-width:$xxl) {
 	.top-banner {
 		margin: 5rem -28vw 0;
@@ -1978,6 +2003,22 @@ $background-color_3: white;
 
 //////////////////////////////////////
 
+.button-lined {
+	margin: 2rem auto;
+	border: 1px solid #fff;
+	background-color: transparent;
+	padding: .5rem 1.8rem;
+	font-size: 1em;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+
+
+	&:hover {
+		background-color: #fff;
+		color: #193861;
+	}
+}
 
 .icon-text {
 	display: flex;
@@ -2258,7 +2299,7 @@ $background-color_3: white;
 		font-size: 1.2em;
 	}
 
-	.text-centered{
+	.text-centered {
 		text-align: justify;
 	}
 
@@ -2409,7 +2450,7 @@ $background-color_3: white;
 		}
 	}
 
-	.text-centered{
+	.text-centered {
 		padding: 2vh 0;
 	}
 
