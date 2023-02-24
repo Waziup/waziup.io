@@ -9,7 +9,7 @@ title: About Us
 
 [SECTION_TRANSPARENT]
 
-{{<floating_image image="au-s1.webp" float="right" width="500px" style="margin-left: 5vw">}}
+{{<floating_image image="about-us.webp" float="right" width="500px" style="margin-left: 5vw">}}
 
 #### About Us
 
@@ -36,12 +36,12 @@ Our Vision is to be a top Web Design company in the IT sector and progress in ou
 
 [SECTION_TRANSPARENT]
 
-{{<floating_image image="au-s1.webp" float="left" width="500px">}}
+{{<floating_image image="why-choose.webp" float="left" width="500px">}}
 #### WHY CHOOSE US
 
 # We Are Building A Sustainable Future
 
-WAZIUP e.V. is promoting cutting-edge technologies and capacity building toward emerging countries. We have developed affordable and adaptable end-to-end IoT Solutions. WAZIUP Open Source IoT and Cloud platform aims to accelerate social innovation and empower local IoT entrepreneurship. We are engaged in IoT capacity building for startups and entrepreneurs via bootcamps, workshops and hackathons; enabling them to build low-cost and innovative IoT products.
+WAZIUP promotes tech and capacity building in emerging countries with affordable and adaptable IoT solutions. Our open-source platform accelerates social innovation and empowers local IoT entrepreneurship.
 
 {{<icon_names>}}
 
