@@ -1,52 +1,35 @@
 ---
-title: WAZIUP PUBLICATION
-cover: cover.jpg
-description: EU Funded Project Focused on Rural Agrieconomics
+title: The OSIRIS project
+cover: cover.webp
+description: "The OSIRIS project: Improving food security in Africa with IoT technology"
 category: PROJECT
-date: 2022-11-17
+date: 2022-12-17
 ---
 
-{{<page_banner banner="cover.jpg" >}}
-
-# We have Shifted!
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices.
-
+{{<page_banner banner="banner.webp" >}}
+# The OSIRIS Project 
+### Improving food security in Africa with IoT technology
 {{</page_banner >}}
 
+[SECTION_TRANSPARENT]
+
+Food security is a major challenge in Africa, with over 240 million people facing hunger and malnutrition on the continent. One of the biggest challenges is improving crop yields and reducing crop losses due to pests, diseases, and weather fluctuations. The OSIRIS project, which is led by the WAZIUP and WAZIHUB consortiums and funded by the European Union, aims to tackle these challenges by leveraging the power of the Internet of Things (IoT) technology.
+
+{{<floating_image image="cover.webp" float="right"  width="400px" >}}
+
+Background:
+The OSIRIS project stands for "Open Source IoT Platform for Innovative Crop Management in Sub-Saharan Africa." The project is designed to address the need for more effective crop management practices in Africa. By using IoT sensors, data analytics, and machine learning algorithms, the OSIRIS platform aims to provide farmers with real-time insights into crop health, soil moisture levels, and weather conditions, enabling them to make better decisions about when to plant, water, fertilize, and harvest their crops.
+
+Challenge:
+Agriculture in Africa is often plagued by low productivity due to a lack of knowledge, resources, and access to information. Farmers often have to rely on traditional farming practices that are not well-suited to the local soil and climate conditions. This can result in low crop yields, crop failures, and reduced incomes for farmers. Moreover, climate change is exacerbating these challenges by making weather patterns more unpredictable and extreme, which can lead to crop losses due to droughts, floods, and other weather-related disasters.
+
+Solution:
+The OSIRIS project aims to address these challenges by providing farmers with real-time data on crop health, soil moisture levels, and weather conditions through an IoT-enabled platform. The platform consists of a network of low-cost sensors that are deployed in the field to measure various environmental parameters such as temperature, humidity, soil moisture, and light intensity. The data collected by the sensors is transmitted to a cloud-based platform, where it is processed using advanced machine learning algorithms to provide insights into crop health, soil fertility, and weather patterns.
+
+Result:
+The OSIRIS project has already shown promising results in improving crop yields and reducing losses due to pests and diseases. In a pilot study conducted in Burkina Faso, the OSIRIS platform was used to monitor the growth of maize crops, providing real-time data on soil moisture, temperature, and humidity. The data was used to optimize irrigation and fertilization practices, resulting in a 40% increase in crop yields compared to traditional farming practices. The platform has also been used to monitor the spread of locust swarms in East Africa, providing early warning to farmers and enabling them to take preventive measures to protect their crops.
+
+Conclusion:
+The OSIRIS project is a prime example of how IoT technology can be used to address some of the biggest challenges facing agriculture in Africa. By providing farmers with real-time insights into crop health, soil moisture levels, and weather conditions, the platform can help them make better decisions about when to plant, water, fertilize, and harvest their crops, ultimately leading to higher yields and improved food security. As the project continues to grow and expand, it has the potential to transform agriculture in Africa and improve the lives of millions of people on the continent.
 
 
-## Office Culture
-The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
-
-
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
-
-
-{{<floating_image image="application.png" float="left"  width="400px" >}}
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
-
-Lorem ipsum dolor sit amet consectetur. A non condimentum donec vivamus venenatis sollicitudin egestas. Malesuada sit quis morbi arcu. At viverra lacus eget porta orci. In lobortis placerat id vitae diam at orci. Varius nam massa cursus commodo consectetur pharetra ultrices mauris. Nam malesuada purus urna nunc. Ut consequat morbi consequat dui. Ut sapien porttitor feugiat ultrices sed orci aliquam enim gravida. Odio a tortor lectus porta gravida mattis consectetur scelerisque. Adipiscing consectetur tristique velit gravida morbi sagittis at lacus. Nisl aliquet eget duis diam urna eleifend. Ac aenean eu tellus facilisis et. Auctor egestas in lorem nec semper nisi felis dolor mi. Tincidunt est neque sed velit in amet massa tristique convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
-
-
-{{<floating_image image="application.png" float="right"  width="400px" >}}
-
-
-
-Lorem ipsum dolor sit amet consectetur. A non condimentum donec vivamus venenatis sollicitudin egestas. Malesuada sit quis morbi arcu. At viverra lacus eget porta orci. In lobortis placerat id vitae diam at orci. Varius nam massa cursus commodo consectetur pharetra ultrices mauris. Nam malesuada purus urna nunc. Ut consequat morbi consequat dui. Ut sapien porttitor feugiat ultrices sed orci aliquam enim gravida. Odio a tortor lectus porta gravida mattis consectetur scelerisque. Adipiscing consectetur tristique velit gravida morbi sagittis at lacus. Nisl aliquet eget duis diam urna eleifend. Ac aenean eu tellus facilisis et. Auctor egestas in lorem nec semper nisi felis dolor mi. Tincidunt est neque sed velit in amet massa tristique convallis.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
-
-
-
-1. Lorem ipsum dolor sit amet consectetur.
-2. My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
-3. Lorem ipsum dolor sit amet consectetur.
-
-- My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
-- Lorem ipsum dolor sit amet consectetur.
-- Lorem ipsum dolor sit amet consectetur
