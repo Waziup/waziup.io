@@ -34,6 +34,8 @@ $waziup-off-white: #F9F9F9;
 $waziup-blue: #186DBF;
 $waziup-dark: #0D1528;
 
+$margin-adjust-with-container-xxl: auto -20vw;
+
 * {
 	box-sizing: border-box;
 }
@@ -211,8 +213,8 @@ body {
 @media (min-width:$xxl) {
 	.container {
 		// max-width: 1536px;
-		margin-right: 10vw;
-		margin-left: 10vw;
+		margin-right: 15vw;
+		margin-left: 15vw;
 	}
 }
 
@@ -249,7 +251,7 @@ body {
 
 @media (min-width:$xxl) {
 	.page-banner {
-		margin: 5rem -15vw 0;
+		margin: 5rem -20vw 0;
 	}
 }
 
@@ -278,8 +280,8 @@ body {
 }
 @media (min-width:$xxl) {
 	.section-off-white {
-		margin: 0 -15vw;
-		padding: 5rem 15vw;
+		margin: 0 -20vw;
+		padding: 5rem 20vw;
 	}
 }
 
@@ -296,20 +298,20 @@ body {
 }
 @media (max-width:$sm) {
 	.section-dark {
-		margin: 5rem -5vw 0;
+		margin: auto -5vw 0;
 		padding: 5rem 5vw;
 	}
 }
 @media (max-width:$xl) {
 	.section-dark {
-		margin: 5rem -10vw 0;
+		margin: auto -10vw 0;
 		padding: 5rem 10vw;
 	}
 }
 @media (min-width:$xxl) {
 	.section-dark {
-		margin: 5rem -15vw 0;
-		padding: 5rem 15vw;
+		margin: auto -20vw 0;
+		padding: 5rem 20vw;
 	}
 }
 
@@ -369,7 +371,7 @@ body {
 }
 @media (min-width:$xxl) {
 	.top-banner {
-		margin: 5rem -15vw 0;
+		margin: 5rem -20vw 0;
 	}
 }
 
