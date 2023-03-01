@@ -6,7 +6,7 @@ category: EU | Africa
 date: 2022-01-01
 ---
 
-{{<page_banner banner="cover.webp" >}}
+{{<page_banner banner="banner.webp" >}}
 # Intel-IrriS Prima Project
 {{</page_banner >}}
 

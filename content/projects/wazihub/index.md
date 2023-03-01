@@ -1,12 +1,12 @@
 ---
 title: WaziHub Project
-cover: cover.png
+cover: cover.webp
 description: "Wazihub Project: Revolutionizing IoT in Africa"
 category: EU | Africa
 date: 2022-03-15
 ---
 
-{{<page_banner banner="cover.png" >}}
+{{<page_banner banner="banner.webp" >}}
 
 # WaziHub Project
 
@@ -40,5 +40,5 @@ In conclusion, the Wazihub project is an exciting initiative that is transformin
 
 ### Related Contents
 
-- Download [WaziHub Technology Magazine 2021](Wazihub_Technology_Magazine_2021.pdf).
-- Download [WaziHub Startup Magazine 2021](Wazihub_Startup_Magazine_2021.pdf).
+- Download [WaziHub Technology Magazine 2021](../../publications/empowering_africa/Wazihub_Technology_Magazine_2021.pdf).
+- Download [WaziHub Startup Magazine 2021](../../publications/iot_africa/Wazihub_Startup_Magazine_2021.pdf).

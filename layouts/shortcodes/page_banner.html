@@ -1,6 +1,6 @@
 <div class="page-banner">
     <img src="{{ .Get "banner" }}" alt="">
-    <div class="typography">
+    <div class="typography" style="{{ .Get "style" }}">
         {{ .Inner |  markdownify }}
     </div>
 </div>

@@ -12,9 +12,9 @@
   {{ partial "card.html" (dict
     "Permalink" $project.Permalink
     "Cover" $cover.RelPermalink
-    "Title" $project.Params.category
-    "Description" $project.Description
-    "Date" ($project.Date.Format "January 2, 2006") )}}
+    "Category" $project.Params.category
+    "Date" ($project.Date.Format "January 2, 2006")
+    "Description" $project.Description )}}
 
   {{ end }}
 </div>

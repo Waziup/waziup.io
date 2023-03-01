@@ -1,12 +1,12 @@
 ---
 title: HUBiquitous Project
-cover: cover.jpg
+cover: cover.webp
 description: "Hubiquitous Project: Unlocking the Potential of IoT in Africa"
 category: EU | Africa
 date: 2022-03-15
 ---
 
-{{<page_banner banner="cover.jpg" >}}
+{{<page_banner banner="banner.webp" >}}
 
 # HUBiquitous Project
 Unlocking the Potential of IoT in Africa

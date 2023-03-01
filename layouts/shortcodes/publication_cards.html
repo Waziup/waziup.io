@@ -13,9 +13,9 @@
   {{ partial "card.html" (dict
     "Permalink" $publications.Permalink
     "Cover" $cover.RelPermalink
-    "Title" $publications.Params.category
-    "Description" $publications.Description
-    "Date" ($publications.Date.Format "January 2, 2006") )}}
+    "Category" $publications.Params.category
+    "Date" ($publications.Date.Format "January 2, 2006")
+    "Description" $publications.Description )}}
 
   {{ end }}
 </div>

@@ -1,52 +1,41 @@
 ---
 title: WAZIUP PUBLICATION
-cover: cover.png
+cover: cover.webp
 description: Unlocking IoT Startups in Africa
 category: PUBLICATION
-date: 2020-09-10
+date: 2021-07-01
 ---
 
-{{<page_banner banner="cover.png" >}}
+{{<page_banner banner="banner.webp" style="color: #F35E19">}}
 
-# We have Shifted!
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices.
 
 {{</page_banner >}}
 
+[SECTION_TRANSPARENT]
 
+# Unlocking IoT Startups in Africa
 
-## Office Culture
-The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
+The World Economic Forum published in 2018 the report “Internet of Things: Guidelines for Sustainability”, analysing the deployement of 640 Internet of Things (IoT) projects world-wide. This report claims that the full potential of IoT for sustainable development can only be achieved when sustainability is incorporated at the design phase. Sustainability is at the core of WaziHub: the key goal of the project is to create a strong business ecosystem and to foster partnerships between Africa and Europe.
 
-
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
-
+Both continents are facing the same key challenges: promote sustainable growth, jobs, mobility, security, and good governance. Regarding the African startups (see our dossier page 23), there is a need to improve their innovation capacities with regards to emerging technologies. They also need better access to investment and business opportunities. On the other hand, European startups need better access to emerging markets, possible soft-landing, and a better understanding of the African local innovations ecosystem. 
 
 {{<floating_image image="impact.png" float="left" width="400px" >}}
 
+A recent phenomenon in Africa is the booming development of “Tech Hubs”, offering facilities and support for tech and digital entrepreneurs (see our dossier page 9). However, the Tech Hubs often need more technical expertise such as hardware, software, networking, and cloud-based data management. The WaziHub project aims to improve the IoT capacity of the Tech Hubs by offering technology and training. We are creating a network of connected IoT Tech Hubs throughout Africa, in which each hub can collaborate with each other. They can share best practices, experience, knowledge and services. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
+The objective of each WaziHub Tech Hub is the local adoption and adaptation of IoT technologies. The Tech
+Hubs together with local entrepreneurs and stakeholders are spinning off IoT and Big Data products and services in order to address the needs of local users. Local hubs play an important role in the self-sustainability of the project with the following three core components: technology capacity building for rapid prototyping and real-life testing, acceleration for service creation, and sustainable business transformation.
 
-Lorem ipsum dolor sit amet consectetur. A non condimentum donec vivamus venenatis sollicitudin egestas. Malesuada sit quis morbi arcu. At viverra lacus eget porta orci. In lobortis placerat id vitae diam at orci. Varius nam massa cursus commodo consectetur pharetra ultrices mauris. Nam malesuada purus urna nunc. Ut consequat morbi consequat dui. Ut sapien porttitor feugiat ultrices sed orci aliquam enim gravida. Odio a tortor lectus porta gravida mattis consectetur scelerisque. Adipiscing consectetur tristique velit gravida morbi sagittis at lacus. Nisl aliquet eget duis diam urna eleifend. Ac aenean eu tellus facilisis et. Auctor egestas in lorem nec semper nisi felis dolor mi. Tincidunt est neque sed velit in amet massa tristique convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
+The majority of African Tech Hubs are concentrated in capitals (E.g. Nairobi, Accra, Cairo, and Lagos). However, African talents are distributed throughout the countries. As the public transportation infrastructure
+is still under development, it can be very expensive, if not impossible, to travel to the capital to join the training provided by Tech Hubs. That’s why we want to deploys and support hubs in smaller cities, as a key
+factor for offering access to technologies and innovation to local communities in Africa. These hubs also
+need further development as they provide services to the greater communities, including women, as well as
+vulnerable and marginalized youth.
 
+This new volume follows the WaziHub Magazineno. 11, which was presenting the Waziup IoT technologies deployed on the African continent. In this edition,we will give the floor to our Tech Hubs and startups.
 
-{{<floating_image image="cover.png" float="right" width="400px" >}}
+{{<end_floating_image>}}
 
+### Related Contents
 
-
-Lorem ipsum dolor sit amet consectetur. A non condimentum donec vivamus venenatis sollicitudin egestas. Malesuada sit quis morbi arcu. At viverra lacus eget porta orci. In lobortis placerat id vitae diam at orci. Varius nam massa cursus commodo consectetur pharetra ultrices mauris. Nam malesuada purus urna nunc. Ut consequat morbi consequat dui. Ut sapien porttitor feugiat ultrices sed orci aliquam enim gravida. Odio a tortor lectus porta gravida mattis consectetur scelerisque. Adipiscing consectetur tristique velit gravida morbi sagittis at lacus. Nisl aliquet eget duis diam urna eleifend. Ac aenean eu tellus facilisis et. Auctor egestas in lorem nec semper nisi felis dolor mi. Tincidunt est neque sed velit in amet massa tristique convallis.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
-
-
-
-1. Lorem ipsum dolor sit amet consectetur.
-2. My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
-3. Lorem ipsum dolor sit amet consectetur.
-
-- My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
-- Lorem ipsum dolor sit amet consectetur.
-- Lorem ipsum dolor sit amet consectetur
+- WaziHub Startups (July 2021): [Download](Wazihub_Startup_Magazine_2021.pdf).
