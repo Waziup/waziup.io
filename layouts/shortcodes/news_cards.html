@@ -1,21 +1,23 @@
 {{ $shortcode := .}}
-{{ $newsPage := $shortcode.Page.GetPage "news" }} 
-<!-- Title of news page: {{$newsPage.Title }}.<br /> -->
 
+{{ $newsPage := $shortcode.Page.GetPage "news" }} 
 {{ $news := first 6 $newsPage.Pages }}
 
-<div class="card-group" style="margin-top: auto;" id="news-card-group">
-  {{ range sort $news ".Date" "desc" }}
-    {{ $news := . }}
+<div>
+  <ul class="card-group" style="margin-top: auto;" id="news-card-group">
+    {{ range sort $news ".Date" "desc" }}
+      {{ $news := . }}
+  
+      <!-- - news: {{.Title}}<br> -->
+      {{ $cover := $news.Resources.GetMatch .Params.cover }}
+      {{ partial "card.html" (dict
+        "Permalink" $news.Permalink
+        "Cover" $cover.RelPermalink
+        "Category" $news.Params.category
+        "Date" ($news.Date.Format "January 2, 2006")
+        "Description" $news.Description )}}
+  
+    {{ end }}
 
-  <!-- - news: {{.Title}}<br> -->
-  {{ $cover := $news.Resources.GetMatch .Params.cover }}
-  {{ partial "card.html" (dict
-    "Permalink" $news.Permalink
-    "Cover" $cover.RelPermalink
-    "Category" $news.Params.category
-    "Date" ($news.Date.Format "January 2, 2006")
-    "Description" $news.Description )}}
-
-  {{ end }}
+  </ul>
 </div>
