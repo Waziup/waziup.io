@@ -862,11 +862,11 @@ h1 {
 }
 
 .card-group {
-	padding: 2vw 0;
+	padding: 1rem 0;
 	display: flex;
-	margin-top: 3rem;
 	flex-wrap: wrap;
 	gap: 2.5rem;
+	list-style-type: none;
 
 	.card {
 		display: flex;
@@ -1034,6 +1034,21 @@ h1 {
 		>.desc {
 			font-size: 1em;
 			text-align: center;
+		}
+	}
+
+	.text-link{
+		text-decoration: none;
+		color: $waziup-dark;
+		padding: .5rem 1rem;
+		display: flex;
+		align-items: center;
+		gap: .5rem;
+		width: fit-content;
+	
+		&:hover {
+			background-color: $waziup-dark;
+			color: #fff;
 		}
 	}
 }
@@ -2368,6 +2383,7 @@ $background-color_3: white;
 		}
 	}
 }
+
 
 
 //// --- Paginator --- ////
