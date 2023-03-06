@@ -38,7 +38,7 @@ Our Vision is to be a top Web Design company in the IT sector and progress in ou
 
 {{<end_floating_image>}}
 
-[SECTION_TRANSPARENT]
+[SECTION_OFFWHITE]
 
 {{<title>}}Revolutionize With Waziup Boards{{</title>}}
 

@@ -13,15 +13,19 @@ title: Capacity Building
 {{<floating_image image="/img/learning-center.png" float="right" width="600px">}}
 
 # IoT Learning Center
-Advance your IoT knowledge with Waziup's IoT Learning Platform - offering online tutorials, webinars, and hands-on training for individuals, institutes, and SMEs of all skill levels. Start your journey to IoT mastery today!
+Waziup Learning Center provides online courses in IoT, Cloud Computing, and Data Science to equip learners with relevant skills for the digital age. The Learning Center is primarily for: 
 
-We have developed the Learning Center for: 
+{{<au-circle-icon-text icon="/img/icons/mission-star.svg">}}
+## IoT Startups & Enthusiasts
+Prototyping and application deployment is made easier for new startups.
+{{</au-circle-icon-text>}}
 
-- **IoT Startups and Companies** looking for a quick way to prototype and deploy applications
- 
-- **IoT Hobbyist/Enthusiast** looking to develop solutions to improve or learn a new skill
- 
-- **Students and Trainers** looking for a learning platform
+{{<au-circle-icon-text icon="/img/icons/mission-star.svg">}}
+## Students and Trainers
+A collaborative learning environment is provided to benfit students and teachers.
+{{</au-circle-icon-text>}}
+
+{{<button_action link="https://lab.waziup.io/">}}Try Now{{</button_action>}} 
 
 {{<end_floating_image>}}
 
@@ -29,19 +33,22 @@ We have developed the Learning Center for:
 {{<line_break>}}
 {{<line_break>}}
 
-[SECTION_TRANSPARENT]
+[SECTION_OFFWHITE]
 
-{{<floating_image image="/img/certificate.png" float="left" width="600px">}}
+<!-- {{<line_break>}} -->
+{{<floating_image image="certificate.webp" float="left" width="600px">}}
 
-# IoT Learning Center
-Advance your IoT knowledge with Waziup's IoT Learning Platform - offering online tutorials, webinars, and hands-on training for individuals, institutes, and SMEs of all skill levels. Start your journey to IoT mastery today!
+# Waziup Certification
+Advance your IoT knowledge with Waziup's Certification - offering online tutorials, webinars, and hands-on training for individuals, institutes, and SMEs of all skill levels. Start your journey to IoT mastery today!
+
+{{<line_break>}}
+### Get Certified
 
 {{<certification_cards>}}
 {{<end_floating_image>}}
 
-{{<line_break>}}
-{{<line_break>}}
-{{<line_break>}}
+<!-- {{<line_break>}}
+{{<line_break>}} -->
 
 [SECTION_TRANSPARENT]
 

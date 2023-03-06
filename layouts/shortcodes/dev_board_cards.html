@@ -9,6 +9,7 @@
   <!-- - devboards: {{.Title}}<br> -->
   {{ $cover := $devboards.Resources.GetMatch .Params.cover }} {{ partial
   "devboard-card.html" (dict
+  "Cover" $cover.RelPermalink
   "Title" $devboards.Params.title 
   "Description" $devboards.Description )}} 
   {{ end }}

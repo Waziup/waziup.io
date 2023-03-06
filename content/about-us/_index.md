@@ -65,8 +65,7 @@ WAZIUP promotes tech and capacity building in emerging countries with affordable
 
 {{<team_members>}}
 
-{{<title>}}Our Partners{{</title>}}
-
-{{<partners>}}
-
 {{<subscribe_section>}}
+
+{{<title text-style="align-items: center;">}}Our Partners{{</title>}}
+{{<logoshow>}}

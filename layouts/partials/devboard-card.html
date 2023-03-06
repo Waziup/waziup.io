@@ -1,15 +1,19 @@
 <div class="dev-board-card">
-  <div class="flex-row">
+  <img src="{{.Cover}}" alt="" />
+
+  <div class="content">
     <h3>{{ .Title }}</h3>
+    <p>{{ .Description }}</p>
+    <button class="btn-lemo-solid" style="border-radius: 2rem"> <!--id="myBtn" -->
+      specs
+    </button>
   </div>
-  <p>{{ .Description }}</p>
-  <button id="myBtn" class="btn-lemo-solid" style="border-radius: 2rem">specs</button>
-  
+
   <div id="myModal" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
-      <img src="{{ .Cover }}" alt="" width="10rem" heigh="8rem">
-      <p>{{ .Inner |  markdownify }}</p>
+      <img src="{{ .Cover }}" width="100px" alt="" />
+      <p>{{ .Description }}</p>
     </div>
   </div>
 </div>

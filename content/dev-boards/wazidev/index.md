@@ -1,6 +1,6 @@
 ---
 title: WaziDev v1.4
 description: RFM95W LoRa module, Arduino Pro Mini compatible CPU, 
-cover: icon.png
+cover: wazidev_.png
 category: EU PROJECT
 ---
