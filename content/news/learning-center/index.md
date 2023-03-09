@@ -9,15 +9,18 @@ date: 2022-09-15
 {{<page_banner banner="/img/iep-banner.png" >}}
 
 # WAZIUP Learning Center 
-### Empowering African Innovators through IoT Education
 
 {{</page_banner >}}
+
+[SECTION_TRANSPARENT]
+
+# Empowering African Innovators through IoT Education
 
 The WAZIUP project is on a mission to empower African innovators by providing them with the tools and knowledge they need to build and deploy cutting-edge IoT solutions. One of the key components of this mission is the WAZIUP Learning Center, a comprehensive online platform that offers a range of IoT-related educational resources and training opportunities.
 
 At its core, the WAZIUP Learning Center is designed to help African innovators overcome the barriers to entry that can often make it difficult to break into the IoT space. By providing access to high-quality educational materials and training programs, the Learning Center aims to level the playing field and make it possible for anyone with a great idea to turn it into a reality.
 
-{{<floating_image image="cover.png" float="left" width="400px" >}}
+{{<floating_image image="cover.png" float="right" width="600px" >}}
 
 
 So, what exactly does the WAZIUP Learning Center offer? Here are some of the key features:

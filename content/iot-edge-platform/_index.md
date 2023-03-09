@@ -12,7 +12,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla lu
 
 [SECTION_TRANSPARENT]
 
-{{<floating_image image="edge-app.webp" float="right" width="600px" style="margin-left: 6vw">}}
+{{<floating_image image="edge-app.webp" float="right" width="600px" style="margin-left: 2rem">}}
 
 #### Edge platform
 

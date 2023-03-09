@@ -3,7 +3,10 @@ languageCode = 'en-us'
 # theme = "papaya"
 title = 'My New Hugo Site'
 ignoreErrors = ["error-remote-getjson"]
-paginate = 3
+paginate = 6
+
+[params.meta]
+favicon = true
 
 
 
