@@ -1,12 +1,12 @@
 ---
 title: This is example 2
-cover: cover.png
+cover: cover.webp
 description: "WAZIUP Learning Center: Empowering African Innovators through IoT Education"
 category: NEWS
 date: 2022-09-15
 ---
 
-{{<page_banner banner="banner.png" >}}
+{{<page_banner banner="banner.webp" >}}
 # banner title
 {{</page_banner >}}
 
@@ -14,7 +14,7 @@ date: 2022-09-15
 sdfasdf asdsdf sd
 dsf a
 
-{{<floating_image image="cover.png" float="left" width="400px" >}}
+{{<floating_image image="cover.webp" float="left" width="400px" >}}
 sd
 sd fad
  fasd afsd as
