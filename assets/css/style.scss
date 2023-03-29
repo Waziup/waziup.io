@@ -1177,10 +1177,13 @@ h1 {
 			width: 60%;
 		}
 	}
+	
 }
 
-@media(min-width:$xl) {
-	.card-group>.card>img {}
+@media(max-width:$md) {
+	.card-group>.project-card {
+		width: 100%;
+	}
 }
 
 .floating-image {
