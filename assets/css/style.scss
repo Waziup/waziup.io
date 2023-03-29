@@ -1180,11 +1180,17 @@ h1 {
 	
 }
 
-@media(max-width:$md) {
+@media(max-width:$sm) {
 	.card-group>.project-card {
 		width: 100%;
 	}
 }
+@media(max-width:$md) {
+	.card-group>.project-card {
+		width: 45%;
+	}
+}
+
 
 .floating-image {
 	float: right;
