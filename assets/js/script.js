@@ -1,15 +1,3 @@
-
-// Add active class to the current button (highlight it)
-// var header = document.getElementsByClassName("nav-links");
-// var links = header.getElementsByTagName("a");
-// for (var i = 0; i < links.length; i++) {
-//   links[i].addEventListener("click", function() {
-//   var current = document.getElementsByClassName("active");
-//   current[0].className = current[0].className.replace(" active", "");
-//   this.className += " active";
-//   });
-// }
-
 let slideIndex = 0;
 // showSlides();
 
@@ -35,3 +23,16 @@ function showSlides() {
 }
 window.onload = showSlides;
 
+
+/*******Add active class to the current button (highlight it) *******/
+
+// var header = document.getElementById("myNav");
+// var navItem = header.getElementsByClassName("nav-item");
+// console.log("checking: ", navItem.length);
+// for (var i = 0; i < navItem.length; i++) {
+//   navItem[i].addEventListener("click", function() {
+//     var current = document.getElementsByClassName("nav-active");
+//     current[0].className = current[0].className.replace(" nav-active", "");
+//     this.className += " nav-active";
+//   });
+// }

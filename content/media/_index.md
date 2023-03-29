@@ -23,4 +23,4 @@ Latest Updates
 {{<title>}} We are on Youtube {{</title>}}
 {{<youtube_videos>}}
 
-{{<subscribe_section>}}
+<!-- {{<subscribe_section>}} -->

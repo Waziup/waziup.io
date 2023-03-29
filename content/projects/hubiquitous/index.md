@@ -1,47 +1,41 @@
 ---
 title: HUBiquitous Project
-cover: cover.webp
+cover: cover.png
 description: "Hubiquitous Project: Unlocking the Potential of IoT in Africa"
-category: EU | Africa
+category: Horizon 2020
 date: 2022-03-15
 ---
 
-{{<page_banner banner="banner.webp" >}}
-
-# HUBiquitous Project
-Unlocking the Potential of IoT in Africa
-
-{{</page_banner >}}
+{{<single_page_banner banner="banner.webp" >}}
+HUBiquitous Horizon 2020
+{{</single_page_banner >}}
 
 [SECTION_TRANSPARENT]
 
-## How the Hubiquitous Project is Bridging the Digital Divide
-
-HUBiquitous is an Innovation Action aiming at creating a joint Africa-Europe Startup & Innovation Ecosystem for long-term collaborations and partnerships. The project has the ambition to increase the technology level and capacity building of 30 local Digital Innovation  Hubs (DIHs)/TechHubs in 5 African countries.
-
-{{<floating_image image="logo.png" float="right" width="400px" >}}
-
-WAZIUP is a non-profit organization that is dedicated to supporting African entrepreneurs and innovators in developing solutions that leverage Internet of Things (IoT) technologies to address local challenges in various fields such as agriculture, health, and energy. One of the exciting initiatives that WAZIUP is currently working on is the Hubiquitous project, which aims to create an integrated platform for managing and deploying IoT solutions across multiple domains.
+{{<floating_image image="logo.png" float="left" width="300px" >}}
+{{<end_floating_image>}}
 
 
-The Hubiquitous project is an ambitious undertaking, with the goal of enabling local entrepreneurs and developers in Africa to quickly and easily deploy their own IoT solutions. The platform is designed to be highly scalable and customizable, which is critical for deploying IoT solutions in resource-constrained environments. With Hubiquitous, entrepreneurs and developers will be able to leverage a wide range of devices and sensors, including low-power devices and mobile sensors, to create IoT solutions that are tailored to their specific needs.
+## Empowering innovative startup ecosystems through collaboration of Africa & European Digital Innovation Hubs
 
-One of the key features of the Hubiquitous platform is its focus on interoperability. This means that devices and sensors from different vendors can work together seamlessly, without any compatibility issues. Interoperability is a critical feature for deploying IoT solutions at scale, as it enables developers to use a wide range of devices and sensors, without being constrained by the limitations of any particular vendor.
+**About the project:** HUBiquitous is an Innovation Action aiming at creating a joint Africa-Europe Startup & Innovation Ecosystem for long-term collaborations and partnerships. The project has the ambition to increase the technology level and capacity building of 30 local Digital Innovation  Hubs (DIHs)/TechHubs in 5 African countries.
 
-The Hubiquitous platform is being developed in collaboration with several partners, including academic institutions and private sector companies, both in Europe and Africa. This partnership is critical for ensuring that the platform is designed with the needs of local communities in mind. By working closely with local communities and leveraging their expertise, the Hubiquitous platform will be able to provide solutions that are tailored to the specific needs of these communities.
 
-{{<floating_image image="concept.webp" float="left" width="400px" >}}
+The project proposes highly innovative concepts called Innovation Enablers (i.e. Solution Lab, Application Business Box and MeetHub online platform). The purpose of these enablers is to provide technical (e.g. IoT, AI and BigData disruptive technologies) as well as entrepreneurial development skills to DIHs and startups/entrepreneurs. Thanks to these Innovation Enablers, the project will further demonstrate and build the local innovation capacity through 3 programs: (i) Talent program, building digital skills for local talents, (ii) Accelerator program, creating innovative applications and services and (iii) Community program, developing the Africa-Europe start-up and innovation communities. HUBiquitous Innovation Enablers and Programs will therefore support and empower the startup and entrepreneurship ecosystems from both continents with the development of a rich and sustainable collaboration between African and European DIHs.
 
-The Hubiquitous project has the potential to have a significant impact on the development of IoT solutions in Africa. By providing a robust and scalable platform that can be easily customized to meet the needs of local communities, the platform will enable local entrepreneurs and developers to create innovative IoT solutions that can address local challenges in various domains. Furthermore, by focusing on interoperability, the platform will enable developers to leverage a wide range of devices and sensors, which will further accelerate the development of IoT solutions in Africa.
+**Talent Program** HUBiquitous’ Talent Program  will improve the technical skills of the African tech-communities/professionals in order to increase the innovation capacity of the local ecosystem. At the same time, it will enhance the employment and job opportunities within the communities. The program will focus especially on youth (17-35 years old), also taking into account women and marginalized groups. The Talent Program will be highly appealing for local developers, system architects, engineers, ICT professionals and tech entrepreneurs who want to improve their skills and knowledge of disruptive technologies, such as IoT, Big data and AI. From our previous experience, we recognize that African technical communities need more hands-on training on hardware and software, especially on electronics and communication technologies. Therefore, the Talent Program will strongly focus on practical training (e.g, prototyping and developing using the resources of the Solution Lab facilities). The program will also include the design-thinking training to improve innovative product and application design skills.
+
+**Accelerator Program** The Accelerator Program will support a total of least 50 innovative application solutions through two open calls during the course of the project. Each round we select the 25 most talented ideas to be part of a six-month program, in which the selected innovators will develop its idea/solution (concept prototype, MVP). After the selection process, the entrepreneurs will receive an application business box provided by the HUBiquitous project. The entrepreneurs will get access to the facilities of the Solution Lab for prototyping and testing. During the six-month program, the entrepreneurs will also receive the design-thinking guidelines, entrepreneurial coaching, and support from the project partners as well as from external mentors(coming from the DIHs and ESN’s network)
+
+**Community Program** One of the main objectives of HUBiquitous is the long-term sustainability of the project results and activities. The sustainable uptake of the project’s innovation enablers and programs is intrinsically linked to the spirit and engagement of local, national and cross-continental communities and ecosystems. To achieve this, HUBiquitous’ vision is to build Africa-Europe Innovation Communities engaging DIHs, startups & entrepreneurs, SMEs/industries, incubator/accelerator, Diasporas, youth and women communities.
 
 
 
+**Contries Involved:** Greece,France,Senegal, Netherlands, Germany, Serbien, Ghana, Nigeria, Benin, Switzerland, England, United Kingdom
 
-In conclusion, the Hubiquitous project is an exciting initiative that is being developed by WAZIUP, in collaboration with several partners, to create an integrated platform for managing and deploying IoT solutions across multiple domains. By focusing on scalability, customization, and interoperability, the platform has the potential to enable local entrepreneurs and developers to create innovative IoT solutions that can address local challenges in various fields. With its focus on local communities and partnership with academic institutions and private sector companies, the Hubiquitous project is poised to have a significant impact on the development of IoT solutions in Africa.
+**Website:**  [www.hubiquitious.eu](https://hubiquitous.eu/)
 
+**Youtube:** [What is HUBiquitious?](https://www.youtube.com/watch?v=zm5a7m4nLiA)
 
-
-### Related Contents
-
-- Meet our Hubiquitous team [YOUTUBE VIDEO](https://www.youtube.com/watch?v=zm5a7m4nLiA)
-- Hubiquitous website [www.hubiquitious.eu](https://hubiquitous.eu/)
+{{<floating_image image="eu-flag.png" float="left" width="75px" style="margin-right: 1rem" >}}
+This project has received funding from the Horizon 2020 research and innovation programme under grant agreement No 101016895

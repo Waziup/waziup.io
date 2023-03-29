@@ -5,43 +5,36 @@ title: Projects
 # Research and Innovation
 {{</page_banner >}}
 
+{{<line_break>}}
+{{<line_break>}}
+
 [SECTION_TRANSPARENT]
 
-{{<floating_image image="/projects/intel_iris/intel-custom.webp" float="left" width="550px">}}
+{{<floating_video link="https://www.youtube.com/embed/YMGfkLNs624">}}
 
-# Revolutionizing Irrigation for Small-Scale Farms: The Intel-IrriS PRIMA Project
+{{<line_break>}}
+{{<line_break>}}
+# Revolutionizing Irrigation with Intel-IrriS
 
-Intel-IrriS is a PRIMA project from Section 2 Multitopic 2020 Thematic Area 1-Water management addressing low cost, lean solutions for enhancing irrigation efficiency of small-scale farms. 
+Intel-Irris provides the smallholder farmers a more efficient management of its available water by deploying of an open, low-cost and autonomous irrigation control system based on IoT and smart technologies.
 
-{{<au-circle-icon-text icon="/img/icons/mission-star.svg">}}
-### Efficiency
-Intel-IrriS deploys a low-cost, open, and autonomous irrigation control system using IoT and smart technologies to help smallholder farmers manage their water more efficiently.
-{{</au-circle-icon-text>}}
-
-{{<au-circle-icon-text icon="/img/icons/mission-star.svg">}}
-### Optimal Production
-Intel-IrriS optimizes production potential while reducing water waste through algorithm-supported maintenance of soil / plant / atmosphere behavior.
-{{</au-circle-icon-text>}}
+{{<line_break>}}
+{{<button_action link="/projects/intel_iris/">}} Read more {{</button_action>}}
 
 {{<end_floating_image>}}
+{{<line_break>}}
+{{<line_break>}}
 
-[SECTION_TRANSPARENT]
+[SECTION_OFFWHITE]
 
-<!-- {{<floating_image image="/projects/hubiquitous/hubiquitous-custom.webp" float="right" width="650px">}} -->
+ <!-- {{<floating_image image="/projects/hubiquitous/hubiquitous-custom.webp" float="right" width="650px">}}  -->
 {{<floating_video link="https://www.youtube.com/embed/cfnPDh1yvh8">}}
 
 # Empowering Smart Cities: The HUBiquitous Project
 HUBiquitous is a Horizon 2020’s Innovation Action aiming at creating a joint Africa-Europe Startup & Innovation Ecosystem for long-term collaborations and partnerships. 
 
-{{<au-circle-icon-text icon="/img/icons/mission-star.svg">}}
-### IoT platform
-Develop a low-cost and user-friendly IoT platform with tools and services for flexible and customizable building and deployment of IoT applications for African SMEs and communities.
-{{</au-circle-icon-text>}}
-
-{{<au-circle-icon-text icon="/img/icons/mission-star.svg">}}
-### Sustainable Development
-Promoting sustainable development in Africa through IoT applications, innovation, entrepreneurship, and stakeholder networking to support IoT adoption and diffusion in Africa.
-{{</au-circle-icon-text>}}
+{{<line_break>}}
+{{<button_action link="/projects/hubiquitous/">}} Read more {{</button_action>}}
 
 {{<end_floating_image>}}
 
@@ -51,4 +44,4 @@ Promoting sustainable development in Africa through IoT applications, innovation
 
 {{<project_cards>}}
 
-{{<subscribe_section>}}
+<!-- {{<subscribe_section>}} -->

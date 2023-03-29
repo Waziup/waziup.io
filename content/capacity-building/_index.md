@@ -90,4 +90,4 @@ Providing mentorship and guidance to participants.
 Waziup IoT Labs offer digital prototyping and experimentation possibilities with hardware and software. With our expertise and engagement in the developers and entrepreneurs community for IoT innovations have helped the Universities, Tech-Hubs, DIHs, Makerspaces creating and managing the IoT Labs.
 {{</section_banner>}} -->
 
-{{<subscribe_section>}}
+<!-- {{<subscribe_section>}} -->

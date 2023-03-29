@@ -1,20 +1,21 @@
 ---
 title: Intel-IrriS Prima Project
-cover: cover.webp
+cover: cover.png
 description: "Intel-IrriS Prima Project: Improving Water Management for Small-Scale Farmers"
-category: EU | Africa
+category: PRIMA | EU
 date: 2022-01-01
 ---
 
-{{<page_banner banner="banner.webp" >}}
-# Intel-IrriS Prima Project
-{{</page_banner >}}
+{{<single_page_banner>}}
+Intel-IrriS Prima 2020
+{{</single_page_banner >}}
 
 [SECTION_TRANSPARENT]
 
-{{<floating_image image="intel-iris.png" float="right" width="400px" >}}
+{{<floating_image image="logo.png" float="left" width="300px" >}}
+{{<end_floating_image>}}
 
-## Improving Water Management for Small-Scale Farmers
+## Intelligent Irrigation System for Low-cost Autonomous Water Control in Small-scale Agriculture
 
 Intel-IrriS is a PRIMA project from Section 2 Multitopic 2020 Thematic Area 1-Water management addressing low cost, lean solutions for enhancing irrigation efficiency of small-scale farms. 
 
@@ -28,9 +29,12 @@ Intel-IrriS will provide the smallholder farmers a more efficient management of 
 Get the [PRIMA 2020 booklet](https://prima-med.org/wp-content/uploads/2021/12/PRIMA_booklet_2020.pdf) where INTEL-IRRIS is presented in pages 90-91.
 
 
-As a member of the Waziup consortium, Waziup may be contributing its expertise in IoT and edge computing to the Intel IRRIS Prima project, as well as supporting the deployment and adoption of these innovative solutions in Africa. The project aligns with Waziup's mission to promote the use of IoT technologies to address development challenges and improve people's lives in African communities.
+**Contries Involved:** Greece,France,Senegal, Netherlands, Germany, Serbien, Ghana, Nigeria, Benin, Switzerland, England, United Kingdom
 
-### Related Contents
+**Website:** [www.intel-irris.eu/](https://intel-irris.eu/)
 
-- The INTEL-IRRIS soil sensor device & WaziGate framework for intelligent irrigation in-the-box [YOUTUBE VIDEO](https://www.youtube.com/watch?v=j-1Nk0tv0xM)
-- Intel-IrriS website [www.intel-irris.eu/](https://intel-irris.eu/)
+**Duration:** June 2021 - 2024
+
+{{<floating_image image="prima-logo.png" float="left" width="75px" style="margin-right: 1rem" >}}
+{{<floating_image image="eu-flag.png" float="left" width="75px" style="margin-right: 1rem" >}}
+This project has received funding from PRIMA and the European Union’s Horizon Europe research and innovation programme.

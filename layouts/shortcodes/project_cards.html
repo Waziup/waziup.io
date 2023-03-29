@@ -3,18 +3,17 @@
 
 {{ $projects := first 6 $projectPage.Pages }}
 
-<div class="card-group">
-  {{ range sort $projects ".Date" "desc" }}
-    {{ $project := . }}
-
-  <!-- - Project: {{.Title}}<br> -->
-  {{ $cover := $project.Resources.GetMatch .Params.cover }}
-  {{ partial "card.html" (dict
-    "Permalink" $project.Permalink
-    "Cover" $cover.RelPermalink
-    "Category" $project.Params.category
-    "Date" ($project.Date.Format "January 2, 2006")
-    "Description" $project.Description )}}
-
-  {{ end }}
-</div>
+  <div class="card-group">
+    {{ range sort $projects ".Date" "desc" }}
+      {{ $project := . }}
+  
+    <!-- - Project: {{.Title}}<br> -->
+    {{ $cover := $project.Resources.GetMatch .Params.cover }}
+    {{ partial "project-card.html" (dict
+      "Permalink" $project.Permalink
+      "Cover" $cover.RelPermalink
+      "Category" $project.Params.category
+      "Title" $project.Title )}}
+  
+    {{ end }}
+  </div>

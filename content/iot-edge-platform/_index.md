@@ -67,4 +67,4 @@ Waziup has introduced an open source, low-cost, powerful and customizable iot ki
 
 {{<case_study_cards>}}
 
-{{<subscribe_section>}}
+<!-- {{<subscribe_section>}} -->
