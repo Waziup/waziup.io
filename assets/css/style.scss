@@ -1185,9 +1185,14 @@ h1 {
 		width: 100%;
 	}
 }
-@media(max-width:$md) {
+@media(min-width:$md) {
 	.card-group>.project-card {
 		width: 45%;
+	}
+}
+@media(min-width:$lg) {
+	.card-group>.project-card {
+		width: 30%;
 	}
 }
 
