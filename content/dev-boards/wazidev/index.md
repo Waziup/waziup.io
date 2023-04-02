@@ -13,7 +13,8 @@ WaziDev
 
 {{<floating_image image="wazidev.png" float="right" width="400px" >}}
 
-**About Devboard:** WaziDev is a Sensing and Actuation platform for your applications! It can send your data up to 7 Km using the LoRa technology. It is easily programmable and customizable, using Arduino technology. It is an ideal solution for start-ups and entrepreneurs who want to rapid prototype a IoT applications. 
+**About Devboard:** WaziDev is a Sensing and Actuation development board for IoT applications. It transmits data up to 7Km using the RFM95W LoRa module with an embedded LoRa antenna. 
+It is easily programmable and customizable, using Arduino technology. Embedded is a Lipo battery charger for solar panels and low power options. An ideal solution for start-ups and entrepreneurs who want to rapidly prototype IoT applications
 
 **Features:**
 - Arduino Pro Mini compatible CPU

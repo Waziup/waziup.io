@@ -1,5 +1,6 @@
 <div
-    class="floating-image {{ if eq (.Get "float") "left"}}floating-image-left{{end}}"
+    
+    class="floating-image {{ .Get "float" }}"
     style="{{ .Get "style" }}"
 >
   <img 

@@ -815,7 +815,7 @@ h1 {
 	padding: .6rem 1rem;
 	color: #fff;
 	background-color: $waziup-orange-deep;
-	border-radius: .2rem;
+	border-radius: 2px;
 	border: none;
 	box-shadow: none;
 	cursor: pointer;
@@ -1220,6 +1220,18 @@ h1 {
 		width: 550px;
 		height: 400px;
 	}
+}
+.left{
+	float: left;
+	margin-right: 10vw;
+}
+.right{
+	float: right;
+	margin-left: 10vw;
+}
+.middle{
+	float: middle;
+	margin: auto;
 }
 
 .floating-image-left {
@@ -2506,6 +2518,20 @@ $background-color_3: white;
 		color: #fff;
 		background-color: #0D1528;
 		order: 1;
+	}
+	.text-link {
+		text-decoration: none;
+		color: $waziup-dark;
+		padding: .5rem 1rem;
+		display: flex;
+		align-items: center;
+		gap: .5rem;
+		width: fit-content;
+
+		&:hover {
+			background-color: $waziup-dark;
+			color: #fff;
+		}
 	}
 
 	.kit-img {

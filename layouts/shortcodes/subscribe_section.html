@@ -3,10 +3,9 @@
   style="background-image: url('/img/subscription.svg')"
 >
   <div class="left-item">
-    <h2>Stay up to date!</h2>
-    <h4>Join our mailing list and stay updated.</h4>
+    {{ .Inner | markdownify }}
     <a class="btn-lemo-solid btn-lemo-lined" href="/contact">
-      Subscribe to our Newsletter
+      {{ .Get "button-text" }}
     </a>
   </div>
   <div class="right-item">

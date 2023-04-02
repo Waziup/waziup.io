@@ -46,7 +46,7 @@ Automation & remote management
 Low power consumption
 {{</custom_bullet>}}
 {{<line_break>}}
-{{<button_action>}}Learn more{{</button_action>}}
+{{<button_action link="/iot-edge-platform/wazigate">}}Learn more{{</button_action>}}
 
 
 
@@ -63,14 +63,14 @@ Low power consumption
 
 [SECTION_DARK]
 
-{{<line_break>}}
-{{<line_break>}}
-{{<wazidev_kit_branding  image="edge-kit.webp" goto-link="/iot-edge-platform/prototyping-kit">}}
+{{<floating_image image="edge-kit.webp" float="right" width="550px" style="margin-left: 2rem;">}}
 
 # WaziDev IoT Prototyping Kit
 
 Waziup has introduced an open source, low-cost, powerful and customizable iot kit to serve the need of enthusiasts.
-{{</wazidev_kit_branding>}}
+
+{{<button_action link="/iot-edge-platform/prototyping-kit">}}Learn more{{</button_action>}}
+
 {{<line_break>}}
 {{<line_break>}}
 
