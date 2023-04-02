@@ -1,4 +1,5 @@
 <div class="title" style="{{ .Get "text-style"}}">
-    <h3>{{ .Inner | markdownify}}</h3>
+    {{ .Inner | markdownify}}
     <div class="line" style="{{ .Get "line-style"}}"></div>
+    <h6>{{ .Get "sub-title"}}</h6>
 </div>

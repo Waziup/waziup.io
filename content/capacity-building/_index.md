@@ -2,28 +2,37 @@
 title: Capacity Building
 ---
 
-{{<page_banner banner="/img/capacity-banner.webp" >}}
+[SECTION_DARK]
 
-# CAPACITY BUILDING PROGRAM
+{{<page_banner_alt  image="capacity-banner.png" goto-link="http://35.157.161.231:8086/" button-text="Try WaziLab">}}
 
-{{</page_banner >}}
+# Waziup capacity building offers:
+- WaziLab: Learn IoT through live prototyping 
+- Solution Lab: A key-in-hand IoT Lab
+- Bootcamps and hackathons
+
+{{</page_banner_alt>}}
+
+
+{{<line_break>}}
+{{<line_break>}}
 
 [SECTION_TRANSPARENT]
 
 {{<floating_image image="/img/learning-center.png" float="right" width="600px">}}
 
-# IoT Learning Center
-Waziup Learning Center provides online courses in IoT, Cloud Computing, and Data Science to equip learners with relevant skills for the digital age. The Learning Center is primarily for: 
+# WaziLab
+The WaziLab is a platform for learning IoT through live prototyping. It simplifies the prototyping process for startups through better hardware accessibility, guided prototyping, IoT capacity building and initial business support for startups. It features:
 
-{{<au-circle-icon-text icon="/img/icons/mission-star.svg">}}
-## IoT Startups & Enthusiasts
-Prototyping and application deployment is made easier for new startups.
-{{</au-circle-icon-text>}}
-
-{{<au-circle-icon-text icon="/img/icons/mission-star.svg">}}
-## Students and Trainers
-A collaborative learning environment is provided to benfit students and teachers.
-{{</au-circle-icon-text>}}
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+Online courses tuned to your own pace
+{{</custom_bullet>}}
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+Live prototyping and solution building
+{{</custom_bullet>}}
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+IoT Lab management
+{{</custom_bullet>}}
 
 {{<button_action link="https://lab.waziup.io/">}}Try Now{{</button_action>}} 
 
@@ -35,10 +44,15 @@ A collaborative learning environment is provided to benfit students and teachers
 
 [SECTION_OFFWHITE]
 
-<!-- {{<line_break>}} -->
-{{<floating_image image="certificate.webp" float="left" width="600px">}}
+{{<title>}}
+### Waziup Certification
+{{</title>}}
+{{<line_break>}}
+{{<line_break>}}
 
-# Waziup Certification
+{{<floating_image image="certificate.png" float="left" width="600px">}}
+
+
 Advance your IoT knowledge with Waziup's Certification - offering online tutorials, webinars, and hands-on training for individuals, institutes, and SMEs of all skill levels. Start your journey to IoT mastery today!
 
 {{<line_break>}}
@@ -52,9 +66,11 @@ Advance your IoT knowledge with Waziup's Certification - offering online tutoria
 
 [SECTION_TRANSPARENT]
 
-{{<floating_image image="/img/wazihack.webp" float="right" width="600px">}}
+{{<title>}}
+### Waziup Innovative Hackathon Event
+{{</title>}}
 
-# Join Waziup Innovative Hackathon Event!
+{{<floating_image image="hackathon.JPG" float="right" width="600px">}}
 
 Join Waziup's hackathon and unleash your inventiveness. This event offers cash prizes, networking opportunities, and a chance to showcase your skills and ideas. Explore your potential at the Waziup Hackathon.
 

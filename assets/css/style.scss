@@ -861,7 +861,7 @@ h1 {
 	font-weight: 500;
 	gap: .7rem;
 
-	>h3 {
+	>h3, h6 {
 		margin: 0;
 	}
 
@@ -1187,7 +1187,7 @@ h1 {
 }
 
 @media(max-width:$xl) {
-	.card-group{
+	.card-group {
 		gap: 1.5rem;
 	}
 }
@@ -1221,15 +1221,20 @@ h1 {
 		height: 400px;
 	}
 }
-.left{
+
+.left {
 	float: left;
+	margin-left: 0;
 	margin-right: 10vw;
 }
-.right{
+
+.right {
 	float: right;
 	margin-left: 10vw;
+	margin-right: 0;
 }
-.middle{
+
+.middle {
 	float: middle;
 	margin: auto;
 }
@@ -1283,6 +1288,18 @@ h1 {
 
 	.floating-image>img {
 		width: 100%;
+	}
+}
+
+.tilt-effect {
+	transform:
+		rotate(10deg) skew(350deg);
+	// box-shadow: 24px 16px 64px 0 rgba(0, 0, 0, 0.08);
+	border-radius: 2px;
+}
+@media(max-width:$lg) {
+	.tilt-effect{
+		transform: rotate(0deg) skew(0deg);
 	}
 }
 
@@ -2504,7 +2521,7 @@ $background-color_3: white;
 	flex-wrap: wrap;
 
 	.centered {
-		margin-left: 15rem;
+		margin-left: 8rem;
 
 		>a {
 			text-decoration: none;
@@ -2519,6 +2536,7 @@ $background-color_3: white;
 		background-color: #0D1528;
 		order: 1;
 	}
+
 	.text-link {
 		text-decoration: none;
 		color: $waziup-dark;
@@ -2546,11 +2564,12 @@ $background-color_3: white;
 	}
 }
 
-@media(max-width: $sm) {
+@media(max-width: $md) {
 	.kit-branding {
-		.centered{
+		.centered {
 			margin-left: 0;
 		}
+
 		.text-content {
 			width: 100%;
 			order: 2;
@@ -2559,6 +2578,13 @@ $background-color_3: white;
 		.kit-img {
 			width: 100%;
 			order: 1;
+		}
+	}
+}
+@media(max-width: $xl) {
+	.kit-branding {
+		.centered {
+			margin-left: 0;
 		}
 	}
 }

@@ -4,7 +4,9 @@ title: IoT Edge Platform
 
 [SECTION_DARK]
 
-{{<title line-style="visibility: hidden">}}DEVELOP, DEPLOY, CONNECT !{{</title>}}
+{{<title line-style="visibility: hidden">}}
+### DEVELOP, DEPLOY, CONNECT !
+{{</title>}}
 
 {{<page_banner_alt  image="Ecosystem2.png" goto-link="https://dashboard.waziup.io/" button-text="Try Dashboard">}}
 
@@ -20,7 +22,9 @@ title: IoT Edge Platform
 
 [SECTION_OFFWHITE]
 
-{{<title >}}Edge Gateway{{</title>}}
+{{<title >}}
+### Edge Gateway
+{{</title>}}
 
 {{<line_break>}}
 {{<floating_image image="multibox.png" float="right" width="550px" style="margin-left: 2rem;">}}
@@ -55,7 +59,9 @@ Low power consumption
 
 [SECTION_TRANSPARENT]
 
-{{<title>}}Our Development Boards{{</title>}}
+{{<title>}}
+### Our Development Boards
+{{</title>}}
 
 {{<line_break>}}
 {{<dev_board_cards>}}
@@ -74,10 +80,28 @@ Waziup has introduced an open source, low-cost, powerful and customizable iot ki
 {{<line_break>}}
 {{<line_break>}}
 
-[SECTION_OFFWHITE]
+[SECTION_TRANSPARENT]
 
-{{<title>}}Cloud Platform{{</title>}}
+<!-- {{<cp_circular_cards>}} -->
 
-{{<cp_circular_cards>}}
+{{<line_break>}}
+{{<title sub-title="Manage your Sensors and Actuators Remotely">}} 
+### Cloud Platform 
+{{</title>}}
+
+{{<line_break>}}
+{{<line_break>}}
+{{<floating_image image="cloud-platform-services.png" float="right" width="500px" style="margin-left: 2rem" tilt="true">}}
+
+The WAZIUP Cloud platform allows you to manage your sensors, actuators and IoT data. WAZIUP Cloud platform offers everything that you need for your application:
+- Remote connection of your sensors and actuators
+- Send, receive, collect, store and analyze the data they generate
+- Turn that data into actionable insights, in real time
+- Using SMS or mobile application for notification
+- Control your gateways from remote
+- Extensive API for developing your own application
+{{<end_floating_image>}}
+{{<line_break>}}
+{{<line_break>}}
 
 <!-- {{<subscribe_section>}} -->
