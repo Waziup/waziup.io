@@ -4,13 +4,14 @@
 {{ $devboards := first 6 $devboardsPage.Pages }}
 
 <div class="card-group" style="margin-top: auto;">
-  {{ range sort $devboards ".Date" "desc" }} {{ $devboards := . }}
+  {{ range sort $devboards ".Weight" "desc" }} {{ $devboards := . }}
 
   <!-- - devboards: {{.Title}}<br> -->
   {{ $cover := $devboards.Resources.GetMatch .Params.cover }} {{ partial
   "devboard-card.html" (dict
   "Cover" $cover.RelPermalink
   "Title" $devboards.Params.title 
-  "Description" $devboards.Description )}} 
+  "Description" $devboards.Description
+  "Permalink" $devboards.Permalink )}} 
   {{ end }}
 </div>

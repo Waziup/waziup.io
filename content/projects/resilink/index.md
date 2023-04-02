@@ -33,3 +33,6 @@ RESILINK has the clear ambition to make digital smart technologies attractive & 
 {{<floating_image image="prima-logo.png" float="left" width="75px" style="margin-right: 1rem" >}}
 {{<floating_image image="eu-flag.png" float="left" width="75px" style="margin-right: 1rem" >}}
 This project has received funding from PRIMA and the European Union’s Horizon Europe research and innovation programme.
+
+{{<line_break>}}
+{{<line_break>}}

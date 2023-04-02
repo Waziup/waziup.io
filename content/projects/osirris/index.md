@@ -1,6 +1,6 @@
 ---
 title: Osirris Project
-cover: cover.png
+cover: cover_.png
 description: "Precision Irrigation with Cost-effective and Autonomic IoT Devices using Artificial Intelligence at the Edge"
 category: TUNGER 2+2
 date: 2023-03-29
@@ -30,4 +30,7 @@ The various components of the OSIRRIS platform will run on open and affordable h
 This is a German-Tunisia funded project under Tunger 2+2. 
 
 {{<floating_image image="bmbf-logo.png" float="left" width="75px" style="margin-right: 1rem" >}}
-This project has received funding from the TUNGER 2+2 research and innovation programme. The German project partners are funded by the BMBF and the Tunisian project partners are funded by the Tunisian Ministry of Higher Education and Scientific Research (MoHESR) under the guideline of TUNGER 2+2
+This project has received funding from the TUNGER 2+2 research and innovation programme. The German project partners are funded by the BMBF and the Tunisian project partners are funded by the Tunisian Ministry of Higher Education and Scientific Research (MoHESR) under the guideline of TUNGER 2+2.
+
+{{<line_break>}}
+{{<line_break>}}

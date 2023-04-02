@@ -2,11 +2,15 @@
 title: WaziDev IoT LoRa Prototyping Kit
 ---
 
-{{<page_banner banner="../edge-kit.webp" >}}
+<!-- {{<page_banner banner="../edge-kit.webp" >}}
 
-# WaziDev IoT LoRa Prototyping Kit
+# WaziDev IoT Prototyping Kit
 
-{{</page_banner >}}
+{{</page_banner >}} -->
+
+{{<single_page_banner bbanner="../edge-kit.webp" >}}
+WaziDev IoT Prototyping Kit
+{{</single_page_banner >}}
 
 [SECTION_TRANSPARENT]
 

@@ -467,19 +467,20 @@ h1 {
 	}
 }
 
-.page-banner-static-color{
+.page-banner-static-color {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 5em;
 	font-weight: 300;
 	color: #fff;
-    height: 200px;
-    overflow: hidden;
-    background-color: #0d1528;
-    margin-top: 5.5rem;
+	height: 200px;
+	overflow: hidden;
+	background-color: #0d1528;
+	margin-top: 5.5rem;
 	padding: 1rem;
 }
+
 @media (max-width:$md) {
 	.page-banner-static-color {
 		margin: 5rem -10vw 0;
@@ -489,7 +490,7 @@ h1 {
 
 .section-transparent {
 	margin: 0 -10vw;
-	padding: 5vh 10vw 0;
+	padding: 5vh 10vw;
 }
 
 .section-off-white {
@@ -524,7 +525,7 @@ h1 {
 	background-color: $waziup-dark;
 	color: #fff;
 	margin: 2rem -10vw;
-	padding: 5vh 10vw;
+	// padding: 2.5vh 10vw;
 
 	>div,
 	p {
@@ -535,21 +536,21 @@ h1 {
 @media (max-width:$sm) {
 	.section-dark {
 		margin: auto -5vw 0;
-		padding: 5rem 5vw;
+		padding: 2.5rem 5vw;
 	}
 }
 
 @media (max-width:$xl) {
 	.section-dark {
 		margin: auto -10vw 0;
-		padding: 5rem 10vw;
+		padding: 2.5rem 10vw;
 	}
 }
 
 @media (min-width:$xxl) {
 	.section-dark {
 		margin: auto -20vw 0;
-		padding: 5rem 20vw;
+		padding: 2.5rem 20vw;
 	}
 }
 
@@ -813,14 +814,14 @@ h1 {
 	justify-content: center;
 	padding: .6rem 1rem;
 	color: #fff;
-	background-color: #F48652;
+	background-color: $waziup-orange-deep;
 	border-radius: .2rem;
 	border: none;
 	box-shadow: none;
 	cursor: pointer;
 	font-size: 1em;
 	text-decoration: none;
-	margin-top: inherit;
+	margin-top: 2rem;
 }
 
 .btn-lemo-lined {
@@ -848,7 +849,8 @@ h1 {
 }
 
 .title {
-	margin: 3rem auto;
+	margin: auto;
+	margin-bottom: 1.5rem;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -887,6 +889,7 @@ h1 {
 	padding: 1rem 0;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	gap: 2.5rem;
 	list-style-type: none;
 
@@ -1031,11 +1034,10 @@ h1 {
 		}
 	}
 
-
 	.dev-board-card {
 		// box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 		transition: 0.3s;
-		width: 30%;
+		width: 23%;
 		// border-radius: 5px;
 		text-decoration: none;
 		color: #333;
@@ -1177,19 +1179,25 @@ h1 {
 			width: 60%;
 		}
 	}
-	
-}
 
-@media(max-width:$sm) {
 	.card-group>.project-card {
 		width: 100%;
 	}
+
 }
+
+@media(max-width:$xl) {
+	.card-group{
+		gap: 1.5rem;
+	}
+}
+
 @media(min-width:$md) {
 	.card-group>.project-card {
 		width: 45%;
 	}
 }
+
 @media(min-width:$lg) {
 	.card-group>.project-card {
 		width: 30%;
@@ -1209,7 +1217,7 @@ h1 {
 	}
 
 	iframe {
-		width: 700px;
+		width: 550px;
 		height: 400px;
 	}
 }
@@ -1220,18 +1228,18 @@ h1 {
 	margin-left: 0;
 }
 
-@media (max-width: $xl) {
+@media (min-width: $xl) {
 	.floating-image {
 		img {
-			width: 550px;
+			max-width: 700px;
 		}
 	}
 }
 
-@media (min-width: $lg) {
+@media (max-width: $xl) {
 	.floating-image {
 		img {
-			// height: 450px;
+			max-width: 500px;
 		}
 	}
 }
@@ -2406,7 +2414,7 @@ $background-color_3: white;
 .icon-text {
 	display: flex;
 	gap: 2rem;
-	margin: 1.5rem auto;
+	margin: 1rem auto;
 
 	.circle-container {
 		width: auto;
@@ -2483,8 +2491,17 @@ $background-color_3: white;
 	display: flex;
 	flex-wrap: wrap;
 
+	.centered {
+		margin-left: 15rem;
+
+		>a {
+			text-decoration: none;
+		}
+	}
+
 	.text-content {
 		width: 50%;
+		justify-content: center;
 		padding: 3rem 3rem 0 0;
 		color: #fff;
 		background-color: #0D1528;
@@ -2505,6 +2522,9 @@ $background-color_3: white;
 
 @media(max-width: $sm) {
 	.kit-branding {
+		.centered{
+			margin-left: 0;
+		}
 		.text-content {
 			width: 100%;
 			order: 2;

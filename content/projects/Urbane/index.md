@@ -38,4 +38,7 @@ while addressing the health risks associated with the intensification of food sy
 
 {{<floating_image image="eu-flag.png" float="left" width="75px" style="margin-right: 1rem" >}}
 
-This project has received funding from the European Union’s Horizon Europe research and innovation programme under grant agreement No 101059232 
+This project has received funding from the European Union’s Horizon Europe research and innovation programme under grant agreement No 101059232.
+
+{{<line_break>}}
+{{<line_break>}}

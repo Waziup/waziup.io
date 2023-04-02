@@ -1,0 +1,10 @@
+<div class="icon-text">
+  <div class="circle-container">
+
+      <img src="{{ .Get "icon" }}" alt="" />
+
+  </div>
+  <div class="text">
+    {{ .Inner | markdownify }}
+  </div>
+</div>

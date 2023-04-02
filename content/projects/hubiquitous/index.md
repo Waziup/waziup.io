@@ -39,3 +39,6 @@ The project proposes highly innovative concepts called Innovation Enablers (i.e.
 
 {{<floating_image image="eu-flag.png" float="left" width="75px" style="margin-right: 1rem" >}}
 This project has received funding from the Horizon 2020 research and innovation programme under grant agreement No 101016895
+
+{{<line_break>}}
+{{<line_break>}}
