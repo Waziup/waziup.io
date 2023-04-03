@@ -43,9 +43,15 @@ $margin-adjust-with-container-xxl: auto -20vw;
 body {
 	margin: 0px;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-	font-size: medium;
+	font-size: 1.2em;
+	line-height: 1.8em;
 	color: #515b60;
 	background-color: #fafafa;
+}
+@media(max-width: $md){
+	>.body{
+		font-size: medium;
+	}
 }
 
 h1 {
@@ -432,7 +438,7 @@ h1 {
 .page-banner {
 	position: relative;
 	display: flex;
-	height: 450px;
+	height: 300px;
 	overflow: hidden;
 	padding: 2rem;
 	margin: 5rem -20vw 0;
@@ -443,7 +449,7 @@ h1 {
 		left: 0;
 		width: 100%;
 		height: 100%;
-		// object-fit: cover;
+		object-fit: cover;
 		// z-index: 2;
 	}
 }
@@ -456,7 +462,7 @@ h1 {
 
 @media (max-width:$xl) {
 	.page-banner {
-		height: 20rem;
+		height: 10rem;
 		margin: 5rem -10vw 0;
 	}
 }
@@ -638,7 +644,7 @@ h1 {
 
 	>h1 {
 		text-align: center;
-		color: #fff;
+		// color: #fff;
 		margin: auto;
 	}
 }
@@ -812,7 +818,7 @@ h1 {
 	width: fit-content;
 	align-items: center;
 	justify-content: center;
-	padding: .6rem 1rem;
+	padding: .6rem 2rem;
 	color: #fff;
 	background-color: $waziup-orange-deep;
 	border-radius: 2px;
@@ -992,8 +998,8 @@ h1 {
 				color: #fff;
 				padding: 4px 16px;
 				position: absolute;
-				left: 16px;
-				top: 0px;
+				right: 16px;
+				bottom: 0px;
 			}
 		}
 
@@ -1248,7 +1254,7 @@ h1 {
 @media (min-width: $xl) {
 	.floating-image {
 		img {
-			max-width: 700px;
+			max-width: 800px;
 		}
 	}
 }
@@ -1302,6 +1308,28 @@ h1 {
 		transform: rotate(0deg) skew(0deg);
 	}
 }
+
+.chip{
+	display: inline-flex;
+	justify-content:center;
+	align-items: center;
+	gap: 8px;
+	height: fit-content;
+	width: fit-content;
+	padding: 3px 12px;
+	margin: 4px;;
+	background-color: #EBEBEB;
+	border: #DBDBDB 1px solid;
+	border-radius: 30px;
+	
+	.dot{
+		height: 10px;
+	width: 10px;
+	background-color: #F35E19;
+	border-radius: 50%;
+	display: inline-block;
+	}
+  }
 
 .news-recent {
 	padding: 2vw 0;
@@ -2380,15 +2408,13 @@ $background-color_3: white;
 
 .logoshow {
 	display: flex;
-	// overflow: hidden;
-	animation: slide 10s infinite linear;
-	margin: 2rem auto;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 3rem;
 
 	img {
 		flex: 0 0 auto;
-		width: 15%;
-		margin-right: 5%;
-		// border: #0D1528 1px solid;
+		width: 10%;
 	}
 }
 

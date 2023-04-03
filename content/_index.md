@@ -3,9 +3,9 @@ title: Home
 banner: /img/home-banner.webp
 ---
 
-{{<home_banner banner="/img/home-banner.svg">}}
+<!-- {{<home_banner banner="/img/home-banner.svg">}}
 # Empowering Startups and SMEs with IoT and Artificial Intelligence
-{{</home_banner>}}
+{{</home_banner>}} -->
 
 [SECTION_TRANSPARENT]
 

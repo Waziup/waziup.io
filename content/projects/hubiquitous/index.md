@@ -6,9 +6,13 @@ category: Horizon 2020
 date: 2022-03-15
 ---
 
-{{<single_page_banner banner="banner.webp" >}}
+<!-- {{<single_page_banner banner="banner.webp" >}}
 HUBiquitous Horizon 2020
-{{</single_page_banner >}}
+{{</single_page_banner >}} -->
+{{<page_banner banner="/img/gray-shapes-banner.png" style="color: #0d1528">}}
+# HUBiquitous Horizon 2020
+{{</page_banner >}}
+
 
 [SECTION_TRANSPARENT]
 

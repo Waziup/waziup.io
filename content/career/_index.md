@@ -3,8 +3,8 @@ title: Career
 # hide_footer: true   // this meta info indicates the footer hiding thing.
 ---
 
-{{<page_banner banner="/img/career-banner.svg" >}}
-# WE ARE HIRING!
+{{<page_banner banner="/img/gray-shapes-banner.png" style="color: #0d1528">}}
+# We are hiring!
 {{</page_banner >}}
 
 # Waziup Work Culture

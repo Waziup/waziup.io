@@ -2,7 +2,7 @@
 title: News
 ---
 
-{{<page_banner banner="/img/about-banner.webp" >}}
+{{<page_banner banner="/img/gray-shapes-banner.png" style="color: #0d1528">}}
 # Waziup News
 {{</page_banner >}}
 

@@ -3,15 +3,15 @@ title: About Us
 # hide_footer: true   // this meta info indicates the footer hiding thing.
 ---
 
-{{<page_banner banner="/img/about-banner.webp" >}}
+{{<page_banner banner="/img/gray-shapes-banner.png" style="color: #0d1528">}}
 # About Us
 {{</page_banner >}}
 
 [SECTION_TRANSPARENT]
 
-{{<floating_image image="about-us.webp" float="right" width="500px" style="margin-left: 5vw">}}
-
-#### About Us
+{{<line_break>}}
+{{<line_break>}}
+{{<floating_image image="we-do.svg" float="right" width="700px" style="margin-left: 5vw">}}
 
 # We Foster IoT Solutions For Sustainable Development
 
@@ -34,38 +34,87 @@ Our Vision is to be a top Web Design company in the IT sector and progress in ou
 {{<line_break>}}
 {{<line_break>}}
 
-[SECTION_TRANSPARENT]
+[SECTION_OFFWHITE]
 
-{{<floating_image image="why-choose.webp" float="left" width="500px">}}
-#### WHY CHOOSE US
+{{<title>}}
+### Why Choose Us
+{{</title>}}
+
+{{<line_break>}}
+{{<line_break>}}
+
+{{<floating_image image="why-choose.JPG" float="left">}}
 
 # We Are Building A Sustainable Future
 
-WAZIUP promotes tech and capacity building in emerging countries with affordable and adaptable IoT solutions. Our open-source platform accelerates social innovation and empowers local IoT entrepreneurship.
-
-{{<icon_names>}}
-
+{{<line_break>}}
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+Expertise in African market: Strong startup network, deep understanding of regulations and market readiness.
+{{</custom_bullet>}}
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+Pioneering IoT solutions tailored to African context
+{{</custom_bullet>}}
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+Proven track record in building IoT platforms from scratch.
+{{</custom_bullet>}}
 {{<end_floating_image>}}
+{{<line_break>}}
 
 [SECTION_TRANSPARENT]
 
-{{<title>}}Our Network{{</title>}}
+{{<title>}} 
+### Our Network
+{{</title>}}
 
-{{<section_banner banner="/img/network-map.png">}}{{</section_banner>}}
+{{<floating_image image="network-map.svg" float="right">}}
+
+{{<line_break>}}
+{{<line_break>}}
+We have an extended network in Europe and Africa. We developed projects in 17 African countries and have more than 10000 community members. We focus on partnerships with **Digital Innovation Hubs and Startups**.
+
+
+{{<line_break>}}
+{{<line_break>}}
+{{<chip>}} Morocco {{</chip>}} {{<chip>}} Senegal {{</chip>}} {{<chip>}} Tunisia {{</chip>}}
+{{<chip>}} Kenya {{</chip>}}
+{{<chip>}} Togo {{</chip>}}
+{{<chip>}} Burkina Faso {{</chip>}}
+{{<chip>}} Benin {{</chip>}}
+{{<chip>}} Algeria {{</chip>}}
+{{<chip>}} Ghana {{</chip>}}
+{{<chip>}} Nigeria {{</chip>}}
+{{<chip>}} Egypt {{</chip>}}
+{{<chip>}} Tanzania {{</chip>}}
+{{<chip>}} Zambia {{</chip>}}
+{{<chip>}} Congo {{</chip>}}
+{{<chip>}} Ethiopia {{</chip>}}
+{{<chip>}} South Africa {{</chip>}}
+{{<chip>}} Uganda {{</chip>}}
+{{<chip>}} Germany {{</chip>}}
+{{<chip>}} Italy {{</chip>}}
+{{<chip>}} France {{</chip>}}
+{{<end_floating_image>}}
 
 [SECTION_DARK]
 
-{{<title line-style="border-color: #fff">}}Our Ecosystem{{</title>}}
+{{<title line-style="border-color: #fff">}}
+### Our Ecosystem
+{{</title>}}
 
 {{<ecosystem_cards>}}
 
 [SECTION_TRANSPARENT]
 
-{{<title>}}Our Experts{{</title>}}
+{{<title>}}
+### Our Team
+{{</title>}}
 
 {{<team_members>}}
 
-{{<subscribe_section>}}
+[SECTION_OFFWHITE]
 
-{{<title text-style="align-items: center;">}}Our Partners{{</title>}}
+{{<title>}}
+### Our Partners
+{{</title>}}
+{{<line_break>}}
 {{<logoshow>}}

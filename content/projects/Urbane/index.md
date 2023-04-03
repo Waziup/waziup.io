@@ -6,7 +6,10 @@ category: Horizon EU
 date: 2023-03-28
 ---
 
-{{<single_page_banner>}} Urbane Horizon 2020 {{</single_page_banner >}}
+<!-- {{<single_page_banner>}} Urbane Horizon 2020 {{</single_page_banner >}} -->
+{{<page_banner banner="/img/gray-shapes-banner.png" style="color: #0d1528">}}
+# Urbane Horizon 2020
+{{</page_banner >}}
 
 {{<floating_image image="logo.png" float="left" width="300px" >}}
 {{<end_floating_image>}}
@@ -31,7 +34,7 @@ while addressing the health risks associated with the intensification of food sy
 
 **Contries Involved:** Greece,France,Senegal, Netherlands, Germany, Serbien, Ghana, Nigeria, Benin, Switzerland, England, United Kingdom
 
-**Website:** [https://dedicat6g.eu/](https://urbane-project.eu)
+**Website:** [https://urbane-project.eu/](https://urbane-project.eu)
 
 **Duration:** 07.2022-07.2026
 

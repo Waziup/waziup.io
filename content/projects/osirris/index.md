@@ -6,7 +6,10 @@ category: TUNGER 2+2
 date: 2023-03-29
 ---
 
-{{<single_page_banner>}} Osirris TUNGER 2+2 {{</single_page_banner >}}
+<!-- {{<single_page_banner>}} Osirris TUNGER 2+2 {{</single_page_banner >}} -->
+{{<page_banner banner="/img/gray-shapes-banner.png" style="color: #0d1528">}}
+# Osirris TUNGER 2+2
+{{</page_banner >}}
 
 {{<floating_image image="logo.png" float="left" width="300px" >}}
 {{<end_floating_image>}}

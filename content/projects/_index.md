@@ -1,8 +1,8 @@
 ---
 title: Projects
 ---
-{{<page_banner banner="/img/project-banner.webp" >}}
-# Research and Innovation
+{{<page_banner banner="/img/gray-shapes-banner.png" style="color: #0d1528">}}
+# Research & Innovation
 {{</page_banner >}}
 
 {{<line_break>}}
@@ -12,8 +12,6 @@ title: Projects
 
 {{<floating_video link="https://www.youtube.com/embed/YMGfkLNs624">}}
 
-{{<line_break>}}
-{{<line_break>}}
 # Revolutionizing Irrigation with Intel-IrriS
 
 Intel-Irris provides the smallholder farmers a more efficient management of its available water by deploying of an open, low-cost and autonomous irrigation control system based on IoT and smart technologies.

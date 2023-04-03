@@ -31,9 +31,8 @@ title: IoT Edge Platform
 
 
 {{<line_break>}}
-WaziGate is an IoT LoRaWAN Gateway, ideal for all your remote IoT applications. The Gateway can cover up to 100 IoT Sensors and actuator nodes: Weather stations, soil monitoring, GPS applications… The possibilities are endless! You can host your own applications directly in the gateway. The WaziGate features:
+**WaziGate** is an IoT LoRaWAN Gateway, ideal for all your remote IoT applications. The Gateway can cover up to 100 IoT Sensors and actuator nodes: Weather stations, soil monitoring, GPS applications. The possibilities are endless! You can host your own applications directly in the gateway. The WaziGate features:
 
-{{<line_break>}}
 {{<custom_bullet icon="/img/icons/check-circle.svg">}}
 Edge capacity to host your applications
 {{</custom_bullet>}}
@@ -91,7 +90,7 @@ Waziup has introduced an open source, low-cost, powerful and customizable iot ki
 
 {{<line_break>}}
 {{<line_break>}}
-{{<floating_image image="cloud-platform-services.png" float="right" width="500px" style="margin-left: 2rem" tilt="true">}}
+{{<floating_image image="cloud-platform-services.png" float="right" width="500px" style="margin-left: 2rem" tilt="false">}}
 
 The WAZIUP Cloud platform allows you to manage your sensors, actuators and IoT data. WAZIUP Cloud platform offers everything that you need for your application:
 - Remote connection of your sensors and actuators

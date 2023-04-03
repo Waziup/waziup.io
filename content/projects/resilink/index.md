@@ -6,7 +6,11 @@ category: PRIMA | EU
 date: 2022-11-28
 ---
 
-{{<single_page_banner>}} Resilink: Prima & Horizon Europe {{</single_page_banner >}}
+<!-- {{<single_page_banner>}} Resilink: Prima & Horizon Europe {{</single_page_banner >}} -->
+
+{{<page_banner banner="/img/gray-shapes-banner.png" style="color: #0d1528">}}
+# Resilink: Prima & Horizon Europe 
+{{</page_banner >}}
 
 {{<floating_image image="logo.png" float="left" width="300px" >}}
 {{<end_floating_image>}}
