@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 ---
-
+[SECTION_OFFWHITE]
 
 Data protection declaration:
 ===
@@ -121,9 +121,9 @@ We have commissioned external service providers with tasks such as payment handl
 
 Waziup is the controller responsible for the processing of your data; exceptions are outlined in this data protection notice. Our contact details are as follows:
 
-Waziup e.V.    
-Lipsiusstr 18  
-01309 Dresden  
+Waziup e.V.  
+Räcknitzhohe 50-52  
+01217 Dresden  
 Germany  
 contact@waziup.org
 
