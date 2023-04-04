@@ -5,12 +5,12 @@ title: IoT Edge Platform
 [SECTION_DARK]
 
 {{<title line-style="visibility: hidden">}}
-### DEVELOP, DEPLOY, CONNECT !
+## DEVELOP, DEPLOY, CONNECT !
 {{</title>}}
 
 {{<page_banner_alt  image="Ecosystem2.png" goto-link="https://dashboard.waziup.io/" button-text="Try Dashboard">}}
 
-# Waziup IoT Platform
+## Waziup IoT Platform
 - Free and Open-Source
 - Long range with LoRa network
 - Working with or without Internet!
@@ -27,7 +27,7 @@ title: IoT Edge Platform
 {{</title>}}
 
 {{<line_break>}}
-{{<floating_image image="multibox.png" float="right" width="550px" style="margin-left: 2rem;">}}
+{{<floating_image image="multibox.png" float="right" style="margin-left: 2rem;">}}
 
 
 {{<line_break>}}
@@ -68,7 +68,7 @@ Low power consumption
 
 [SECTION_DARK]
 
-{{<floating_image image="edge-kit.webp" float="right" width="550px" style="margin-left: 2rem;">}}
+{{<floating_image image="edge-kit.webp" float="right" style="margin-left: 2rem;">}}
 
 # WaziDev IoT Prototyping Kit
 

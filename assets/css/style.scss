@@ -44,7 +44,6 @@ body {
 	margin: 0px;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-size: 1.2em;
-	line-height: 1.8em;
 	color: #515b60;
 	background-color: #fafafa;
 }
@@ -58,9 +57,6 @@ body {
 h1 {
 	font-size: 2em;
 }
-
-
-
 
 .nav {
 	height: 5rem;
@@ -416,10 +412,6 @@ h1 {
 	}
 }
 
-@media (max-width:$md) {
-	.container {}
-}
-
 @media (max-width:$xl) {
 	.container {
 		// max-width: 1365px;
@@ -428,7 +420,7 @@ h1 {
 	}
 }
 
-@media (min-width:$xxl) {
+@media (min-width:$xl) {
 	.container {
 		// max-width: 1536px;
 		margin-right: 15vw;
@@ -469,7 +461,7 @@ h1 {
 	}
 }
 
-@media (min-width:$xxl) {
+@media (min-width:$xl) {
 
 	.page-banner {
 		margin: 5rem -20vw 0;
@@ -499,8 +491,10 @@ h1 {
 
 .section-transparent {
 	margin: 0 -10vw;
-	padding: 5vh 10vw;
+	padding: 2rem 10vw;
 }
+
+
 
 .section-off-white {
 	background-color: $waziup-off-white;
@@ -556,7 +550,7 @@ h1 {
 	}
 }
 
-@media (min-width:$xxl) {
+@media (min-width:$xl) {
 	.section-dark {
 		margin: auto -20vw 0;
 		padding: 2.5rem 20vw;
@@ -886,6 +880,12 @@ h1 {
 	.title {
 		margin: 0 0 3vh;
 		width: 100%;
+	}
+}
+
+@media (max-width: $lg) {
+	.title {
+		font-size: 1.5rem;
 	}
 }
 
@@ -1219,11 +1219,13 @@ h1 {
 	float: right;
 	margin-top: 0;
 	margin-right: 0;
-	margin-left: 10vw;
+	margin-bottom: 2rem;
 	overflow: hidden;
+	width: 500px;
 
 	>img {
 		object-fit: cover;
+		width: 100%;
 	}
 
 	iframe {
@@ -1249,36 +1251,39 @@ h1 {
 	margin: auto;
 }
 
-.floating-image-left {
-	float: left;
-	margin-right: 10vw;
-	margin-left: 0;
+@media (min-width: $xxl) {
+	.floating-image {
+		width: 600px;
+	}
+
+	.right {
+		margin-left: 5vw;
+	}
 }
 
 @media (min-width: $xl) {
 	.floating-image {
-		img {
-			max-width: 800px;
-		}
+
 	}
+
+	.right {
+		margin-left: 5vw;
+	}
+	// .left {
+	// 	margin-right: 5vw;
+	// }
 }
 
-@media (max-width: $xl) {
-	.floating-image {
-		img {
-			max-width: 500px;
-		}
-	}
-}
-
-@media (max-width: $md) {
+@media (max-width: $lg) {
 	.floating-image {
 		width: 100%;
 		padding-right: 0;
 		padding-left: 0;
+		margin-left: 0;
 
-		img {
-			width: 100%;
+		.left,
+		.right {
+			margin: 0;
 		}
 
 		iframe {
@@ -1292,12 +1297,8 @@ h1 {
 
 	.floating-image,
 	.floating-image-left {
-		// margin: 3rem auto;
-		padding: 0;
-	}
-
-	.floating-image>img {
 		width: 100%;
+		padding: 0;
 	}
 }
 
@@ -2564,6 +2565,7 @@ $background-color_3: white;
 .kit-branding {
 	width: 100%;
 	display: flex;
+	justify-content: space-between;
 	flex-wrap: wrap;
 
 	.centered {
@@ -2575,12 +2577,20 @@ $background-color_3: white;
 	}
 
 	.text-content {
-		width: 50%;
+		width: 40%;
 		justify-content: center;
-		padding: 3rem 3rem 0 0;
+		margin-bottom: 2rem;
 		color: #fff;
 		background-color: #0D1528;
 		order: 1;
+
+		>div {
+
+			>h1,
+			>h2 {
+				margin: 0 auto;
+			}
+		}
 	}
 
 	.text-link {
@@ -2612,23 +2622,18 @@ $background-color_3: white;
 
 @media(max-width: $md) {
 	.kit-branding {
-		.centered {
-			margin-left: 0;
-		}
 
 		.text-content {
 			width: 100%;
-			order: 2;
 		}
 
 		.kit-img {
 			width: 100%;
-			order: 1;
 		}
 	}
 }
 
-@media(max-width: $xl) {
+@media(max-width: $lg) {
 	.kit-branding {
 		.centered {
 			margin-left: 0;

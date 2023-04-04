@@ -13,15 +13,17 @@ title: Capacity Building
 
 {{</page_banner_alt>}}
 
-
-{{<line_break>}}
-{{<line_break>}}
-
 [SECTION_TRANSPARENT]
 
-{{<floating_image image="wazilab.png" float="right" width="650px">}}
+{{<title>}}
+## Waziup Learning Center
+{{</title>}}
 
-# WaziLab
+{{<floating_image image="wazilab.png" float="right" >}}
+
+{{<line_break>}}
+{{<line_break>}}
+## WaziLab
 The WaziLab is a platform for learning IoT through live prototyping. It simplifies the prototyping process for startups through better hardware accessibility, guided prototyping, IoT capacity building and initial business support for startups. It features:
 
 {{<custom_bullet icon="/img/icons/check-circle.svg">}}
@@ -34,60 +36,46 @@ Live prototyping and solution building
 IoT Lab management
 {{</custom_bullet>}}
 
-{{<button_action link="https://lab.waziup.io/">}}Try Now{{</button_action>}} 
+{{<button_action link="https://lab.waziup.io/">}}Learn more{{</button_action>}} 
 
 {{<end_floating_image>}}
-
-{{<line_break>}}
-{{<line_break>}}
-{{<line_break>}}
 
 [SECTION_OFFWHITE]
 
 {{<title>}}
-### Waziup Innovative Hackathon
+## Waziup Innovative Hackathon
 {{</title>}}
 
-{{<floating_image image="hackathon.JPG" float="right" width="600px">}}
+{{<floating_image image="hackathon.JPG" float="left">}}
 
-WaziHacks are great tools used for capacity building. We organize events where tech enthusiasts gather and solve specific challenges. The event comprise courses and hands-on activities. It is based on a challenge that the participants need to solve and present in front of a jury.
+## WaziHack
+WaziHacks is a capacity-building tool that involves organizing events where tech enthusiasts come together to solve specific challenges. These events include courses and hands-on activities.
 
 We help you with:
 
-{{<au-circle-icon-text icon="/img/icons/mission-star.svg">}}
-### Hosting Events
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+**Event Hosting**
+{{</custom_bullet>}}
 
-Online platform, Resource and Assistance for hosting the event.
-{{</au-circle-icon-text>}}
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+**Marketing and Pomoting Events** 
+{{</custom_bullet>}}
 
-{{<au-circle-icon-text icon="/img/icons/mission-star.svg">}}
-### Marketing & Promotion
-
-Marketing and promoting the event to attract participants.
-{{</au-circle-icon-text>}}
-
-{{<au-circle-icon-text icon="/img/icons/mission-star.svg">}}
-### Mentorship
-
-Providing mentorship and guidance to participants.
-{{</au-circle-icon-text>}}
-
-<!-- We provide you with: 
-- Online platform, Resource and Assistance for hosting the event.
-- Marketing and promoting the event to attract participants.
-- Providing mentorship and guidance to participants. -->
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+**Providing Mentorship and Guidance**
+{{</custom_bullet>}}
 
 {{<end_floating_image>}}
 
 [SECTION_TRANSPARENT]
 
 {{<title>}}
-### Waziup Certification
+## Waziup Certification
 {{</title>}}
 {{<line_break>}}
 {{<line_break>}}
 
-{{<floating_image image="certificate.png" float="left" width="600px">}}
+{{<floating_image image="certificate.png" float="left">}}
 
 
 Advance your IoT knowledge with Waziup's Certification - offering online tutorials, webinars, and hands-on training for individuals, institutes, and SMEs of all skill levels. Start your journey to IoT mastery today!

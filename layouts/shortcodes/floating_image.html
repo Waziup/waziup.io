@@ -1,11 +1,9 @@
 <div
     class="floating-image {{.Get "float"}} {{ if eq (.Get "tilt") "true"}}tilt-effect{{end}}"
-    style="{{ .Get "style" }}"
+    style="width: {{ .Get "width" }}; {{ .Get "style"}} "
 >
   <img 
     src="{{ .Get "image" }}" 
-    height="{{ .Get "height" }}" 
-    width="{{ .Get "width" }}" 
   />
 </div>
 
