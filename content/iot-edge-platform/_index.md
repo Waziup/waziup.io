@@ -10,7 +10,7 @@ title: IoT Edge Platform
 
 {{<page_banner_alt  image="Ecosystem2.png" goto-link="https://dashboard.waziup.io/" button-text="Try Dashboard">}}
 
-## Waziup IoT Platform
+# Waziup IoT Platform
 - Free and Open-Source
 - Long range with LoRa network
 - Working with or without Internet!
