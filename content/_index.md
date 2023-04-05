@@ -68,8 +68,6 @@ Waziup is coordinating and participating in several EU research and development 
 
 {{<case_study_cards>}}
 
-<!-- {{<subscribe_section>}} -->
-
 [SECTION_TRANSPARENT]
 
 {{<title>}}
@@ -77,3 +75,5 @@ Waziup is coordinating and participating in several EU research and development 
 {{</title>}}
 
 {{<logoshow>}}
+
+{{<line_break>}}

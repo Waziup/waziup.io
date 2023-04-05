@@ -1055,24 +1055,6 @@ h1 {
 		}
 	}
 
-	.project-card-alt {
-		width: 30%;
-
-		>img {
-			width: 100%;
-			object-fit: cover;
-			border: #ebebeb 1px solid;
-			border-radius: 8px;
-		}
-
-		a {
-			text-decoration: none;
-		}
-
-
-
-	}
-
 	.dev-board-card {
 		transition: 0.3s;
 		text-decoration: none;
@@ -1223,8 +1205,7 @@ h1 {
 		}
 	}
 
-	.card-group>.project-card,
-	.project-card-alt {
+	.card-group>.project-card {
 		width: 100%;
 	}
 
