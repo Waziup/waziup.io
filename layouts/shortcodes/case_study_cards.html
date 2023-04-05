@@ -8,12 +8,13 @@
     {{ $caseStudy := . }}
 
   {{ $cover := $caseStudy.Resources.GetMatch .Params.cover }}
-  {{ partial "card.html" (dict
-    "Permalink" $caseStudy.Permalink
+  {{ partial "devboard-card.html" (dict
+    "Size" "medium"
     "Cover" $cover.RelPermalink
-    "Category" $caseStudy.Params.category
-    "Date" ($caseStudy.Date.Format "January 2, 2006")
-    "Description" $caseStudy.Description )}}
+    "Date" $caseStudy.Date
+    "Title" $caseStudy.Title
+    "Description" $caseStudy.Description
+    "Permalink" $caseStudy.Permalink )}}
 
   {{ end }}
 </div>

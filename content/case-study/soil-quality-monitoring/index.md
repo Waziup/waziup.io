@@ -1,12 +1,12 @@
 ---
 title: Soil Quality Monitoring
-cover: cover.svg
+cover: cover.png
 description: "Improving Agriculture through Soil Quality Monitoring: A Case Study of Waziup Project"
 category: Case Study
 date: 2020-03-15
 ---
 
-{{<page_banner banner="/img/home-banner.svg" >}}
+{{<page_banner banner="/img/home-banner.png" >}}
 
 # WaziDev IoT LoRa Prototyping Kit
 
@@ -17,7 +17,7 @@ date: 2020-03-15
 ## Introduction:
 Agriculture is an essential sector for economic development and food security. Soil quality is a critical aspect of agricultural productivity, and its proper monitoring can help farmers make informed decisions. Waziup, a Horizon 2020 project, aims to provide solutions to small-scale farmers in Africa using Internet of Things (IoT) technologies. This case study examines the use of IoT devices in soil quality monitoring in a farm in Senegal.
 
-{{<floating_image image="cover.svg" float="right" width="400px" >}}
+{{<floating_image image="cover.png" float="right" width="400px" >}}
 
 ## Background:
 Small-scale farmers in Africa face many challenges, including poor soil quality. Traditional soil quality monitoring methods are labor-intensive and time-consuming, making it difficult for farmers to make quick and informed decisions. Waziup developed an IoT-based soil quality monitoring solution to help farmers collect real-time data on soil quality parameters.

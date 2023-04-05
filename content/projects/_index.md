@@ -10,7 +10,7 @@ title: Projects
 
 [SECTION_TRANSPARENT]
 
-{{<floating_video link="https://www.youtube.com/embed/YMGfkLNs624">}}
+{{<floating_video float="right" link="https://www.youtube.com/embed/YMGfkLNs624">}}
 
 # Revolutionizing Irrigation with Intel-IrriS
 
@@ -23,10 +23,10 @@ Intel-Irris provides the smallholder farmers a more efficient management of its 
 {{<line_break>}}
 {{<line_break>}}
 
-[SECTION_OFFWHITE]
+[SECTION_TRANSPARENT]
 
  <!-- {{<floating_image image="/projects/hubiquitous/hubiquitous-custom.webp" float="right" width="650px">}}  -->
-{{<floating_video link="https://www.youtube.com/embed/cfnPDh1yvh8">}}
+{{<floating_video float="right" link="https://www.youtube.com/embed/cfnPDh1yvh8">}}
 
 # Empowering Smart Cities: The HUBiquitous Project
 HUBiquitous is a Horizon 2020’s Innovation Action aiming at creating a joint Africa-Europe Startup & Innovation Ecosystem for long-term collaborations and partnerships. 
@@ -36,7 +36,7 @@ HUBiquitous is a Horizon 2020’s Innovation Action aiming at creating a joint A
 
 {{<end_floating_image>}}
 
-[SECTION_TRANSPARENT]
+[SECTION_OFFWHITE]
 
 {{<title>}} Our Projects {{</title>}}
 

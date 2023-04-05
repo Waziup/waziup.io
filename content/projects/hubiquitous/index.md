@@ -4,6 +4,7 @@ cover: cover.png
 description: "Hubiquitous Project: Unlocking the Potential of IoT in Africa"
 category: Horizon 2020
 date: 2022-03-15
+weight: 1
 ---
 
 <!-- {{<single_page_banner banner="banner.webp" >}}

@@ -1,12 +1,12 @@
 ---
 title: Weather Station
-cover: cover.svg
+cover: cover.png
 description: "Improving Agricultural Productivity through Weather Station Monitoring: A Case Study by Waziup"
 category: Case Study
 date: 2021-03-15
 ---
 
-{{<page_banner banner="/img/home-banner.svg" >}}
+{{<page_banner banner="/img/home-banner.png" >}}
 
 # Improving Agricultural Productivity through Weather Station Monitoring: A Case Study by Waziup
 
@@ -17,7 +17,7 @@ date: 2021-03-15
 ## Background:
 The Waziup project, which aims to develop and deploy open-source IoT solutions for African communities, worked on a pilot project to monitor weather conditions in Nigeria. This pilot project was initiated in collaboration with farmers in the rural community of Oke Ogun in Oyo State, Nigeria, who were interested in improving their farming practices through better access to weather information.
 
-{{<floating_image image="cover.svg" float="right" width="200px" >}}
+{{<floating_image image="cover.png" float="right" width="200px" >}}
 
 ## Challenge:
 One of the main challenges was to deploy weather stations that were affordable, easy to use, and could collect accurate data in real-time. The farmers needed to have access to information such as temperature, humidity, rainfall, and wind speed to make informed decisions about crop planting, fertilization, and harvesting.

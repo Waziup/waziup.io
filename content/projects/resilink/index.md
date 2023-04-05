@@ -4,6 +4,7 @@ cover: cover.png
 description: "INCREASING RESILIENCE OF SMALLHOLDERS WITH MULTI-PLATFORMS LINKING LOCALIZED RESOURCE SHARING"
 category: PRIMA | EU
 date: 2022-11-28
+weight: -4
 ---
 
 <!-- {{<single_page_banner>}} Resilink: Prima & Horizon Europe {{</single_page_banner >}} -->

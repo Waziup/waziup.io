@@ -1,6 +1,6 @@
 ---
 title: Cattle Rustling
-cover: cover.svg
+cover: cover.png
 description: Combating Cattle Rustling with Technology
 category: Case Study
 date: 2022-03-19
@@ -16,7 +16,7 @@ date: 2022-03-19
 
 Cattle rustling, the illegal theft of cattle, is a persistent problem in many parts of the world, particularly in Africa. This criminal activity is responsible for significant financial losses for farmers and herders, and can also lead to violent conflicts. In recent years, technology has emerged as a key tool in the fight against cattle rustling.
 
-{{<floating_image image="cover.svg" float="right" width="400px" >}}
+{{<floating_image image="cover.png" float="right" width="400px" >}}
 
 One such effort is the WAZIHUB project, a European Union-funded initiative that aims to promote the use of the Internet of Things (IoT) in African communities. As part of this project, WAZIHUB has developed a free IoT development kit that enables farmers and herders to monitor their cattle remotely and in real-time.
 

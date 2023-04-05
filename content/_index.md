@@ -9,55 +9,71 @@ banner: /img/home-banner.webp
 
 [SECTION_TRANSPARENT]
 
-{{<floating_video link="https://www.youtube.com/embed/hu-v-eukLAc?autoplay=0;rel=0&loop=0;controls=0&amp;showinfo=0&autohide=1">}}
-
-# The Platform To Get You Started With IoT.
-
-### IoT Solution For Africa
-Low-cost and user-friendly IoT solutions that can be customized to fit the needs of different communities and businesses.
-
-### Sustainable development
-Developing a strong IoT ecosystem in Africa, which can promote innovation, entrepreneurship, and sustainable development.
-
+{{<floating_video float="center" link="https://www.youtube.com/embed/hu-v-eukLAc?autoplay=0;rel=0&loop=0;controls=0&amp;showinfo=0&autohide=1">}}
 {{<end_floating_image>}}
 
-{{<line_break>}}
-{{<line_break>}}
-{{<line_break>}}
+[SECTION_TRANSPARENT]
 
-{{<floating_image image="/img/home-lora.svg" float="left" width="550px">}}
-# Powered by LoRaWAN Technology and Many More
-WAZIUP is engaged in IoT capacity building for startups and entrepreneurs via bootcamps, workshops and hackathons; enabling them to build low-cost and innovative IoT products. 
-
-{{<end_floating_image>}}
-
-[SECTION_DARK]
-
-{{<title text-style="align-items: center;" line-style="border-color: #fff">}}
-### Our R&I Projects
+{{<title>}}
+## End-to-End Technology
 {{</title>}}
 
+{{<floating_image image="/img/e2e-iot.png" float="left" width="650px">}}
+
+WAZIUP offers “out-of-the-box” solutions going from sensor nodes to applications. Our solutions are particularly adapted to tough conditions with low power, and long-range applications.
+
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+Long-range, low cost radio communications
+{{</custom_bullet>}}
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+Enterprise application framework
+{{</custom_bullet>}}
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+Edge computing IoT gateway
+{{</custom_bullet>}}
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+Cloud platform
+{{</custom_bullet>}}
+
+{{<end_floating_image>}}
+
+[SECTION_OFFWHITE]
+
+{{<title>}}
+## Research and Innovation Projects
+{{</title>}}
 {{<text_centered>}}
-Waziup is at the forefront of IoT innovation, delivering cutting-edge solutions that are helping organizations across a range of industries to harness the power of data and transform the way they do business.
+Waziup is coordinating and participating in several EU research and development international projects.
 {{</text_centered>}}
 
+{{<line_break>}}
 {{<home_project_cards>}}
 
 [SECTION_TRANSPARENT]
 
-{{<title text-style="align-items: center;">}}Latest Updates{{</title>}}
+{{<title>}}
+## Latest Updates
+{{</title>}}
 
 {{<radio_btn_new_pub>}}
 
 {{<news_cards>}}
 {{<publication_cards>}}
 
-[SECTION_TRANSPARENT]
+[SECTION_OFFWHITE]
 
-{{<title>}} Case Study {{</title>}}
+{{<title>}}
+## Case Study
+{{</title>}}
+
 {{<case_study_cards>}}
 
-{{<subscribe_section>}}
+<!-- {{<subscribe_section>}} -->
 
-{{<title text-style="align-items: center;">}}Our Partners{{</title>}}
+[SECTION_TRANSPARENT]
+
+{{<title>}}
+## Our Partners
+{{</title>}}
+
 {{<logoshow>}}

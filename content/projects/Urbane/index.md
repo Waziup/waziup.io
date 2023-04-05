@@ -4,6 +4,7 @@ cover: cover.png
 description: "One Health Approach to Support Agroecological Transformation of Peri-Urban Farming"
 category: Horizon EU
 date: 2023-03-28
+weight: -3
 ---
 
 <!-- {{<single_page_banner>}} Urbane Horizon 2020 {{</single_page_banner >}} -->

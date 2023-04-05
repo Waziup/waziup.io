@@ -10,11 +10,11 @@
     
     {{ $cover := $news.Resources.GetMatch .Params.cover }}
     {{ partial "card.html" (dict
-    "Permalink" $news.Permalink
     "Cover" $cover.RelPermalink
     "Category" $news.Params.category
     "Date" ($news.Date.Format "January 2, 2006")
-    "Description" $news.Description )}}
+    "Description" $news.Description
+    "Permalink" $news.Permalink )}}
     
     {{ end }}  
     <li>

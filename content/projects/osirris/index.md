@@ -4,6 +4,7 @@ cover: cover_.png
 description: "Precision Irrigation with Cost-effective and Autonomic IoT Devices using Artificial Intelligence at the Edge"
 category: TUNGER 2+2
 date: 2023-03-29
+weight: -2
 ---
 
 <!-- {{<single_page_banner>}} Osirris TUNGER 2+2 {{</single_page_banner >}} -->

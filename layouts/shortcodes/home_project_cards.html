@@ -1,24 +1,18 @@
-<div class="home-project-cards">
-  <div class="card">
-    <img src="/img/intel-irris-blue.png" alt="" />
-    <h1 class="home-project-card-title">Intel-Irris</h1>
-    <div>
-      <button onclick="window.location.href='/projects/intel_iris';">
-        Learn more
-      </button>
-    </div>
-  </div>
+{{ $shortcode := .}}
+{{ $projectPage := $shortcode.Page.GetPage "projects" }} 
 
-  <div class="card">
-    <img src="/img/hubiquitous-blue.png" alt="" />
-    <h1 class="home-project-card-title">HUBiquitous</h1>
-    <div><button onclick="window.location.href='/projects/hubiquitous';">Learn more</button></div>
-  </div>
+{{ $projects := sort $projectPage.Pages ".Weight" "desc" }}
+{{ $projects := first 3 $projects }}
 
-  <div class="card">
-    <img src="/img/osirris-blue.png" alt="" />
-    <h1 class="home-project-card-title">Osirris</h1>
-    <div><button onclick="">Learn more</button></div>
-  </div>
-</div>
+  <div class="card-group">
+    {{ range $projects }}
+      {{ $project := . }}
 
+    {{ $cover := $project.Resources.GetMatch .Params.cover }}
+    {{ partial "project-card.html" (dict
+      "Permalink" $project.Permalink
+      "Cover" $cover.RelPermalink
+      "Category" $project.Params.category
+      "Title" $project.Title )}}
+    {{ end }}
+  </div>

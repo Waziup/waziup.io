@@ -1,12 +1,13 @@
 <li class="card">
-  <a href="{{ .Permalink }}">
-    <div class="media">
-      <img src="{{ .Cover }}" alt="" />
-      <span>{{ .Category }}</span>
-    </div>
-    <div class="content">
-      <span>{{ .Date }}</span>
-      <h3>{{ .Description }}</h3>
-    </div>
-</a>
+  <div class="media">
+    <img src="{{ .Cover }}" alt="" />
+    <span>{{ .Category }}</span>
+  </div>
+  <div class="content">
+    <span>{{ .Date }}</span>
+    <h3>{{ .Description }}</h3>
+    <a class="text-link" href="{{ .Permalink }}">
+      <span class="material-symbols-outlined">arrow_circle_right</span> Read more
+    </a>
+  </div>
 </li>

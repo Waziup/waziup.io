@@ -90,7 +90,7 @@ Waziup has introduced an open source, low-cost, powerful and customizable iot ki
 
 {{<line_break>}}
 {{<line_break>}}
-{{<floating_image image="cloud-platform-services.png" float="right" width="500px" style="margin-left: 2rem" tilt="false">}}
+{{<floating_image image="cloud-platform-services.png" float="right" width="650px" style="margin-left: 2rem" tilt="false">}}
 
 The WAZIUP Cloud platform allows you to manage your sensors, actuators and IoT data. WAZIUP Cloud platform offers everything that you need for your application:
 - Remote connection of your sensors and actuators
