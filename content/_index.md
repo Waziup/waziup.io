@@ -73,6 +73,7 @@ Waziup is coordinating and participating in several EU research and development 
 {{<title>}}
 ## Our Partners
 {{</title>}}
+{{<line_break>}}
 
 {{<logoshow>}}
 

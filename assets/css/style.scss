@@ -1271,6 +1271,9 @@ h1 {
 	.right {
 		margin-left: 5vw;
 	}
+	.left {
+		margin-right: 5vw;
+	}
 }
 
 @media (min-width: $xl) {
@@ -2445,8 +2448,8 @@ $background-color_3: white;
 	gap: 3rem;
 
 	img {
-		flex: 0 0 auto;
 		width: 10%;
+		object-fit: contain;
 	}
 }
 

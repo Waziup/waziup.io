@@ -19,14 +19,37 @@ title: Capacity Building
 [SECTION_TRANSPARENT]
 
 {{<title>}}
-## Waziup Learning Center
-{{</title>}}
-
-{{<floating_image image="wazilab.png" float="right" >}}
-
-{{<line_break>}}
-{{<line_break>}}
 ## WaziLab
+{{</title>}}
+{{<line_break>}}
+{{<line_break>}}
+
+{{<floating_image image="wazilab.svg" float="left" >}}
+
+## Solution Lab
+Solution Lab is primarily a physical infrastructure proposing a number of technological resources: IoT, BigData/Cloud, Mobile/Edge, AI, Training and Computing resources. These resources are hardware, software and courses resources, and is packaged in an integrated and consistent way. The lab includes:
+
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+Open source IoT hardware and software with rapid prototyping kits.
+{{</custom_bullet>}}
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+Development tools, libraries and platforms for AI
+{{</custom_bullet>}}
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+Open IoT cloud platforms for data 
+{{</custom_bullet>}}
+
+{{<button_action link="/capacity-building/solution-lab">}}Learn more{{</button_action>}} 
+
+{{<end_floating_image>}}
+
+[SECTION_TRANSPARENT]
+
+{{<floating_image image="learning-center.png" float="right" >}}
+
+{{<line_break>}}
+{{<line_break>}}
+## Learning Center
 The WaziLab is a platform for learning IoT through live prototyping. It simplifies the prototyping process for startups through better hardware accessibility, guided prototyping, IoT capacity building and initial business support for startups. It features:
 
 {{<custom_bullet icon="/img/icons/check-circle.svg">}}
@@ -39,7 +62,7 @@ Live prototyping and solution building
 IoT Lab management
 {{</custom_bullet>}}
 
-{{<button_action link="https://lab.waziup.io/">}}Learn more{{</button_action>}} 
+{{<button_action link="/capacity-building/learning-center">}}Learn more{{</button_action>}} 
 
 {{<end_floating_image>}}
 
@@ -67,6 +90,8 @@ We help you with:
 {{<custom_bullet icon="/img/icons/check-circle.svg">}}
 **Providing Mentorship and Guidance**
 {{</custom_bullet>}}
+
+{{<button_action link="/capacity-building/wazihack">}}Learn more{{</button_action>}} 
 
 {{<end_floating_image>}}
 

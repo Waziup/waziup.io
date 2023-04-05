@@ -1,7 +1,7 @@
 ---
-title: WaziHack
+title: Learning Center
 ---
 
 {{<page_banner banner="/img/gray-shapes-banner.png" style="color: #0d1528">}}
-# WaziHack
+# Learning Center
 {{</page_banner >}}
