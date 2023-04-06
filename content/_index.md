@@ -2,18 +2,18 @@
 title: Home
 banner: /img/home-banner.webp
 ---
+[SECTION_DARK]
 
-<!-- {{<home_banner banner="/img/home-banner.svg">}}
-# Empowering Startups and SMEs with IoT and Artificial Intelligence
-{{</home_banner>}} -->
-
-{{<home-banner-slider>}}
 {{<home-banner-slider>}}
 
 [SECTION_TRANSPARENT]
 
-{{<floating_video float="center" link="https://www.youtube.com/embed/hu-v-eukLAc?autoplay=0;rel=0&loop=0;controls=0&amp;showinfo=0&autohide=1">}}
-{{<end_floating_image>}}
+{{<service-cards>}}
+
+[SECTION_TRANSPARENT]
+
+<!-- {{<floating_video float="center" link="https://www.youtube.com/embed/hu-v-eukLAc?autoplay=0;rel=0&loop=0;controls=0&amp;showinfo=0&autohide=1">}}
+{{<end_floating_image>}} -->
 
 [SECTION_TRANSPARENT]
 
@@ -21,7 +21,7 @@ banner: /img/home-banner.webp
 ## End-to-End Technology
 {{</title>}}
 
-{{<floating_image image="/img/e2e-iot.png" float="left" width="650px">}}
+{{<floating_image image="/img/e2e-iot.png" float="left" >}}
 
 WAZIUP offers “out-of-the-box” solutions going from sensor nodes to applications. Our solutions are particularly adapted to tough conditions with low power, and long-range applications.
 

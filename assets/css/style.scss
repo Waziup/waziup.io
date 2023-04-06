@@ -110,7 +110,7 @@ h1 {
 			}
 		}
 
-		.active{
+		.active {
 			color: $waziup-orange-deep;
 		}
 
@@ -504,7 +504,6 @@ h1 {
 	background-color: $waziup-off-white;
 	margin: 0 -10vw;
 	padding: 5vh 10vw;
-
 }
 
 @media (max-width:$sm) {
@@ -514,9 +513,9 @@ h1 {
 	}
 }
 
-@media (max-width:$xl) {
-	.section-off-white {
-		margin: 0 -10vw;
+@media (min-width:$sm) and (max-width:$xl) {
+	.section-off-white, .section-transparent {
+		margin: 0 -20vw;
 		padding: 5rem 10vw;
 	}
 }
@@ -541,6 +540,7 @@ h1 {
 }
 
 @media (max-width:$sm) {
+
 	.section-dark {
 		margin: auto -5vw 0;
 		padding: 2.5rem 5vw;
@@ -548,13 +548,15 @@ h1 {
 }
 
 @media (max-width:$xl) {
-	.section-dark {
+
+	.section-dark{
 		margin: auto -10vw 0;
 		padding: 2.5rem 10vw;
 	}
 }
 
 @media (min-width:$xl) {
+
 	.section-dark {
 		margin: auto -20vw 0;
 		padding: 2.5rem 20vw;
@@ -901,11 +903,33 @@ h1 {
 	padding: 1rem 0;
 }
 
+.btn-seeAll {
+	text-decoration: none;
+	color: $waziup-dark;
+	display: flex;
+	align-items: center;
+	gap: .5rem;
+	width: fit-content;
+	padding: .5rem;
+	padding-left: 0;
+	border: 0;
+	transition: all 0.5s;
+	border-radius: 4px;
+	position: relative;
+
+	&:hover {
+		background-color: $waziup-dark;
+		color: #fff;
+		transition: all 0.5s;
+		padding: .5rem .8rem;
+	}
+}
+
 .card-group {
 	padding: 1rem 0;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: flex-start;
+	justify-content: space-between;
 	gap: 2.5rem;
 	list-style-type: none;
 
@@ -1173,6 +1197,45 @@ h1 {
 		}
 	}
 
+	.service-card {
+		width: 30%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		background-color: transparent;
+		border-radius: 8px;
+		padding: 20px;
+		
+		.icon {
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  // background-color: #ccc;
+		  width: 80px;
+		  height: 80px;
+		  border: #0d1528 1px solid;
+		  border-radius: 50%;
+		  font-size: 24px;
+		  color: #fff;
+		  margin-bottom: 10px;
+		}
+		
+		.title {
+		  text-align: center;
+		  font-size: 18px;
+		  font-weight: bold;
+		  margin-bottom: 10px;
+		}
+		
+		.description {
+		  text-align: center;
+		  font-size: 14px;
+		  color: #666;
+		  line-height: 1.5;
+		}
+	  }
+
 	.text-link {
 		text-decoration: none;
 		color: $waziup-dark;
@@ -1212,21 +1275,27 @@ h1 {
 	.card-group>.project-card {
 		width: 100%;
 	}
+}
 
+
+
+@media (min-width:$sm) and (max-width:1000px) {
+	.card-group>.project-card {
+		width: 45%;
+	}
+
+	.card-group>.card {
+		width: 45%;
+	}
 }
 
 @media(max-width:$xl) {
 	.card-group {
 		gap: 1.5rem;
 	}
+
 }
 
-
-@media(max-width:$xl) {
-	.card-group>.project-card {
-		width: 45%;
-	}
-}
 
 
 .floating-image {
@@ -2810,31 +2879,6 @@ $background-color_3: white;
 		}
 	}
 
-	// .section-banner {
-	// 	position: static;
-	// 	display: flex;
-	// 	flex-direction: column;
-	// 	margin: auto -5vw;
-
-	// 	.media {
-	// 		height: 300px;
-	// 		object-fit: cover;
-	// 	}
-
-	// 	.content {
-	// 		position: static;
-	// 		width: 100%;
-	// 		padding: 1rem 5vw;
-
-	// 		>h1 {
-	// 			font-size: 2em;
-	// 		}
-
-	// 		>p {
-	// 			font-size: 1.2em;
-	// 		}
-	// 	}
-	// }
 
 	.card-group>.dev-board-card {
 		width: 46%;
@@ -2956,7 +3000,7 @@ $background-color_3: white;
 /* Hide scrollbar for Chrome, Safari and Opera */
 .slider-wrapper {
 	position: relative;
-	max-width: 48rem;
+	max-width: 80rem;
 	margin: 0 auto;
 
 	.slider {
@@ -2969,9 +3013,11 @@ $background-color_3: white;
 		border-radius: 0.5rem;
 		-ms-overflow-style: none;
 		scrollbar-width: none;
+
 		&::-webkit-scrollbar {
 			display: none;
 		}
+
 		>img {
 			flex: 1 0 100%;
 			scroll-snap-align: start;
@@ -2987,6 +3033,7 @@ $background-color_3: white;
 		left: 50%;
 		transform: translateX(-50%);
 		z-index: 1;
+
 		a {
 			width: 1rem;
 			height: 1rem;
@@ -2995,11 +3042,11 @@ $background-color_3: white;
 			opacity: 0.75;
 			transition: opacity ease 250ms;
 			cursor: pointer;
+
 			&:hover {
 				opacity: 1;
 			}
 		}
 	}
-	
-}
 
+}
