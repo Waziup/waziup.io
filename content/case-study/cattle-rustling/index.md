@@ -7,22 +7,59 @@ date: 2022-03-19
 ---
 
 {{<page_banner banner="/img/gray-shapes-banner.png" style="color: #0d1528">}}
-# Case Study: Combating Cattle Rustling with Technology
+### Case Study
+# Combating Cattle Rustling with Technology
 {{</page_banner >}}
 
 
 [SECTION_TRANSPARENT]
 
-Cattle rustling, the illegal theft of cattle, is a persistent problem in many parts of the world, particularly in Africa. This criminal activity is responsible for significant financial losses for farmers and herders, and can also lead to violent conflicts. In recent years, technology has emerged as a key tool in the fight against cattle rustling.
-
 {{<floating_image image="cover.png" float="right" width="400px" >}}
 
-One such effort is the WAZIHUB project, a European Union-funded initiative that aims to promote the use of the Internet of Things (IoT) in African communities. As part of this project, WAZIHUB has developed a free IoT development kit that enables farmers and herders to monitor their cattle remotely and in real-time.
+## LORA CATTLE COLLAR
+Low-Power, Long-Range and ready to use tracking device for livestock to increase farm profits and to prevent cattle rustling 
 
-The development kit consists of various sensors and devices that can be attached to the cattle. These sensors are designed to monitor the animal's movements, location, and even its vital signs such as heart rate and temperature. The data collected by these sensors is transmitted wirelessly to a cloud-based platform, where it can be analyzed and accessed by the farmers and herders through a mobile application.
+The WAZIUP cattle collar is an ideal solution for herdsmen to better protect their cattle. Our LoRa enabled device allows to locate herds in real-time and inform farmers about its position. The device can notify farmers about any abnormal condition; thereby farmers take necessary actions to search for their cattles, in order to reduce cattle theft, or loss. The solution is highly cost-effective, easy to install and maintain. 
+ 
 
-This technology provides several benefits for farmers and herders, particularly in the fight against cattle rustling. By monitoring the movements and location of their cattle in real-time, farmers and herders can quickly identify any instances of theft and take immediate action. They can also receive alerts when their cattle move outside of designated areas, allowing them to respond quickly to potential security breaches.
+### TECHNOLOGY ECOSYSTEM 
 
-The IoT development kit can also help to reduce the risk of violence associated with cattle rustling. In some regions, cattle rustling is a dangerous activity that can lead to violent conflicts between rival groups. With the IoT development kit, farmers and herders can reduce the likelihood of such conflicts by monitoring their cattle remotely, without the need for armed patrols.
+**How does it work?**
+When collar is powered on, it sends GPS beacon every 10 minutes wirelessly using LoRa channel to our Gateway (up to 10kms); from the Gateway side, reception of beacon means that the cattle is in the range. If the device is out of range, disconnected or damaged, an alarm can be raised and sent to the farmer either from the Gateway or from the Cloud. Our LoRa Gateway sends the position to the Cloud platform via 3G or Ethernet connection ---with an easy to use interface the farmer gets information via SMS or on his Mobile App. Because of edge computing capabilities the data can also be accessed from the Gateway. The sensor is fully compatible with our technology ecosystem but it is also interoperable and open to integrate with other ecosystems. 
 
-The WAZIHUB project is just one example of how technology can be used to combat cattle rustling. Other initiatives, such as the use of GPS tracking devices and drones, have also been deployed to address this problem. By using technology to monitor their livestock, farmers and herders can not only protect their financial investments but also reduce the risk of violence and conflicts associated with cattle rustling.
+
+**Features**
+- Embedded LoRa module 
+- Integrated Tiny GPS sensor 
+- Easy to install and maintain 
+- Low-power, up to 1-year battery life 
+- Communication up to 10 KMs
+- Highly customizable solution 
+- Packaging with farm management applications 
+
+
+**LoRa:** We use narrowband IoT LoRa technology for a low-power and long-range communication without any dependency on WiFi or 3G. It is the best IoT wireless network for rural areas with no or poor Internet connectivity. 
+
+**Waterproof box:** The electronics is placed in a watertight box to prevent from water and dust. 
+
+**Power supply:** Our device is powered by 4-AA batteries for more than 1 year life time. 
+
+**Easy setup and Installation:** Our devices are easy to setup and install with limited configuration  
+
+**Applications**
+- Livestock positioning 
+- Combat cattle rusting   
+- Livestock activity tracking (extendable) 
+ 
+{{<line_break>}}
+**Comments on current flyers:** 
+1. “Technology Ecosystem” instead of “Ecosystem”
+2. How does it looks if we add “Technology Ecosystem” at the middle of four box sensor, gateway, could and farm manager.
+3. Combine the “Why” and “How” on section rather 
+    - Add “How it works” on last section
+4. There should be a line “ from Cloud to Farm Manager”
+5. LoRa logo could be smaller 
+6. Delete “Plug and Play” part of 2nd page 
+7. How does it will looks like if bullet points of specification is align 
+81. Please see additional pictures in the drop box same folder. Just one picture. 
+9. The logo of box, Power, Easy to setup on 2 page could be “smaller” 

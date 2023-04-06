@@ -15,13 +15,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla lu
 {{</page_banner >}}
 
 {{<title>}}
-Latest Updates
+## Latest Updates
 {{</title>}}
 {{<radio_btn_new_pub>}}
 {{<news_cards>}}
 {{<publication_cards>}}
 
-{{<title>}} We are on Youtube {{</title>}}
+[SECTION_OFFWHITE]
+
+{{<title>}} 
+## We are on Youtube {{</title>}}
 {{<youtube_videos>}}
 
 <!-- {{<subscribe_section>}} -->

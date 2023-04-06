@@ -6,9 +6,9 @@ category: Development Board
 weight: -3
 ---
 
-{{<single_page_banner>}}
-WaziSense
-{{</single_page_banner >}}
+{{<page_banner banner="/img/gray-shapes-banner.png" style="color: #0d1528">}}
+# WaziSense
+{{</page_banner >}}
 
 [SECTION_TRANSPARENT]
 

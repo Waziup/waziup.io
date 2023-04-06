@@ -5,9 +5,9 @@ cover: wazidev_.png
 category: EU PROJECT
 weight: 0
 ---
-{{<single_page_banner>}}
-WaziDev
-{{</single_page_banner >}}
+{{<page_banner banner="/img/gray-shapes-banner.png" style="color: #0d1528">}}
+# WaziDev
+{{</page_banner >}}
 
 [SECTION_TRANSPARENT]
 

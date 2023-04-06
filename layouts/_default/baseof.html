@@ -5,7 +5,7 @@
   </head>
 
   <body>
-    {{ partial "nav.html" }}
+    {{ partial "nav.html" . }}
     <div class="container">
       {{ block "main" . }} //placeholder for other files; starts with 'block'
       {{end}}

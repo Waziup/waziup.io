@@ -1,13 +1,13 @@
 ---
-title: WaziHat
+title: WaziHat Pro Single
 description: WaziHat adds LoRa functionality to the raspberry pie
 cover: wazihat_.png
 category: Development Board
 weight: -2
 ---
-{{<single_page_banner>}}
-WaziHat Pro Single
-{{</single_page_banner >}}
+{{<page_banner banner="/img/gray-shapes-banner.png" style="color: #0d1528">}}
+# WaziHat Pro Single
+{{</page_banner >}}
 
 [SECTION_TRANSPARENT]
 

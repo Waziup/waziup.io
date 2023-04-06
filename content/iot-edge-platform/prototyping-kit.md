@@ -2,14 +2,14 @@
 title: WaziDev IoT LoRa Prototyping Kit
 ---
 
-{{<single_page_banner>}}
-WaziDev IoT Prototyping Kit
-{{</single_page_banner >}}
+{{<page_banner banner="/img/gray-shapes-banner.png" style="color: #0d1528">}}
+# WaziDev IoT Prototyping Kit
+{{</page_banner >}}
 
 [SECTION_TRANSPARENT]
 
 {{<floating_image image="../wazi-hardware.jpg" float="right" width="600px" >}}
-{{<floating_image image="../edge-kit.webp" float="right" width="500px"  >}}
+<!-- {{<floating_image image="../edge-kit.webp" float="right" width="500px"  >}} -->
 
 Waziup is aimed at providing affordable and accessible Internet of Things (IoT) solutions to African entrepreneurs and developers. One of the key initiatives is the provision of free IoT development kits to selected applicants.
 

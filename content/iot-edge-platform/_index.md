@@ -8,7 +8,7 @@ title: IoT Edge Platform
 ## DEVELOP, DEPLOY, CONNECT !
 {{</title>}}
 
-{{<page_banner_alt  image="Ecosystem2.png" goto-link="https://dashboard.waziup.io/" button-text="Try Dashboard">}}
+{{<page_banner_alt  image="banner.png" goto-link="https://dashboard.waziup.io/" button-text="Try Dashboard">}}
 
 # Waziup IoT Platform
 - Free and Open-Source

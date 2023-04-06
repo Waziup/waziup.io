@@ -7,8 +7,7 @@ title: Capacity Building
 {{<line_break>}}
 {{<page_banner_alt  image="capacity-banner.png" goto-link="http://35.157.161.231:8086/" button-text="Try WaziLab">}}
 
-# Waziup 
-# Capacity Building Offers
+# Waziup Capacity Building
 
 - WaziLab: Learn IoT through live prototyping 
 - Solution Lab: A key-in-hand IoT Lab

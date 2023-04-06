@@ -7,6 +7,9 @@ banner: /img/home-banner.webp
 # Empowering Startups and SMEs with IoT and Artificial Intelligence
 {{</home_banner>}} -->
 
+{{<home-banner-slider>}}
+{{<home-banner-slider>}}
+
 [SECTION_TRANSPARENT]
 
 {{<floating_video float="center" link="https://www.youtube.com/embed/hu-v-eukLAc?autoplay=0;rel=0&loop=0;controls=0&amp;showinfo=0&autohide=1">}}

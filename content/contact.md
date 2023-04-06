@@ -22,5 +22,8 @@ Räcknitzhohe 50-52
 01217 Dresden  
 Germany  
 
+{{<end_floating_image>}}
 
+<!-- [SECTION_TRANSPARENT] -->
 
+{{<faq>}}
