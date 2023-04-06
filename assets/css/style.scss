@@ -1275,6 +1275,9 @@ h1 {
 	.card-group>.project-card {
 		width: 100%;
 	}
+	.card-group>.service-card {
+		width: 100%;
+	}
 }
 
 
@@ -1283,8 +1286,10 @@ h1 {
 	.card-group>.project-card {
 		width: 45%;
 	}
-
 	.card-group>.card {
+		width: 45%;
+	}
+	.card-group>.service-card {
 		width: 45%;
 	}
 }
@@ -3018,7 +3023,7 @@ $background-color_3: white;
 			display: none;
 		}
 
-		>img {
+		img {
 			flex: 1 0 100%;
 			scroll-snap-align: start;
 			object-fit: cover;
