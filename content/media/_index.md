@@ -27,4 +27,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla lu
 ## We are on Youtube {{</title>}}
 {{<youtube_videos>}}
 
-<!-- {{<subscribe_section>}} -->

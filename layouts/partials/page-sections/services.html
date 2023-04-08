@@ -1,0 +1,22 @@
+<section class="section banded">
+  <div class="title">
+    Our services 
+    <div class="line"></div>
+  </div>
+  <div class="card-group">
+    {{ $services := .Params.services }}
+    {{ range $i, $e := $services  }}
+      <div class="service-card">
+        <div class="icon">
+          <span class="material-symbols-outlined">
+             {{ .icon }}
+          </span>
+        </div>
+        <h2 class="title">{{ .title }}</h2>
+        <p class="description">
+        {{ .text }}
+        </p>
+      </div>
+    {{ end }}
+  </div>
+</section>

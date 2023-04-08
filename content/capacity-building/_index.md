@@ -120,4 +120,3 @@ Advance your IoT knowledge with Waziup's Certification - offering online tutoria
 Waziup IoT Labs offer digital prototyping and experimentation possibilities with hardware and software. With our expertise and engagement in the developers and entrepreneurs community for IoT innovations have helped the Universities, Tech-Hubs, DIHs, Makerspaces creating and managing the IoT Labs.
 {{</section_banner>}} -->
 
-<!-- {{<subscribe_section>}} -->

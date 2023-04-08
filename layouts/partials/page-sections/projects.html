@@ -1,0 +1,29 @@
+<section class="section banded">
+
+  <div class="title">
+    Research and Innovation Projects
+    <div class="line"></div>
+  </div>
+  <div class="text-centered">
+    Waziup is coordinating and participating in several EU research and development international projects.
+  </div>
+
+  <br/>
+  {{ $projectPage := .Page.GetPage "projects" }} 
+  
+  {{ $projects := sort $projectPage.Pages ".Weight" "desc" }}
+  {{ $projects := first 3 $projects }}
+  
+  <div class="card-group">
+    {{ range $projects }}
+      {{ $project := . }}
+  
+    {{ $cover := $project.Resources.GetMatch .Params.cover }}
+    {{ partial "project-card.html" (dict
+      "Permalink" $project.Permalink
+      "Cover" $cover.RelPermalink
+      "Category" $project.Params.category
+      "Title" $project.Title )}}
+    {{ end }}
+  </div>
+</section>

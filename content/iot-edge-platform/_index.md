@@ -103,4 +103,3 @@ The WAZIUP Cloud platform allows you to manage your sensors, actuators and IoT d
 {{<line_break>}}
 {{<line_break>}}
 
-<!-- {{<subscribe_section>}} -->
