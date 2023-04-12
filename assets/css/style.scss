@@ -451,6 +451,18 @@ h1 {
 		// z-index: 2;
 	}
 }
+.page-banner-static-color {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+	font-weight: 300;
+	color: #fff;
+	height: 200px;
+	overflow: hidden;
+	background-color: #0d1528;
+	padding: 1rem;
+}
 
 @media (max-width:$sm) {
 	.page-banner,.page-banner-static-color {
@@ -473,18 +485,7 @@ h1 {
 	}
 }
 
-.page-banner-static-color {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 2em;
-	font-weight: 300;
-	color: #fff;
-	height: 250px;
-	overflow: hidden;
-	background-color: #0d1528;
-	padding: 1rem;
-}
+
 
 // @media (max-width:$md) {
 // 	.page-banner-static-color {

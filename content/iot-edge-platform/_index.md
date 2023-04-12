@@ -106,6 +106,8 @@ Notification through SMS or mobile application.
 {{<custom_bullet icon="/img/icons/check-circle.svg">}}
 Extensive API for developing your own application.
 {{</custom_bullet>}}
+
+{{<button-learn-more link="#" color="blm-orange">}}Learn more{{</button-learn-more>}}
 {{<end_floating_image>}}
 {{<line_break>}}
 
