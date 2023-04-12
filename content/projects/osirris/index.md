@@ -8,7 +8,7 @@ weight: -2
 ---
 
 <!-- {{<single_page_banner>}} Osirris TUNGER 2+2 {{</single_page_banner >}} -->
-{{<page_banner banner="/img/gray-shapes-banner.png" style="color: #0d1528">}}
+{{<page_banner banner="/img/gray-shapes-banner.png">}}
 # Osirris TUNGER 2+2
 {{</page_banner >}}
 

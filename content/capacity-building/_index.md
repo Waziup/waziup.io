@@ -21,12 +21,11 @@ title: Capacity Building
 ## WaziLab
 {{</title>}}
 {{<line_break>}}
-{{<line_break>}}
 
-{{<floating_image image="wazilab.svg" float="left" >}}
+{{<floating_image image="wazilab.svg" float="left">}}
 
 ## Solution Lab
-Solution Lab is primarily a physical infrastructure proposing a number of technological resources: IoT, BigData/Cloud, Mobile/Edge, AI, Training and Computing resources. These resources are hardware, software and courses resources, and is packaged in an integrated and consistent way. The lab includes:
+Solution Lab is primarily a physical infrastructure proposing a number of technological resources: IoT, BigData/Cloud, Mobile/Edge, AI, Training and Computing resources. The lab includes:
 
 {{<custom_bullet icon="/img/icons/check-circle.svg">}}
 Open source IoT hardware and software with rapid prototyping kits.
@@ -38,7 +37,8 @@ Development tools, libraries and platforms for AI
 Open IoT cloud platforms for data 
 {{</custom_bullet>}}
 
-{{<button_action link="/capacity-building/solution-lab">}}Learn more{{</button_action>}} 
+{{<line_break>}}
+{{<button-learn-more link="/capacity-building/solution-lab"  color="blm-orange">}}Learn more{{</button-learn-more>}} 
 
 {{<end_floating_image>}}
 
@@ -47,9 +47,8 @@ Open IoT cloud platforms for data
 {{<floating_image image="learning-center.png" float="right" >}}
 
 {{<line_break>}}
-{{<line_break>}}
 ## Learning Center
-The WaziLab is a platform for learning IoT through live prototyping. It simplifies the prototyping process for startups through better hardware accessibility, guided prototyping, IoT capacity building and initial business support for startups. It features:
+Learn IoT through live prototyping with the WaziLab platform, which offers accessible hardware, guided prototyping, capacity building, and startup support. It features:
 
 {{<custom_bullet icon="/img/icons/check-circle.svg">}}
 Online courses tuned to your own pace
@@ -61,7 +60,8 @@ Live prototyping and solution building
 IoT Lab management
 {{</custom_bullet>}}
 
-{{<button_action link="/capacity-building/learning-center">}}Learn more{{</button_action>}} 
+{{<line_break>}}
+{{<button-learn-more link="/capacity-building/learning-center"  color="blm-orange">}}Learn more{{</button-learn-more>}} 
 
 {{<end_floating_image>}}
 
@@ -79,18 +79,18 @@ WaziHacks is a capacity-building tool that involves organizing events where tech
 We help you with:
 
 {{<custom_bullet icon="/img/icons/check-circle.svg">}}
-**Event Hosting**
+Event Hosting
 {{</custom_bullet>}}
 
 {{<custom_bullet icon="/img/icons/check-circle.svg">}}
-**Marketing and Pomoting Events** 
+Marketing and Pomoting Events
 {{</custom_bullet>}}
 
 {{<custom_bullet icon="/img/icons/check-circle.svg">}}
-**Providing Mentorship and Guidance**
+Providing Mentorship and Guidance
 {{</custom_bullet>}}
 
-{{<button_action link="/capacity-building/wazihack">}}Learn more{{</button_action>}} 
+{{<button-learn-more link="/capacity-building/wazihack" color="blm-orange" >}}Learn more{{</button-learn-more>}} 
 
 {{<end_floating_image>}}
 

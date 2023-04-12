@@ -16,22 +16,17 @@ title: IoT Edge Platform
 - Working with or without Internet!
 {{</page_banner_alt>}}
 
-
-{{<line_break>}}
-{{<line_break>}}
-
 [SECTION_OFFWHITE]
 
 {{<title >}}
 ### Edge Gateway
 {{</title>}}
 
-{{<line_break>}}
 {{<floating_image image="multibox.png" float="right" style="margin-left: 2rem;">}}
 
 
 {{<line_break>}}
-**WaziGate** is an IoT LoRaWAN Gateway, ideal for all your remote IoT applications. The Gateway can cover up to 100 IoT Sensors and actuator nodes: Weather stations, soil monitoring, GPS applications. The possibilities are endless! You can host your own applications directly in the gateway. The WaziGate features:
+**WaziGate** is your all-in-one LoRaWAN Gateway for endless remote IoT applications. Covering up to 100 nodes, it is ideal for weather stations, soil monitoring, GPS and more. Plus, host your own apps directly in the gateway! The WaziGate features:
 
 {{<custom_bullet icon="/img/icons/check-circle.svg">}}
 Edge capacity to host your applications
@@ -49,7 +44,7 @@ Automation & remote management
 Low power consumption
 {{</custom_bullet>}}
 {{<line_break>}}
-{{<button_action link="/iot-edge-platform/wazigate">}}Learn more{{</button_action>}}
+{{<button-learn-more link="/iot-edge-platform/wazigate" color="blm-orange">}}Learn more{{</button-learn-more>}}
 
 
 
@@ -68,39 +63,50 @@ Low power consumption
 
 [SECTION_DARK]
 
+{{<title line-style="border-color: #fff">}}
+## WaziDev IoT Prototyping Kit
+{{</title>}}
+
 {{<floating_image image="edge-kit.webp" float="right" style="margin-left: 2rem;">}}
 
-# WaziDev IoT Prototyping Kit
 
 Waziup has introduced an open source, low-cost, powerful and customizable iot kit to serve the need of enthusiasts.
 
-{{<button_action link="/iot-edge-platform/prototyping-kit">}}Learn more{{</button_action>}}
+{{<line_break>}}
+{{<line_break>}}
+{{<button-learn-more link="/iot-edge-platform/prototyping-kit">}}Learn more{{</button-learn-more>}}
 
-{{<line_break>}}
-{{<line_break>}}
+{{<end_floating_image>}}
 
 [SECTION_TRANSPARENT]
 
 <!-- {{<cp_circular_cards>}} -->
-
-{{<line_break>}}
-{{<title sub-title="Manage your Sensors and Actuators Remotely">}} 
-### Cloud Platform 
+{{<title>}} 
+## Cloud Platform 
 {{</title>}}
 
 {{<line_break>}}
 {{<line_break>}}
-{{<floating_image image="cloud-platform-services.png" float="right" width="650px" style="margin-left: 2rem" tilt="false">}}
+{{<floating_image image="cloud-platform-services.png" float="right" style="margin-left: 2rem" tilt="false">}}
 
-The WAZIUP Cloud platform allows you to manage your sensors, actuators and IoT data. WAZIUP Cloud platform offers everything that you need for your application:
-- Remote connection of your sensors and actuators
-- Send, receive, collect, store and analyze the data they generate
-- Turn that data into actionable insights, in real time
-- Using SMS or mobile application for notification
-- Control your gateways from remote
-- Extensive API for developing your own application
+## Manage Sensors and Actuators Remotely
+The WAZIUP Cloud platform allows you to manage your gateway, sensors, actuators and IoT data. WAZIUP Cloud platform offers everything that you need for your applications.
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+Remote connection of your gateway, sensors and actuators.
+{{</custom_bullet>}}
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+Send, receive, collect, store and analyze the edge data.
+{{</custom_bullet>}}
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+Turn edge data into actionable insights in real time.
+{{</custom_bullet>}}
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+Notification through SMS or mobile application.
+{{</custom_bullet>}}
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+Extensive API for developing your own application.
+{{</custom_bullet>}}
 {{<end_floating_image>}}
-{{<line_break>}}
 {{<line_break>}}
 
 <!-- {{<subscribe_section>}} -->

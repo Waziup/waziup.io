@@ -5,7 +5,7 @@ cover: waziact_.png
 category: Development Board
 weight: -1
 ---
-{{<page_banner banner="/img/gray-shapes-banner.png" style="color: #0d1528">}}
+{{<page_banner banner="/img/gray-shapes-banner.png">}}
 # WaziAct
 {{</page_banner >}}
 

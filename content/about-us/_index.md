@@ -3,35 +3,29 @@ title: About Us
 # hide_footer: true   // this meta info indicates the footer hiding thing.
 ---
 
-{{<page_banner banner="/img/gray-shapes-banner.png" style="color: #0d1528">}}
+{{<page_banner banner="/img/gray-shapes-banner.png">}}
 # About Us
 {{</page_banner >}}
 
 [SECTION_TRANSPARENT]
 
-{{<line_break>}}
-{{<line_break>}}
-{{<floating_image image="we-do.svg" float="right" width="700px" style="margin-left: 5vw">}}
+{{<floating_image image="we-do.svg" float="right"  style="margin-left: 5vw">}}
 
-# We Foster IoT Solutions For Sustainable Development
+## We Foster IoT Solutions For Sustainable Development
 
-WAZIUP e.V. is promoting cutting-edge technologies and capacity building toward emerging countries. We have developed affordable and adaptable end-to-end IoT Solutions. WAZIUP Open Source IoT and Cloud platform aims to accelerate social innovation and empower local IoT entrepreneurship.
+WAZIUP e.V. promotes innovative tech and builds capacity in emerging countries with affordable, adaptable end-to-end IoT solutions. Our open-source IoT and cloud platform accelerates social innovation and empowers local IoT entrepreneurship.  
 
-{{<au-circle-icon-text icon="/img/icons/mission-star.svg">}}
-## Our Mission
-
-Our Mission is to be the industry’s top-ratede provider issuer enterprise targeting satisfying the most to our clients.
-{{</au-circle-icon-text>}}
-
-{{<au-circle-icon-text icon="/img/icons/vision-star.svg">}}
-## Our Vision
-
-Our Vision is to be a top Web Design company in the IT sector and progress in our current position in the market.
-{{</au-circle-icon-text>}}
-
+Our Mission:
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+Promote cutting-edge IoT technologies.
+{{</custom_bullet>}}
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+Provide capacity building opportunities.
+{{</custom_bullet>}}
+{{<custom_bullet icon="/img/icons/check-circle.svg">}}
+Foster social innovation.
+{{</custom_bullet>}}
 {{<end_floating_image>}}
-
-{{<line_break>}}
 {{<line_break>}}
 
 [SECTION_OFFWHITE]

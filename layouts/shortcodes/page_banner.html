@@ -1,7 +1,13 @@
-<div class="page-banner">
+<!-- <div class="page-banner">
     <img src="{{ .Get "banner" }}" alt="">
     <div class="typography" style="{{ .Get "style" }}">
         {{ .Inner |  markdownify }}
     </div>
-</div>
+</div> -->
 
+<div class="page-banner-static-color">
+    <!-- <img src="{{ .Get "banner" }}" alt=""> -->
+    <div class="typography" style="{{ .Get "style" }}">
+        {{ .Inner |  markdownify }}
+    </div>
+</div>

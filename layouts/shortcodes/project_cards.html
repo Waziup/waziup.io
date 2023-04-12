@@ -1,11 +1,14 @@
 {{ $shortcode := .}} {{ $projectPage := $shortcode.Page.GetPage "projects" }} 
 <!-- Title of project page: {{$projectPage.Title }}.<br /> -->
 
-{{ $projects := first 6 $projectPage.Pages }}
+<!-- {{ $projects := first 6 $projectPage.Pages }} -->
+
+{{ $projects := sort $projectPage.Pages ".Weight" "desc" }}
+{{ $projects := first 6 $projects }}
 
   <div class="card-group">
-    {{ range sort $projects ".Date" "desc" }}
-      {{ $project := . }}
+    {{ range $projects }}
+    {{ $project := . }}
   
     <!-- - Project: {{.Title}}<br> -->
     {{ $cover := $project.Resources.GetMatch .Params.cover }}

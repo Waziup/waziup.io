@@ -6,11 +6,11 @@ banner: /img/home-banner.webp
 
 {{<home-banner-slider>}}
 
-[SECTION_TRANSPARENT]
+[SECTION_OFFWHITE]
 
 {{<service-cards>}}
 
-[SECTION_TRANSPARENT]
+<!-- [SECTION_TRANSPARENT] -->
 
 <!-- {{<floating_video float="center" link="https://www.youtube.com/embed/hu-v-eukLAc?autoplay=0;rel=0&loop=0;controls=0&amp;showinfo=0&autohide=1">}}
 {{<end_floating_image>}} -->

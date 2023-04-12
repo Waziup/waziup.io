@@ -30,7 +30,7 @@ $xxl: 1920px;
 
 $waziup-orange-deep: #F35E19;
 $waziup-orange-light: #F48652;
-$waziup-off-white: #F5F5F5;
+$waziup-off-white: #f5f5f5;
 $waziup-blue: #186DBF;
 $waziup-dark: #0D1528;
 
@@ -45,7 +45,8 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-size: 1.2em;
 	color: #515b60;
-	background-color: #fafafa;
+	// background-color: #fafafa;
+	background-color: #fff;
 }
 
 @media(max-width: $md) {
@@ -452,14 +453,14 @@ h1 {
 }
 
 @media (max-width:$sm) {
-	.page-banner {
+	.page-banner,.page-banner-static-color {
 		margin: 5rem -5vw 0;
 	}
 }
 
 @media (max-width:$xl) {
 
-	.page-banner {
+	.page-banner,.page-banner-static-color {
 		height: 10rem;
 		margin: 5rem -10vw 0;
 	}
@@ -467,7 +468,7 @@ h1 {
 
 @media (min-width:$xl) {
 
-	.page-banner {
+	.page-banner,.page-banner-static-color {
 		margin: 5rem -20vw 0;
 	}
 }
@@ -476,22 +477,21 @@ h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 5em;
+	font-size: 2em;
 	font-weight: 300;
 	color: #fff;
-	height: 200px;
+	height: 250px;
 	overflow: hidden;
 	background-color: #0d1528;
-	margin-top: 5.5rem;
 	padding: 1rem;
 }
 
-@media (max-width:$md) {
-	.page-banner-static-color {
-		margin: 5rem -10vw 0;
-		font-size: 2.5em;
-	}
-}
+// @media (max-width:$md) {
+// 	.page-banner-static-color {
+// 		margin: 5rem -10vw 0;
+// 		font-size: 2.5em;
+// 	}
+// }
 
 .section-transparent {
 	margin: 0 -10vw;
@@ -514,7 +514,9 @@ h1 {
 }
 
 @media (min-width:$sm) and (max-width:$xl) {
-	.section-off-white, .section-transparent {
+
+	.section-off-white,
+	.section-transparent {
 		margin: 0 -20vw;
 		padding: 5rem 10vw;
 	}
@@ -549,7 +551,7 @@ h1 {
 
 @media (max-width:$xl) {
 
-	.section-dark{
+	.section-dark {
 		margin: auto -10vw 0;
 		padding: 2.5rem 10vw;
 	}
@@ -639,7 +641,7 @@ h1 {
 	justify-content: center;
 	align-items: center;
 	color: #fff;
-	font-size: 2em;
+	font-size: 1em;
 	font-weight: 300;
 	text-align: center;
 	position: relative;
@@ -903,9 +905,9 @@ h1 {
 	padding: 1rem 0;
 }
 
-.btn-seeAll {
+.btn-learn-more-white {
 	text-decoration: none;
-	color: $waziup-dark;
+	color: #fff;
 	display: flex;
 	align-items: center;
 	gap: .5rem;
@@ -916,9 +918,20 @@ h1 {
 	transition: all 0.5s;
 	border-radius: 4px;
 	position: relative;
-
+}
+.blm-dark{
+	color: $waziup-dark;
 	&:hover {
 		background-color: $waziup-dark;
+		color: #fff;
+		transition: all 0.5s;
+		padding: .5rem .8rem;
+	}
+}
+.blm-orange{
+	color: $waziup-orange-deep;
+	&:hover {
+		background-color: $waziup-orange-deep;
 		color: #fff;
 		transition: all 0.5s;
 		padding: .5rem .8rem;
@@ -1047,7 +1060,7 @@ h1 {
 			overflow: hidden;
 
 			>h2 {
-				color: #263238;
+				// color: #263238;
 				text-decoration: none;
 				font-weight: 500;
 				display: -webkit-box;
@@ -1206,35 +1219,53 @@ h1 {
 		background-color: transparent;
 		border-radius: 8px;
 		padding: 20px;
-		
+		height: 300px;
+
 		.icon {
-		  display: flex;
-		  justify-content: center;
-		  align-items: center;
-		  // background-color: #ccc;
-		  width: 80px;
-		  height: 80px;
-		  border: #0d1528 1px solid;
-		  border-radius: 50%;
-		  font-size: 24px;
-		  color: #fff;
-		  margin-bottom: 10px;
+			height: 100px;
+
+			.icon-circle {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				// background-color: #ccc;
+				width: 80px;
+				height: 80px;
+				border: $waziup-orange-light 2px solid;
+				border-radius: 50%;
+				font-size: 24px;
+				color: #fff;
+				margin-bottom: 10px;
+
+				>span {
+					font-size: 50px;
+					color: $waziup-orange-light;
+					font-weight: 100;
+
+				}
+			}
 		}
-		
+
 		.title {
-		  text-align: center;
-		  font-size: 18px;
-		  font-weight: bold;
-		  margin-bottom: 10px;
+			height: 60px;
+			text-align: center;
+			font-size: 18px;
+			font-weight: bold;
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			// margin-bottom: 10px;
+			
 		}
-		
+
 		.description {
-		  text-align: center;
-		  font-size: 14px;
-		  color: #666;
-		  line-height: 1.5;
+			height: 140px;
+			text-align: center;
+			font-size: 14px;
+			color: #666;
+			line-height: 1.5;
 		}
-	  }
+	}
 
 	.text-link {
 		text-decoration: none;
@@ -1275,6 +1306,7 @@ h1 {
 	.card-group>.project-card {
 		width: 100%;
 	}
+
 	.card-group>.service-card {
 		width: 100%;
 	}
@@ -1286,9 +1318,11 @@ h1 {
 	.card-group>.project-card {
 		width: 45%;
 	}
+
 	.card-group>.card {
 		width: 45%;
 	}
+
 	.card-group>.service-card {
 		width: 45%;
 	}
@@ -1301,6 +1335,27 @@ h1 {
 
 }
 
+.btn-call-to-action {
+	text-decoration: none;
+	color: $waziup-dark;
+	display: flex;
+	align-items: center;
+	gap: .5rem;
+	width: fit-content;
+	padding: .5rem;
+	padding-left: 0;
+	border: 0;
+	transition: all 0.5s;
+	border-radius: 4px;
+	position: relative;
+
+	&:hover {
+		background-color: $waziup-dark;
+		color: #fff;
+		transition: all 0.5s;
+		padding: .5rem .8rem;
+	}
+}
 
 
 .floating-image {
@@ -1325,12 +1380,12 @@ h1 {
 .left {
 	float: left;
 	margin-left: 0;
-	margin-right: 10vw;
+	margin-right: 8vw;
 }
 
 .right {
 	float: right;
-	margin-left: 10vw;
+	margin-left: 8vw;
 	margin-right: 0;
 }
 
@@ -2286,7 +2341,7 @@ $background-color_3: white;
 	border: none;
 	text-align: left;
 	outline: none;
-	font-size: 15px;
+	font-size: 1em;
 	transition: 0.4s;
 	margin-bottom: .5rem;
 
@@ -2312,6 +2367,7 @@ $background-color_3: white;
 }
 
 .panel {
+	font-size: 1em;
 	padding: 0 18px;
 	background-color: $background-color_3;
 	max-height: 0;
@@ -2663,11 +2719,11 @@ $background-color_3: white;
 	}
 
 	.text-content {
-		width: 40%;
+		order: 1;
+		width: 45%;
 		justify-content: center;
 		margin-bottom: 2rem;
 		color: #fff;
-		background-color: #0D1528;
 		order: 1;
 		display: flex;
 		flex-direction: column;
@@ -2696,7 +2752,19 @@ $background-color_3: white;
 		}
 	}
 
+	.text-link-white {
+		margin-top: 2rem;
+		text-decoration: none;
+		color: #fff;
+		padding: .5rem 1rem;
+		display: flex;
+		align-items: center;
+		gap: .5rem;
+		width: fit-content;
+	}
+
 	.kit-img {
+		order: 2;
 		width: 50%;
 		order: 2;
 
@@ -2705,6 +2773,15 @@ $background-color_3: white;
 			object-fit: cover;
 			display: block;
 		}
+	}
+
+	.action-button {
+		order: 3;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 2rem;
 	}
 }
 
@@ -3023,7 +3100,21 @@ $background-color_3: white;
 			display: none;
 		}
 
-		img {
+		>div {
+			display: flex;
+
+			>div {
+				width: 40%;
+			}
+
+			>img {
+				flex: 1 0 100%;
+				scroll-snap-align: start;
+				object-fit: cover;
+			}
+		}
+
+		>img {
 			flex: 1 0 100%;
 			scroll-snap-align: start;
 			object-fit: cover;

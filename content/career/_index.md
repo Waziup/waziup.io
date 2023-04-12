@@ -3,7 +3,7 @@ title: Career
 # hide_footer: true   // this meta info indicates the footer hiding thing.
 ---
 
-{{<page_banner banner="/img/gray-shapes-banner.png" style="color: #0d1528">}}
+{{<page_banner banner="/img/gray-shapes-banner.png" >}}
 # We are hiring!
 {{</page_banner >}}
 
