@@ -12,7 +12,6 @@ Projects focus
 Intel-Irris provides the smallholder farmers a more efficient management of its available water by deploying of an open, low-cost and autonomous irrigation control system based on IoT and smart technologies.
 
 {{<button-learn-more link="/projects/intel_iris/">}} Read more {{</button-learn-more>}}
-:w
 
 {{<end_floating_image>}}
 
@@ -24,7 +23,7 @@ HUBiquitous is a Horizon 2020’s Innovation Action aiming at creating a joint A
 
 {{<button-learn-more link="/projects/hubiquitous/">}} Read more {{</button-learn-more>}}
 
-Our Projects
+All Projects
 ============
 
 {{<project_cards>}}
