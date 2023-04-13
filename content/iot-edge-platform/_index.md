@@ -25,7 +25,7 @@ Edge Gateway
 - Automation & remote management
 - Low power consumption
 
-{{<button_action link="/iot-edge-platform/wazigate">}}Learn more{{</button_action>}}
+{{<button-learn-more link="/iot-edge-platform/wazigate">}}Learn more{{</button-learn-more>}}
 
 Our Development Boards
 ======================
@@ -36,16 +36,11 @@ Our Development Boards
 WaziDev IoT Prototyping Kit
 ===========================
 
-{{<title line-style="border-color: #fff">}}
-## WaziDev IoT Prototyping Kit
-{{</title>}}
 
 {{<floating_image image="edge-kit.webp" float="right" style="margin-left: 2rem;">}}
 
 Waziup has introduced an open source, low-cost, powerful and customizable iot kit to serve the need of enthusiasts.
 
-{{<line_break>}}
-{{<line_break>}}
 {{<button-learn-more link="/iot-edge-platform/prototyping-kit" color="blm-orange">}}Learn more{{</button-learn-more>}}
 
 Cloud Platform 
