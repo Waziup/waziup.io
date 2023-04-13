@@ -9,7 +9,7 @@ weight: -4
 
 <!-- {{<single_page_banner>}} Resilink: Prima & Horizon Europe {{</single_page_banner >}} -->
 
-{{<page_banner banner="/img/gray-shapes-banner.png" style="color: #0d1528">}}
+{{<page_banner banner="/img/gray-shapes-banner.png">}}
 # Resilink: Prima & Horizon Europe 
 {{</page_banner >}}
 

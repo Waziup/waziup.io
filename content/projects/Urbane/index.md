@@ -8,7 +8,7 @@ weight: -3
 ---
 
 <!-- {{<single_page_banner>}} Urbane Horizon 2020 {{</single_page_banner >}} -->
-{{<page_banner banner="/img/gray-shapes-banner.png" style="color: #0d1528">}}
+{{<page_banner banner="/img/gray-shapes-banner.png">}}
 # Urbane Horizon 2020
 {{</page_banner >}}
 

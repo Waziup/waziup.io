@@ -12,7 +12,6 @@ layout: hero-pages
 - Working with or without Internet!
 {{</page_banner_alt>}}
 
-
 Edge Gateway
 ============
 
@@ -28,7 +27,6 @@ Edge Gateway
 
 {{<button_action link="/iot-edge-platform/wazigate">}}Learn more{{</button_action>}}
 
-
 Our Development Boards
 ======================
 
@@ -38,11 +36,17 @@ Our Development Boards
 WaziDev IoT Prototyping Kit
 ===========================
 
+{{<title line-style="border-color: #fff">}}
+## WaziDev IoT Prototyping Kit
+{{</title>}}
+
 {{<floating_image image="edge-kit.webp" float="right" style="margin-left: 2rem;">}}
 
 Waziup has introduced an open source, low-cost, powerful and customizable iot kit to serve the need of enthusiasts.
 
-{{<button_action link="/iot-edge-platform/prototyping-kit">}}Learn more{{</button_action>}}
+{{<line_break>}}
+{{<line_break>}}
+{{<button-learn-more link="/iot-edge-platform/prototyping-kit" color="blm-orange">}}Learn more{{</button-learn-more>}}
 
 Cloud Platform 
 ==============
@@ -58,5 +62,4 @@ The WAZIUP Cloud platform allows you to manage your sensors, actuators and IoT d
 - Using SMS or mobile application for notification
 - Control your gateways from remote
 - Extensive API for developing your own application
-
 

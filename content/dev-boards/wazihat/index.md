@@ -5,7 +5,7 @@ cover: wazihat_.png
 category: Development Board
 weight: -2
 ---
-{{<page_banner banner="/img/gray-shapes-banner.png" style="color: #0d1528">}}
+{{<page_banner banner="/img/gray-shapes-banner.png" >}}
 # WaziHat Pro Single
 {{</page_banner >}}
 

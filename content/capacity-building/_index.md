@@ -17,7 +17,7 @@ layout: hero-pages
 WaziLab
 =======
 
-{{<floating_image image="wazilab.svg" float="left" >}}
+{{<floating_image image="wazilab.svg" float="left">}}
 
 ### Solution Lab
 
@@ -27,7 +27,8 @@ Solution Lab is primarily a physical infrastructure proposing a number of techno
 - Development tools, libraries and platforms for AI
 - Open IoT cloud platforms for data 
 
-{{<button_action link="/capacity-building/solution-lab">}}Learn more{{</button_action>}} 
+{{<line_break>}}
+{{<button-learn-more link="/capacity-building/solution-lab"  color="blm-orange">}}Learn more{{</button-learn-more>}} 
 
 
 {{<floating_image image="learning-center.png" float="right" >}}
@@ -40,7 +41,8 @@ The WaziLab is a platform for learning IoT through live prototyping. It simplifi
 - Live prototyping and solution building
 - IoT Lab management
 
-{{<button_action link="/capacity-building/learning-center">}}Learn more{{</button_action>}} 
+{{<line_break>}}
+{{<button-learn-more link="/capacity-building/learning-center"  color="blm-orange">}}Learn more{{</button-learn-more>}} 
 
 Waziup Innovative Hackathon
 ===========================
@@ -57,7 +59,7 @@ We help you with:
 - **Marketing and Pomoting Events** 
 - **Providing Mentorship and Guidance**
 
-{{<button_action link="/capacity-building/wazihack">}}Learn more{{</button_action>}} 
+{{<button-learn-more link="/capacity-building/wazihack" color="blm-orange" >}}Learn more{{</button-learn-more>}} 
 
 Waziup Certification
 ====================
@@ -71,5 +73,4 @@ Advance your IoT knowledge with Waziup's Certification - offering online tutoria
 ### Get Certified
 
 {{<certification_cards>}}
-
 

@@ -2,6 +2,6 @@
 title: Learning Center
 ---
 
-{{<page_banner banner="/img/gray-shapes-banner.png" style="color: #0d1528">}}
+{{<page_banner banner="/img/gray-shapes-banner.png" >}}
 # Learning Center
 {{</page_banner >}}

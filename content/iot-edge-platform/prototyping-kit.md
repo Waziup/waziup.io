@@ -2,7 +2,7 @@
 title: WaziDev IoT LoRa Prototyping Kit
 ---
 
-{{<page_banner banner="/img/gray-shapes-banner.png" style="color: #0d1528">}}
+{{<page_banner banner="/img/gray-shapes-banner.png" >}}
 # WaziDev IoT Prototyping Kit
 {{</page_banner >}}
 
