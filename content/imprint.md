@@ -1,9 +1,6 @@
 ---
 title: Imprint
 ---
-[SECTION_OFFWHITE]
-
-# IMPRINT
 
 Waziup e.V.  
 Räcknitzhohe 50-52  

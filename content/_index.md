@@ -1,5 +1,6 @@
 ---
 title: "Waziup e.V." 
+layout: hero-pages
 services:
   - title: IoT Skills development & Training
     icon: school
@@ -26,4 +27,54 @@ services:
     icon: find_in_page
 ---
 
-My page
+{{<home-banner-slider>}}
+
+Our services 
+============
+
+{{<service-cards>}}
+
+
+<!-- {{<floating_video float="center" link="https://www.youtube.com/embed/hu-v-eukLAc?autoplay=0;rel=0&loop=0;controls=0&amp;showinfo=0&autohide=1">}}
+{{<end_floating_image>}} -->
+
+
+End-to-End Technology
+=====================
+
+{{<floating_image image="/img/e2e-iot.png" float="left" >}}
+
+WAZIUP offers “out-of-the-box” solutions going from sensor nodes to applications. Our solutions are particularly adapted to tough conditions with low power, and long-range applications.
+
+- Long-range, low cost radio communications
+- Enterprise application framework
+- Edge computing IoT gateway
+- Cloud platform
+
+Research and Innovation Projects
+================================
+
+## Waziup is coordinating and participating in several EU research and development international projects.
+
+{{<home_project_cards>}}
+
+
+Latest Updates
+==============
+
+{{<radio_btn_new_pub>}}
+{{<news_cards>}}
+{{<publication_cards>}}
+
+
+Case Studies
+============
+
+{{<case_study_cards>}}
+
+
+Our Partners
+============
+
+{{<logoshow>}}
+

@@ -1,9 +1,11 @@
 {{ define "main" }}
-<section>
-    {{ $content := .Content}}
-    {{ $content = replace $content "<p>[SECTION_DARK]</p>" "</section><section class='section-dark'>"}}
-    {{ $content = replace $content "<p>[SECTION_TRANSPARENT]</p>" "</section><section class='section-transparent'>"}}
-    {{ $content = replace $content "<p>[SECTION_OFFWHITE]</p>" "</section><section class='section-off-white'>"}}
-    {{ safeHTML $content }}
-</section>
+<div class="page" id={{.Params.id}}>
+
+  <div class="page-banner-static-color">
+    {{.Title}}
+  </div>
+
+  {{partial "sections" .}}
+
+</div>
 {{end}}

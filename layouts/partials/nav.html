@@ -42,14 +42,14 @@
 
 <script>
   var header = document.getElementById("myNav");
-var navItem = header.getElementsByClassName("nav-item");
-console.log("checking: ", navItem.length);
-for (var i = 0; i < navItem.length; i++) {
-  navItem[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("nav-active");
-    console.log("checking click: ", current);
-    current[0].className = current[0].className.replace(" nav-active", "");
-    this.className += " nav-active";
-  });
-}
+  var navItem = header.getElementsByClassName("nav-item");
+  console.log("checking: ", navItem.length);
+  for (var i = 0; i < navItem.length; i++) {
+    navItem[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("nav-active");
+      console.log("checking click: ", current);
+      current[0].className = current[0].className.replace(" nav-active", "");
+      this.className += " nav-active";
+    });
+  }
 </script>

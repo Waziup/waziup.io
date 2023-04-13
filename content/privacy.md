@@ -1,7 +1,6 @@
 ---
 title: Privacy Policy
 ---
-[SECTION_OFFWHITE]
 
 Data protection declaration:
 ===

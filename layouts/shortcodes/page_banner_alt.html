@@ -1,12 +1,14 @@
-<div class="kit-branding"> 
-    <div class="text-content">
-        <div>{{ .Inner | markdownify }}</div>
-        <a  class="btn-lemo-solid {{ .Get "button-style"}}" 
-            href= "{{ .Get "goto-link"}}"
-            target="_blank"
-        >{{ .Get "button-text"}}</a>
-    </div>
-    <div class="kit-img" style=" width: {{ .Get "width"}}">
-        <img src="{{ .Get "image" }}" alt="">
-    </div>
+<div class="hero section">
+  <div class="kit-branding"> 
+      <div class="text-content">
+          <div>{{ .Inner | markdownify }}</div>
+          <a  class="btn-lemo-solid {{ .Get "button-style"}}" 
+              href= "{{ .Get "goto-link"}}"
+              target="_blank"
+          >{{ .Get "button-text"}}</a>
+      </div>
+      <div class="kit-img" style=" width: {{ .Get "width"}}">
+          <img src="{{ .Get "image" }}" alt="">
+      </div>
+  </div>
 </div>
