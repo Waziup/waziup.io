@@ -74,7 +74,7 @@ Waziup has introduced an open source, low-cost, powerful and customizable iot ki
 
 {{<line_break>}}
 {{<line_break>}}
-{{<button-learn-more link="/iot-edge-platform/prototyping-kit">}}Learn more{{</button-learn-more>}}
+{{<button-learn-more link="/iot-edge-platform/prototyping-kit" color="blm-orange">}}Learn more{{</button-learn-more>}}
 
 {{<end_floating_image>}}
 

@@ -6,6 +6,8 @@ title: Media
 # News & Publications
 {{</page_banner >}}
 
+<!-- [SECTION_OFFWHITE] -->
+
 {{<title>}}
 ## Latest Updates
 {{</title>}}
@@ -13,7 +15,7 @@ title: Media
 {{<news_cards>}}
 {{<publication_cards>}}
 
-[SECTION_OFFWHITE]
+<!-- [SECTION_TRANSPARENT] -->
 
 {{<title>}} 
 ## We are on Youtube {{</title>}}

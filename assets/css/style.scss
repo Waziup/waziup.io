@@ -33,6 +33,7 @@ $waziup-orange-light: #F48652;
 $waziup-off-white: #f5f5f5;
 $waziup-blue: #186DBF;
 $waziup-dark: #0D1528;
+$waziup-black-light: #515b60;
 
 $margin-adjust-with-container-xxl: auto -20vw;
 
@@ -451,6 +452,7 @@ h1 {
 		// z-index: 2;
 	}
 }
+
 .page-banner-static-color {
 	display: flex;
 	justify-content: center;
@@ -465,14 +467,17 @@ h1 {
 }
 
 @media (max-width:$sm) {
-	.page-banner,.page-banner-static-color {
+
+	.page-banner,
+	.page-banner-static-color {
 		margin: 5rem -5vw 0;
 	}
 }
 
 @media (max-width:$xl) {
 
-	.page-banner,.page-banner-static-color {
+	.page-banner,
+	.page-banner-static-color {
 		height: 10rem;
 		margin: 5rem -10vw 0;
 	}
@@ -480,7 +485,8 @@ h1 {
 
 @media (min-width:$xl) {
 
-	.page-banner,.page-banner-static-color {
+	.page-banner,
+	.page-banner-static-color {
 		margin: 5rem -20vw 0;
 	}
 }
@@ -920,8 +926,10 @@ h1 {
 	border-radius: 4px;
 	position: relative;
 }
-.blm-dark{
+
+.blm-dark {
 	color: $waziup-dark;
+
 	&:hover {
 		background-color: $waziup-dark;
 		color: #fff;
@@ -929,8 +937,10 @@ h1 {
 		padding: .5rem .8rem;
 	}
 }
-.blm-orange{
+
+.blm-orange {
 	color: $waziup-orange-deep;
+
 	&:hover {
 		background-color: $waziup-orange-deep;
 		color: #fff;
@@ -1130,6 +1140,29 @@ h1 {
 				font-size: 1.2rem;
 				margin-top: .5rem;
 			}
+
+			>a {
+				text-decoration: none;
+				color: $waziup-orange-deep;
+				// padding: .5rem 1rem;
+				display: flex;
+				align-items: center;
+				gap: .5rem;
+				width: fit-content;
+				padding: .5rem;
+				padding-left: 0;
+				border: 0;
+				transition: all 0.5s;
+				border-radius: 4px;
+				position: relative;
+
+				&:hover {
+					background-color: $waziup-orange-deep;
+					color: #fff;
+					transition: all 0.5s;
+					padding: .5rem .8rem;
+				}
+			}
 		}
 
 		icon {
@@ -1256,7 +1289,7 @@ h1 {
 			align-items: center;
 			justify-content: flex-start;
 			// margin-bottom: 10px;
-			
+
 		}
 
 		.description {
@@ -1270,7 +1303,7 @@ h1 {
 
 	.text-link {
 		text-decoration: none;
-		color: $waziup-dark;
+		color: $waziup-orange-deep;
 		display: flex;
 		align-items: center;
 		gap: .5rem;
@@ -1283,7 +1316,7 @@ h1 {
 		position: relative;
 
 		&:hover {
-			background-color: $waziup-dark;
+			background-color: $waziup-orange-deep;
 			color: #fff;
 			transition: all 0.5s;
 			padding: .5rem .8rem;
@@ -1338,24 +1371,24 @@ h1 {
 
 .btn-call-to-action {
 	text-decoration: none;
-	color: $waziup-dark;
+	color: #fff;
+	background-color: $waziup-orange-deep;
 	display: flex;
 	align-items: center;
 	gap: .5rem;
 	width: fit-content;
-	padding: .5rem;
-	padding-left: 0;
+	padding: .5rem 1.5rem;
 	border: 0;
 	transition: all 0.5s;
 	border-radius: 4px;
 	position: relative;
 
-	&:hover {
-		background-color: $waziup-dark;
-		color: #fff;
-		transition: all 0.5s;
-		padding: .5rem .8rem;
-	}
+	// &:hover {
+	// 	background-color: $waziup-dark;
+	// 	color: #fff;
+	// 	transition: all 0.5s;
+	// 	padding: .5rem .8rem;
+	// }
 }
 
 
@@ -2740,29 +2773,44 @@ $background-color_3: white;
 
 	.text-link {
 		text-decoration: none;
-		color: $waziup-dark;
-		padding: .5rem 1rem;
+		color: $waziup-orange-deep;
+		padding: .5rem;
+		padding-left: 0;
 		display: flex;
 		align-items: center;
 		gap: .5rem;
 		width: fit-content;
+		border-radius: 4px;
 
 		&:hover {
-			background-color: $waziup-dark;
+			background-color: $waziup-orange-deep;
 			color: #fff;
+			transition: all 0.5s;
+			padding: .5rem .8rem;
 		}
 	}
 
-	.text-link-white {
-		margin-top: 2rem;
-		text-decoration: none;
-		color: #fff;
-		padding: .5rem 1rem;
-		display: flex;
-		align-items: center;
-		gap: .5rem;
-		width: fit-content;
-	}
+	// .text-link {
+	// 	text-decoration: none;
+	// 	color: $waziup-dark;
+	// 	display: flex;
+	// 	align-items: center;
+	// 	gap: .5rem;
+	// 	width: fit-content;
+	// 	padding: .5rem;
+	// 	padding-left: 0;
+	// 	border: 0;
+	// 	transition: all 0.5s;
+	// 	border-radius: 4px;
+	// 	position: relative;
+
+	// 	&:hover {
+	// 		background-color: $waziup-dark;
+	// 		color: #fff;
+	// 		transition: all 0.5s;
+	// 		padding: .5rem .8rem;
+	// 	}
+	// }
 
 	.kit-img {
 		order: 2;

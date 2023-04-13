@@ -2,7 +2,7 @@
 title: Projects
 ---
 {{<page_banner banner="/img/gray-shapes-banner.png" >}}
-# Research & Innovation
+## Research & Innovation
 {{</page_banner >}}
 
 [SECTION_OFFWHITE]
