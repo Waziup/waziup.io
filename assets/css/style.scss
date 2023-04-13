@@ -457,13 +457,14 @@ h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 2em;
+	text-align: center;
+	font-size: 1.5em;
 	font-weight: 300;
 	color: #fff;
-	height: 200px;
+	height: 300px;
 	overflow: hidden;
 	background-color: #0d1528;
-	padding: 1rem;
+	padding: 1rem  10rem;
 }
 
 @media (max-width:$sm) {
@@ -502,10 +503,8 @@ h1 {
 
 .section-transparent {
 	margin: 0 -10vw;
-	padding: 2rem 10vw;
+	padding: 5vh 10vw;
 }
-
-
 
 .section-off-white {
 	background-color: $waziup-off-white;

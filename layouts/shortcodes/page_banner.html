@@ -6,8 +6,5 @@
 </div> -->
 
 <div class="page-banner-static-color">
-    <!-- <img src="{{ .Get "banner" }}" alt=""> -->
-    <div class="typography" style="{{ .Get "style" }}">
-        {{ .Inner |  markdownify }}
-    </div>
+    {{ .Inner | markdownify }}
 </div>

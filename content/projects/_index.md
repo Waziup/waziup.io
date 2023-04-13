@@ -2,7 +2,7 @@
 title: Projects
 ---
 {{<page_banner banner="/img/gray-shapes-banner.png" >}}
-## Research & Innovation
+# Research & Innovation
 {{</page_banner >}}
 
 [SECTION_OFFWHITE]
@@ -24,6 +24,7 @@ Intel-Irris provides the smallholder farmers a more efficient management of its 
 {{<floating_video float="right" link="https://www.youtube.com/embed/cfnPDh1yvh8">}}
 
 # Empowering Smart Cities: The HUBiquitous Project
+
 HUBiquitous is a Horizon 2020’s Innovation Action aiming at creating a joint Africa-Europe Startup & Innovation Ecosystem for long-term collaborations and partnerships. 
 
 {{<line_break>}}
@@ -33,7 +34,9 @@ HUBiquitous is a Horizon 2020’s Innovation Action aiming at creating a joint A
 
 [SECTION_OFFWHITE]
 
-{{<title>}} Our Projects {{</title>}}
+{{<title>}}
+## Our Projects 
+{{</title>}}
 
 {{<project_cards>}}
 

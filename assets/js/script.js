@@ -1,3 +1,4 @@
+// homepage banner slider
 document.addEventListener("DOMContentLoaded", function () {
     const sliderContainers = document.querySelectorAll(".slider-container");
     sliderContainers.forEach(function (container, i) {
@@ -22,3 +23,20 @@ document.addEventListener("DOMContentLoaded", function () {
         }, 5000);
     });
 });
+
+
+// accordions
+var acc = document.getElementsByClassName("accordion");
+var acc_counter;
+
+for (acc_counter = 0; acc_counter < acc.length; acc_counter++) {
+  acc[acc_counter].addEventListener("click", function () {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
