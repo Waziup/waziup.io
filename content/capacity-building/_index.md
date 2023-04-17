@@ -17,7 +17,7 @@ layout: hero-pages
 WaziLab
 =======
 
-{{<floating_image image="wazilab.svg" float="left">}}
+{{<floating_image image="../capacity-building/img/wazilab.svg" float="left">}}
 
 ### Solution Lab
 
@@ -47,7 +47,7 @@ The WaziLab is a platform for learning IoT through live prototyping. It simplifi
 Waziup Innovative Hackathon
 ===========================
 
-{{<floating_image image="hackathon.JPG" float="left">}}
+{{<floating_image image="../capacity-building/img/hackathon.JPG" float="left">}}
 
 ### WaziHack
 
