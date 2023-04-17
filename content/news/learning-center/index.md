@@ -6,13 +6,8 @@ category: NEWS
 date: 2022-09-15
 ---
 
-{{<page_banner banner="/img/iep-banner.png" >}}
-
-# WAZIUP Learning Center 
-
-{{</page_banner >}}
-
-[SECTION_TRANSPARENT]
+{{<line_break>}}
+{{<line_break>}}
 
 # Empowering African Innovators through IoT Education
 

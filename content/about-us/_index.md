@@ -16,7 +16,7 @@ Why Choose Us
 ============
 
 
-{{<floating_image image="../about-us/img/why-choose.JPG" float="left">}}
+{{<floating_image image="../about-us/img/why-choose.JPG" width="600px" float="left">}}
 
 ## We Are Building A Sustainable Future
 
