@@ -1,11 +1,20 @@
 {{ define "main" }}
 <div class="page" id={{.Params.id}}>
 
-  <div class="page-banner-static-color">
-    {{.Title}}
-  </div>
+  {{ if not .Params.hasHero }}
+    <div class="page-banner-static-color">
+      {{.Title}}
+    </div>
+  {{ end }}
 
-  {{partial "sections" .}}
+  {{ $content := .Content }}
+  
+  {{/* Add sections enclosing H1*/}}
+  {{ $content = replaceRE "<h1 " "</section><section class=\"section banded\">  <h1 " $content }}
+  
+  <section>
+    {{ $content | safeHTML }}
+  </section>
 
 </div>
 {{end}}

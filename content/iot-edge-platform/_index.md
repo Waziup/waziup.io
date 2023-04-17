@@ -1,6 +1,6 @@
 ---
 title: DEVELOP, DEPLOY, CONNECT !
-layout: hero-pages
+hasHero: true
 ---
 
 {{<page_banner_alt  image="banner.png" goto-link="https://dashboard.waziup.io/" button-text="Try Dashboard">}}

@@ -1,6 +1,6 @@
 ---
 title: Capacity Building
-layout: hero-pages
+hasHero: true
 ---
 
 {{<page_banner_alt  image="capacity-banner.png" goto-link="http://35.157.161.231:8086/" button-text="Try WaziLab">}}

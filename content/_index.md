@@ -1,6 +1,6 @@
 ---
 title: "Waziup e.V." 
-layout: hero-pages
+hasHero: true
 services:
   - title: IoT Skills development & Training
     icon: school
