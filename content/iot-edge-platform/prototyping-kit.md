@@ -2,11 +2,9 @@
 title: WaziDev IoT LoRa Prototyping Kit
 ---
 
-{{<page_banner banner="/img/gray-shapes-banner.png" >}}
+<!-- {{<page_banner banner="/img/gray-shapes-banner.png" >}}
 # WaziDev IoT Prototyping Kit
-{{</page_banner >}}
-
-[SECTION_TRANSPARENT]
+{{</page_banner >}} -->
 
 {{<floating_image image="../wazi-hardware.jpg" float="right" width="600px" >}}
 <!-- {{<floating_image image="../edge-kit.webp" float="right" width="500px"  >}} -->

@@ -33,13 +33,21 @@ Our Development Boards
 {{<dev_board_cards>}}
 
 
-WaziDev IoT Prototyping Kit
+IoT Prototyping Kit
 ===========================
 
 
 {{<floating_image image="edge-kit.webp" float="right" style="margin-left: 2rem;">}}
 
-Waziup has introduced an open source, low-cost, powerful and customizable iot kit to serve the need of enthusiasts.
+<!-- Waziup has introduced an open source, low-cost, powerful and customizable iot kit to serve the need of enthusiasts. -->
+Waziup provides free IoT Development kits to makers to facilitate the rapid prototyping of their solutions. The kit offers all the features to help developers & startups prototype and deploy their solutions rapidly. It includes:
+
+- Waziup development board with embedded LoRa module (Wazidev)
+- USB cable
+- battery case
+- DHT sensor
+-0 jumper cables
+ 
 
 {{<button-learn-more link="/iot-edge-platform/prototyping-kit" color="blm-orange">}}Learn more{{</button-learn-more>}}
 
@@ -48,7 +56,7 @@ Cloud Platform
 
 ## Manage your Sensors and Actuators Remotely
 
-{{<floating_image image="cloud-platform-services.png" float="right" width="650px" style="margin-left: 2rem" tilt="false">}}
+{{<floating_image image="cloud-platform-services.png" float="right" style="margin-left: 2rem" tilt="false">}}
 
 The WAZIUP Cloud platform allows you to manage your sensors, actuators and IoT data. WAZIUP Cloud platform offers everything that you need for your application:
 - Remote connection of your sensors and actuators
