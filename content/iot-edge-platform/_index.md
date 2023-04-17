@@ -3,7 +3,7 @@ title: DEVELOP, DEPLOY, CONNECT !
 hasHero: true
 ---
 
-{{<page_banner_alt  image="../iot-edge-platform/img/banner.png" goto-link="https://dashboard.waziup.io/" button-text="Try Dashboard">}}
+{{<page_banner_alt  image="img/banner.png" goto-link="https://dashboard.waziup.io/" button-text="Try Dashboard">}}
 
 ### Waziup IoT Platform
 
@@ -15,7 +15,7 @@ hasHero: true
 Edge Gateway
 ============
 
-{{<floating_image image="../iot-edge-platform/img/multibox.png" float="right" style="margin-left: 2rem;">}}
+{{<floating_image image="gateway/img/multibox.png" float="right" style="margin-left: 2rem;">}}
 
 **WaziGate** is an IoT LoRaWAN Gateway, ideal for all your remote IoT applications. The Gateway can cover up to 100 IoT Sensors and actuator nodes: Weather stations, soil monitoring, GPS applications. The possibilities are endless! You can host your own applications directly in the gateway. The WaziGate features:
 
@@ -38,7 +38,7 @@ IoT Prototyping Kit
 ===========================
 
 
-{{<floating_image image="../iot-edge-platform/img/edge-kit.webp" float="right" style="margin-left: 2rem;">}}
+{{<floating_image image="img/edge-kit.webp" float="right" style="margin-left: 2rem;">}}
 
 <!-- Waziup has introduced an open source, low-cost, powerful and customizable iot kit to serve the need of enthusiasts. -->
 Waziup provides free IoT Development kits to makers to facilitate the rapid prototyping of their solutions. The kit offers all the features to help developers & startups prototype and deploy their solutions rapidly. It includes:
@@ -57,7 +57,7 @@ Cloud Platform
 
 ## Manage your Sensors and Actuators Remotely
 
-{{<floating_image image="../iot-edge-platform/img/cloud-platform-services.png" float="right" style="margin-left: 2rem" tilt="false">}}
+{{<floating_image image="img/cloud-platform-services.png" float="right" style="margin-left: 2rem" tilt="false">}}
 
 The WAZIUP Cloud platform allows you to manage your sensors, actuators and IoT data. WAZIUP Cloud platform offers everything that you need for your application:
 - Remote connection of your sensors and actuators
