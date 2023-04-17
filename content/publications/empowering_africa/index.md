@@ -6,13 +6,9 @@ category: PUBLICATION
 date: 2021-05-01
 ---
 
-{{<page_banner banner="cover.png" >}}
+### Empowering Open Source and Affordable IoT Technologies in Africa
 
-{{</page_banner >}}
-
-[SECTION_TRANSPARENT]
-
-# Empowering Open Source and Affordable IoT Technologies in Africa
+{{<floating_image image="applications.png" float="right" >}}
 
 IoT, or ‘Internet of Things’, is an on-going revolution that is changing the way innovation is being made around
 the world. Startups, innovators and tech enthusiasts can now create their prototypes, with very little initial
@@ -20,7 +16,6 @@ investment. Africa is taking part of this IoT movement, and great innovation opp
 
 Furthermore, more and more startups and companies need to transition from the analog setup of operations to smart seamless operations. The COVID-19 situation has caused many innovators, developers, and companies to return to the drawing board. They need to quickly hack together solutions to continue operations and reach their customers efficiently. The ability to manage processes remotely with higher impact is what most organisations in various sectors scratch their heads about.
 
-{{<floating_image image="applications.png" float="left" width="400px" >}}
 
 The Waziup (in Swahili “Open-Up”) initiative funded by the European Commission under the H2020 framework program started in 2015 with a vision to offer fully open source Internet of things (IoT) technologies to African Tech Hubs, Start-ups and young communities (see page 11). The objective of this initiative is to provide a highly cost-effective and affordable IoT solution based on low power and long range LoRa communications. It is co-designed and co-developed by the African entrepreneurs in order to empower the social entrepreneurs and to foster the industrial IoT application.
 

@@ -1,21 +1,11 @@
 ---
-title: Intel-IrriS Prima Project
+title: Intel-IrriS Prima 2020
 cover: cover.png
 description: "Intel-IrriS Prima Project: Improving Water Management for Small-Scale Farmers"
 category: PRIMA | EU
 date: 2022-01-01
 weight: -1
 ---
-
-<!-- {{<single_page_banner>}}
-Intel-IrriS Prima 2020
-{{</single_page_banner >}} -->
-
-{{<page_banner banner="/img/gray-shapes-banner.png">}}
-# Intel-IrriS Prima 2020
-{{</page_banner >}}
-
-[SECTION_TRANSPARENT]
 
 {{<floating_image image="logo.png" float="left" width="300px" >}}
 {{<end_floating_image>}}
