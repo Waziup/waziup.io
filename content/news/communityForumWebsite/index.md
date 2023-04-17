@@ -1,6 +1,6 @@
 ---
 title: WAZIUP launches its community forum website
-cover: cover.png
+cover: cover.webp
 description: "YEAY! We launched our community forum"
 category: NEWS
 date: 2020-05-28
