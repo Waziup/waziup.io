@@ -5,13 +5,8 @@ cover: waziact_.png
 category: Development Board
 weight: -1
 ---
-{{<page_banner banner="/img/gray-shapes-banner.png">}}
-# WaziAct
-{{</page_banner >}}
 
-[SECTION_TRANSPARENT]
-
-{{<floating_image image="waziact.png" float="right" width="400px" >}}
+{{<floating_image image="waziact.png" float="right" width="600px" >}}
 
 **About Devboard:** The WaziAct is an all in one style development board for projects involving the great outdoor and sensing, unlike the WaziSense, it also has a relay for actuation. Fitted with a lora sx1276 chip, its able to communicate with a lora enabled gateway over long distances. It also has terminal connectors which make it easy to hookup peripherals and deploy solutions with ease.
 

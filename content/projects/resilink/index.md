@@ -1,5 +1,5 @@
 ---
-title: Resilink Project
+title: "Resilink: Prima & Horizon Europe"
 cover: cover.png
 description: "INCREASING RESILIENCE OF SMALLHOLDERS WITH MULTI-PLATFORMS LINKING LOCALIZED RESOURCE SHARING"
 category: PRIMA | EU
@@ -9,9 +9,6 @@ weight: -4
 
 <!-- {{<single_page_banner>}} Resilink: Prima & Horizon Europe {{</single_page_banner >}} -->
 
-{{<page_banner banner="/img/gray-shapes-banner.png">}}
-# Resilink: Prima & Horizon Europe 
-{{</page_banner >}}
 
 {{<floating_image image="logo.png" float="left" width="300px" >}}
 {{<end_floating_image>}}

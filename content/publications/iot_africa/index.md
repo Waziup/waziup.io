@@ -6,13 +6,6 @@ category: PUBLICATION
 date: 2021-07-01
 ---
 
-{{<page_banner banner="banner.webp" style="color: #F35E19">}}
-
-
-{{</page_banner >}}
-
-[SECTION_TRANSPARENT]
-
 # Unlocking IoT Startups in Africa
 
 The World Economic Forum published in 2018 the report “Internet of Things: Guidelines for Sustainability”, analysing the deployement of 640 Internet of Things (IoT) projects world-wide. This report claims that the full potential of IoT for sustainable development can only be achieved when sustainability is incorporated at the design phase. Sustainability is at the core of WaziHub: the key goal of the project is to create a strong business ecosystem and to foster partnerships between Africa and Europe.

@@ -1,21 +1,12 @@
 ---
-title: HUBiquitous Project
+title: HUBiquitous Horizon 2020
 cover: cover.png
 description: "Hubiquitous Project: Unlocking the Potential of IoT in Africa"
 category: Horizon 2020
 date: 2022-03-15
 weight: 1
 ---
-
-<!-- {{<single_page_banner banner="banner.webp" >}}
-HUBiquitous Horizon 2020
-{{</single_page_banner >}} -->
-{{<page_banner banner="/img/gray-shapes-banner.png">}}
-# HUBiquitous Horizon 2020
-{{</page_banner >}}
-
-
-[SECTION_TRANSPARENT]
+ 
 
 {{<floating_image image="logo.png" float="left" width="300px" >}}
 {{<end_floating_image>}}

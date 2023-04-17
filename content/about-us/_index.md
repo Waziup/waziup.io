@@ -5,7 +5,7 @@ title: About Us
 Our Mission
 ===========
 
-{{<floating_image image="we-do.svg" float="right" width="700px" style="margin-left: 5vw">}}
+{{<floating_image image="../about-us/img/we-do.svg" float="right" width="700px" style="margin-left: 5vw">}}
 
 ### We Foster IoT Solutions For Sustainable Development
 
@@ -16,7 +16,7 @@ Why Choose Us
 ============
 
 
-{{<floating_image image="why-choose.JPG" float="left">}}
+{{<floating_image image="../about-us/img/why-choose.JPG" float="left">}}
 
 ## We Are Building A Sustainable Future
 
@@ -29,7 +29,7 @@ Our Network
 ===========
 
 
-{{<floating_image image="network-map.svg" float="right">}}
+{{<floating_image image="../about-us/img/network-map.svg" float="right">}}
 
 We have an extended network in Europe and Africa. We developed projects in 17 African countries and have more than 10000 community members. We focus on partnerships with **Digital Innovation Hubs and Startups**.
 

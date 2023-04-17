@@ -1,5 +1,5 @@
 ---
-title: Osirris Project
+title: Osirris TUNGER 2+2
 cover: cover_.png
 description: "Precision Irrigation with Cost-effective and Autonomic IoT Devices using Artificial Intelligence at the Edge"
 category: TUNGER 2+2
@@ -8,9 +8,9 @@ weight: -2
 ---
 
 <!-- {{<single_page_banner>}} Osirris TUNGER 2+2 {{</single_page_banner >}} -->
-{{<page_banner banner="/img/gray-shapes-banner.png">}}
+<!-- {{<page_banner banner="/img/gray-shapes-banner.png">}}
 # Osirris TUNGER 2+2
-{{</page_banner >}}
+{{</page_banner >}} -->
 
 {{<floating_image image="logo.png" float="left" width="300px" >}}
 {{<end_floating_image>}}
