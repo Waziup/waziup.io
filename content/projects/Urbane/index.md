@@ -15,8 +15,6 @@ weight: -3
 {{<floating_image image="logo.png" float="left" width="300px" >}}
 {{<end_floating_image>}}
 
-<!-- [SECTION_TRANSPARENT] -->
-
 ## URBANE: One Health Approach to Support Agroecological Transformation of Peri-Urban Farming.
 
 **About the project:** URBANE is an important and innovative project that addresses the challenge of sustainable agriculture for food and nutrition security in peri-urban areas of low and middle-income countries. 
@@ -44,5 +42,3 @@ while addressing the health risks associated with the intensification of food sy
 
 This project has received funding from the European Union’s Horizon Europe research and innovation programme under grant agreement No 101059232.
 
-{{<line_break>}}
-{{<line_break>}}

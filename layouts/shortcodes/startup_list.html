@@ -1,6 +1,4 @@
-{{ $shortcode := .}} {{ $startupPage := $shortcode.Page.GetPage "startups" }} 
-<!-- Title of startup page: {{$startupPage.Title }}.<br /> -->
-
+{{ $shortcode := .}} {{ $startupPage := $shortcode.Page.GetPage "about-us/startups" }} 
 {{ $startups := $startupPage.Pages }}
 
 <div class="card-group">

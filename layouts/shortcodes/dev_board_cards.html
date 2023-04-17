@@ -1,6 +1,5 @@
 {{ $shortcode := .}} {{ $devboardsPage := $shortcode.Page.GetPage "dev-boards"}}
 <!-- Title of devboards page: {{$devboardsPage.Title }}.<br /> -->
-
 {{ $devboards := first 6 $devboardsPage.Pages }}
 
 <div class="card-group" style="margin-top: auto;">

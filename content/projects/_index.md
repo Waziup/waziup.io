@@ -2,7 +2,7 @@
 title: Research & Innovation
 ---
 
-Projects Focus
+Focus on...
 ==============
 
 {{<line_break>}}
@@ -26,7 +26,7 @@ HUBiquitous is a Horizon 2020’s Innovation Action aiming at creating a joint A
 
 {{<button-learn-more link="/projects/hubiquitous/">}} Read more {{</button-learn-more>}}
 
-All Projects
+All our projects
 ============
 
 {{<project_cards>}}
