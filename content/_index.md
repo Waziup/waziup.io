@@ -38,6 +38,12 @@ Our services
 <!-- {{<floating_video float="center" link="https://www.youtube.com/embed/hu-v-eukLAc?autoplay=0;rel=0&loop=0;controls=0&amp;showinfo=0&autohide=1">}}
 {{<end_floating_image>}} -->
 
+People's Experience
+=====================
+
+{{<floating_image image="/img/startup.png" float="left" >}}
+
+{{<quote>}}
 
 End-to-End Technology
 =====================
