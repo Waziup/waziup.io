@@ -1,5 +1,10 @@
 ---
 title: About Us
+menu:
+  main:
+    title: About Us
+    name: about-us
+    weight: 5
 ---
 
 Our Mission

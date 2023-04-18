@@ -484,6 +484,7 @@ h1 {
 		margin: 5rem -5vw 0;
 		font-size: 1.5em;
 	}
+
 	@media (min-width:$sm) and (max-width:$md) {
 		font-size: 2em;
 	}
@@ -834,29 +835,24 @@ h1 {
 			display: block;
 			clear: both;
 		}
-	}
 
-	//Dynamic margins according to screen size
-	@media (max-width:$sm) {
-		.section {
-			margin: 0 -5vw;
+		//Dynamic margins according to screen size
+		@media (max-width:$sm) {
+			margin: 0 -10vw;
 			padding: 5rem 5vw;
 		}
-	}
 
-	@media (min-width:$sm) and (max-width:$xl) {
-		.section {
+		@media (min-width:$sm) and (max-width:$xl) {
 			margin: 0 -20vw;
 			padding: 5rem 10vw;
 		}
-	}
 
-	@media (min-width:$xxl) {
-		.section {
+		@media (min-width:$xxl) {
 			margin: 0 -20vw;
 			padding: 5rem 20vw;
 		}
 	}
+
 
 
 	.home-banner {

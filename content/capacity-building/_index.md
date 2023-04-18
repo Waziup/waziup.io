@@ -1,6 +1,11 @@
 ---
 title: Capacity Building
 hasHero: true
+menu:
+  main:
+    title: Capacity Building
+    name: capacity-building
+    weight: 2
 ---
 
 {{<page_banner_alt  image="img/capacity-banner.png" goto-link="https://lab.waziup.io/" button-text="Try WaziLab">}}
@@ -28,7 +33,7 @@ Solution Lab is primarily a physical infrastructure proposing a number of techno
 - Open IoT cloud platforms for data 
 
 {{<line_break>}}
-{{<button-learn-more link="/capacity-building/solution-lab"  color="blm-orange">}}Learn more{{</button-learn-more>}} 
+{{<button-learn-more link="solution-lab"  color="blm-orange">}}Learn more{{</button-learn-more>}} 
 
 
 {{<floating_image image="img/learning-center.png" float="right" >}}
@@ -42,7 +47,7 @@ The WaziLab is a platform for learning IoT through live prototyping. It simplifi
 - IoT Lab management
 
 {{<line_break>}}
-{{<button-learn-more link="/capacity-building/learning-center"  color="blm-orange">}}Learn more{{</button-learn-more>}} 
+{{<button-learn-more link="learning-center"  color="blm-orange">}}Learn more{{</button-learn-more>}} 
 
 Waziup Innovative Hackathon
 ===========================
@@ -59,7 +64,7 @@ We help you with:
 - **Marketing and Pomoting Events** 
 - **Providing Mentorship and Guidance**
 
-{{<button-learn-more link="/capacity-building/wazihack" color="blm-orange" >}}Learn more{{</button-learn-more>}} 
+{{<button-learn-more link="wazihack" color="blm-orange" >}}Learn more{{</button-learn-more>}} 
 
 Waziup Certification
 ====================

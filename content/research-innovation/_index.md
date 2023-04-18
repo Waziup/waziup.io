@@ -1,5 +1,10 @@
 ---
 title: Research & Innovation
+menu:
+  main:
+    title: Research & Innovation
+    name: research-innovation
+    weight: 3
 ---
 
 Focus on...
@@ -12,7 +17,7 @@ Focus on...
 
 Intel-Irris provides the smallholder farmers a more efficient management of its available water by deploying of an open, low-cost and autonomous irrigation control system based on IoT and smart technologies.
 
-{{<button-learn-more link="/projects/intel_iris/">}} Read more {{</button-learn-more>}}
+{{<button-learn-more link="intel_iris" color="blm-orange">}} Read more {{</button-learn-more>}}
 
 {{<end_floating_image>}}
 
@@ -24,7 +29,7 @@ Intel-Irris provides the smallholder farmers a more efficient management of its 
 
 HUBiquitous is a Horizon 2020’s Innovation Action aiming at creating a joint Africa-Europe Startup & Innovation Ecosystem for long-term collaborations and partnerships. 
 
-{{<button-learn-more link="/projects/hubiquitous/">}} Read more {{</button-learn-more>}}
+{{<button-learn-more link="hubiquitous" color="blm-orange">}} Read more {{</button-learn-more>}}
 
 All our projects
 ============
