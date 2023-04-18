@@ -89,11 +89,13 @@ h1 {
 
 	>.nav-links {
 		display: flex;
+		gap: 1rem;
 		align-items: center;
 		float: right;
 		font-size: 1em;
 		height: inherit;
 		margin-right: 2vw;
+		
 
 		.nav-item {
 			display: flex;
@@ -107,7 +109,6 @@ h1 {
 
 			&:hover,
 			&.nav-active {
-				// background-color: rgba(0, 0, 0, 0.3);
 				color: $waziup-orange-deep;
 			}
 		}

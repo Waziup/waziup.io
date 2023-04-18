@@ -1,17 +1,21 @@
-<div class="nav-links" id="myNav">
-    <!-- <a class="nav-item {{if hasPrefix .File.Path "iot-edge-platform"}}active{{end}}" href="/iot-edge-platform/">IoT Edge Platform</a>
-    <a class="nav-item {{if hasPrefix .File.Path "capacity-building"}}active{{end}}" href="/capacity-building/">Capacity Building</a>
-    <a class="nav-item {{if hasPrefix .File.Path "projects"}}active{{end}}" href="/projects/">Research & Innovation</a>
-    <a class="nav-item {{if hasPrefix .File.Path "media"}}active{{end}}" href="/media/">Media</a>
-    <a class="nav-item {{if hasPrefix .File.Path "about-us"}}active{{end}}" href="/about-us/">About Us</a> -->
-    {{ $currentPage := . }}
-    {{ range .Site.Menus.main }}
-    
-      <a class="nav-item {{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}" href={{.URL}}>{{.Title}}</a>
-  
-    {{ end }}
-
-    <a class="nav-item"></a>
+<div id="myNav">
+    <ul class="nav-links">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <li class="nav-item {{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}" href={{.URL}}>
+            <a >{{.Title}}</a>
+            <!-- {{ if .HasChildren }}
+                <ul>
+                    {{ range .Children}}
+                    <li>
+                        <a href="{{.URL}}" class="sub-menu-item{{ if $currentPage.HasMenuCurrent "main" . }} active{{ end }}">{{.Title}} {{if .HasChildren }} > {{ end }} </a>
+                    </li>
+                    {{end}}
+                </ul>
+            {{ end }} -->
+        </li>
+        {{ end }}
+    </ul>
 
     <div class="dropdown">
       <button class="dropbtn">
