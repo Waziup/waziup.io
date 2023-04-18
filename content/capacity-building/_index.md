@@ -3,7 +3,7 @@ title: Capacity Building
 hasHero: true
 ---
 
-{{<page_banner_alt  image="img/capacity-banner.png" goto-link="http://35.157.161.231:8086/" button-text="Try WaziLab">}}
+{{<page_banner_alt  image="img/capacity-banner.png" goto-link="https://lab.waziup.io/" button-text="Try WaziLab">}}
 
 ### Waziup Capacity Building
 
