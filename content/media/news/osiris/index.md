@@ -6,12 +6,7 @@ category: PROJECT
 date: 2022-12-17
 ---
 
-{{<page_banner banner="banner.webp" >}}
-# The OSIRIS Project 
 ### Improving food security in Africa with IoT technology
-{{</page_banner >}}
-
-[SECTION_TRANSPARENT]
 
 Food security is a major challenge in Africa, with over 240 million people facing hunger and malnutrition on the continent. One of the biggest challenges is improving crop yields and reducing crop losses due to pests, diseases, and weather fluctuations. The OSIRIS project, which is led by the WAZIUP and WAZIHUB consortiums and funded by the European Union, aims to tackle these challenges by leveraging the power of the Internet of Things (IoT) technology.
 

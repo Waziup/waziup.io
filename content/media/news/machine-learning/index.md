@@ -1,31 +1,19 @@
 ---
-title: Machine Learning
+title: Machine Learning Introduction
 cover: cover.webp
 description: Introduction to Machine Learning
 category: NEWS
 date: 2022-03-15
 ---
 
-{{<page_banner banner="banner.webp" >}}
-
-# Machine Learning Introduction
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices.
-
-{{</page_banner >}}
-
-
+{{<floating_image image="cover.webp" float="left" width="400px" >}}
 
 ## Title
 The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
 
-
-
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
 
 
-{{<floating_image image="cover.webp" float="left" width="400px" >}}
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo nulla luctus ultrices. The flex-direction property is a sub-property of the Flexible Box Layout module. It establishes the main-axis, thus defining the direction flex items are placed in the flex container.

@@ -5,8 +5,6 @@ description: "YEAY! We launched our community forum"
 category: NEWS
 date: 2020-05-28
 ---
-{{<line_break>}}
-{{<line_break>}}
 
 {{<floating_image image="cover.webp" float="right" width="500px" >}}
 

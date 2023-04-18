@@ -18,7 +18,7 @@ Why Choose Us
 
 {{<floating_image image="img/why-choose.JPG" width="600px" float="left">}}
 
-## We Are Building A Sustainable Future
+### We Are Building A Sustainable Future
 
 - Expertise in African market: Strong startup network, deep understanding of regulations and market readiness.
 - Pioneering IoT solutions tailored to African context

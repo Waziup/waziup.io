@@ -6,9 +6,6 @@ category: NEWS
 date: 2022-09-15
 ---
 
-{{<line_break>}}
-{{<line_break>}}
-
 # Empowering African Innovators through IoT Education
 
 The WAZIUP project is on a mission to empower African innovators by providing them with the tools and knowledge they need to build and deploy cutting-edge IoT solutions. One of the key components of this mission is the WAZIUP Learning Center, a comprehensive online platform that offers a range of IoT-related educational resources and training opportunities.

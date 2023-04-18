@@ -8,9 +8,5 @@ date: 2021-10-09
 
 ---
 
-{{<page_banner banner="/img/career-banner.svg" >}}
-# International Project Assistant [Student work] (m/f/d)
-{{</page_banner >}}
-
 Home/Career/ipa-ws
 

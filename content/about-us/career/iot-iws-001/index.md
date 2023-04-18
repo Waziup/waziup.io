@@ -8,11 +8,6 @@ date: 2022-02-03
 
 ---
 
-{{<page_banner banner="/img/career-banner.svg" >}}
-# Iot Intership/Working Student (m/f/d)
-{{</page_banner >}}
-
-
 We are WAZIUP e.V, a non-profit organization promoting cutting-edge Internet of Things technologies in developing countries. For this, we developed an affordable and scalable IoT platform that already reached thousands of users in developing countries. The platform includes a range of sensing and actuating products, an IoT Gateway with Edge computing, and an Open Cloud platform. With this platform, we aim to accelerate social innovation and empower local IoT entrepreneurship. We are also engaged in IoT capacity building for startups, entrepreneurs and SMEs. We organized bootcamps, training and hackathons in more than 20 countries. We are based in Dresden, Germany and Verona, Italy.
 
 We are looking for well motivated student for an Internship in IoT.

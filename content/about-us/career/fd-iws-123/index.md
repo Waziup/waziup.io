@@ -8,9 +8,5 @@ date: 2022-01-01
 
 ---
 
-{{<page_banner banner="/img/career-banner.svg" >}}
-# Frontend Developer - Part Time (m/f/d)
-{{</page_banner >}}
-
 Home/Career/123
 

@@ -26,7 +26,7 @@ Edge Gateway
 - Low power consumption
  
 
-{{<button-learn-more link="/iot-edge-platform/wazigate" color="blm-orange">}}Learn more{{</button-learn-more>}}
+{{<button-learn-more link="/iot-edge-platform/gateway" color="blm-orange">}}Learn more{{</button-learn-more>}}
 
 Our Development Boards
 ======================

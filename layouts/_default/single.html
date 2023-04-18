@@ -12,7 +12,7 @@
   {{/* Add sections enclosing H1*/}}
   {{ $content = replaceRE "<h1 " "</section><section class=\"section banded\">  <h1 " $content }}
   
-  <section>
+  <section class="section">
     {{ $content | safeHTML }}
   </section>
 
