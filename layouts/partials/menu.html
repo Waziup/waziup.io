@@ -1,10 +1,10 @@
-<div id="myNav">
-    <ul class="nav-links">
+<div class="nav-links" id="myNav">
+    <ul>
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
-        <li class="nav-item {{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}" href={{.URL}}>
-            <a >{{.Title}}</a>
-            <!-- {{ if .HasChildren }}
+        <li>
+            <a class="nav-item {{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}" href={{.URL}}>{{.Title}}</a>
+            {{ if .HasChildren }}
                 <ul>
                     {{ range .Children}}
                     <li>
@@ -12,7 +12,7 @@
                     </li>
                     {{end}}
                 </ul>
-            {{ end }} -->
+            {{ end }} 
         </li>
         {{ end }}
     </ul>
