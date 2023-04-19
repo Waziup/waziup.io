@@ -32,11 +32,12 @@ Solution Lab is primarily a physical infrastructure proposing a number of techno
 - Development tools, libraries and platforms for AI
 - Open IoT cloud platforms for data 
 
-{{<line_break>}}
+
 {{<button-learn-more link="solution-lab"  color="blm-orange">}}Learn more{{</button-learn-more>}} 
+{{<end_floating_image>}}
 
-
-{{<floating_image image="img/learning-center.png" float="right" >}}
+{{<line_break>}}
+{{<floating_image image="img/learning-center.webp" float="right" >}}
 
 ### Learning Center
 
