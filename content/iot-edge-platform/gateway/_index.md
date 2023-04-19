@@ -2,7 +2,7 @@
 title: "WaziGate : LoRaWAN Gateway"
 ---
 
-{{<floating_image image="img/wazigate-combo.png" float="right" width="600px" style="margin-left: 1rem;">}}
+{{<floating_image image="img/wazigate-combo.png" float="right" width="400px" style="margin-left: 1rem;">}}
 
 Waziup has developed Raspberry Pi HATs (WaziHAT) that add more capabilities to the Raspberry Pi including LoRa connectivity, control buttons, smart fan, OLED display and a blackout protection circuit. A combination of a WaziHAT, a raspberry pi and Wazigate Firmware is called WaziGate.
 

@@ -1,5 +1,5 @@
 {{ $shortcode := .}}
-{{ $projectPage := $shortcode.Page.GetPage "projects" }} 
+{{ $projectPage := $shortcode.Page.GetPage "research-innovation" }} 
 
 {{ $projects := sort $projectPage.Pages ".Weight" "desc" }}
 {{ $projects := first 3 $projects }}
