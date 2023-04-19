@@ -1,10 +1,5 @@
 ---
 title: Media
-menu:
-  main:
-    title: Media
-    name: media
-    weight: 4
 ---
 
 Latest Updates

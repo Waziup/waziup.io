@@ -1,0 +1,78 @@
+baseURL: 'http://example.org/'
+languageCode: 'en-us'
+title: 'Waziup e.V.'
+ignoreErrors: ["error-remote-getjson"]
+paginate: 6
+
+
+menu:
+  main:
+    - identifier: iot-edge-platform 
+      title: Iot Edge Platform
+      pageRef: /iot-edge-platform
+      weight: 1
+    - identifier: edge-gateway 
+      title: Edge gateway
+      url: "/iot-edge-platform#edge-gateway"
+      weight: 1
+      parent: iot-edge-platform
+    - identifier: dev-boards 
+      title: Dev boards
+      url: "/iot-edge-platform#our-development-boards"
+      weight: 2
+      parent: iot-edge-platform
+    - identifier: iot-prototyping-kit
+      title: IoT Kit
+      url: "/iot-edge-platform#iot-prototyping-kit"
+      weight: 3
+      parent: iot-edge-platform
+    - identifier: cloud-platform
+      title: Cloud Platform
+      url: "/iot-edge-platform#cloud-platform"
+      weight: 4
+      parent: iot-edge-platform
+
+    - identifier: capacity-building 
+      title: Capacity Building
+      pageref: capacity-building 
+      weight: 2
+    - identifier: learning-center 
+      title: WaziLab
+      url: "/capacity-building#wazilab"
+      weight: 1
+      parent: capacity-building
+    - identifier: solution-lab 
+      title: Solution Lab
+      url: "/capacity-building#solution-lab"
+      weight: 2
+      parent: capacity-building
+    - identifier: wazihack 
+      title: WaziHack
+      url: "/capacity-building#waziup-innovative-hackathon"
+      weight: 3
+      parent: capacity-building
+    - identifier: certification 
+      title: Certifications
+      url: "/capacity-building#waziup-certification"
+      weight: 4
+      parent: capacity-building
+
+    - identifier: research-innovation 
+      title: Research & Innovation
+      pageRef: research-innovation
+      weight: 3
+    - identifier: all-projects 
+      title: All our projects
+      url: "/capacity-building#all-our-projects"
+      weight: 1
+      parent: research-innovation
+
+    - identifier: media 
+      title: Media
+      pageref: media
+      weight: 4
+
+    - identifier: about-us 
+      title: About Us
+      pageref: about-us
+      weight: 5

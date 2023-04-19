@@ -1,11 +1,5 @@
 ---
 title: "WaziGate : LoRaWAN Gateway"
-menu:
-  main:
-    title: Gateway
-    name: gateway
-    parent: iot-edge-platform 
-    weight: 2
 ---
 
 {{<floating_image image="img/wazigate-combo.png" float="right" width="600px" style="margin-left: 1rem;">}}

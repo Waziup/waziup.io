@@ -1,10 +1,5 @@
 ---
 title: Research & Innovation
-menu:
-  main:
-    title: Research & Innovation
-    name: research-innovation
-    weight: 3
 ---
 
 Focus on...

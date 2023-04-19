@@ -1,11 +1,6 @@
 ---
 title: Capacity Building
 hasHero: true
-menu:
-  main:
-    title: Capacity Building
-    name: capacity-building
-    weight: 2
 ---
 
 {{<page_banner_alt  image="img/capacity-banner.png" goto-link="https://lab.waziup.io/" button-text="Try WaziLab">}}
@@ -22,23 +17,7 @@ menu:
 WaziLab
 =======
 
-{{<floating_image image="img/wazilab.svg" float="left">}}
-
-### Solution Lab
-
-Solution Lab is primarily a physical infrastructure proposing a number of technological resources: IoT, BigData/Cloud, Mobile/Edge, AI, Training and Computing resources. These resources are hardware, software and courses resources, and is packaged in an integrated and consistent way. The lab includes:
-
-- Open source IoT hardware and software with rapid prototyping kits.
-- Development tools, libraries and platforms for AI
-- Open IoT cloud platforms for data 
-
-{{<line_break>}}
-{{<button-learn-more link="solution-lab"  color="blm-orange">}}Learn more{{</button-learn-more>}} 
-
-
 {{<floating_image image="img/learning-center.png" float="right" >}}
-
-### Learning Center
 
 The WaziLab is a platform for learning IoT through live prototyping. It simplifies the prototyping process for startups through better hardware accessibility, guided prototyping, IoT capacity building and initial business support for startups. It features:
 
@@ -46,8 +25,22 @@ The WaziLab is a platform for learning IoT through live prototyping. It simplifi
 - Live prototyping and solution building
 - IoT Lab management
 
-{{<line_break>}}
 {{<button-learn-more link="learning-center"  color="blm-orange">}}Learn more{{</button-learn-more>}} 
+
+
+Solution Lab
+============
+
+{{<floating_image image="img/wazilab.svg" float="left">}}
+
+Solution Lab is primarily a physical infrastructure proposing a number of technological resources: IoT, BigData/Cloud, Mobile/Edge, AI, Training and Computing resources. These resources are hardware, software and courses resources, and is packaged in an integrated and consistent way. The lab includes:
+
+- Open source IoT hardware and software with rapid prototyping kits.
+- Development tools, libraries and platforms for AI
+- Open IoT cloud platforms for data 
+
+{{<button-learn-more link="solution-lab"  color="blm-orange">}}Learn more{{</button-learn-more>}} 
+
 
 Waziup Innovative Hackathon
 ===========================

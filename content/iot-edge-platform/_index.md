@@ -1,11 +1,6 @@
 ---
 title: DEVELOP, DEPLOY, CONNECT !
 hasHero: true
-menu:
-  main:
-    title: Iot Edge Platform
-    name: iot-edge-platform 
-    weight: 1
 ---
 
 {{<page_banner_alt  image="img/banner.png" goto-link="https://dashboard.waziup.io/" button-text="Try Dashboard">}}

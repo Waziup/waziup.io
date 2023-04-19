@@ -1,11 +1,5 @@
 ---
 title: "WaziKit : IoT Prototyping Kit"
-menu:
-  main:
-    title: WaziKit
-    name: wzikit
-    parent: iot-edge-platform 
-    weight: 4
 ---
 
 {{<floating_image image="img/wazi-hardware.jpg" float="right" width="600px" >}}
