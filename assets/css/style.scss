@@ -122,14 +122,14 @@ h1 {
 				position: absolute;
 				z-index: 99999;
 				width: 200px;
-				background: #F0F5FA;
+				background: #ffffff;
 				box-shadow: 1px 1px 3px #ccc;
 				/* css3 transitions for smooth hover effect */
 				-webkit-transition: opacity 0.2s linear, visibility 0.2s linear;
 				-moz-transition: opacity 0.2s linear, visibility 0.2s linear;
 				-o-transition: opacity 0.2s linear, visibility 0.2s linear;
 				transition: opacity 0.2s linear, visibility 0.2s linear;
-				top: 40px;
+				top: 65px;
 				left: 1px;
 				display: inline-block;
 
@@ -141,8 +141,20 @@ h1 {
 					border-bottom: 1px solid #c9c9c9;
 					padding: 14px 10px;
 
+					a {
+						text-decoration: none;
+						color: $waziup-black-light;
+
+					}
+
 					ul {
 						left: 200px;
+					}
+					
+					&:hover {
+						a{
+							color: $waziup-orange-deep;
+						}
 					}
 				}
 			}
@@ -178,7 +190,7 @@ h1 {
 				color: $waziup-orange-deep;
 			}
 
-			>ul>li>a{
+			>ul>li>a {
 				text-decoration: none;
 			}
 		}
@@ -473,9 +485,10 @@ h1 {
 	min-height: 215px;
 	width: 100%;
 	padding: 2rem;
-	display: flex;
 	background-color: $waziup-dark;
+	display: flex;
 	flex-wrap: wrap;
+	gap: 2rem;
 	box-sizing: border-box;
 	justify-content: center;
 
@@ -498,7 +511,7 @@ h1 {
 		font-weight: 200;
 		display: flex;
 		flex-direction: column;
-		gap: .5rem;
+		gap: 1rem;
 
 		>h4 {
 			margin: 0;
@@ -541,6 +554,9 @@ h1 {
 			&:hover {
 				text-decoration: underline;
 			}
+		}
+		@media(max-width: $sm) {
+			width: 100%;
 		}
 	}
 }
