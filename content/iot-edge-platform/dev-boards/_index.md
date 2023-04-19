@@ -2,7 +2,7 @@
 title: Dev Boards
 menu:
   main:
-    title: WaziDevboardds
+    title: Dev boards
     name: devboards
     parent: iot-edge-platform 
     weight: 1
