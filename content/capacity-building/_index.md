@@ -47,7 +47,6 @@ The WaziLab is a platform for learning IoT through live prototyping. It simplifi
 - Live prototyping and solution building
 - IoT Lab management
 
-{{<line_break>}}
 {{<button-learn-more link="learning-center"  color="blm-orange">}}Learn more{{</button-learn-more>}} 
 
 Waziup Innovative Hackathon
