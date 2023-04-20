@@ -13,7 +13,7 @@ mkdir -p ${TARGET_DIR}
 cd ${CONTENT_DIR}/${GIT_REPO_CONTENT_PATH}
 
 echo ">>> Hugo building '$HUGO_BASE_URL' ..."
-sed -i "s|^\(baseURL\s*=\s*\).*\$|\1\"$HUGO_BASE_URL\"|" config.toml
+sed -i "s|^\(baseURL\s*=\s*\).*\$|\1\"$HUGO_BASE_URL\"|" config.yaml
 hugo ${HUGO_PARAMS}
 
 cp -a public/. ${TARGET_DIR}
