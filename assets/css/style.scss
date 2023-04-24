@@ -750,6 +750,7 @@ h1 {
 
 	.size-medium {
 		width: 30%;
+
 		@media (max-width: $sm) {
 			width: 100%;
 		}
@@ -1688,7 +1689,8 @@ input[type=submit]:hover {
 			flex-direction: column;
 			flex-grow: 1;
 
-			>h1, h2 {
+			>h1,
+			h2 {
 				margin: 0;
 				text-align: left;
 			}
@@ -1992,15 +1994,53 @@ input[type=submit]:hover {
 
 		>div {
 			display: flex;
+			gap: 3rem;
+			flex: 1 0 100%;
+			scroll-snap-align: start;
+
 
 			>div {
-				width: 40%;
+				width: 50%;
+
+				>h2 {
+					margin: auto;
+					text-align: right;
+					font-size: 2em;
+
+					@media (max-width: $sm) {
+						text-align: left;
+						font-size: 1.7em;
+					}
+				}
+
+				>h3 {
+					margin: auto;
+					text-align: right;
+					font-size: 1.5em;
+					font-weight: 500;
+
+					@media (max-width: $sm) {
+						text-align: left;
+						font-size: 1.2em;
+					}
+				}
+
+				@media (max-width: $sm) {
+					width: 100%;
+				}
 			}
 
 			>img {
-				flex: 1 0 100%;
-				scroll-snap-align: start;
-				object-fit: cover;
+				width: 50%;
+				object-fit: contain;
+
+				@media (max-width: $sm) {
+					width: 100%;
+				}
+			}
+
+			@media (max-width: $sm) {
+				flex-direction: column;
 			}
 		}
 
@@ -2008,6 +2048,10 @@ input[type=submit]:hover {
 			flex: 1 0 100%;
 			scroll-snap-align: start;
 			object-fit: cover;
+		}
+
+		@media (max-width: $sm) {
+			aspect-ratio: unset;
 		}
 	}
 
