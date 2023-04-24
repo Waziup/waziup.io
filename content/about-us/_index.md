@@ -66,6 +66,16 @@ Our Team
 {{<team_members>}}
 
 
+We are Hiring!
+==============
+
+{{<floating_image image="img/hiring.png" float="right">}}
+
+At Waziup, we believe in fostering a collaborative, inclusive, and dynamic work culture that enables employees to unleash their full potential and contribute to the company’s mission. 
+
+{{<button-learn-more link="/about-us/career" color="blm-orange">}}Open positions{{</button-learn-more>}}
+
+
 Our Partners
 ============
 
