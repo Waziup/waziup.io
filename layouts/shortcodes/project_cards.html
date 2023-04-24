@@ -1,4 +1,7 @@
-{{ $shortcode := .}} {{ $projectPage := $shortcode.Page.GetPage "projects" }} 
+{{ $shortcode := .}} {{ $projectPage := $shortcode.Page.GetPage "research-innovation/projects" }} 
+<!-- Title of project page: {{$projectPage.Title }}.<br /> -->
+
+<!-- {{ $projects := first 6 $projectPage.Pages }} -->
 
 {{ $projects := sort $projectPage.Pages ".Weight" "desc" }}
 {{ $projects := first 6 $projects }}
