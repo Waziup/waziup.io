@@ -18,3 +18,5 @@ WaziGate can control actuators on field devices, such as electro-valves and host
 - Low power consumption
 - Automation
 - Remote management
+
+{{<button-learn-more link="www.waziup.io/downloads" color="blm-orange">}}Download WaziGate!{{</button-learn-more>}}
