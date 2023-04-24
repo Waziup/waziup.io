@@ -2,7 +2,7 @@
 title: Research & Innovation
 ---
 
-Focus on...
+Digital Farming
 ==============
 
 {{<line_break>}}

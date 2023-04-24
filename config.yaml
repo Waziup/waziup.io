@@ -61,15 +61,20 @@ menu:
       title: Research & Innovation
       pageRef: research-innovation
       weight: 3
+    - identifier: digital-farming 
+      title: Digital Farming
+      url: "/research-innovation#digital-farming"
+      weight: 1
+      parent: research-innovation
     - identifier: all-projects 
       title: Projects
       url: "/research-innovation#our-projects"
-      weight: 1
+      weight: 2
       parent: research-innovation
     - identifier: all-publications 
       title: Publications
       url: "/research-innovation#publications"
-      weight: 2
+      weight: 3
       parent: research-innovation
 
     - identifier: media 
