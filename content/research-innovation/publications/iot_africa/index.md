@@ -4,6 +4,7 @@ cover: cover.webp
 description: Unlocking IoT Startups in Africa
 category: PUBLICATION
 date: 2021-07-01
+weight: 3
 ---
 
 # Unlocking IoT Startups in Africa

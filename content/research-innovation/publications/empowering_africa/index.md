@@ -4,6 +4,7 @@ cover: cover.webp
 description: Empowering Open Source and Affordable IoT Technologies in Africa
 category: PUBLICATION
 date: 2021-05-01
+weight: 2
 ---
 
 ### Empowering Open Source and Affordable IoT Technologies in Africa

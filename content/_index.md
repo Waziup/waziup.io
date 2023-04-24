@@ -65,12 +65,10 @@ Research and Innovation Projects
 {{<home_project_cards>}}
 
 
-Latest Updates
+Latest News
 ==============
 
-{{<radio_btn_new_pub>}}
 {{<news_cards>}}
-{{<publication_cards>}}
 
 
 Case Studies

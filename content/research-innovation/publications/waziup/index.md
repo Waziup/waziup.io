@@ -4,6 +4,7 @@ cover: cover.webp
 description: Empowering Affordable and Open IoT Solutions for Local Adaptation in Africa
 category: PUBLICATION
 date: 2019-03-01
+weight: 1
 ---
 
 ## Fostering IoT solutions for sustainable development in Africa
