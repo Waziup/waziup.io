@@ -62,7 +62,7 @@ menu:
       pageRef: research-innovation
       weight: 3
     - identifier: all-projects 
-      title: All our projects
+      title: Projects
       url: "/capacity-building#all-our-projects"
       weight: 1
       parent: research-innovation

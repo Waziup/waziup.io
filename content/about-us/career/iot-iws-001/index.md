@@ -12,13 +12,13 @@ We are WAZIUP e.V, a non-profit organization promoting cutting-edge Internet of 
 
 We are looking for well motivated student for an Internship in IoT.
 
-## Your roles and responsibilities: 
+### Your roles and responsibilities: 
 - Prototype an IoT application for smart agriculture, based on Waziup platform
 - Realize the UI and UX
 - Realize the back-end
 - Documentation of the application
 
-## What you bring with: 
+### What you bring with: 
 - Experience in programming (e.g. Python, Javascript, or C++)
 - Basic skills on Arduino and Raspberry PI open hardware system
 - HTML5/CSS3 skills
@@ -29,9 +29,9 @@ We are looking for well motivated student for an Internship in IoT.
 - Interested in learning new technologies
 - 4-20 hrs per week
 
-## What we offer 
+### What we offer 
 We are social entrepreneurs and we work for a better digital world tomorrow. You will work in a highly international environment, with colleagues from many different countries in Europe and Africa. We are very tech-driven and open to new ideas. WAZIUP was created from a research project funded by the European Union, putting our research into practice. WAZIUP is a relatively young organization, so you will have the opportunity to exert your talent and grow personally. You can also expect flexible working and on-going career development opportunities. You will receive a fair compensation.
 
-## Are you interested? 
+### Are you interested? 
 Send us your CV to contact@waziup.org.
 

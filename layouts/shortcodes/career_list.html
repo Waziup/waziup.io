@@ -1,6 +1,5 @@
 {{ $shortcode := .}}
-{{ $careerPage := $shortcode.Page.GetPage "career" }} 
-<!-- Title of career page: {{$careerPage.Title }}.<br /> -->
+{{ $careerPage := $shortcode.Page.GetPage "about-us/career" }} 
 
 {{ $career := $careerPage.Pages }}
 
@@ -9,7 +8,6 @@
   {{ range sort (where $career ".Params.status" "open") ".Date" "desc"  }}
     {{ $career := . }}
 
-  <!-- - career: {{.Title}}<br> -->
   {{ $cover := $career.Resources.GetMatch .Params.cover }}
   {{ partial "career-position-card.html" (dict
     "Title" $career.Params.title
@@ -25,7 +23,6 @@
   {{ range sort (where $career ".Params.status" "closed") ".Date" "desc"  }}
     {{ $career := . }}
 
-  <!-- - career: {{.Title}}<br> -->
   {{ $cover := $career.Resources.GetMatch .Params.cover }}
   {{ partial "career-position-card.html" (dict
     "Title" $career.Params.title
