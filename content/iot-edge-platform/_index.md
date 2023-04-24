@@ -43,11 +43,11 @@ IoT Prototyping Kit
 <!-- Waziup has introduced an open source, low-cost, powerful and customizable iot kit to serve the need of enthusiasts. -->
 Waziup provides free IoT Development kits to makers to facilitate the rapid prototyping of their solutions. The kit offers all the features to help developers & startups prototype and deploy their solutions rapidly. It includes:
 
-- Waziup development board with embedded LoRa module (Wazidev)
-- USB cable
-- battery case
-- DHT sensor
--0 jumper cables
+- WaziDev: Waziup development board with embedded LoRa module
+- WaziGate: a powerfull Edge computing LoRa gateway
+- Solar panels
+- Sensor kit
+- Casing
  
 
 {{<button-learn-more link="wazi-kit" color="blm-orange">}}Learn more{{</button-learn-more>}}
