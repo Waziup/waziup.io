@@ -57,7 +57,7 @@ WAZIUP offers “out-of-the-box” solutions going from sensor nodes to applicat
 - Edge computing IoT gateway
 - Cloud platform
 
-Research and Innovation Projects
+Research & Innovation Projects
 ================================
 
 ## Waziup is coordinating and participating in several EU research and development international projects.

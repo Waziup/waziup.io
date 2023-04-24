@@ -750,10 +750,17 @@ h1 {
 
 	.size-medium {
 		width: 30%;
+		@media (max-width: $sm) {
+			width: 100%;
+		}
 	}
 
 	.size-small {
 		width: 23%;
+
+		@media (max-width: $sm) {
+			width: 100%;
+		}
 	}
 
 	.card {

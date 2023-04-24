@@ -1,4 +1,4 @@
-baseURL: 'http://example.org/'
+baseURL: 'http://waziup.io/'
 languageCode: 'en-us'
 title: 'Waziup e.V.'
 ignoreErrors: ["error-remote-getjson"]
