@@ -63,7 +63,7 @@ menu:
       weight: 3
     - identifier: all-projects 
       title: Projects
-      url: "/capacity-building#all-our-projects"
+      url: "/research-innovation#all-our-projects"
       weight: 1
       parent: research-innovation
 
