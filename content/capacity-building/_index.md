@@ -13,11 +13,10 @@ hasHero: true
 
 {{</page_banner_alt>}}
 
-
 WaziLab
 =======
 
-{{<floating_image image="img/learning-center.png" float="right" >}}
+{{<floating_image image="img/learning-center.webp" float="right" >}}
 
 The WaziLab is a platform for learning IoT through live prototyping. It simplifies the prototyping process for startups through better hardware accessibility, guided prototyping, IoT capacity building and initial business support for startups. It features:
 
@@ -26,7 +25,6 @@ The WaziLab is a platform for learning IoT through live prototyping. It simplifi
 - IoT Lab management
 
 {{<button-learn-more link="learning-center"  color="blm-orange">}}Learn more{{</button-learn-more>}} 
-
 
 Solution Lab
 ============
@@ -45,7 +43,7 @@ Solution Lab is primarily a physical infrastructure proposing a number of techno
 Waziup Innovative Hackathon
 ===========================
 
-{{<floating_image image="img/hackathon.JPG" float="left">}}
+{{<floating_image image="img/hackathon.webp" float="left">}}
 
 ### WaziHack
 
@@ -53,18 +51,16 @@ WaziHacks is a capacity-building tool that involves organizing events where tech
 
 We help you with:
 
-- **Event Hosting**
-- **Marketing and Pomoting Events** 
-- **Providing Mentorship and Guidance**
+- Event Hosting
+- Marketing and Pomoting Events 
+- Providing Mentorship and Guidance
 
 {{<button-learn-more link="wazihack" color="blm-orange" >}}Learn more{{</button-learn-more>}} 
 
 Waziup Certification
 ====================
 
-
 {{<floating_image image="img/certificate.png" float="left">}}
-
 
 Advance your IoT knowledge with Waziup's Certification - offering online tutorials, webinars, and hands-on training for individuals, institutes, and SMEs of all skill levels. Start your journey to IoT mastery today!
 

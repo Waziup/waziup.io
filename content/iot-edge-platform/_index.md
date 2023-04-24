@@ -15,7 +15,7 @@ hasHero: true
 Edge Gateway
 ============
 
-{{<floating_image image="gateway/img/multibox.png" float="right" style="margin-left: 2rem;">}}
+{{<floating_image image="gateway/img/multibox.webp" float="right" style="margin-left: 2rem;" size="400px">}}
 
 **WaziGate** is an IoT LoRaWAN Gateway, ideal for all your remote IoT applications. The Gateway can cover up to 100 IoT Sensors and actuator nodes: Weather stations, soil monitoring, GPS applications. The possibilities are endless! You can host your own applications directly in the gateway. The WaziGate features:
 

@@ -1,12 +1,12 @@
 ---
 title: WaziDev v1.4
 description: WaziDev is a development board Arduino compatible with LoRa and embedded antenna
-cover: wazidev_.png
+cover: cover.png
 category: EU PROJECT
 weight: 0
 ---
 
-{{<floating_image image="wazidev.png" float="right" width="600px" >}}
+{{<floating_image image="wazidev.webp" float="right" width="600px" >}}
 
 **About Devboard:** WaziDev is a Sensing and Actuation development board for IoT applications. It transmits data up to 7Km using the RFM95W LoRa module with an embedded LoRa antenna. 
 It is easily programmable and customizable, using Arduino technology. Embedded is a Lipo battery charger for solar panels and low power options. An ideal solution for start-ups and entrepreneurs who want to rapidly prototype IoT applications
