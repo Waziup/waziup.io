@@ -7,6 +7,7 @@
   <div class="card-group">
     {{ range $projects }}
       {{ $project := . }}
+      {{ warnf "Processing %s" .Title }}
 
     {{ $cover := $project.Resources.GetMatch .Params.cover }}
     {{ partial "project-card.html" (dict

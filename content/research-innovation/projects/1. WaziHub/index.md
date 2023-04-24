@@ -6,6 +6,9 @@ category: Horizon 2020
 date: 2022-03-15
 weight: 1
 ---
+
+{{<floating_image image="img/logo.png" float="left" width="300px" >}}
+{{<end_floating_image>}}
  
 The project
 -----------
@@ -26,9 +29,7 @@ The vision of WAZIHUB is to exploit IoT potential and Big-Data technologies best
 3. New business can rise to match local service needs.
 
 
-{{<floating_image image="/logo.png" float="left" width="300px" >}}
 {{<floating_image image="/img/eu-flag.png" float="left" width="75px" style="margin-right: 1rem" >}}
 This project has received funding from the Horizon 2020 research and innovation programme under grant agreement No 101016895
-{{<end_floating_image>}}
 
 
