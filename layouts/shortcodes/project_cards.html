@@ -1,17 +1,14 @@
-{{ $shortcode := .}} {{ $projectPage := $shortcode.Page.GetPage "research-innovation/projects" }} 
+{{ $projectPage := .Page.GetPage "research-innovation/projects" }} 
 
 {{ $projects := sort $projectPage.Pages ".Weight" "desc" }}
-{{ $projects := first 6 $projects }}
 
   <div class="card-group">
     {{ range $projects }}
-    {{ $project := . }}
-  
-    {{ $cover := $project.Resources.GetMatch .Params.cover }}
-    {{ partial "project-card.html" (dict
-      "Permalink" $project.Permalink
-      "Cover" $cover.RelPermalink
-      "Category" $project.Params.category
-      "Title" $project.Title )}}
+      {{ $cover := .Resources.GetMatch .Params.cover }}
+      {{ partial "project-card.html" (dict
+        "Permalink" .Permalink
+        "Cover"     $cover.RelPermalink
+        "Category"  .Params.category
+        "Title"     .Title )}}
     {{ end }}
   </div>

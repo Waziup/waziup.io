@@ -1,13 +1,13 @@
 ---
 title: Intel-IrriS Prima 2020
-cover: cover.png
+cover: img/cover.png
 description: "Intel-IrriS Prima Project: Improving Water Management for Small-Scale Farmers"
 category: PRIMA | EU
 date: 2022-01-01
-weight: -1
+weight: 98
 ---
 
-{{<floating_image image="logo.png" float="left" width="300px" >}}
+{{<floating_image image="img/logo.png" float="left" width="300px" >}}
 {{<end_floating_image>}}
 
 ## Intelligent Irrigation System for Low-cost Autonomous Water Control in Small-scale Agriculture
@@ -30,8 +30,8 @@ Get the [PRIMA 2020 booklet](https://prima-med.org/wp-content/uploads/2021/12/PR
 
 **Duration:** June 2021 - 2024
 
-{{<floating_image image="prima-logo.png" float="left" width="75px" style="margin-right: 1rem" >}}
-{{<floating_image image="eu-flag.png" float="left" width="75px" style="margin-right: 1rem" >}}
+{{<floating_image image="img/prima-logo.png" float="left" width="75px" style="margin-right: 1rem" >}}
+{{<floating_image image="/eu-flag.png" float="left" width="75px" style="margin-right: 1rem" >}}
 This project has received funding from PRIMA and the European Union’s Horizon Europe research and innovation programme.
 
 {{<line_break>}}

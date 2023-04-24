@@ -1,14 +1,14 @@
 ---
 title: HUBiquitous Horizon 2020
-cover: cover.png
+cover: img/cover.png
 description: "Hubiquitous Project: Unlocking the Potential of IoT in Africa"
 category: Horizon 2020
 date: 2022-03-15
-weight: 1
+weight: 100
 ---
  
 
-{{<floating_image image="logo.png" float="left" width="300px" >}}
+{{<floating_image image="img/logo.png" float="left" width="300px" >}}
 {{<end_floating_image>}}
 
 
@@ -33,7 +33,7 @@ The project proposes highly innovative concepts called Innovation Enablers (i.e.
 
 **Youtube:** [What is HUBiquitious?](https://www.youtube.com/watch?v=zm5a7m4nLiA)
 
-{{<floating_image image="eu-flag.png" float="left" width="75px" style="margin-right: 1rem" >}}
+{{<floating_image image="/eu-flag.png" float="left" width="75px" style="margin-right: 1rem" >}}
 This project has received funding from the Horizon 2020 research and innovation programme under grant agreement No 101016895
 
 {{<line_break>}}

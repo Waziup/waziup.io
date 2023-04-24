@@ -1,18 +1,13 @@
 ---
 title: Urbane Project
-cover: cover.png
+cover: img/cover.png
 description: "One Health Approach to Support Agroecological Transformation of Peri-Urban Farming"
 category: Horizon EU
 date: 2023-03-28
-weight: -3
+weight: 6
 ---
 
-<!-- {{<single_page_banner>}} Urbane Horizon 2020 {{</single_page_banner >}} -->
-{{<page_banner banner="/img/gray-shapes-banner.png">}}
-# Urbane Horizon 2020
-{{</page_banner >}}
-
-{{<floating_image image="logo.png" float="left" width="300px" >}}
+{{<floating_image image="img/logo.png" float="left" width="300px" >}}
 {{<end_floating_image>}}
 
 ## URBANE: One Health Approach to Support Agroecological Transformation of Peri-Urban Farming.
@@ -38,7 +33,7 @@ while addressing the health risks associated with the intensification of food sy
 **Duration:** 07.2022-07.2026
 
 
-{{<floating_image image="eu-flag.png" float="left" width="75px" style="margin-right: 1rem" >}}
+{{<floating_image image="/img/eu-flag.png" float="left" width="75px" style="margin-right: 1rem" >}}
 
 This project has received funding from the European Union’s Horizon Europe research and innovation programme under grant agreement No 101059232.
 

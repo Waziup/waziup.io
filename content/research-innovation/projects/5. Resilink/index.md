@@ -1,19 +1,15 @@
 ---
 title: "Resilink: Prima & Horizon Europe"
-cover: cover.png
+cover: img/cover.png
 description: "INCREASING RESILIENCE OF SMALLHOLDERS WITH MULTI-PLATFORMS LINKING LOCALIZED RESOURCE SHARING"
 category: PRIMA | EU
 date: 2022-11-28
-weight: -4
+weight: 5
 ---
 
-<!-- {{<single_page_banner>}} Resilink: Prima & Horizon Europe {{</single_page_banner >}} -->
 
-
-{{<floating_image image="logo.png" float="left" width="300px" >}}
+{{<floating_image image="img/logo.png" float="left" width="300px" >}}
 {{<end_floating_image>}}
-
-<!-- [SECTION_TRANSPARENT] -->
 
 ## INCREASING RESILIENCE OF SMALLHOLDERS WITH MULTI-PLATFORMS LINKING LOCALIZED RESOURCE SHARING
 
@@ -32,8 +28,8 @@ RESILINK has the clear ambition to make digital smart technologies attractive & 
 **Duration:** Year 2022 - Year 2026
 
 
-{{<floating_image image="prima-logo.png" float="left" width="75px" style="margin-right: 1rem" >}}
-{{<floating_image image="eu-flag.png" float="left" width="75px" style="margin-right: 1rem" >}}
+{{<floating_image image="img/prima-logo.png" float="left" width="75px" style="margin-right: 1rem" >}}
+{{<floating_image image="/img/eu-flag.png" float="left" width="75px" style="margin-right: 1rem" >}}
 This project has received funding from PRIMA and the European Union’s Horizon Europe research and innovation programme.
 
 {{<line_break>}}
