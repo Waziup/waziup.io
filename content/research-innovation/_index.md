@@ -31,3 +31,7 @@ All our projects
 
 {{<project_cards>}}
 
+Publications
+============
+
+{{<publication_cards>}}
