@@ -570,7 +570,7 @@ h1 {
 	padding: .6rem 2rem;
 	color: #fff;
 	background-color: $waziup-orange-deep;
-	border-radius: 2px;
+	border-radius: 2rem;
 	border: none;
 	box-shadow: none;
 	cursor: pointer;
@@ -710,11 +710,11 @@ h1 {
 	align-items: center;
 	gap: .5rem;
 	width: fit-content;
-	padding: .5rem;
+	padding: .6rem;
 	padding-left: 0;
 	border: 0;
 	transition: all 0.5s;
-	border-radius: 4px;
+	border-radius: 2rem;
 	position: relative;
 }
 
@@ -725,7 +725,7 @@ h1 {
 		background-color: $waziup-dark;
 		color: #fff;
 		transition: all 0.5s;
-		padding: .5rem .8rem;
+		padding: .6rem .8rem;
 	}
 }
 
@@ -736,7 +736,7 @@ h1 {
 		background-color: $waziup-orange-deep;
 		color: #fff;
 		transition: all 0.5s;
-		padding: .5rem .8rem;
+		padding: .6rem .8rem;
 	}
 }
 
@@ -947,18 +947,18 @@ h1 {
 				align-items: center;
 				gap: .5rem;
 				width: fit-content;
-				padding: .5rem;
+				padding: .6rem;
 				padding-left: 0;
 				border: 0;
 				transition: all 0.5s;
-				border-radius: 4px;
+				border-radius: 2rem;
 				position: relative;
 
 				&:hover {
 					background-color: $waziup-orange-deep;
 					color: #fff;
 					transition: all 0.5s;
-					padding: .5rem .8rem;
+					padding: .6rem .8rem;
 				}
 			}
 		}
@@ -1127,7 +1127,7 @@ h1 {
 	padding: .5rem 1.5rem;
 	border: 0;
 	transition: all 0.5s;
-	border-radius: 4px;
+	border-radius: 2rem;
 	position: relative;
 }
 
@@ -1874,19 +1874,19 @@ input[type=submit]:hover {
 	.text-link {
 		text-decoration: none;
 		color: $waziup-orange-deep;
-		padding: .5rem;
+		padding: .6rem;
 		padding-left: 0;
 		display: flex;
 		align-items: center;
 		gap: .5rem;
 		width: fit-content;
-		border-radius: 4px;
+		border-radius: 2rem;
 
 		&:hover {
 			background-color: $waziup-orange-deep;
 			color: #fff;
 			transition: all 0.5s;
-			padding: .5rem .8rem;
+			padding: .6rem .8rem;
 		}
 	}
 
