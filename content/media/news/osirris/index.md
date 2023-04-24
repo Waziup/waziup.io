@@ -1,5 +1,5 @@
 ---
-title: The OSIRIS project
+title: The OSIRRIS project
 cover: cover.webp
 description: "The OSIRIS project: Improving food security in Africa with IoT technology"
 category: PROJECT
