@@ -1,6 +1,6 @@
 ---
 title: WaziHub
-cover: img/cover.png
+logo: img/logo.png
 description: "WaziHub"
 category: Horizon 2020
 date: 2022-03-15

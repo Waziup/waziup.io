@@ -1,6 +1,6 @@
 ---
 title: Urbane Project
-cover: img/cover.png
+logo: img/logo.png
 description: "One Health Approach to Support Agroecological Transformation of Peri-Urban Farming"
 category: Horizon EU
 date: 2023-03-28

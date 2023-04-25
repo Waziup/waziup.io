@@ -5,7 +5,7 @@ title: About Us
 Our Mission
 ===========
 
-{{<floating_image image="img/we-do.svg" float="right" width="700px" style="margin-left: 5vw">}}
+{{<floating_image image="img/we-do_.svg" float="right" style="margin-left: 5vw">}}
 
 ### We Foster IoT Solutions For Sustainable Development
 
@@ -16,7 +16,7 @@ Why Choose Us
 ============
 
 
-{{<floating_image image="img/why-choose.JPG" width="600px" float="left">}}
+{{<floating_image image="img/why-choose.JPG" float="left">}}
 
 ### We Are Building A Sustainable Future
 
@@ -69,7 +69,7 @@ Our Team
 We are Hiring!
 ==============
 
-{{<floating_image image="img/hiring.png" float="right">}}
+{{<floating_image image="career/img/hiring.svg" float="right">}}
 
 At Waziup, we believe in fostering a collaborative, inclusive, and dynamic work culture that enables employees to unleash their full potential and contribute to the company’s mission. 
 

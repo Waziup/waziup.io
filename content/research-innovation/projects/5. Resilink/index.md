@@ -1,6 +1,6 @@
 ---
 title: "Resilink: Prima & Horizon Europe"
-cover: img/cover.png
+logo: img/logo.png
 description: "INCREASING RESILIENCE OF SMALLHOLDERS WITH MULTI-PLATFORMS LINKING LOCALIZED RESOURCE SHARING"
 category: PRIMA | EU
 date: 2022-11-28

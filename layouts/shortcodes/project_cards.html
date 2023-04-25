@@ -1,13 +1,13 @@
 {{ $projectPage := .Page.GetPage "research-innovation/projects" }} 
 
-{{ $projects := sort $projectPage.Pages ".Weight" "desc" }}
+{{ $projects := sort $projectPage.Pages ".Weight" "asc" }}
 
   <div class="card-group">
     {{ range $projects }}
-      {{ $cover := .Resources.GetMatch .Params.cover }}
+      {{ $logo := .Resources.GetMatch .Params.logo }}
       {{ partial "project-card.html" (dict
         "Permalink" .Permalink
-        "Cover"     $cover.RelPermalink
+        "Logo"      $logo
         "Category"  .Params.category
         "Title"     .Title )}}
     {{ end }}

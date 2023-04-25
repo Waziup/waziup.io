@@ -1,8 +1,11 @@
+{{$resource := .Page.Resources}}
+
 <li class="project-card">
-  <!-- <a href="{{ .Permalink }}"> -->
     <div class="media">
-      <img src="{{ .Cover }}" alt="" />
-      <span>{{ .Category }}</span>
+      <img class="logo" src="{{ .Logo.RelPermalink }}" alt="Image">
+      {{ $colors := .Logo.Colors }}
+      {{ $color := index $colors 0 }}
+      {{ partial "tech-ring.html" (dict "color" $color) }}
     </div>
     <div class="content">
       <h3>{{ .Title }}</h3>
@@ -10,5 +13,4 @@
         <span class="material-symbols-outlined">arrow_circle_right</span> Read more
       </a>
     </div>
-  <!-- </a> -->
 </li>

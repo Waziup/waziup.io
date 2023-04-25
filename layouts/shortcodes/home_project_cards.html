@@ -9,10 +9,10 @@
       {{ $project := . }}
       {{ warnf "Processing %s" .Title }}
 
-    {{ $cover := $project.Resources.GetMatch .Params.cover }}
+    {{ $logo := $project.Resources.GetMatch .Params.logo }}
     {{ partial "project-card.html" (dict
         "Permalink" $project.Permalink
-        "Cover" $cover.RelPermalink
+        "Logo" $logo
         "Category" $project.Params.category
         "Title" $project.Title )}}
     {{ end }}

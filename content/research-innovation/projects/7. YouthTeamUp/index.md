@@ -1,10 +1,10 @@
 ---
 title: YouthTeamUp Project
-cover: img/cover.png
+logo: img/logo.png
 description: ""
 category: Erasmus+
 date: 2023-04-12
-weight: 6
+weight: 7
 status: inactive
 ---
 
