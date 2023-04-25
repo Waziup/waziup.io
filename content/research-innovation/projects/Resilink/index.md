@@ -5,11 +5,11 @@ description: "INCREASING RESILIENCE OF SMALLHOLDERS WITH MULTI-PLATFORMS LINKING
 category: PRIMA | EU
 date: 2022-11-28
 weight: 5
+acknowledgement:
+  text: This project has received funding from PRIMA and the European Union’s Horizon Europe research and innovation programme.
+  logo: /img/prima-logo.png
 ---
 
-
-{{<floating_image image="img/logo.png" float="left" width="300px" >}}
-{{<end_floating_image>}}
 
 ## INCREASING RESILIENCE OF SMALLHOLDERS WITH MULTI-PLATFORMS LINKING LOCALIZED RESOURCE SHARING
 
@@ -21,13 +21,9 @@ The objectives of the project are to improve the agri-food value chain by optimi
 
 RESILINK has the clear ambition to make digital smart technologies attractive & accessible to smallholders. The proposed solutions will be simple to use on a daily basis so that its usage will become natural, even in non-crisis situations. Then, by proposing a highly innovative generalized local resource sharing approach for smallholder’s agro-food chain, RESILINK will contribute to higher quality of products and services by maintaining continuity of access to resources. Therefore, RESILINK will definitely have an important impact on sustainability and competitiveness by promoting digital smart technologies to improve efficiency and by creating new business opportunities towards the smallholder communities. An important additional impact is on improving efficiency of small-scale farming system as generalized usage of local resources will definitely have a positive impact on the efficiency of these small-scale farming systems by reducing both delays and cost of access to resources. Finally, while RESILINK focuses on a generalized resource sharing platform for smallholders, the technology building blocks developed by RESILINK can easily be adapted to a larger variety of application domains. The large networks of actors built during the project will create synergies, increasing the likelihood of innovative third-party applications by local entrepreneurs for instance.
 
-**Contries Involved:** Greece,France,Senegal, Netherlands, Germany, Serbien, Ghana, Nigeria, Benin, Switzerland, England, United Kingdom
 
 **Website:** [https://resilink.eu/](https://resilink.eu/)
 
 **Duration:** Year 2022 - Year 2026
 
 
-{{<floating_image image="img/prima-logo.png" float="left" width="75px" style="margin-right: 1rem" >}}
-{{<floating_image image="/img/eu-flag.png" float="left" width="75px" style="margin-right: 1rem" >}}
-This project has received funding from PRIMA and the European Union’s Horizon Europe research and innovation programme.

@@ -9,7 +9,7 @@ weight: 2
 
 ### Empowering Open Source and Affordable IoT Technologies in Africa
 
-{{<floating_image image="applications.png" float="right" >}}
+![image](applications.png)
 
 IoT, or ‘Internet of Things’, is an on-going revolution that is changing the way innovation is being made around
 the world. Startups, innovators and tech enthusiasts can now create their prototypes, with very little initial
@@ -25,11 +25,6 @@ The initiative expanded and enriched its activities under the H2020 WaziHub proj
 Within WaziHub, we have organized more than 100 IoT training sessions, trained more than 1000 Africanyoung talents, distributed more than 200 IoT development kits, and supported 80+ startups to prototype their IoT solutions. WaziHub is building an African IoT open platform and ecosystem in collaboration with more than 10 TechHubs (see page 21).
 
 We are thankful to the European Commission for funding this initiative and also our European and African partners, allowing us to realize this highly ambitious vision. I thank our Tech Hubs, startup communities for supporting us in realizing this vision. This initiative will transform into a new phase under European Commission funded project called HUBiquitous, in which we want to develop a joint European and African innovation ecosystem through the Tech Hubs network
-{{<end_floating_image>}}
-
-
-
-<!-- [![cover image](cover.png "Shiprock, New Mexico by Beau Rogers")] -->
 
 
 ### Related Contents

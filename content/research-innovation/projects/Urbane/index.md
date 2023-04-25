@@ -5,10 +5,11 @@ description: "One Health Approach to Support Agroecological Transformation of Pe
 category: Horizon EU
 date: 2023-03-28
 weight: 6
----
+acknowledgement:
+  text: This project has received funding from the European Union’s Horizon Europe research and innovation programme under grant agreement No 101059232.
+  logo: /img/eu-flag.png
 
-{{<floating_image image="img/logo.png" float="left" width="300px" >}}
-{{<end_floating_image>}}
+---
 
 ## URBANE: One Health Approach to Support Agroecological Transformation of Peri-Urban Farming.
 
@@ -26,14 +27,10 @@ It is essential to develop new and adapted business models that are informed by 
 Overall, URBANE is an important initiative that can contribute to sustainable agriculture and food security in peri-urban areas of low and middle-income countries, 
 while addressing the health risks associated with the intensification of food systems.
 
-**Contries Involved:** Greece,France,Senegal, Netherlands, Germany, Serbien, Ghana, Nigeria, Benin, Switzerland, England, United Kingdom
 
 **Website:** [https://urbane-project.eu/](https://urbane-project.eu)
 
 **Duration:** 07.2022-07.2026
 
 
-{{<floating_image image="/img/eu-flag.png" float="left" width="75px" style="margin-right: 1rem" >}}
-
-This project has received funding from the European Union’s Horizon Europe research and innovation programme under grant agreement No 101059232.
 

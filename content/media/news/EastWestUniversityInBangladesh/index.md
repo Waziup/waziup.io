@@ -6,7 +6,7 @@ category: NEWS
 date: 2019-11-03
 ---
 
-{{<floating_image image="cover.webp" float="right" width="500px" >}}
+![image](cover.webp)
 
 The Department of Computer Science and Engineering at East West University in Bangladesh held a seminar on January 23, 2018, focused on the theme 
 "IoT and Big Data for Sustainable Development". The seminar was organized to increase awareness among students and faculty about the potential of

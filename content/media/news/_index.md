@@ -1,9 +1,6 @@
 ---
 title: News
+layout: news
 ---
 
 
-All News
-========
-
-{{< pagination >}}

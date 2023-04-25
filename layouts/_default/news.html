@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="page">
+
+  <div class="page-banner-static-color">
+    {{.Title}}
+  </div>
+  {{ $newsPage := .Page.GetPage "media/news" }} 
+  {{ $news := $newsPage.Pages }}
+  
+  <div style="margin-top: auto;">
+    <ul class="card-group"  id="news-card-group">
+      {{ range sort $news ".Date" "desc" }}
+        {{ $cover := .Resources.GetMatch .Params.cover }}
+        {{ partial "card.html" (dict
+          "Cover"       $cover.RelPermalink
+          "Category"    .Params.category
+          "Date"        (.Date.Format "January 2, 2006")
+          "Description" .Description
+          "Permalink"   .Permalink )}}
+      {{ end }}  
+    </ul>
+  </div>
+</div>
+{{end}}
+

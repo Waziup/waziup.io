@@ -36,5 +36,15 @@ network:
     -  France
 
 hiring: "At Waziup, we believe in fostering a collaborative, inclusive, and dynamic work culture that enables employees to unleash their full potential and contribute to the company’s mission."
+
+contact: |
+  You can contact us at any moment.
+
+  ### ADDRESS
+  Waziup e.V.  
+  Räcknitzhohe 50-52  
+  01217 Dresden  
+  Germany  
+
 ---
 
