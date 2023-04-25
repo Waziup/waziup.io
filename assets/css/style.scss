@@ -601,7 +601,6 @@ h1 {
 		font-size: 3rem;
 		font-weight: bold;
 		gap: .7rem;
-		scroll-margin-top: 6rem;
 	}
 
 	// Small underline after the title 
@@ -648,7 +647,7 @@ h1 {
 
 
 	// Banded sections of alternated colors
-	.banded:nth-of-type(odd) {
+	.banded:nth-of-type(even) {
 		background-color: $waziup-off-white;
 	}
 
@@ -657,6 +656,7 @@ h1 {
 		padding: 5vh 20vw;
 		list-style-image: url(/img/icons/check-circle.svg);
 		list-style-position: inside;
+		scroll-margin-top: 5rem;
 
 		ul li {
 			padding: 5px 0px;
@@ -1439,7 +1439,6 @@ h1 {
 		text-decoration: none;
 
 		.card {
-			height: 400px;
 			// position: relative;
 			display: flex;
 			flex-direction: column;
@@ -1459,13 +1458,6 @@ h1 {
 				// z-index: -1;
 			}
 
-			>h3 {
-				font-size: 2em;
-			}
-
-			>p {
-				font-size: 2em;
-			}
 
 			>div {
 				position: absolute;

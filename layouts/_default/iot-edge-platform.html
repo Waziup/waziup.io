@@ -1,0 +1,94 @@
+{{ define "main" }}
+<div class="page" id="home">
+
+  <div class="hero section">
+    <div class="kit-branding"> 
+        <div>
+          {{ .Page.Params.hero | markdownify }}
+          <a class="text-link " href="#">
+            <span class="material-symbols-outlined">arrow_circle_right</span> Learn more
+          </a>
+        </div>
+        <div class="kit-img">
+          <img src="img/banner.png" alt="">
+        </div>
+        <div class="action-button">
+          <a class="btn-lemo-solid" href="https://dashboard.waziup.io/" target="_blank">
+            Try Dashboard
+            <span class="material-symbols-outlined" style="font-size: 16px;">
+              arrow_outward
+            </span>
+          </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Wazigate section -->
+  <section class="section banded" id="wazigate">
+    <h1> 
+      Edge Gateway 
+    </h1>
+    <div class="floating-image right" style="margin-left: 2rem;" size="400px">
+      <img src="gateway/img/multibox.webp"/>
+    </div>
+    <div>
+      {{ .Page.Params.wazigate | markdownify }}
+    </div>
+    <a class="btn-learn-more-white blm-orange" href="/iot-edge-platform/gateway">
+      <span class="material-symbols-outlined">arrow_circle_right</span>
+      Learn more
+    </a>
+  </section>
+
+  <!-- Boards section -->
+  <section class="section banded" id="boards">
+    <h1> 
+      Our Development Boards
+    </h1>
+    {{ $devboardsPage := .Page.GetPage "dev-boards"}}
+    {{ $devboards := first 6 $devboardsPage.Pages }}
+    <div class="card-group" style="margin-top: auto;">
+      {{ range sort $devboards ".Weight" "desc" }}
+        {{ $cover := .Resources.GetMatch .Params.cover }}
+        {{ partial "devboard-card.html" (dict
+          "Size"        "small"
+          "Cover"       $cover.RelPermalink
+          "Title"       .Params.title 
+          "Description" .Description
+          "Permalink"   .Permalink )}} 
+      {{ end }}
+    </div>
+  </section>
+
+  <!-- Kit section -->
+  <section class="section banded" id="kit">
+    <h1> 
+      IoT Prototyping Kit 
+    </h1>
+    <div class="floating-image right" style="margin-left: 2rem;" size="400px">
+      <img src="img/edge-kit.webp"/>
+    </div>
+    <div>
+      {{ .Page.Params.kit | markdownify }}
+    </div>
+    <a class="btn-learn-more-white blm-orange" href="wazi-kit">
+      <span class="material-symbols-outlined">arrow_circle_right</span>
+      Learn more
+    </a>
+
+  </section>
+
+  <!-- Cloud section -->
+  <section class="section banded" id="wazicloud">
+    <h1> 
+      Cloud Platform
+    </h1>
+    <div class="floating-image right" style="margin-left: 2rem;" size="400px">
+      <img src="img/cloud-platform-services.png"/>
+    </div>
+    <div>
+      {{ .Page.Params.cloud | markdownify }}
+    </div>
+  </section>
+</div>
+{{end}}

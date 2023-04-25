@@ -7,8 +7,7 @@ date: 2022-01-01
 weight: 3
 ---
 
-{{<floating_image image="img/logo.png" float="left" width="300px" >}}
-{{<end_floating_image>}}
+![image](img/logo.png)
 
 ## Intelligent Irrigation System for Low-cost Autonomous Water Control in Small-scale Agriculture
 
@@ -34,5 +33,3 @@ Get the [PRIMA 2020 booklet](https://prima-med.org/wp-content/uploads/2021/12/PR
 {{<floating_image image="/eu-flag.png" float="left" width="75px" style="margin-right: 1rem" >}}
 This project has received funding from PRIMA and the European Union’s Horizon Europe research and innovation programme.
 
-{{<line_break>}}
-{{<line_break>}}

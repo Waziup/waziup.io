@@ -1,0 +1,75 @@
+{{ define "main" }}
+<div class="page">
+
+  <div class="page-banner-static-color">
+    {{.Title}}
+  </div>
+
+  <!-- Digital Farming section -->
+  <section class="section banded" id="digital-farming">
+    <h1> 
+      Digital Farming
+    </h1>
+    <div>
+      <div class="floating-image right">
+        <iframe
+          src="https://www.youtube.com/embed/YMGfkLNs624"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <div>
+        {{ .Page.Params.digitalfarming | markdownify }}
+      </div>
+      <a class="btn-learn-more-white blm-orange" href="projects/intel_irris">
+        <span class="material-symbols-outlined">arrow_circle_right</span>
+        Learn more
+      </a>
+    </div>
+  </section>
+
+  <!-- Project section -->
+  <section class="section banded" id="projects">
+    <h1> 
+      Our Projects
+    </h1>
+    {{ $projectPage := .Page.GetPage "research-innovation/projects" }} 
+    {{ $projects := sort $projectPage.Pages ".Weight" "asc" }}
+    
+    <div class="card-group">
+      {{ range $projects }}
+        {{ $logo := .Resources.GetMatch .Params.logo }}
+        {{ partial "project-card.html" (dict
+          "Permalink" .Permalink
+          "Logo"      $logo
+          "Category"  .Params.category
+          "Title"     .Title )}}
+      {{ end }}
+      </div>
+  </section>
+
+  <!-- Publications section -->
+  <section class="section banded" id="publications">
+    <h1> 
+      Publications 
+    </h1>
+    {{ $publicationsPage := .Page.GetPage "publications" }} 
+    {{ $publications := sort $publicationsPage.Pages ".Weight" "desc" | first 6 }}
+  
+    <div class="card-group">
+      {{ range $publications }}
+        {{ $cover := .Resources.GetMatch .Params.cover }}
+        {{ partial "card.html" (dict
+          "Cover"       $cover.RelPermalink
+          "Category"    .Params.category
+          "Date"        (.Date.Format "January 2, 2006")
+          "Description" .Description
+          "Permalink"   .Permalink )}}
+      {{ end }}
+    </div>
+  </section>
+</div>
+{{end}}
+

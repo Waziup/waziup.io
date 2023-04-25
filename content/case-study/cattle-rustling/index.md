@@ -8,7 +8,7 @@ date: 2022-03-19
 
 ### COMBATING CATTLE RUSTLING WITH WAZIUP TECHNOLOGY
 
-{{<floating_image image="cover.png" float="right" width="400px" >}}
+![image](cover.png)
 
 ### LoRaWAN Coller
 Low-Power, Long-Range and ready to use tracking device for livestock to increase farm profits and to prevent cattle rustling 
@@ -39,21 +39,4 @@ When collar is powered on, it sends GPS beacon every 10 minutes wirelessly using
 **Power supply:** Our device is powered by 4-AA batteries for more than 1 year life time. 
 
 **Easy setup and Installation:** Our devices are easy to setup and install with limited configuration  
-
-**Applications**
-- Livestock positioning 
-- Combat cattle rusting   
-- Livestock activity tracking (extendable) 
  
-{{<line_break>}}
-**Comments on current flyers:** 
-1. “Technology Ecosystem” instead of “Ecosystem”
-2. How does it looks if we add “Technology Ecosystem” at the middle of four box sensor, gateway, could and farm manager.
-3. Combine the “Why” and “How” on section rather 
-    - Add “How it works” on last section
-4. There should be a line “ from Cloud to Farm Manager”
-5. LoRa logo could be smaller 
-6. Delete “Plug and Play” part of 2nd page 
-7. How does it will looks like if bullet points of specification is align 
-81. Please see additional pictures in the drop box same folder. Just one picture. 
-9. The logo of box, Power, Easy to setup on 2 page could be “smaller” 

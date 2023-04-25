@@ -1,0 +1,93 @@
+{{ define "main" }}
+<div class="page">
+
+  <div class="page-banner-static-color">
+    {{.Title}}
+  </div>
+
+  <!-- Mission section -->
+  <section class="section banded">
+    <h1> 
+      Our Mission
+    </h1>
+    <div class="floating-image right">
+      <img src="img/we-do_.svg"/>
+    </div>
+    <div>
+      {{ .Page.Params.mission | markdownify }}
+    </div>
+  </section>
+
+  <!-- Network section -->
+  <section class="section banded">
+    <h1> 
+      Our Network
+    </h1>
+    <div class="floating-image right">
+      <img src="img/network-map.svg"/>
+    </div>
+    <div>
+      {{ .Page.Params.network.text | markdownify }}
+    </div>
+    {{ range .Page.Params.network.coutries }}
+      <div class="chip">
+        <div class="dot"></div>
+        <span>{{ . | markdownify }}</span>
+      </div>
+    {{end}}
+    <div class="eco-img-container">
+      <a href="">
+        <div class="card" style="background-image: url(/img/eco-startup.png);">
+          <h3>Startups</h3>
+          <p>Accelerated more than <b>50</b> startups</p>
+        </div>
+      </a>
+      <a href="">
+        <div class="card" style="background-image: url(/img/eco-techhub.png);">
+          <h3>TechHubs</h3>
+          <p>Supporting <b>25</b> TechHubs in Africa</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Our Team -->
+  <section class="section banded">
+    <h1> 
+     Our Team 
+    </h1>
+    {{ $teammemberPage := .Page.GetPage "team-members"}}
+    <div class="team-member-container" style="margin-top: auto;">
+      {{ range sort $teammemberPage.Pages ".Weight" "desc" }}
+    
+        {{ $cover := .Resources.GetMatch .Params.cover }}
+        {{ partial
+          "team-member-card.html" (dict
+          "Cover" $cover.RelPermalink
+          "Name"  .Params.name 
+          "Role"  .Params.role )}} 
+      {{ end }}
+    </div>
+  </section>
+
+  <!-- Hiring -->
+  <section class="section banded">
+    <h1> 
+     We are Hiring! 
+    </h1>
+    <div class="floating-image right">
+      <img src="career/img/hiring.svg"/>
+    </div>
+    <div>
+      {{ .Page.Params.hiring | markdownify }}
+    </div>
+    <a class="btn-learn-more-white blm-orange" href="career">
+      <span class="material-symbols-outlined">arrow_circle_right</span>
+      Open positions
+    </a>
+  
+  </section>
+
+</div>
+{{end}}
+

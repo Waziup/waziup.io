@@ -13,22 +13,22 @@ menu:
       weight: 1
     - identifier: edge-gateway 
       title: Edge gateway
-      url: "/iot-edge-platform#edge-gateway"
+      url: "/iot-edge-platform#wazigate"
       weight: 1
       parent: iot-edge-platform
     - identifier: dev-boards 
       title: Dev boards
-      url: "/iot-edge-platform#our-development-boards"
+      url: "/iot-edge-platform#boards"
       weight: 2
       parent: iot-edge-platform
     - identifier: iot-prototyping-kit
       title: IoT Kit
-      url: "/iot-edge-platform#iot-prototyping-kit"
+      url: "/iot-edge-platform#kit"
       weight: 3
       parent: iot-edge-platform
     - identifier: cloud-platform
       title: Cloud Platform
-      url: "/iot-edge-platform#cloud-platform"
+      url: "/iot-edge-platform#wazicloud"
       weight: 4
       parent: iot-edge-platform
 
@@ -48,12 +48,12 @@ menu:
       parent: capacity-building
     - identifier: wazihack 
       title: WaziHack
-      url: "/capacity-building#waziup-innovative-hackathon"
+      url: "/capacity-building#wazihack"
       weight: 3
       parent: capacity-building
     - identifier: certification 
       title: Certifications
-      url: "/capacity-building#waziup-certification"
+      url: "/capacity-building#certifications"
       weight: 4
       parent: capacity-building
 
@@ -68,7 +68,7 @@ menu:
       parent: research-innovation
     - identifier: all-projects 
       title: Projects
-      url: "/research-innovation#our-projects"
+      url: "/research-innovation#projects"
       weight: 2
       parent: research-innovation
     - identifier: all-publications 

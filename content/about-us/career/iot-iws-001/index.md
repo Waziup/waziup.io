@@ -1,6 +1,5 @@
 ---
 title: Iot Intership/Working Student (m/f/d)
-# hide_footer: true   // this meta info indicates the footer hiding thing.
 description: We are looking for an enthusiastic intership student for our IoT Projects!
 cover: pic.png
 status: open

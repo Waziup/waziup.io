@@ -25,60 +25,13 @@ services:
   - title: Research Projects
     text: We are currently part of 5 research projects, funded by the European Commission and the German BMBF.
     icon: find_in_page
+
+technology: |
+  WAZIUP offers out-of-the-box solutions going from sensor nodes to applications. Our solutions are particularly adapted to tough conditions with low power, and long-range applications.
+  * Long-range, low cost radio communications
+  * Enterprise application framework
+  * Edge computing IoT gateway
+  * Cloud platform
+
 ---
-
-{{<home-banner-slider>}}
-
-Our services 
-============
-
-{{<service-cards>}}
-
-
-<!-- {{<floating_video float="center" link="https://www.youtube.com/embed/hu-v-eukLAc?autoplay=0;rel=0&loop=0;controls=0&amp;showinfo=0&autohide=1">}}
-{{<end_floating_image>}} -->
-
-They say about us... 
-=====================
-
-{{<floating_image image="/img/startup.png" float="left" >}}
-
-{{<quote>}}
-
-End-to-End Technology
-=====================
-
-{{<floating_image image="img/e2e-iot.png" float="left" >}}
-
-WAZIUP offers “out-of-the-box” solutions going from sensor nodes to applications. Our solutions are particularly adapted to tough conditions with low power, and long-range applications.
-
-- Long-range, low cost radio communications
-- Enterprise application framework
-- Edge computing IoT gateway
-- Cloud platform
-
-Research & Innovation Projects
-================================
-
-## Waziup is coordinating and participating in several EU research and development international projects.
-
-{{<home_project_cards>}}
-
-
-Latest News
-==============
-
-{{<news_cards>}}
-
-
-Case Studies
-============
-
-{{<case_study_cards>}}
-
-
-Our Partners
-============
-
-{{<logoshow>}}
 
