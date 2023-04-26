@@ -2,13 +2,13 @@
 title: "Waziup e.V." 
 hasHero: true
 services:
-  - title: IoT Skills development & Training
+  - title: Skills Development & Training
     icon: school
     text: We offer IoT capacity building for your developers & engineers. We organize hackathons and bootcamps on your premises.
 
-  - title: IoT Solution Prototyping
+  - title: Solution Prototyping
     icon: memory
-    text: We help you developing your solutions, such as farming applications. We developed a full stack technology to support your applications.
+    text: We help you developing your IoT solutions, such as farming applications. We developed a full stack technology to support your applications.
 
   - title: Digital Farming
     icon: temp_preferences_eco 
@@ -18,7 +18,7 @@ services:
     icon: hub
     text: We deploy a key-in-hand lab called WaziLab in your institution. WaziLab is a complete package with hardware, software, training and services.
 
-  - title: IoT innovation ecosystem boosting
+  - title: Ecosystem Boosting
     icon: home_iot_device
     text: We support startups with our Acceleration Program and incubate with technical bootcamps, networking activities, and business development.
 

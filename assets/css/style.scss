@@ -660,12 +660,16 @@ h1 {
 			padding: 5rem 5vw;
 		}
 
-		@media (min-width:$sm) and (max-width:$xl) {
-			margin: 0 -20vw;
+		@media (min-width:$sm) and (max-width:$lg) {
+			margin: 0 -10vw;
+			padding: 5rem 10vw;
+		}
+		@media (min-width:$lg) and (max-width:$xl) {
+			margin: 0 -10vw;
 			padding: 5rem 10vw;
 		}
 
-		@media (min-width:$xxl) {
+		@media (min-width:$xl) {
 			margin: 0 -20vw;
 			padding: 5rem 20vw;
 		}
@@ -729,24 +733,25 @@ h1 {
 	padding: 1rem 0;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 	gap: 2.5rem;
 	list-style-type: none;
 
-	.size-medium {
-		width: 30%;
+	// .size-medium {
+	// 	width: 30%;
 
-		@media (max-width: $sm) {
-			width: 100%;
-		}
-	}
+	// 	@media (max-width: $sm) {
+	// 		width: 100%;
+	// 	}
+	// }
 
-	.size-small {
-		width: 23%;
+	// .size-small {
+	// 	width: 23%;
 
-		@media (max-width: $sm) {
-			width: 100%;
-		}
-	}
+	// 	@media (max-width: $sm) {
+	// 		width: 100%;
+	// 	}
+	// }
 
 	.card {
 		display: flex;
@@ -806,6 +811,13 @@ h1 {
 				white-space: pre-wrap;
 			}
 		}
+
+		@media (max-width: $sm) {
+			width: 100%;
+		}
+		@media (min-width:$sm) and (max-width:$lg) {
+			width: 45%;
+		}
 	}
 
 	.project-card {
@@ -847,7 +859,7 @@ h1 {
 				width: 70%;
 				object-fit: cover;
 				position: absolute;
-				z-index: 1;
+				// z-index: 1;
 			}
 
 		}
@@ -895,14 +907,22 @@ h1 {
 			}
 
 		}
+
+		@media (max-width: $sm) {
+			width: 100%;
+		}
+
+		@media (min-width:$sm) and (max-width:$lg) {
+			width: 45%;
+		}
+
 	}
-
-
 
 	.dev-board-card {
 		transition: 0.3s;
 		text-decoration: none;
 		color: #515b60;
+		// width: 30%;
 
 		&:hover {
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -960,6 +980,19 @@ h1 {
 		icon {
 			height: 8rem;
 			width: 8rem;
+		}
+		@media (max-width: $sm) {
+			width: 100%;
+		}
+
+		@media (min-width:$sm) and (max-width:$lg) {
+			width: 45%;
+		}
+		@media (min-width:$lg) and (max-width:$xl) {
+			width: 30%;
+		}
+		@media (min-width: $xl) {
+			width: 23%;
 		}
 	}
 
@@ -1019,7 +1052,7 @@ h1 {
 		background-color: transparent;
 		border-radius: 8px;
 		padding: 20px;
-		height: 300px;
+		// height: 300px;
 
 		.icon {
 			display: flex;
@@ -1047,12 +1080,19 @@ h1 {
 			height: 80px;
 		}
 
-
 		.description {
 			text-align: justify;
 			font-size: 18px;
 			color: #666;
 			line-height: 1.5;
+		}
+
+		@media (max-width: $sm) {
+			width: 100%;
+		}
+
+		@media (min-width:$sm) and (max-width:$lg) {
+			width: 45%;
 		}
 	}
 
@@ -1078,33 +1118,21 @@ h1 {
 		}
 	}
 
-	@media (max-width: $sm) {
-		gap: 1rem;
+	// @media (min-width:$sm) and (max-width:1000px) {
+	// 	>.project-card {
+	// 		width: 45%;
+	// 	}
 
-		>.project-card {
-			width: 100%;
-		}
+	// 	>.card {
+	// 		width: 45%;
+	// 	}
 
-		>.service-card {
-			width: 100%;
-		}
-	}
+	// 	>.service-card {
+	// 		width: 45%;
+	// 	}
+	// }
 
-	@media (min-width:$sm) and (max-width:1000px) {
-		>.project-card {
-			width: 45%;
-		}
-
-		>.card {
-			width: 45%;
-		}
-
-		>.service-card {
-			width: 45%;
-		}
-	}
-
-	@media(max-width:$xl) {
+	@media(min-width:$lg) {
 		gap: 1.5rem;
 	}
 
@@ -1965,7 +1993,7 @@ input[type=submit]:hover {
 
 	.slider {
 		display: flex;
-		aspect-ratio: 16 / 9;
+		// aspect-ratio: 16 / 9;
 		overflow-x: auto;
 		scroll-snap-type: x mandatory;
 		scroll-behavior: smooth;
@@ -1980,10 +2008,10 @@ input[type=submit]:hover {
 
 		>div {
 			display: flex;
+			align-items: flex-start;
 			gap: 3rem;
 			flex: 1 0 100%;
 			scroll-snap-align: start;
-
 
 			>div {
 				width: 50%;
@@ -2045,7 +2073,7 @@ input[type=submit]:hover {
 		display: flex;
 		column-gap: 1rem;
 		position: absolute;
-		bottom: 1.25rem;
+		// bottom: 0;
 		left: 50%;
 		transform: translateX(-50%);
 		z-index: 1;

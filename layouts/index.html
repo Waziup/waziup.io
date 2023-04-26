@@ -12,7 +12,7 @@
                 Empowering your IoT solutions with efficiency and adaptability
               </h3>
             </div>
-            <img src="/img/iot-banner-slide_.png" />
+            <img src="/img/iot-banner-slide_n.png" />
           </div>
           <div>
             <div>
@@ -21,7 +21,7 @@
                 Solution package with online learning and prototyping platform
               </h3>
             </div>
-            <img src="/img/capacity-building-slide_.png" />
+            <img src="/img/capacity-building-slide_n.png" />
           </div>
           <div>
             <div>
@@ -30,7 +30,7 @@
                 Enabling sustainability and affordability or a smarter future
               </h3>
             </div>
-            <img src="/img/project-slide_.png" />
+            <img src="/img/project-slide_n.png" />
           </div>
         </div>
         <div class="slider-nav">
@@ -72,7 +72,7 @@
   <section class="section banded">
     <h1>Research & Innovation Projects</h1>
     {{ $projectPage := .Page.GetPage "research-innovation/projects" }} {{
-    $projects := sort $projectPage.Pages ".Weight" "desc" | first 3 }}
+    $projects := sort $projectPage.Pages ".Weight" "asc" | first 3 }}
 
     <div class="card-group">
       {{ range $projects }} {{ $logo := .Resources.GetMatch .Params.logo }} {{
@@ -87,23 +87,23 @@
     </div>
   </section>
 
-    <!-- Quote section -->
-    <section class="section banded">
-      <h1>They say about us...</h1>
-      <div class="floating-image left">
-        <img src="/img/startup.png" />
+  <!-- Quote section -->
+  <section class="section banded">
+    <h1>They say about us...</h1>
+    <div class="floating-image left">
+      <img src="/img/startup.png" />
+    </div>
+    <div class="quote">
+      <div class="flex flex-left"><img src="/img/quote.svg" alt="" /></div>
+      <div class="flex flex-center">
+        <span>
+          Waziup simplifies the process of creating and deploying IoT
+          applications, making it easy for us to bring our ideas to life.</span
+        >
       </div>
-      <div class="quote">
-        <div class="flex flex-left"><img src="/img/quote.svg" alt="" /></div>
-        <div class="flex flex-center">
-          <span>
-            Waziup simplifies the process of creating and deploying IoT
-            applications, making it easy for us to bring our ideas to life.</span
-          >
-        </div>
-        <div class="flex flex-right"><img src="/img/quote.svg" alt="" /></div>
-      </div>
-    </section>
+      <div class="flex flex-right"><img src="/img/quote.svg" alt="" /></div>
+    </div>
+  </section>
 
   <!--News section -->
   <section class="section banded">
@@ -136,7 +136,7 @@
 
     <div class="card-group" style="margin-top: auto" id="caseStudy-card-group">
       {{ range sort $caseStudy ".Date" "desc" }} {{ $cover :=
-      .Resources.GetMatch .Params.cover }} {{ partial "devboard-card.html" (dict
+      .Resources.GetMatch .Params.cover }} {{ partial "card.html" (dict
       "Size" "medium" "Cover" $cover.RelPermalink "Date" .Date "Title" .Title
       "Description" .Description "Permalink" .Permalink )}} {{ end }}
     </div>
