@@ -7,11 +7,19 @@ layout: contact
 We are here to help you!
 ========================
 
-Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.
+Are you curious about our activities? Do you need help with our platform? Let's get in touch!
 
-### ADDRESS
+## Address
 Waziup e.V.  
 Räcknitzhohe 50-52  
 01217 Dresden  
 Germany  
+        
+
+## Email
+Write us: [contact@waziup.org](mailto:contact@waziup.org)
+
+## Phone
+
+Call us: +4935147004725
 

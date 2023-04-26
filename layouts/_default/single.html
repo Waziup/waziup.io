@@ -1,15 +1,11 @@
 {{ define "main" }}
 <div class="page" id={{.Params.id}}>
 
-  {{ if not .Params.hasHero }}
-    <div class="page-banner-static-color">
-      {{.Title}}
-    </div>
-  {{ end }}
+  <div class="page-banner-static-color">
+    {{.Title}}
+  </div>
   
-  <section class="section">
-    {{ .Content | safeHTML }}
-  </section>
+  {{ .Content | safeHTML }}
 
 </div>
 {{end}}
