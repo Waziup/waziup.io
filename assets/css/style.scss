@@ -677,21 +677,12 @@ h1 {
 		}
 	}
 
-	// .top-banner {
-	// 	margin: 5rem -20vw 0;
+  //Single page style
+  .single {
+    margin: 0 -20vw;
+    padding: 5vh 20vw;
+  }
 
-	// 	@media (max-width:$sm) {
-	// 		margin: 5rem -5vw 0;
-	// 	}
-
-	// 	@media (max-width:$xl) {
-	// 		margin: 5rem -10vw 0;
-	// 	}
-
-	// 	@media (min-width:$xxl) {
-	// 		margin: 5rem -20vw 0;
-	// 	}
-	// }
 }
 
 .btn-learn-more-white {
