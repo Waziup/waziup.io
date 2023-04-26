@@ -52,7 +52,6 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-size: 1.2em;
 	color: #515b60;
-	// background-color: #fafafa;
 	background-color: #fff;
 }
 
@@ -144,7 +143,6 @@ h1 {
 					a {
 						text-decoration: none;
 						color: $waziup-black-light;
-
 					}
 
 					ul {
@@ -413,19 +411,6 @@ h1 {
 	}
 }
 
-// .page-banner-static-color {
-// 	display: flex;
-// 	justify-content: center;
-// 	align-items: center;
-// 	text-align: center;
-// 	font-size: 1.5em;
-// 	font-weight: 300;
-// 	color: #fff;
-// 	height: 300px;
-// 	overflow: hidden;
-// 	background-color: #0d1528;
-// 	padding: 1rem 10rem;
-// }
 .page-banner-static-color {
 	display: flex;
 	justify-content: center;
@@ -677,32 +662,36 @@ h1 {
 			padding: 5rem 5vw;
 		}
 
-		@media (min-width:$sm) and (max-width:$xl) {
-			margin: 0 -20vw;
+		@media (min-width:$sm) and (max-width:$lg) {
+			margin: 0 -10vw;
+			padding: 5rem 10vw;
+		}
+		@media (min-width:$lg) and (max-width:$xl) {
+			margin: 0 -10vw;
 			padding: 5rem 10vw;
 		}
 
-		@media (min-width:$xxl) {
+		@media (min-width:$xl) {
 			margin: 0 -20vw;
 			padding: 5rem 20vw;
 		}
 	}
 
-	.top-banner {
-		margin: 5rem -20vw 0;
+	// .top-banner {
+	// 	margin: 5rem -20vw 0;
 
-		@media (max-width:$sm) {
-			margin: 5rem -5vw 0;
-		}
+	// 	@media (max-width:$sm) {
+	// 		margin: 5rem -5vw 0;
+	// 	}
 
-		@media (max-width:$xl) {
-			margin: 5rem -10vw 0;
-		}
+	// 	@media (max-width:$xl) {
+	// 		margin: 5rem -10vw 0;
+	// 	}
 
-		@media (min-width:$xxl) {
-			margin: 5rem -20vw 0;
-		}
-	}
+	// 	@media (min-width:$xxl) {
+	// 		margin: 5rem -20vw 0;
+	// 	}
+	// }
 }
 
 .btn-learn-more-white {
@@ -746,24 +735,25 @@ h1 {
 	padding: 1rem 0;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 	gap: 2.5rem;
 	list-style-type: none;
 
-	.size-medium {
-		width: 30%;
+	// .size-medium {
+	// 	width: 30%;
 
-		@media (max-width: $sm) {
-			width: 100%;
-		}
-	}
+	// 	@media (max-width: $sm) {
+	// 		width: 100%;
+	// 	}
+	// }
 
-	.size-small {
-		width: 23%;
+	// .size-small {
+	// 	width: 23%;
 
-		@media (max-width: $sm) {
-			width: 100%;
-		}
-	}
+	// 	@media (max-width: $sm) {
+	// 		width: 100%;
+	// 	}
+	// }
 
 	.card {
 		display: flex;
@@ -823,6 +813,13 @@ h1 {
 				white-space: pre-wrap;
 			}
 		}
+
+		@media (max-width: $sm) {
+			width: 100%;
+		}
+		@media (min-width:$sm) and (max-width:$lg) {
+			width: 45%;
+		}
 	}
 
 	.project-card {
@@ -864,7 +861,7 @@ h1 {
 				width: 70%;
 				object-fit: cover;
 				position: absolute;
-				z-index: 1;
+				// z-index: 1;
 			}
 
 		}
@@ -912,14 +909,22 @@ h1 {
 			}
 
 		}
+
+		@media (max-width: $sm) {
+			width: 100%;
+		}
+
+		@media (min-width:$sm) and (max-width:$lg) {
+			width: 45%;
+		}
+
 	}
-
-
 
 	.dev-board-card {
 		transition: 0.3s;
 		text-decoration: none;
 		color: #515b60;
+		// width: 30%;
 
 		&:hover {
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -977,6 +982,19 @@ h1 {
 		icon {
 			height: 8rem;
 			width: 8rem;
+		}
+		@media (max-width: $sm) {
+			width: 100%;
+		}
+
+		@media (min-width:$sm) and (max-width:$lg) {
+			width: 45%;
+		}
+		@media (min-width:$lg) and (max-width:$xl) {
+			width: 30%;
+		}
+		@media (min-width: $xl) {
+			width: 23%;
 		}
 	}
 
@@ -1036,7 +1054,7 @@ h1 {
 		background-color: transparent;
 		border-radius: 8px;
 		padding: 20px;
-		height: 300px;
+		// height: 300px;
 
 		.icon {
 			display: flex;
@@ -1064,12 +1082,19 @@ h1 {
 			height: 80px;
 		}
 
-
 		.description {
 			text-align: justify;
 			font-size: 18px;
 			color: #666;
 			line-height: 1.5;
+		}
+
+		@media (max-width: $sm) {
+			width: 100%;
+		}
+
+		@media (min-width:$sm) and (max-width:$lg) {
+			width: 45%;
 		}
 	}
 
@@ -1095,33 +1120,21 @@ h1 {
 		}
 	}
 
-	@media (max-width: $sm) {
-		gap: 1rem;
+	// @media (min-width:$sm) and (max-width:1000px) {
+	// 	>.project-card {
+	// 		width: 45%;
+	// 	}
 
-		>.project-card {
-			width: 100%;
-		}
+	// 	>.card {
+	// 		width: 45%;
+	// 	}
 
-		>.service-card {
-			width: 100%;
-		}
-	}
+	// 	>.service-card {
+	// 		width: 45%;
+	// 	}
+	// }
 
-	@media (min-width:$sm) and (max-width:1000px) {
-		>.project-card {
-			width: 45%;
-		}
-
-		>.card {
-			width: 45%;
-		}
-
-		>.service-card {
-			width: 45%;
-		}
-	}
-
-	@media(max-width:$xl) {
+	@media(min-width:$lg) {
 		gap: 1.5rem;
 	}
 
@@ -1145,6 +1158,7 @@ h1 {
 .quote {
 	display: flex;
 	flex-direction: column;
+	width: fit-content;
 
 	.flex {
 		flex: 1;
@@ -1182,8 +1196,9 @@ h1 {
 	margin-right: 0;
 	margin-bottom: 2rem;
 	overflow: hidden;
-	width: 500px;
+	width: 450px;
 	max-width: 100%;
+
 
 	>img {
 		object-fit: cover;
@@ -1216,6 +1231,16 @@ h1 {
 		width: 100%;
 		padding: 0;
 	}
+	@media(min-width:$xxl) {
+		width: 650px;
+	}
+}
+
+.w-650{
+	width: 650px;
+}
+.w-700{
+	width: 700px;
 }
 
 .left {
@@ -1617,10 +1642,9 @@ input[type=submit]:hover {
 .g-map {
 	float: right;
 	padding-left: 5rem;
-	width: 50%;
-  margin-top: 8rem;
-	margin-bottom: 2rem;
-	height: 40rem;
+	width: 60%;
+	margin: 2rem auto;
+	height: 30rem;
 
 	@media (max-width:$sm) {
 		padding-left: 0;
@@ -1982,7 +2006,7 @@ input[type=submit]:hover {
 
 	.slider {
 		display: flex;
-		aspect-ratio: 16 / 9;
+		// aspect-ratio: 16 / 9;
 		overflow-x: auto;
 		scroll-snap-type: x mandatory;
 		scroll-behavior: smooth;
@@ -1997,10 +2021,10 @@ input[type=submit]:hover {
 
 		>div {
 			display: flex;
+			align-items: flex-start;
 			gap: 3rem;
 			flex: 1 0 100%;
 			scroll-snap-align: start;
-
 
 			>div {
 				width: 50%;
@@ -2062,7 +2086,7 @@ input[type=submit]:hover {
 		display: flex;
 		column-gap: 1rem;
 		position: absolute;
-		bottom: 1.25rem;
+		// bottom: 0;
 		left: 50%;
 		transform: translateX(-50%);
 		z-index: 1;
@@ -2097,7 +2121,8 @@ input[type=submit]:hover {
 	path {
 		fill: var(--tr-color)
 	}
-	line{
+
+	line {
 		stroke: var(--tr-color)
 	}
 }
