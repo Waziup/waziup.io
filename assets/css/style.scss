@@ -1194,8 +1194,9 @@ h1 {
 	margin-right: 0;
 	margin-bottom: 2rem;
 	overflow: hidden;
-	width: 500px;
+	width: 450px;
 	max-width: 100%;
+
 
 	>img {
 		object-fit: cover;
@@ -1228,6 +1229,16 @@ h1 {
 		width: 100%;
 		padding: 0;
 	}
+	@media(min-width:$xxl) {
+		width: 650px;
+	}
+}
+
+.w-650{
+	width: 650px;
+}
+.w-700{
+	width: 700px;
 }
 
 .left {

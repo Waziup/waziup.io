@@ -10,7 +10,7 @@ hero: |
 wazilab: |
   The WaziLab is a platform for learning IoT through live prototyping. It simplifies the prototyping process for startups through better hardware accessibility, guided prototyping, IoT capacity building and initial business support for startups. It features:
   
-  * Online courses tuned to your own pace
+  * Online courses at your own pace
   * Live prototyping and solution building
   * IoT Lab management
 

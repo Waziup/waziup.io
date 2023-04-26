@@ -19,8 +19,8 @@ wazigate: |
 kit: |
   Waziup provides free IoT Development kits to makers to facilitate the rapid prototyping of their solutions. The kit offers all the features to help developers & startups prototype and deploy their solutions rapidly. It includes:
   
-  * WaziDev: Waziup development board with embedded LoRa module
-  * WaziGate: a powerfull Edge computing LoRa gateway
+  * WaziDev with embedded LoRa module
+  * WaziGate: Edge computing LoRa gateway
   * Solar panels
   * Sensor kit
   * Casing
