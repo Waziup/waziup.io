@@ -13,6 +13,7 @@ mission: |
 
 network:
   text: "We have an extended network in Europe and Africa. We developed projects in 17 African countries and have more than 10000 community members. We focus on partnerships with **Digital Innovation Hubs and Startups**."
+  
   coutries:
     - Morocco
     - Senegal

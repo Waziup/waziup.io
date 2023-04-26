@@ -30,6 +30,6 @@ Get the [PRIMA 2020 booklet](https://prima-med.org/wp-content/uploads/2021/12/PR
 **Duration:** June 2021 - 2024
 
 {{<floating_image image="img/prima-logo.png" float="left" width="75px" style="margin-right: 1rem" >}}
-{{<floating_image image="/eu-flag.png" float="left" width="75px" style="margin-right: 1rem" >}}
+{{<floating_image image="img/eu-flag.png" float="left" width="75px" style="margin-right: 1rem" >}}
 This project has received funding from PRIMA and the European Union’s Horizon Europe research and innovation programme.
 

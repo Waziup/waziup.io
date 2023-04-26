@@ -52,7 +52,6 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-size: 1.2em;
 	color: #515b60;
-	// background-color: #fafafa;
 	background-color: #fff;
 }
 
@@ -144,7 +143,6 @@ h1 {
 					a {
 						text-decoration: none;
 						color: $waziup-black-light;
-
 					}
 
 					ul {
@@ -413,19 +411,6 @@ h1 {
 	}
 }
 
-// .page-banner-static-color {
-// 	display: flex;
-// 	justify-content: center;
-// 	align-items: center;
-// 	text-align: center;
-// 	font-size: 1.5em;
-// 	font-weight: 300;
-// 	color: #fff;
-// 	height: 300px;
-// 	overflow: hidden;
-// 	background-color: #0d1528;
-// 	padding: 1rem 10rem;
-// }
 .page-banner-static-color {
 	display: flex;
 	justify-content: center;
@@ -686,21 +671,21 @@ h1 {
 		}
 	}
 
-	.top-banner {
-		margin: 5rem -20vw 0;
+	// .top-banner {
+	// 	margin: 5rem -20vw 0;
 
-		@media (max-width:$sm) {
-			margin: 5rem -5vw 0;
-		}
+	// 	@media (max-width:$sm) {
+	// 		margin: 5rem -5vw 0;
+	// 	}
 
-		@media (max-width:$xl) {
-			margin: 5rem -10vw 0;
-		}
+	// 	@media (max-width:$xl) {
+	// 		margin: 5rem -10vw 0;
+	// 	}
 
-		@media (min-width:$xxl) {
-			margin: 5rem -20vw 0;
-		}
-	}
+	// 	@media (min-width:$xxl) {
+	// 		margin: 5rem -20vw 0;
+	// 	}
+	// }
 }
 
 .btn-learn-more-white {
@@ -1143,6 +1128,7 @@ h1 {
 .quote {
 	display: flex;
 	flex-direction: column;
+	width: fit-content;
 
 	.flex {
 		flex: 1;
@@ -2094,7 +2080,8 @@ input[type=submit]:hover {
 	path {
 		fill: var(--tr-color)
 	}
-	line{
+
+	line {
 		stroke: var(--tr-color)
 	}
 }
