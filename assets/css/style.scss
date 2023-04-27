@@ -25,7 +25,7 @@ $xs: 0px;
 $sm: 600px;
 $md: 900px;
 $lg: 1200px;
-$xl: 1536px;
+$xl: 1537px;
 $xxl: 1920px;
 
 $waziup-orange-deep: #F35E19;
@@ -392,25 +392,6 @@ h1 {
 	}
 }
 
-.page-banner {
-	position: relative;
-	display: flex;
-	height: 300px;
-	overflow: hidden;
-	padding: 2rem;
-	margin: 5rem -20vw 0;
-
-	>img {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-		// z-index: 2;
-	}
-}
-
 .page-banner-static-color {
 	display: flex;
 	justify-content: center;
@@ -421,26 +402,20 @@ h1 {
 	height: 200px;
 	overflow: hidden;
 	background-color: #292f3f;
-	margin-top: 5.5rem;
-	margin: 0 -20vw;
-	padding: 2rem 5vw;
+	margin-top: 5rem;
+	padding: 2rem 20vw;
 
+	//Dynamic margins according to screen size
 	@media (max-width:$sm) {
-		margin: 5rem -5vw 0;
-		font-size: 1.5em;
-	}
-
-	@media (min-width:$sm) and (max-width:$md) {
-		font-size: 2em;
+		padding: 2rem 5vw;
 	}
 
 	@media (max-width:$xl) {
-		height: 10rem;
-		margin: 5rem -10vw 0;
+		padding: 5rem 10vw;
 	}
 
 	@media (min-width:$xl) {
-		margin: 5rem -20vw 0;
+		padding: 5rem 20vw;
 	}
 }
 
@@ -573,7 +548,7 @@ h1 {
 // Big page with banded sections and a hero section
 .page {
 
-	text-align: justify;
+	// text-align: justify;
 
 	//section titles
 	.section h1 {
@@ -612,6 +587,8 @@ h1 {
 	.hero {
 		background-color: $waziup-dark;
 		color: #fff;
+		margin-top: 5rem;
+		// min-height: calc(100vh - 295px);
 
 		>div,
 		p {
@@ -639,8 +616,7 @@ h1 {
 	}
 
 	.section {
-		margin: 0 -20vw;
-		padding: 5vh 20vw;
+		padding: 5rem 20vw;
 		list-style-image: url(/img/icons/check-circle.svg);
 		list-style-position: inside;
 		scroll-margin-top: 5rem;
@@ -661,50 +637,58 @@ h1 {
 			clear: both;
 		}
 
+		//section content
+		>.content {
+			display: flex;
+			justify-content: space-between;
+			gap: 64px;
+
+			.w40 {
+				width: 40%;
+
+				@media (max-width:$sm) {
+					width: 100%;
+					order: 1;
+				}
+			}
+
+			.w60 {
+				width: 60%;
+
+				@media (max-width:$sm) {
+					width: 100%;
+					order: 2;
+				}
+			}
+
+			img {
+				width: 100%;
+			}
+
+			@media (max-width:$sm) {
+				flex-direction: column;
+				gap: 0px;
+			}
+
+		}
+
 		//Dynamic margins according to screen size
-		@media (max-width:$sm) {
-			margin: 0 -10vw;
-			padding: 5rem 5vw;
-		}
 
-		@media (min-width:$sm) and (max-width:$lg) {
-			margin: 0 -10vw;
-			padding: 5rem 10vw;
-		}
-
-		@media (min-width:$lg) and (max-width:$xl) {
-			margin: 0 -10vw;
-			padding: 5rem 10vw;
-		}
-
-		@media (min-width:$xl) and (max-width:$xxl) {
-			margin: 0 -20vw;
-			padding: 5rem 10vw;
-		}
-
-		@media (min-width:$xxl) {
-			margin: 0 -20vw;
+		@media (min-width:$xl) {
 			padding: 5rem 20vw;
 		}
 
-    //section content
-    .content {
-      display: flex;
-      justify-content: space-between;
-      gap: 64px;
-     
-      .w40 {
-        width: 40%;
-      } 
-      .w60 {
-        width: 60%;
-      } 
+		@media (max-width:$xl) {
+			padding: 3.5rem 10vw;
+		}
 
-      img {
-        width: 100%;
-      }
-    }
+		@media (max-width:$sm) {
+			padding: 2rem 5vw;
+		}
+
 	}
+
+
 
 	//Single page style
 	.single {
@@ -788,13 +772,14 @@ h1 {
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 		}
 
-		.media {
+		>.media {
 			position: relative;
 			width: 100%;
 
 			>img {
 				width: 100%;
-				object-fit: cover;
+				height: 100%;
+				object-fit: fill;
 				background-color: #EBEBEB;
 				height: 300px;
 			}
@@ -809,7 +794,7 @@ h1 {
 			}
 		}
 
-		.content {
+		>.content {
 			display: flex;
 			flex-direction: column;
 			// justify-content: space-between;
@@ -859,7 +844,7 @@ h1 {
 			text-decoration: none;
 		}
 
-		.media {
+		>.media {
 			width: 100%;
 			height: 300px;
 			position: relative;
@@ -886,7 +871,7 @@ h1 {
 
 		}
 
-		.content {
+		>.content {
 			display: flex;
 			flex-direction: column;
 			width: 100%;
@@ -950,16 +935,17 @@ h1 {
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 		}
 
-		img {
+		>img {
 			width: 100%;
 			object-fit: cover;
 			background-color: #EBEBEB;
 		}
 
-		.content {
+		>.content {
 			overflow: hidden;
-			width: 100%;
 			padding: 1rem;
+			display: flex;
+			flex-direction: column;
 
 			h3 {
 				margin: 0;
@@ -999,7 +985,7 @@ h1 {
 			}
 		}
 
-		icon {
+		.icon {
 			height: 8rem;
 			width: 8rem;
 		}
@@ -1039,7 +1025,7 @@ h1 {
 			height: 300px;
 		}
 
-		.card-content {
+		>.card-content {
 			overflow: hidden;
 			width: 100%;
 			padding: 1rem;
@@ -1079,7 +1065,7 @@ h1 {
 		padding: 20px;
 		// height: 300px;
 
-		.icon {
+		>.icon {
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -1097,7 +1083,7 @@ h1 {
 
 		}
 
-		.title {
+		>.title {
 			text-align: center;
 			font-size: 26px;
 			font-weight: bold;
@@ -1105,7 +1091,7 @@ h1 {
 			height: 80px;
 		}
 
-		.description {
+		>.description {
 			text-align: justify;
 			font-size: 18px;
 			color: #666;
@@ -1479,6 +1465,10 @@ h1 {
 			>span {
 				color: coral
 			}
+		}
+
+		@media (max-width:$sm) {
+			width: 100%;
 		}
 	}
 }

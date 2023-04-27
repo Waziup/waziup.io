@@ -1,6 +1,6 @@
 ---
 name: Joseph Musya
 role: Developer
-cover: josse.jpg
+cover: josse.png
 weight: -12
 ---
