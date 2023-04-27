@@ -38,7 +38,7 @@
       Our Projects
     </h1>
     {{ $projectPage := .Page.GetPage "research-innovation/projects" }} 
-    {{ $projects := sort $projectPage.Pages ".Weight" "asc" }}
+    {{ $projects := sort $projectPage.Pages ".Weight" "desc" }}
     
     <div class="card-group">
       {{ range $projects }}

@@ -98,7 +98,7 @@
     <h1>Research & Innovation Projects</h1>
     <div class="card-group">
       {{ $projectPage := .Page.GetPage "research-innovation/projects" }}
-      {{ $projects := sort $projectPage.Pages ".Weight" "asc" | first 3 }}
+      {{ $projects := sort $projectPage.Pages ".Weight" "desc" | first 3 }}
       {{ range $projects }}
         {{ $logo := .Resources.GetMatch .Params.logo }}
         {{ partial "project-card.html" (dict 

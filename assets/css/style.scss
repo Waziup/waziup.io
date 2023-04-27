@@ -647,10 +647,11 @@ h1 {
 
 		ul {
 			padding-left: 15px;
-      li {
-			  padding-top: 5px;
-			  padding-bottom: 5px;
-      }
+
+			li {
+				padding-top: 5px;
+				padding-bottom: 5px;
+			}
 		}
 
 		&::before,
@@ -1895,23 +1896,7 @@ input[type=submit]:hover {
 	}
 }
 
-.logoshow {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	gap: 3rem;
 
-	img {
-		width: 10%;
-		object-fit: contain;
-	}
-
-	@media (max-width:$md) {
-		>img {
-			width: 20%;
-		}
-	}
-}
 
 .kit-branding {
 	width: 100%;
@@ -1996,6 +1981,24 @@ input[type=submit]:hover {
 	@media(max-width: $lg) {
 		.centered {
 			margin-left: 0;
+		}
+	}
+}
+
+.logoshow {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 3rem;
+
+	>img {
+		width: 10%;
+		object-fit: contain;
+	}
+
+	@media (max-width:$md) {
+		>img {
+			width: 20%;
 		}
 	}
 }
