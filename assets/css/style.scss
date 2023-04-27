@@ -654,6 +654,7 @@ h1 {
 					order: 1;
 				}
 			}
+
 			.w50 {
 				width: 50%;
 
@@ -1188,6 +1189,10 @@ h1 {
 	>div>span {
 		font-size: 1.8em;
 		text-align: center;
+
+		@media (max-width: $md) {
+			font-size: 1.2em;
+		}
 	}
 
 	>div>img {
