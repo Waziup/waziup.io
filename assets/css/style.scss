@@ -651,6 +651,13 @@ h1 {
 					order: 1;
 				}
 			}
+			.w50 {
+				width: 50%;
+
+				@media (max-width:$sm) {
+					width: 100%;
+				}
+			}
 
 			.w60 {
 				width: 60%;
