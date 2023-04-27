@@ -158,6 +158,10 @@ h1 {
 			}
 		}
 
+		@media (max-width:$lg) {
+			flex-direction: column;
+		}
+
 	}
 
 	// The menu entries
@@ -223,13 +227,12 @@ h1 {
 	}
 
 	.dropdown {
+		margin-left: 2rem;
 		float: left;
 		overflow: hidden;
-		// height: 100%;
 		display: flex;
 		align-items: center;
 		background-color: $waziup-orange-deep;
-		// position: relative;
 
 		.dropbtn {
 			display: flex;
