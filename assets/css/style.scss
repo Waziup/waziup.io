@@ -573,7 +573,7 @@ h1 {
 // Big page with banded sections and a hero section
 .page {
 
-  text-align: justify;
+	text-align: justify;
 
 	//section titles
 	.section h1 {
@@ -666,22 +666,28 @@ h1 {
 			margin: 0 -10vw;
 			padding: 5rem 10vw;
 		}
+
 		@media (min-width:$lg) and (max-width:$xl) {
 			margin: 0 -10vw;
 			padding: 5rem 10vw;
 		}
 
-		@media (min-width:$xl) {
+		@media (min-width:$xl) and (max-width:$xxl) {
+			margin: 0 -20vw;
+			padding: 5rem 10vw;
+		}
+
+		@media (min-width:$xxl) {
 			margin: 0 -20vw;
 			padding: 5rem 20vw;
 		}
 	}
 
-  //Single page style
-  .single {
-    margin: 0 -20vw;
-    padding: 5vh 20vw;
-  }
+	//Single page style
+	.single {
+		margin: 0 -20vw;
+		padding: 5vh 20vw;
+	}
 
 }
 
@@ -807,6 +813,7 @@ h1 {
 		@media (max-width: $sm) {
 			width: 100%;
 		}
+
 		@media (min-width:$sm) and (max-width:$lg) {
 			width: 45%;
 		}
@@ -973,6 +980,7 @@ h1 {
 			height: 8rem;
 			width: 8rem;
 		}
+
 		@media (max-width: $sm) {
 			width: 100%;
 		}
@@ -980,9 +988,11 @@ h1 {
 		@media (min-width:$sm) and (max-width:$lg) {
 			width: 45%;
 		}
+
 		@media (min-width:$lg) and (max-width:$xl) {
 			width: 30%;
 		}
+
 		@media (min-width: $xl) {
 			width: 23%;
 		}
@@ -1158,6 +1168,7 @@ h1 {
 
 	>div>span {
 		font-size: 1.8em;
+		text-align: center;
 	}
 
 	>div>img {
@@ -1180,15 +1191,13 @@ h1 {
 	@media(max-width: $sm) {}
 }
 
-.floating-image {
-	// float: right;
+.floating-content {
 	margin-top: 0;
 	margin-right: 0;
 	margin-bottom: 2rem;
 	overflow: hidden;
-	width: 450px;
+	// width: 450px;
 	max-width: 100%;
-
 
 	>img {
 		object-fit: cover;
@@ -1196,8 +1205,12 @@ h1 {
 	}
 
 	iframe {
-		width: 550px;
-		height: 400px;
+		width: 560px;
+		height: 350px;
+
+		@media (max-width: $lg) {
+			width: 100%;
+		}
 	}
 
 	@media (max-width: $lg) {
@@ -1210,26 +1223,35 @@ h1 {
 		.right {
 			margin: 0;
 		}
-
-		iframe {
-			width: 100%;
-			height: 200px;
-		}
 	}
 
 	@media(max-width:$sm) {
 		width: 100%;
 		padding: 0;
 	}
+
 	@media(min-width:$xxl) {
 		width: 650px;
 	}
 }
 
-.w-650{
+.w-450 {
+	width: 450px;
+}
+
+.w-500 {
+	width: 500px;
+}
+
+.w-550 {
+	width: 550px;
+}
+
+.w-650 {
 	width: 650px;
 }
-.w-700{
+
+.w-700 {
 	width: 700px;
 }
 

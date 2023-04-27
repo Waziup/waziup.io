@@ -59,10 +59,31 @@
     </div>
   </section>
 
+    <!-- Brangind video section -->
+    <section class="section banded" id="digital-farming">
+      <!-- <h1> 
+        Digital Farming
+      </h1> -->
+      <div>
+        <div class="floating-video right">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/hu-v-eukLAc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div>{{ .Page.Params.brandingVideo | markdownify }}</div>
+      </div>
+    </section>
+
   <!-- Technology section -->
   <section class="section banded">
     <h1>End-to-End Technology</h1>
-    <div class="floating-image left">
+    <div class="floating-content w-500  left">
       <img src="/img/e2e-iot.png" />
     </div>
     {{ .Page.Params.technology | markdownify }}
@@ -75,9 +96,13 @@
     $projects := sort $projectPage.Pages ".Weight" "asc" | first 3 }}
 
     <div class="card-group">
-      {{ range $projects }} {{ $logo := .Resources.GetMatch .Params.logo }} {{
-      partial "project-card.html" (dict "Permalink" .Permalink "Logo" $logo
-      "Category" .Params.category "Title" .Title )}} {{ end }}
+      {{ range $projects }} {{ $logo := .Resources.GetMatch .Params.logo }} 
+      {{ partial "project-card.html" (dict 
+        "Permalink" .Permalink 
+        "Logo" $logo
+        "Category" .Params.category 
+      "Title" .Title )}} 
+      {{ end }}
     </div>
     <div style="display: flex; justify-content: center; align-items: center">
       <a class="btn-call-to-action" href="/research-innovation#our-projects">
@@ -90,7 +115,7 @@
   <!-- Quote section -->
   <section class="section banded">
     <h1>They say about us...</h1>
-    <div class="floating-image left">
+    <div class="floating-content w-500 left">
       <img src="/img/startup.png" />
     </div>
     <div class="quote">
@@ -136,8 +161,8 @@
 
     <div class="card-group" style="margin-top: auto" id="caseStudy-card-group">
       {{ range sort $caseStudy ".Date" "desc" }} {{ $cover :=
-      .Resources.GetMatch .Params.cover }} {{ partial "card.html" (dict
-      "Size" "medium" "Cover" $cover.RelPermalink "Date" .Date "Title" .Title
+      .Resources.GetMatch .Params.cover }} {{ partial "card.html" (dict "Size"
+      "medium" "Cover" $cover.RelPermalink "Date" .Date "Title" .Title
       "Description" .Description "Permalink" .Permalink )}} {{ end }}
     </div>
   </section>
