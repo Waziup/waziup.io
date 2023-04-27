@@ -762,13 +762,12 @@ h1 {
 		.media {
 			position: relative;
 			width: 100%;
-			//   height: 230px;
 
 			>img {
 				width: 100%;
 				object-fit: cover;
 				background-color: #EBEBEB;
-				// max-height: 370px;
+				height: 300px;
 			}
 
 			>span {
@@ -1340,6 +1339,15 @@ h1 {
 		>h3 {
 			padding: 0 .5rem;
 		}
+
+		@media (max-width: $sm) {
+			width: 100%;
+		}
+
+		@media (min-width:$sm) and (max-width:$lg) {
+			width: 45%;
+		}
+
 	}
 }
 
