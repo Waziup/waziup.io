@@ -645,8 +645,12 @@ h1 {
 		list-style-position: inside;
 		scroll-margin-top: 5rem;
 
-		ul li {
-			padding: 5px 0px;
+		ul {
+			padding-left: 15px;
+      li {
+			  padding-top: 5px;
+			  padding-bottom: 5px;
+      }
 		}
 
 		&::before,
@@ -675,6 +679,14 @@ h1 {
 			margin: 0 -20vw;
 			padding: 5rem 20vw;
 		}
+
+    //section content
+    .content {
+      display: flex;
+    }
+    img {
+      width: 100%;
+    }
 	}
 
   //Single page style
