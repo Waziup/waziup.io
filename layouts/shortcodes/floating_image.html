@@ -1,10 +1,8 @@
 <div
-    class="floating-image {{.Get "float"}} {{ if eq (.Get "tilt") "true"}}tilt-effect{{end}}"
+    class="floating-content w-500 {{.Get "float"}} {{ if eq (.Get "tilt") "true"}}tilt-effect{{end}}"
     style="width: {{ .Get "width" }}; {{ .Get "style"}} "
 >
   <img 
     src="{{ .Get "image" }}" 
   />
 </div>
-
-<!-- class="floating-image {{ if eq (.Get "float") "left"}}floating-image-left{{end}}" -->

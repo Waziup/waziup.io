@@ -60,6 +60,26 @@
     </div>
   </section>
 
+    <!-- Branding video section -->
+    <section class="section banded" id="digital-farming">
+      <div class="content">
+        <div>
+          {{ .Page.Params.brandingVideo | markdownify }}
+        </div>
+        <div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/hu-v-eukLAc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
   <!-- Technology section -->
   <section class="section banded">
     <h1>End-to-End Technology</h1>
@@ -99,33 +119,43 @@
   <!-- Quote section -->
   <section class="section banded">
     <h1>They say about us...</h1>
-    <div class="floating-image left">
-      <img src="/img/startup.png" />
-    </div>
-    <div class="quote">
-      <div class="flex flex-left"><img src="/img/quote.svg" alt="" /></div>
-      <div class="flex flex-center">
-        <span>
-          Waziup simplifies the process of creating and deploying IoT
-          applications, making it easy for us to bring our ideas to life.</span
-        >
+    <div class="content">
+      <div>
+        <img src="/img/startup.png" style="width:450px" />
       </div>
-      <div class="flex flex-right"><img src="/img/quote.svg" alt="" /></div>
+      <div class="quote">
+        <div class="flex flex-left">
+          <img src="/img/quote.svg" alt="" style="width:60px; transform: scaleX(-1)"/>
+        </div>
+        <div class="flex flex-center">
+          <span>
+            Waziup simplifies the process of creating and deploying IoT
+            applications, making it easy for us to bring our ideas to life.</span
+          >
+        </div>
+        <div class="flex flex-right">
+          <img src="/img/quote.svg" alt="" style="width:60px"/>
+        </div>
+      </div>
     </div>
   </section>
 
   <!--News section -->
   <section class="section banded">
     <h1>Latest News</h1>
-    {{ $newsPage := .Page.GetPage "media/news" }} {{ $news := first 3
-    $newsPage.Pages }}
 
     <div style="margin-top: auto">
       <ul class="card-group" id="news-card-group">
-        {{ range sort $news ".Date" "desc" }} {{ $cover := .Resources.GetMatch
-        .Params.cover }} {{ partial "card.html" (dict "Cover"
-        $cover.RelPermalink "Category" .Params.category "Date" (.Date.Format
-        "January 2, 2006") "Description" .Description "Permalink" .Permalink )}}
+        {{ $newsPage := .Page.GetPage "media/news" }}
+        {{ $news := first 3 $newsPage.Pages }}
+        {{ range sort $news ".Date" "desc" }}
+         {{ $cover := .Resources.GetMatch .Params.cover }}
+         {{ partial "card.html" (dict
+           "Cover" $cover.RelPermalink
+           "Category" .Params.category
+           "Date" (.Date.Format "January 2, 2006")
+           "Description" .Description
+           "Permalink" .Permalink )}}
         {{ end }}
       </ul>
       <div style="display: flex; justify-content: center; align-items: center">
@@ -140,14 +170,19 @@
   <!-- Case studies section -->
   <section class="section banded">
     <h1>Case studies</h1>
-    {{ $caseStudyPage := .Page.GetPage "case-study" }} {{ $caseStudy := first 6
-    $caseStudyPage.Pages }}
-
     <div class="card-group" style="margin-top: auto" id="caseStudy-card-group">
-      {{ range sort $caseStudy ".Date" "desc" }} {{ $cover :=
-      .Resources.GetMatch .Params.cover }} {{ partial "card.html" (dict
-      "Size" "medium" "Cover" $cover.RelPermalink "Date" .Date "Title" .Title
-      "Description" .Description "Permalink" .Permalink )}} {{ end }}
+      {{ $caseStudyPage := .Page.GetPage "case-study" }}
+      {{ $caseStudy := first 6 $caseStudyPage.Pages }}
+      {{ range sort $caseStudy ".Date" "desc" }}
+        {{ $cover := .Resources.GetMatch .Params.cover }}
+        {{ partial "card.html" (dict 
+          "Size" "medium"
+          "Cover" $cover.RelPermalink
+          "Date" .Date
+          "Title" .Title
+          "Description" .Description
+          "Permalink" .Permalink )}}
+      {{ end }}
     </div>
   </section>
 
@@ -165,9 +200,7 @@
       <img src="/img/partners/cyric.png" alt="cyric-logo" />
       <img src="/img/partners/innotec.png" alt="innotec-logo" />
       <img src="/img/partners/htw.png" alt="htw-logo" />
-      <img
-        src="/img/partners/constructor-uni.png"
-        alt="constructor-university-logo"
+      <img src="/img/partners/constructor-uni.png" alt="constructor-university-logo"
       />
     </div>
   </section>
