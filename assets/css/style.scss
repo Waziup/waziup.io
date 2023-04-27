@@ -647,10 +647,11 @@ h1 {
 
 		ul {
 			padding-left: 15px;
-      li {
-			  padding-top: 5px;
-			  padding-bottom: 5px;
-      }
+
+			li {
+				padding-top: 5px;
+				padding-bottom: 5px;
+			}
 		}
 
 		&::before,
@@ -686,15 +687,16 @@ h1 {
 			padding: 5rem 20vw;
 		}
 
-    //section content
-    .content {
-      display: flex;
-      justify-content: space-between;
-      gap: 20px;
-    }
-    img {
-      width: 100%;
-    }
+		//section content
+		.content {
+			display: flex;
+			justify-content: space-between;
+			gap: 20px;
+		}
+
+		>img {
+			width: 100%;
+		}
 	}
 
 	//Single page style
@@ -1887,23 +1889,7 @@ input[type=submit]:hover {
 	}
 }
 
-.logoshow {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	gap: 3rem;
 
-	img {
-		width: 10%;
-		object-fit: contain;
-	}
-
-	@media (max-width:$md) {
-		>img {
-			width: 20%;
-		}
-	}
-}
 
 .kit-branding {
 	width: 100%;
@@ -1988,6 +1974,24 @@ input[type=submit]:hover {
 	@media(max-width: $lg) {
 		.centered {
 			margin-left: 0;
+		}
+	}
+}
+
+.logoshow {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 3rem;
+
+	>img {
+		width: 10%;
+		object-fit: contain;
+	}
+
+	@media (max-width:$md) {
+		>img {
+			width: 20%;
 		}
 	}
 }
