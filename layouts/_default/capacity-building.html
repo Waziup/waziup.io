@@ -28,50 +28,62 @@
     <h1> 
       WaziLab 
     </h1>
-    <div class="floating-content w-500 right">
-      <img src="img/learning-center.webp"/>
+    <div class="content">
+      <div class="w40">
+        <img src="img/learning-center.webp"/>
+      </div>
+      <div class="w60">
+        <div>
+          {{ .Page.Params.wazilab | markdownify }}
+        </div>
+        <a class="btn-learn-more-white blm-orange" href="wazilab">
+          <span class="material-symbols-outlined">arrow_circle_right</span>
+          Learn more
+        </a>
+      </div>
     </div>
-    <div>
-      {{ .Page.Params.wazilab | markdownify }}
-    </div>
-    <a class="btn-learn-more-white blm-orange" href="wazilab">
-      <span class="material-symbols-outlined">arrow_circle_right</span>
-      Learn more
-    </a>
   </section>
 
-  <!-- WaziLab section -->
+  <!-- Solution Lab section -->
   <section class="section banded" id="solution-lab">
     <h1> 
       Solution Lab 
     </h1>
-    <div class="floating-content w-500 left">
-      <img src="img/wazilab.svg"/>
+    <div class="content">
+      <div class="w60">
+        <div>
+          {{ .Page.Params.solutionlab | markdownify }}
+        </div>
+        <a class="btn-learn-more-white blm-orange" href="solution-lab">
+          <span class="material-symbols-outlined">arrow_circle_right</span>
+          Learn more
+        </a>
+      </div>
+      <div class="w40">
+        <img src="img/wazilab.svg"/>
+      </div>
     </div>
-    <div>
-      {{ .Page.Params.solutionlab | markdownify }}
-    </div>
-    <a class="btn-learn-more-white blm-orange" href="solution-lab">
-      <span class="material-symbols-outlined">arrow_circle_right</span>
-      Learn more
-    </a>
   </section>
 
-  <!-- WaziLab section -->
+  <!-- Hackathon section -->
   <section class="section banded" id="wazihack">
     <h1> 
       Waziup Innovation Hackathon
     </h1>
-    <div class="floating-content w-500 left">
-      <img src="img/hackathon.webp"/>
+    <div class="content">
+      <div class="w40">
+        <img src="img/hackathon.webp"/>
+      </div>
+      <div class="w60">
+        <div>
+          {{ .Page.Params.wazihack | markdownify }}
+        </div>
+        <a class="btn-learn-more-white blm-orange" href="wazihack">
+          <span class="material-symbols-outlined">arrow_circle_right</span>
+          Learn more
+        </a>
+      </div>
     </div>
-    <div>
-      {{ .Page.Params.wazihack | markdownify }}
-    </div>
-    <a class="btn-learn-more-white blm-orange" href="wazihack">
-      <span class="material-symbols-outlined">arrow_circle_right</span>
-      Learn more
-    </a>
   </section>
 
   <!-- certification section -->
@@ -79,16 +91,20 @@
     <h1> 
       Waziup Certification
     </h1>
-    <div class="floating-content w-500 right">
-      <img src="img/hackathon.webp"/>
+    <div class="content">
+      <div class="w40">
+        <img src="img/certificate.png"/>
+      </div>
+      <div class="w60">
+        <div>
+          {{ .Page.Params.certification | markdownify }}
+        </div>
+        <a class="btn-learn-more-white blm-orange" href="wazihack">
+          <span class="material-symbols-outlined">arrow_circle_right</span>
+          Learn more
+        </a>
+      </div>
     </div>
-    <div>
-      {{ .Page.Params.certification | markdownify }}
-    </div>
-    <a class="btn-learn-more-white blm-orange" href="wazihack">
-      <span class="material-symbols-outlined">arrow_circle_right</span>
-      Learn more
-    </a>
   </section>
 </div>
 {{end}}

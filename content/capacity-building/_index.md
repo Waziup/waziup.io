@@ -32,7 +32,7 @@ wazihack: |
 
 certification: |
   ### Get Certified
-  Advance your IoT knowledge with Waziup's Certification - offering online tutorials, webinars, and hands-on training for individuals, institutes, and SMEs of all skill levels. Start your journey to IoT mastery today!
+  Advance your IoT knowledge with Waziup's Certification: we offer online tutorials, webinars, and hands-on training for individuals, institutes, and SMEs of all skill levels. Start your journey to IoT mastery today!
 ---
 
 

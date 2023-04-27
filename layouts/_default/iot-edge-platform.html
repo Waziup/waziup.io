@@ -28,16 +28,20 @@
     <h1> 
       Edge Gateway 
     </h1>
-    <div class="floating-content w-550 right">
-      <img src="gateway/img/multibox.png"/>
+    <div class="content">
+      <div class="w60">
+        <div>
+          {{ .Page.Params.wazigate | markdownify }}
+        </div>
+        <a class="btn-learn-more-white blm-orange" href="/iot-edge-platform/gateway">
+          <span class="material-symbols-outlined">arrow_circle_right</span>
+          Learn more
+        </a>
+      </div>
+      <div class="w40">
+        <img src="gateway/img/multibox.png"/>
+      </div>
     </div>
-    <div>
-      {{ .Page.Params.wazigate | markdownify }}
-    </div>
-    <a class="btn-learn-more-white blm-orange" href="/iot-edge-platform/gateway">
-      <span class="material-symbols-outlined">arrow_circle_right</span>
-      Learn more
-    </a>
   </section>
 
   <!-- Boards section -->
@@ -65,17 +69,20 @@
     <h1> 
       IoT Prototyping Kit 
     </h1>
-    <div class="floating-content w-500 right" >
-      <img src="img/edge-kit.webp"/>
+    <div class="content">
+      <div class="w40">
+        <img src="img/edge-kit.webp"/>
+      </div>
+      <div class="w60">
+        <div>
+          {{ .Page.Params.kit | markdownify }}
+        </div>
+        <a class="btn-learn-more-white blm-orange" href="wazi-kit">
+          <span class="material-symbols-outlined">arrow_circle_right</span>
+          Learn more
+        </a>
+      </div>
     </div>
-    <div>
-      {{ .Page.Params.kit | markdownify }}
-    </div>
-    <a class="btn-learn-more-white blm-orange" href="wazi-kit">
-      <span class="material-symbols-outlined">arrow_circle_right</span>
-      Learn more
-    </a>
-
   </section>
 
   <!-- Cloud section -->
@@ -83,11 +90,13 @@
     <h1> 
       Cloud Platform
     </h1>
-    <div class="floating-content w-500 right" >
-      <img src="img/cloud-platform-services.png"/>
-    </div>
-    <div>
-      {{ .Page.Params.cloud | markdownify }}
+    <div class="content">
+      <div class="w40" >
+        <img src="img/cloud-platform-services.png"/>
+      </div>
+      <divi class="w60">
+        {{ .Page.Params.cloud | markdownify }}
+      </div>
     </div>
   </section>
 </div>

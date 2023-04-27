@@ -10,11 +10,13 @@
     <h1> 
       Our Mission
     </h1>
-    <div class="floating-content w-500 right">
-      <img src="img/we-do.svg"/>
-    </div>
-    <div>
-      {{ .Page.Params.mission | markdownify }}
+    <div class="content">
+      <div class="w60">
+        {{ .Page.Params.mission | markdownify }}
+      </div>
+      <div class="w40">
+        <img src="img/we-do.svg"/>
+      </div>
     </div>
   </section>
 
@@ -23,31 +25,35 @@
     <h1> 
       Our Network
     </h1>
-    <div class="floating-content w-500 right">
-      <img src="img/network-map.svg"/>
-    </div>
-    <div style="margin-bottom: 1rem;">
-      {{ .Page.Params.network.text | markdownify }}
-    </div>
-    {{ range .Page.Params.network.coutries }}
-      <div class="chip">
-        <div class="dot"></div>
-        <span>{{ . | markdownify }}</span>
+    <div class="content">
+      <div style="width:60%">
+        <div style="margin-bottom: 1rem;">
+          {{ .Page.Params.network.text | markdownify }}
+        </div>
+        {{ range .Page.Params.network.coutries }}
+          <div class="chip">
+            <div class="dot"></div>
+            <span>{{ . | markdownify }}</span>
+          </div>
+        {{end}}
+        <div class="eco-img-container">
+          <a href="">
+            <div class="card" style="background-image: url(/img/eco-startup.png);">
+              <h3>Startups</h3>
+              <p>Accelerated more than <b>50</b> startups</p>
+            </div>
+          </a>
+          <a href="">
+            <div class="card" style="background-image: url(/img/eco-techhub.png);">
+              <h3>TechHubs</h3>
+              <p>Supporting <b>25</b> TechHubs in Africa</p>
+            </div>
+          </a>
+        </div>
       </div>
-    {{end}}
-    <div class="eco-img-container">
-      <a href="">
-        <div class="card" style="background-image: url(/img/eco-startup.png);">
-          <h3>Startups</h3>
-          <p>Accelerated more than <b>50</b> startups</p>
-        </div>
-      </a>
-      <a href="">
-        <div class="card" style="background-image: url(/img/eco-techhub.png);">
-          <h3>TechHubs</h3>
-          <p>Supporting <b>25</b> TechHubs in Africa</p>
-        </div>
-      </a>
+      <div>
+        <img src="img/network-map.svg"/>
+      </div>
     </div>
   </section>
 
@@ -76,17 +82,20 @@
     <h1> 
      Join Us!
     </h1>
-    <div class="floating-content w-500 right">
-      <img src="career/img/hiring_nn.svg"/>
+    <div class="content">
+      <div class="w60">
+        <div>
+          {{ .Page.Params.hiring | markdownify }}
+        </div>
+        <a class="btn-learn-more-white blm-orange" href="career">
+          <span class="material-symbols-outlined">arrow_circle_right</span>
+          Open positions
+        </a>
+      </div>
+      <div class="w40">
+        <img src="career/img/hiring_nn.svg"/>
+      </div>
     </div>
-    <div>
-      {{ .Page.Params.hiring | markdownify }}
-    </div>
-    <a class="btn-learn-more-white blm-orange" href="career">
-      <span class="material-symbols-outlined">arrow_circle_right</span>
-      Open positions
-    </a>
-  
   </section>
 
 
