@@ -703,8 +703,19 @@ h1 {
 
 	//Single page style
 	.single {
-		margin: 0 -20vw;
-		padding: 5vh 20vw;
+		padding: 5rem 20vw;
+
+		@media (min-width:$xl) {
+			padding: 5rem 20vw;
+		}
+
+		@media (max-width:$xl) {
+			padding: 3.5rem 10vw;
+		}
+
+		@media (max-width:$sm) {
+			padding: 2rem 5vw;
+		}
 	}
 
 }
