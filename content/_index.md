@@ -34,7 +34,7 @@ technology: |
   * Cloud platform
 
 brandingVideo: |
-  The WAZIHUB innovation program aims to train and equip IoT & Big Data enthusiasts and startups with IoT skills to enable them to transition ideas into successful and sustainable businesses that utilize their newly acquired skills to address local needs.
+  The WAZIUP innovation program aims to train and equip IoT & Big Data enthusiasts and startups with IoT skills to enable them to transition ideas into successful and sustainable businesses that utilize their newly acquired skills to address local needs.
   
   Our Focus:
   * Startups
