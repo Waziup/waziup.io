@@ -1,6 +1,11 @@
 {{ define "main" }}
 <div class="page">
-  <div class="page-banner-static-color">{{.Title}}</div>
+  <div style="display: flex;flex-direction: column;">
+    <div class="page-banner-static-color">
+      {{.Title}}
+    </div>
+    <img src="/img/hero-curve_.svg" style="width: 100%; object-fit: fill;margin-top: -3;" alt="hero-curve">
+  </div>
   <div class="section">
     <div class="g-map">
       <iframe

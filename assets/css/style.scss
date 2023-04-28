@@ -103,15 +103,16 @@ h1 {
 		li {
 			position: relative;
 
-		  @media (min-width:$lg) {
-			  // open the menu when hovering
-        &:hover {
-				  ul {
-				  	visibility: visible;
-				  	opacity: 1;
-				  }
-			  }
-      }
+			@media (min-width:$lg) {
+
+				// open the menu when hovering
+				&:hover {
+					ul {
+						visibility: visible;
+						opacity: 1;
+					}
+				}
+			}
 
 			// Sub menu list 
 			ul {
@@ -197,11 +198,11 @@ h1 {
 			>ul>li>a {
 				text-decoration: none;
 			}
- 
-      @media (max-width:$lg) {
-        color: white;
-      
-      }
+
+			@media (max-width:$lg) {
+				color: white;
+
+			}
 		}
 
 		.active {
@@ -559,7 +560,7 @@ h1 {
 .page {
 
 	// text-align: justify;
-  min-height: 80vw;
+	min-height: 80vw;
 
 	//section titles
 	.section h1 {
@@ -604,6 +605,15 @@ h1 {
 		>div,
 		p {
 			color: #fff
+		}
+
+		&::after {
+			content: url("/img/hero-curve_.svg");
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: auto;
 		}
 	}
 
@@ -705,7 +715,7 @@ h1 {
 
 	//Single page style
 	.single {
-	  text-align: justify;
+		text-align: justify;
 		padding: 5rem 20vw;
 
 		@media (max-width:$xl) {
@@ -720,14 +730,14 @@ h1 {
 }
 
 .project {
-  .project-id {
-      margin-top: 100px;
-      margin-left: 50px;
-      padding: 30px;
-      min-width: 300px;
-      background-color: $waziup-off-white;
-      text-align: left;
-  }
+	.project-id {
+		margin-top: 100px;
+		margin-left: 50px;
+		padding: 30px;
+		min-width: 300px;
+		background-color: $waziup-off-white;
+		text-align: left;
+	}
 }
 
 .btn-learn-more-white {
