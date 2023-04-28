@@ -1,0 +1,44 @@
+{{ define "main" }}
+<div class="page project">
+
+  <div class="page-banner-static-color">
+    {{.Title}}
+  </div>
+
+  <div class="single">
+    <div style="display:flex">
+      <div> 
+        {{ .Content | safeHTML }}
+      </div>
+      <div class="project-id">
+        <img src={{.Page.Params.logo}} width="200px">
+        </br>
+        </br>
+        
+        <b>Countries:</b>
+        <ul>
+        {{range .Page.Params.countries}}
+          <li> {{.}} </li>
+        {{end}}
+        </ul>
+        <b>Duration:</b>
+        {{.Page.Params.duration}}
+        </br>
+        </br>
+        <b>Website:</b>
+        <a href={{.Page.Params.website}}>{{.Page.Params.website}}</a>
+      </div>
+    </div>
+    </br>
+    <div style="display:flex">
+      <div class="w40">
+        <img src={{.Page.Params.acknowledgement.logo}} width="200px">
+      </div>
+      <div class="w60">
+        {{.Page.Params.acknowledgement.text}}
+      </div>
+    </div>
+  </div>
+
+</div>
+{{end}}
