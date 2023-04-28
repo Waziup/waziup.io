@@ -619,7 +619,6 @@ h1 {
 	}
 
 	.section {
-		padding: 5rem 20vw;
 		list-style-image: url(/img/icons/check-circle.svg);
 		list-style-position: inside;
 		scroll-margin-top: 5rem;
@@ -684,10 +683,7 @@ h1 {
 		}
 
 		//Dynamic margins according to screen size
-
-		@media (min-width:$xl) {
-			padding: 5rem 20vw;
-		}
+		padding: 5rem 20vw;
 
 		@media (max-width:$xl) {
 			padding: 3.5rem 10vw;
@@ -703,11 +699,8 @@ h1 {
 
 	//Single page style
 	.single {
+	  text-align: justify;
 		padding: 5rem 20vw;
-
-		@media (min-width:$xl) {
-			padding: 5rem 20vw;
-		}
 
 		@media (max-width:$xl) {
 			padding: 3.5rem 10vw;
