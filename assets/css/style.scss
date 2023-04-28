@@ -103,13 +103,15 @@ h1 {
 		li {
 			position: relative;
 
-			// open the menu when hovering
-			&:hover {
-				ul {
-					visibility: visible;
-					opacity: 1;
-				}
-			}
+		  @media (min-width:$lg) {
+			  // open the menu when hovering
+        &:hover {
+				  ul {
+				  	visibility: visible;
+				  	opacity: 1;
+				  }
+			  }
+      }
 
 			// Sub menu list 
 			ul {
@@ -195,6 +197,11 @@ h1 {
 			>ul>li>a {
 				text-decoration: none;
 			}
+ 
+      @media (max-width:$lg) {
+        color: white;
+      
+      }
 		}
 
 		.active {
