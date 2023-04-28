@@ -4,33 +4,33 @@
   <div class="page-banner-static-color">
     {{.Title}}
   </div>
-  {{ .Content | markdownify }}
-  {{ $careerPage := .Page.GetPage "about-us/career" }} 
-  {{ $career := $careerPage.Pages }}
-  
-  <h1>Open Positions</h1>
-  <div class="career-positions">
-    {{ range sort (where $career ".Params.status" "open") ".Date" "desc"  }}
-      {{ $cover := .Resources.GetMatch .Params.cover }}
-      {{ partial "career-position-card.html" (dict
-        "Title"       .Params.title
-        "Description" .Params.Description 
-        "Permalink"   .Permalink)}}
-    {{ end }}
+  <div class="section">
+    {{ .Content | markdownify }}
+    {{ $careerPage := .Page.GetPage "about-us/career" }} 
+    {{ $career := $careerPage.Pages }}
+    
+    <h1>Open Positions</h1>
+    <div class="career-positions">
+      {{ range sort (where $career ".Params.status" "open") ".Date" "desc"  }}
+        {{ $cover := .Resources.GetMatch .Params.cover }}
+        {{ partial "career-position-card.html" (dict
+          "Title"       .Params.title
+          "Description" .Params.Description 
+          "Permalink"   .Permalink)}}
+      {{ end }}
+    </div>
+    
+    <h1>Closed Positions</h1>
+    <div class="career-positions">
+      {{ range sort (where $career ".Params.status" "closed") ".Date" "desc"  }}
+        {{ $cover := .Resources.GetMatch .Params.cover }}
+        {{ partial "career-position-card.html" (dict
+          "Title"       .Params.title
+          "Description" .Params.Description 
+          "Permalink"   .Permalink)}}
+      {{ end }}
+    </div>
   </div>
-  
-  <h1>Closed Positions</h1>
-  <div class="career-positions">
-    {{ range sort (where $career ".Params.status" "closed") ".Date" "desc"  }}
-      {{ $cover := .Resources.GetMatch .Params.cover }}
-      {{ partial "career-position-card.html" (dict
-        "Title"       .Params.title
-        "Description" .Params.Description 
-        "Permalink"   .Permalink)}}
-    {{ end }}
-  </div>
-
-
 </div>
 {{end}}
 
