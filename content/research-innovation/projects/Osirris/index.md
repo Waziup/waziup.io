@@ -1,18 +1,18 @@
 ---
-title: Osirris TUNGER 2+2
+title: Osirris
 logo: img/logo.png
 description: "Precision Irrigation with Cost-effective and Autonomic IoT Devices using Artificial Intelligence at the Edge"
 category: TUNGER 2+2
 date: 2023-03-29
 weight: 4
+layout: project
 acknowledgement:
   text: This project has received funding from the TUNGER 2+2 research and innovation programme. The German project partners are funded by the BMBF and the Tunisian project partners are funded by the Tunisian Ministry of Higher Education and Scientific Research (MoHESR) under the guideline of TUNGER 2+2.
   logo: /img/bmbf-logo.png
+
 ---
 
 ## Precision Irrigation with Cost-effective and Autonomic IoT Devices using Artificial Intelligence at the Edge
-
-Water availability is a major issue for the agriculture sector in Tunisia, and with the impact of climate change, there will be less water available for irrigation. To address this objective, we propose the OSIRRIS project, with the goal to offer a cost-effective, simple and semi-autonomous precision irrigation system which is highly adapted to the local farming context in Tunisia. We will apply cutting-edge technologies such as Internet of Thing (IoT) and Artificial Intelligence (AI) in order to improve the issues on irrigation. To address this objective, we propose the OSIRRIS project, with the goal to offer a cost-effective, simple and semi-autonomous precision irrigation system which is highly adapted to the local farming context in Tunisia. We will apply cutting-edge technologies such as Internet of Thing (IoT) and Artificial Intelligence (AI) in order to improve the issues on irrigation.
 
 We propose the “OSIRRIS irrigation platform”, an affordable, easily deployable and efficient irrigation system based on IoT and AI with the “Edge computing” architecture concept. We will research and develop a novel distributed AI model for irrigation, able to run both at the sensor level, and at the edge level. This model will use an inference engine to calculate the amount of water needed and the scheduling of irrigation. With respect to other AI irrigation platforms, OSIRRIS will be able to run autonomously, and will not need Internet connection during exploitation.
 The first component of the platform is the “Smart Tensiometer”, an embedded sensor system able to run light-weight AI models for automatic calculation of the local soil water content and plant water stress. The Smart Tensiometers will also be able to perform automatic calibration and corrections. The second component is the Edge irrigation controller, an AI capable IoT gateway. This component will also include an AI model and inference engine, capable of computing an irrigation schedule and enact it. Furthermore, we will research and develop a “multimodal” user interface for improved user experience and acceptance. The system will provide information via simple visual indicators on the tensiometers themselves, a mobile app, SMS notifications and voice commands.
