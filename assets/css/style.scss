@@ -1350,6 +1350,9 @@ h1 {
 		border-radius: 50%;
 		display: inline-block;
 	}
+	@media (max-width:$sm) {
+		display: none;
+	}
 }
 
 .stv-radio-buttons-wrapper {
@@ -1521,83 +1524,49 @@ h1 {
 }
 
 .eco-img-container {
-	margin: 5vw 0;
+	margin-top: 2rem;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
 	gap: 2rem;
+	flex-wrap: wrap;
 
-	>a {
-		width: 45%;
-		text-decoration: none;
+	>.card {
+		width: 250px;
+		// height: 130px;
+		display: flex;
+		align-items: center;
+		gap: .5rem;
+		padding: .5rem 1rem;
+		border-radius: 4px;
+		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
 
-		.card {
-			// position: relative;
-			display: flex;
-			flex-direction: column;
-			border-radius: 12px;
-			padding: 2rem;
-			color: #fff;
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
+		>.text {
+			width: 50%;
+
+			span {
+				font-size: 48px;
+				font-weight: 700;
+			}
+
+			>h3 {
+				margin-top: 0;
+			}
+		}
+
+		>.icon {
+			width: 50%;
+			display: inline-flex;
+			justify-content: center;
 
 			>img {
-				position: absolute;
-				left: 0;
-				top: 0;
-				width: 100%;
-				object-fit: cover;
-				// z-index: -1;
-			}
-
-
-			>div {
-				position: absolute;
-				top: 8rem;
-				width: 100%;
-				display: flex;
-				justify-content: center;
-
-				>button {
-					border: 1px solid #fff;
-					background-color: transparent;
-					padding: .5rem 1.8rem;
-					font-size: 1.2em;
-					color: #fff;
-					text-align: center;
-					cursor: pointer;
-
-
-					&:hover {
-						background-color: #fff;
-						color: #193861;
-					}
-				}
+				height: 64px;
+				width: 64px;
 			}
 		}
-	}
-
-	@media(max-width:$sm) {
-		margin: 3vw 0;
-
-		>a {
+		@media (max-width:$sm) {
 			width: 100%;
-
-			.card {
-				height: 200px;
-
-				>h1 {
-					top: .2rem;
-					left: 2rem;
-				}
-
-				>p {
-					display: none;
-				}
-			}
 		}
 	}
+
 }
 
 .home-video-container {
