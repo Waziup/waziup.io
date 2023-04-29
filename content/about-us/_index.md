@@ -15,26 +15,26 @@ network:
   text: "We have an extended network in Europe and Africa. We developed projects in 17 African countries and have more than 10000 community members. We focus on partnerships with **Digital Innovation Hubs and Startups**."
   
   coutries:
+    - Togo
+    - Egypt
+    - Kenya
+    - Ghana
+    - Benin
+    - Congo
+    - Zambia
+    - Uganda
     - Morocco
-    - Senegal
     - Tunisia
-    -  Kenya
-    -  Togo
-    -  Burkina Faso
-    -  Benin
-    -  Algeria
-    -  Ghana
-    -  Nigeria
-    -  Egypt
-    -  Tanzania
-    -  Zambia
-    -  Congo
-    -  Ethiopia
-    -  South Africa
-    -  Uganda
-    -  Germany
-    -  Italy
-    -  France
+    - Senegal
+    - Algeria
+    - Nigeria
+    - Tanzania
+    - Ethiopia
+    - Burkina Faso
+    - South Africa
+    - Germany
+    - Italy
+    - France
 
 hiring: "At Waziup, we believe in fostering a collaborative, inclusive, and dynamic work culture that enables employees to unleash their full potential and contribute to the company’s mission."
 

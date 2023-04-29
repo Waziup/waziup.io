@@ -1,8 +1,11 @@
 {{ define "main" }}
 <div class="page">
 
-  <div class="page-banner-static-color">
-    {{.Title}}
+  <div style="display: flex;flex-direction: column;">
+    <div class="page-banner-static-color">
+      {{.Title}}
+    </div>
+    <img src="/img/hero-curve_.svg" style="width: 100%; object-fit: fill;margin-top: -3;" alt="hero-curve">
   </div>
 
   <!-- Mission section -->
@@ -37,18 +40,24 @@
           </div>
         {{end}}
         <div class="eco-img-container">
-          <a href="">
-            <div class="card" style="background-image: url(/img/eco-startup.png);">
-              <h3>Startups</h3>
-              <p>Accelerated more than <b>50</b> startups</p>
+          <div class="card">
+            <div class="text">
+              <span>50+</span>
+              <h3>Startups Accelerated</h3>
             </div>
-          </a>
-          <a href="">
-            <div class="card" style="background-image: url(/img/eco-techhub.png);">
-              <h3>TechHubs</h3>
-              <p>Supporting <b>25</b> TechHubs in Africa</p>
+            <div class="icon">
+              <img src="/img/icons/startup.svg" alt="">
             </div>
-          </a>
+          </div>
+          <div class="card">
+            <div class="text">
+              <span>25</span>
+              <h3>TechHub Supporting</h3>
+            </div>
+            <div class="icon">
+              <img src="/img/icons/tech-hub.svg" alt="">
+            </div>
+          </div>
         </div>
       </div>
       <div class="w40">
