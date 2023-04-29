@@ -1185,38 +1185,34 @@ h1 {
 .quote {
 	display: flex;
 	flex-direction: column;
-	width: fit-content;
 
-	.flex {
+	span {
 		flex: 1;
 		display: flex;
 		align-items: center;
-	}
-
-	>div>span {
 		font-size: 1.8em;
-		text-align: center;
 
 		@media (max-width: $md) {
 			font-size: 1.2em;
 		}
-	}
 
-	>div>img {
-		width: 40px;
-		object-fit: contain;
-	}
+		&::before {
+  		display: flex;
+			content: url('/img/quote.svg');
+		  margin-bottom: auto;
+      width: 60px;
+      transform: scaleX(-1);
 
-	.flex-left {
-		justify-content: flex-start;
-	}
+		}
+		&::after {
+		  display: flex;
+			content: url('/img/quote.svg');
+		  margin-top: auto;
+		  justify-content: flex-end;
+      width: 60px;
+		}
 
-	.flex-center {
-		justify-content: center;
-	}
 
-	.flex-right {
-		justify-content: flex-end;
 	}
 
 	@media(max-width: $sm) {}
