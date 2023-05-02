@@ -607,14 +607,14 @@ h1 {
 			color: #fff
 		}
 
-		&::after {
-			content: url("/img/hero-curve_.svg");
-			position: absolute;
-			bottom: 0;
-			left: 0;
-			width: 100%;
-			height: auto;
-		}
+		// &::after {
+		// 	content: url("/img/hero-curve_.svg");
+		// 	position: absolute;
+		// 	bottom: 0;
+		// 	left: 0;
+		// 	width: 100%;
+		// 	height: auto;
+		// }
 	}
 
 	@media (max-width: $xl) {
@@ -717,10 +717,10 @@ h1 {
 	.single {
 		text-align: justify;
 		padding: 5rem 20vw;
-		img{
-			width: 100%;
-			object-fit: contain;
-		}
+		// img{
+		// 	width: 100%;
+		// 	object-fit: contain;
+		// }
 
 		@media (max-width:$xl) {
 			padding: 3.5rem 10vw;
@@ -733,6 +733,13 @@ h1 {
 
 }
 
+.flex-box{
+	display: flex;
+	@media (max-width:$sm) {
+		flex-direction: column;
+	}
+}
+
 .project {
 	.project-id {
 		// margin-top: 100px;
@@ -741,6 +748,11 @@ h1 {
 		min-width: 300px;
 		background-color: $waziup-off-white;
 		text-align: left;
+		order: 2;
+		@media (max-width:$sm) {
+			margin-left: 0;
+			order: 1;
+		}
 	}
 }
 
