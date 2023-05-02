@@ -9,7 +9,8 @@ weight: 2
 
 ### Empowering Open Source and Affordable IoT Technologies in Africa
 
-![image](applications.png)
+<!-- ![image](applications.png) -->
+{{<floating_image image="applications.png" float="right">}}
 
 IoT, or ‘Internet of Things’, is an on-going revolution that is changing the way innovation is being made around
 the world. Startups, innovators and tech enthusiasts can now create their prototypes, with very little initial
