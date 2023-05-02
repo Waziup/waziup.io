@@ -22,7 +22,7 @@ solutionlab: |
   * Open IoT cloud platforms for data 
 
 wazihack: |
-  ### WaziHack
+  ### Hackathons and Bootcamps
   
   WaziHacks is a capacity-building tool that involves organizing events where tech enthusiasts come together to solve specific challenges. These events include courses and hands-on activities.
   We help you with:
@@ -30,15 +30,15 @@ wazihack: |
   * Marketing and Pomoting Events 
   * Providing Mentorship and Guidance
 
-tech-acceleration: |
+acceleration: |
   ### From idea to product
   
   Accelerate your startup success with Waziup's support from ideation to market launch. Develop a customer-centric MVP and stand out with a clear value proposition using our business model canvas.
   We help you with:
-  * INSPIRATION: Problem statemen and identification of success metrics
-  * IDEATION: Sustainable and innovative solution idea
-  * IMPLEMENTATION: Iterative prototyping
-  * GROWTH HACK: Scale-up and investment
+  * IProblem statemen and identification of success metrics
+  * Sustainable and innovative solution idea
+  * Iterative prototyping
+  * Scale-up and investment
 
 certification: |
   ### Get Certified

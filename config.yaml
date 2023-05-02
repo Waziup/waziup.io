@@ -51,9 +51,9 @@ menu:
       url: "/capacity-building#wazihack"
       weight: 3
       parent: capacity-building
-    - identifier: tech-acceleration
+    - identifier: acceleration
       title: Tech Acceleration
-      url: "/capacity-building#tech-acceleration"
+      url: "/capacity-building#acceleration"
       weight: 4
       parent: capacity-building
     - identifier: certification 

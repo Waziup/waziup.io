@@ -85,18 +85,18 @@
         </a>
       </div>
     </div>
-    <div class="content">
-      <div class="w40">
-        <img src="img/hackathon.webp"/>
-      </div>
+    <div class="content" style="margin-top: 5rem;">
       <div class="w60">
         <div>
-          {{ .Page.Params.tech-acceleration | markdownify }}
+          {{ .Page.Params.acceleration | markdownify }}
         </div>
-        <a class="btn-learn-more-white blm-orange" href="tech-acceleration">
+        <a class="btn-learn-more-white blm-orange" href="acceleration">
           <span class="material-symbols-outlined">arrow_circle_right</span>
           Learn more
         </a>
+      </div>
+      <div class="w40">
+        <img src="img/acc-3.webp"/>
       </div>
     </div>
   </section>
@@ -107,6 +107,9 @@
       Waziup Certification
     </h1>
     <div class="content">
+      <div class="w40">
+        <img src="img/certificate.png"/>
+      </div>
       <div class="w60">
         <div>
           {{ .Page.Params.certification | markdownify }}
@@ -115,9 +118,6 @@
           <span class="material-symbols-outlined">arrow_circle_right</span>
           Learn more
         </a>
-      </div>
-      <div class="w40">
-        <img src="img/certificate.png"/>
       </div>
     </div>
   </section>
