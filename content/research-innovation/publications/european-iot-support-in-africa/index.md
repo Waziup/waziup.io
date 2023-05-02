@@ -42,7 +42,7 @@ Wazihub has resulted in successful outcomes in various sectors, becoming product
 1200 users across 6 hubs and 48 start-ups are testament to the success of both Wazihub and its predecessor Waziup.  Wazihub and Waziup demonstrate how European innovation funding in the context of EU-Africa collaboration can contribute to achieving the Sustainable Development Goals in Africa and support the continent to achieve its full potential.
 
 ### Related Contents
-
-- Download [Shaping Europe’s digital future](doc.pdf).
+- Article [European Commission: Shaping Europe’s digital future](https://digital-strategy.ec.europa.eu/en/news/european-internet-things-technology-supports-innovation-africa)
+- Download [European IoT support innovations in Africa by Waziup](doc.pdf).
 - Video [IoT powered in Africa by Waziup]([Wazihub_Technology_Magazine_2021.pdf](https://www.youtube.com/watch?v=sf7SRVEChbY&feature=youtu.be&ab_channel=WAZIUP)).
 - Video [Wazihub tech hubs in different sectors](https://www.youtube.com/watch?v=hu-v-eukLAc&feature=youtu.be&ab_channel=WAZIUP)
