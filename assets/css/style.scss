@@ -737,8 +737,20 @@ h1 {
 .flex-box {
 	display: flex;
 
-	@media (max-width:$sm) {
+	@media (max-width:$md) {
 		flex-direction: column;
+	}
+}
+.order-1{
+	order: 1;
+	@media (max-width:$md) {
+		order: 2;
+	}
+}
+.order-2{
+	order: 2;
+	@media (max-width:$md) {
+		order: 1;
 	}
 }
 
@@ -752,7 +764,7 @@ h1 {
 		text-align: left;
 		order: 2;
 
-		@media (max-width:$sm) {
+		@media (max-width:$md) {
 			margin-left: 0;
 			order: 1;
 		}
