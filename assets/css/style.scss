@@ -667,7 +667,7 @@ h1 {
 			.w40 {
 				width: 40%;
 
-				@media (max-width:$sm) {
+				@media (max-width:$md) {
 					width: 100%;
 					order: 1;
 				}
@@ -676,7 +676,7 @@ h1 {
 			.w50 {
 				width: 50%;
 
-				@media (max-width:$sm) {
+				@media (max-width:$md) {
 					width: 100%;
 				}
 			}
@@ -684,7 +684,7 @@ h1 {
 			.w60 {
 				width: 60%;
 
-				@media (max-width:$sm) {
+				@media (max-width:$md) {
 					width: 100%;
 					order: 2;
 				}
@@ -694,7 +694,7 @@ h1 {
 				width: 100%;
 			}
 
-			@media (max-width:$sm) {
+			@media (max-width:$md) {
 				flex-direction: column;
 				gap: 0px;
 			}
@@ -1556,7 +1556,7 @@ h1 {
 	margin-top: 2rem;
 	display: flex;
 	gap: 2rem;
-	flex-wrap: wrap;
+	// flex-wrap: wrap;
 
 	>.card {
 		width: 250px;
@@ -1565,7 +1565,8 @@ h1 {
 		align-items: center;
 		gap: .5rem;
 		padding: .5rem 1rem;
-		border-radius: 4px;
+		border-radius: 8px;
+		border: #e4e4e4 .5px solid;
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
 
 		>.text {

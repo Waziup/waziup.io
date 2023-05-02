@@ -30,6 +30,16 @@ wazihack: |
   * Marketing and Pomoting Events 
   * Providing Mentorship and Guidance
 
+tech-acceleration: |
+  ### From idea to product
+  
+  Accelerate your startup success with Waziup's support from ideation to market launch. Develop a customer-centric MVP and stand out with a clear value proposition using our business model canvas.
+  We help you with:
+  * INSPIRATION: Problem statemen and identification of success metrics
+  * IDEATION: Sustainable and innovative solution idea
+  * IMPLEMENTATION: Iterative prototyping
+  * GROWTH HACK: Scale-up and investment
+
 certification: |
   ### Get Certified
   Advance your IoT knowledge with Waziup's Certification: we offer online tutorials, webinars, and hands-on training for individuals, institutes, and SMEs of all skill levels. Start your journey to IoT mastery today!
