@@ -1,13 +1,20 @@
 ---
-title: YouthTeamUp Project
+title: YouthTeamUp
 logo: img/logo.png
 description: ""
 category: Erasmus+
 date: 2023-04-12
 weight: 7
 status: inactive
+layout: project
+duration: 3 years
+acknowledgement:
+  text: This project has received funding from the Erasmus+ programme of the European Union
+  logo: /img/eu-flag.png
+
 ---
 
-## We are still working on the details. Please stay with us. 
+## Supporting IoT innovations in African Tech Hubs 
 
-Feel free to contact us! [Contact Us](../../contact)
+Section under construction.
+Feel free to contact us! [Contact Us](/contact)
