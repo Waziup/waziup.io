@@ -1,5 +1,5 @@
 ---
-title: Learning Center
+title: WaziLab
 ---
 
 
