@@ -41,6 +41,30 @@ $background-color_1: #eee;
 $background-color_2: #ccc;
 $background-color_3: white;
 
+@font-face {
+	font-family: 'Material Symbols Outlined';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/material-ui.woff2') format('woff2'),
+		 url('/fonts/material-ui.ttf') format('truetype');
+}
+
+.material-symbols-outlined {
+	font-family: 'Material Symbols Outlined';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-feature-settings: 'liga';
+	-webkit-font-smoothing: antialiased;
+}
+
 $margin-adjust-with-container-xxl: auto -20vw;
 
 * {
@@ -741,14 +765,18 @@ h1 {
 		flex-direction: column;
 	}
 }
-.order-1{
+
+.order-1 {
 	order: 1;
+
 	@media (max-width:$md) {
 		order: 2;
 	}
 }
-.order-2{
+
+.order-2 {
 	order: 2;
+
 	@media (max-width:$md) {
 		order: 1;
 	}
@@ -1226,7 +1254,7 @@ h1 {
 .quote {
 	display: flex;
 	flex-direction: column;
-  text-align: center;
+	text-align: center;
 
 	span {
 		flex: 1;

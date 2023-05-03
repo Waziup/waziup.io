@@ -10,7 +10,7 @@ date: 2022-03-19
 
 ![image](cover.png)
 
-### LoRaWAN Coller
+### LoRaWAN Collar
 Low-Power, Long-Range and ready to use tracking device for livestock to increase farm profits and to prevent cattle rustling 
 
 The WAZIUP cattle collar is an ideal solution for herdsmen to better protect their cattle. Our LoRa enabled device allows to locate herds in real-time and inform farmers about its position. The device can notify farmers about any abnormal condition; thereby farmers take necessary actions to search for their cattles, in order to reduce cattle theft, or loss. The solution is highly cost-effective, easy to install and maintain. 
