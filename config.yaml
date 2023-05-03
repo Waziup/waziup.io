@@ -46,20 +46,20 @@ menu:
       url: "/capacity-building#solution-lab"
       weight: 2
       parent: capacity-building
-    - identifier: wazihack 
-      title: WaziHack
-      url: "/capacity-building#wazihack"
+    - identifier: acceleration
+      title: Waziup Innovation Accelaration
+      url: "/capacity-building#acceleration"
       weight: 3
       parent: capacity-building
-    - identifier: acceleration
-      title: Tech Acceleration
-      url: "/capacity-building#acceleration"
-      weight: 4
-      parent: capacity-building
+    # - identifier: acceleration
+    #   title: Tech Acceleration
+    #   url: "/capacity-building#acceleration"
+    #   weight: 4
+    #   parent: capacity-building
     - identifier: certification 
       title: Certifications
       url: "/capacity-building#certifications"
-      weight: 5
+      weight: 4
       parent: capacity-building
 
     - identifier: research-innovation 
