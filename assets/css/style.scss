@@ -46,7 +46,7 @@ $background-color_3: white;
 	font-style: normal;
 	font-weight: 400;
 	src: url('/fonts/material-ui.woff2') format('woff2'),
-		 url('/fonts/material-ui.ttf') format('truetype');
+		url('/fonts/material-ui.ttf') format('truetype');
 }
 
 .material-symbols-outlined {
@@ -878,7 +878,7 @@ h1 {
 		>.media {
 			position: relative;
 			width: 100%;
-			height:300px;
+			height: 300px;
 			border: #eded 1px solid;
 
 			>img {
@@ -1223,7 +1223,7 @@ h1 {
 		padding-left: 0;
 		border: 0;
 		transition: all 0.5s;
-		border-radius: 4px;
+		border-radius: 2rem;
 		position: relative;
 
 		&:hover {
@@ -1739,11 +1739,7 @@ input[type=submit]:hover {
 }
 
 .g-map {
-	float: right;
-	padding-left: 5rem;
-	width: 60%;
-	margin: 2rem auto;
-	height: 30rem;
+	height: 20rem;
 
 	@media (max-width:$sm) {
 		padding-left: 0;
@@ -2227,7 +2223,7 @@ input[type=submit]:hover {
 	}
 }
 
-.img-full-width{
+.img-full-width {
 	width: 100%;
 	object-fit: contain;
 }
