@@ -5,7 +5,8 @@ description: "Seminar on the application of the Internet of Thing and Machine Le
 category: PROJECT
 date: 2022-06-14
 ---
-![image](cover.png)
+<!-- ![image](cover.png) -->
+{{<floating_image image="cover.png" float="right" width="600px" >}}
 
 ## UPPA and Waziup launch - the embedded Intel - IrriS Irrigation WaziApp Application for smarter water usage
 

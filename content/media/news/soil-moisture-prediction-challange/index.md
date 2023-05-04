@@ -1,12 +1,15 @@
 ---
-title: Winners of WAZIHUB Soil Moisture Prediction Challenge with Microsoft & Zindi - Nov 08, 2019
+title: "NEWS: WAZIHUB Soil Moisture Prediction Challenge"
 cover: cover.webp
 description: Winners of WAZIHUB Soil Moisture Prediction Challenge with Microsoft & Zindi - Nov 08, 2019
 category: NEWS
 date: 2019-11-08
 ---
 
-![image](cover.webp)
+<!-- ![image](cover.webp) -->
+{{<floating_image image="cover.webp" float="right" width="500px" >}}
+
+## Winners of WAZIHUB Soil Moisture Prediction Challenge with Microsoft & Zindi - Nov 08, 2019
 
 WAZIHUB launched a 3-month competition hosted by ZINDI to predict Soil Moisture and allow farmers to anticipate water needs and automate their irrigation schedule.
 

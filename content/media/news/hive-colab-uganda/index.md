@@ -5,12 +5,16 @@ description: IoT party organized by Hive Colab in Uganda
 category: NEWS
 date: 2019-11-22
 ---
+## IoT party organized by Hive Colab in Uganda
+
+<!-- ![image](cover.webp) -->
+{{<floating_image image="cover.webp" float="right" width="500px" >}}
 
 The Uganda chapter for Wazihub organized on October 26th & 27th October an IoT bootcamp that was focused on capacity building.
 
+
 The sole goal of this bootcamp was to train more people on how to utilize the cost-effective Waziup technology while addressing the needs of African technical professionals/enthusiasts who might want to venture into IoT as a business. The two day Bootcamp was titled “Wazihub IoT Party”.
 
-![image](cover.webp)
 
 Thirty participants were recorded and all worked on the same project with the Waziup IoT kits.
 

@@ -9,6 +9,12 @@ layout: project
 acknowledgement:
   text: This project has received funding from PRIMA and the European Union’s Horizon Europe research and innovation programme.
   logo: /img/prima-logo.png
+countries:
+  - Egypt
+  - Marroco
+  - Germany
+  - France
+  - Algeria
 website: https://resilink.eu/
 duration: 2022-2026
 ---

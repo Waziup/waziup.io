@@ -1,12 +1,16 @@
 ---
-title: WAZIUP ORGANISED A TWO DAYS EVENT IN ALGERIA - Jan 15, 2020
+title: Waziup News
 cover: cover.webp
 description: WAZIUP ORGANISED A TWO DAYS EVENT IN ALGERIA - Jan 15, 2020
 category: NEWS
 date: 2020-01-15
 ---
 
-![image](cover.webp)
+## WAZIUP ORGANISED A TWO DAYS EVENT IN ALGERIA - Jan 15, 2020
+
+<!-- ![image](cover.webp) -->
+{{<floating_image image="cover.webp" float="right" width="500px" >}}
+
 
 Waziup was commissioned by German Federal Ministry for Economic Affairs and Energy for an event dedicated to IoT & LoRaWan technologies held on December 16 and 17, 2019 at the Sidi Abdallah Technopark.
 The two days events were organized by ANPT Cyberpark, the National Agency for the Promotion and Development of Technology Parks of Algeria.

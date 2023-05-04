@@ -5,7 +5,9 @@ description: "Dr. -Ing. Abdur Rahim Participates in 7th EU-Africa Business Forum
 category: PROJECT
 date: 2022-04-22
 ---
-![image](cover.png)
+<!-- ![image](cover.png) -->
+{{<floating_image image="cover.png" float="right" width="500px" >}}
+
 
 ## Dr. -Ing. Abdur Rahim Participates in 7th EU-Africa Business Forum, Discusses Digital Innovation
 

@@ -434,6 +434,7 @@ h1 {
 	align-items: center;
 	font-size: 3em;
 	font-weight: 300;
+	text-align: center;
 	color: #fff;
 	height: 200px;
 	overflow: hidden;
@@ -444,10 +445,11 @@ h1 {
 	//Dynamic margins according to screen size
 	@media (max-width:$sm) {
 		padding: 2rem 5vw;
+		font-size: 2em;
 	}
 
 	@media (max-width:$xl) {
-		padding: 5rem 10vw;
+		padding: 3rem 10vw;
 	}
 
 	@media (min-width:$xl) {
@@ -2223,4 +2225,9 @@ input[type=submit]:hover {
 	line {
 		stroke: var(--tr-color)
 	}
+}
+
+.img-full-width{
+	width: 100%;
+	object-fit: contain;
 }

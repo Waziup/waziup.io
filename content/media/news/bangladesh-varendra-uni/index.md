@@ -1,12 +1,15 @@
 ---
-title: IoT event in Bangladesh with Varendra University
+title: "NEWS: Bangladesh Event"
 cover: cover.webp
 description: IoT event in Bangladesh with Varendra University
 category: NEWS
 date: 2019-11-06
 ---
 
-![image](cover.webp)
+<!-- ![image](cover.webp) -->
+{{<floating_image image="cover.webp" float="right" width="500px" >}}
+
+## IoT Event in Bangladesh with Varendra University
 
 In Bangladesh, there was an IoT idea contest held at Varendra University, which was organized through a collaboration between the EEE department and WAZIHUB and WAZIUP.
 

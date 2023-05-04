@@ -5,7 +5,8 @@ description: "Waziup participated in HUBiquitous General Meeting in Tanzania, Sh
 category: PROJECT
 date: 2021-04-20
 ---
-![image](cover.jpg)
+<!-- ![image](cover.jpg) -->
+{{<floating_image image="cover.jpg" float="right" width="500px" >}}
 
 ## Waziup participated in HUBiquitous General Meeting in Tanzania, Showcases Innovative Solution
 

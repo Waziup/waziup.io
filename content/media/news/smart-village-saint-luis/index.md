@@ -14,7 +14,8 @@ The WAZIHUB Smart Village is an initiative supported by three partners of the pr
 The University Gaston Berger had hosted this initiative and pilot activities since the kickoff which took place between 13 and 14 November 2019. The two days event was an opportunity to bring together the different stakeholders in the initiative of the smart village, to identify around the table the needs of end users.
 Representatives of the Village of Sanar (where the university is located), head of the breeder’s associations, university admins and young tech enthusiasts (students of UGB) attended and participated in the two days workshop.
 
-![image](cover.webp)
+<!-- ![image](cover.webp) -->
+{{<floating_image image="cover.webp" float="right" width="500px" >}}
 
 When the question **‘how can IoT solutions can be used in Senegal, participants shared their expectations  summarized in the points below’** :
 

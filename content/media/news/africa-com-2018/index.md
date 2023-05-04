@@ -6,7 +6,8 @@ category: NEWS
 date: 2018-10-10
 ---
 
-![image](cover.jpg)
+<!-- ![image](cover.jpg) -->
+{{<floating_image image="cover.jpg" float="right" width="400px" >}}
 
 Waziup aims to bring IoT (Internet of Things) solutions to Africa. Waziup recently made an impact at the AHUB section of an event that celebrates the critical role of entrepreneurship in driving Africa’s digital economy forward. WAZIUP Team set up an eye-catching booth in the heart of the AHUB section, which attracted attention from investors and tech enthusiasts alike.
 That wasn’t all. Waziup’s project coordinator, Dr. -Ing. Abdur Raim, also delivered a talk on ‘IoT made in Africa’ at the Internet of Things World Africa session which was followed by a Q&A session. The audience was captivated as Dr. Rahim shared his insights on how IoT solutions can benefit Africa and help overcome the continent’s unique challenges.

@@ -6,7 +6,9 @@ category: NEWS
 date: 2018-09-01
 ---
 
-![image](cover.jpeg)
+<!-- ![image](cover.jpeg) -->
+{{<floating_image image="cover.jpeg" float="right" width="500px" >}}
+
 
 Waziup was recently invited by Alexander NTOKO and Jonu UM, both representatives of the International Telecommunication Union (ITU), to participate in the prestigious ITU Telecom world event held in September 2018. At the event, Waziup showcased its innovative technologies and approach at the ITU’s Smart ABC Pavilion, and also organized a workshop where its delegates. 
 Dr. -Ing. Abdur Rahim, Dr. Congduc Pham and Fiifi Baidoo gave presentations on IoT for sustainable development in Africa, deploying low-cost. Long-range IoT for rural and remote areas in Africa, and waziup’s open data platform for rural IoT applications. 
