@@ -1,7 +1,7 @@
 ---
 title: DEVELOP, DEPLOY, CONNECT !
 hero: |
-  ### Waziup IoT Platform
+  ## IoT Edge Platform
   
   * Free and Open-Source
   * Long range with LoRa network

@@ -1,7 +1,7 @@
 ---
 title: Capacity Building
 hero: |
-  ### Waziup Capacity Building
+  ## Waziup Capacity Building
   
   * WaziLab: Learn IoT through live prototyping 
   * Solution Lab: A key-in-hand IoT Lab
