@@ -7,7 +7,7 @@ date: 2021-05-01
 weight: 2
 ---
 
-### Empowering Open Source and Affordable IoT Technologies in Africa
+## Empowering Open Source and Affordable IoT Technologies in Africa
 
 <!-- ![image](applications.png) -->
 {{<floating_image image="applications.png" float="right">}}

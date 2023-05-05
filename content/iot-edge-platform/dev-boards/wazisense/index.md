@@ -6,7 +6,7 @@ category: Development Board
 weight: -3
 ---
 
-{{<floating_image image="wazisense_sideways_2.png" float="right" width="600px" >}}
+{{<floating_image image="wazisense_2.webp" float="right" width="600px" >}}
 
 **About Devboard:** The wazisense is an all in one style development board for projects involving outdoor sensing and agricultural purposes. Fitted with a lora sx1276 chip, its able to communicate with a lora enabled gateway over long distances. It has supercaps that enable it to keep running for a few more hours in the event of power loss. It also has terminal connectors which make it easy to hookup peripherals and deploy outdoor solutions with ease.
 

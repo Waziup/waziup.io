@@ -12,7 +12,7 @@ The WAZIUP project is on a mission to empower African innovators by providing th
 
 At its core, the WAZIUP Learning Center is designed to help African innovators overcome the barriers to entry that can often make it difficult to break into the IoT space. By providing access to high-quality educational materials and training programs, the Learning Center aims to level the playing field and make it possible for anyone with a great idea to turn it into a reality.
 
-{{<floating_image image="cover.png" float="right" width="600px" >}}
+{{<floating_image image="cover.png" float="right" width="450px" >}}
 
 
 So, what exactly does the WAZIUP Learning Center offer? Here are some of the key features:

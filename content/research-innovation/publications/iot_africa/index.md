@@ -7,13 +7,14 @@ date: 2021-07-01
 weight: 3
 ---
 
-# Unlocking IoT Startups in Africa
+## Unlocking IoT Startups in Africa
 
 The World Economic Forum published in 2018 the report “Internet of Things: Guidelines for Sustainability”, analysing the deployement of 640 Internet of Things (IoT) projects world-wide. This report claims that the full potential of IoT for sustainable development can only be achieved when sustainability is incorporated at the design phase. Sustainability is at the core of WaziHub: the key goal of the project is to create a strong business ecosystem and to foster partnerships between Africa and Europe.
 
+{{<floating_image image="impact.png" float="right">}}
+
 Both continents are facing the same key challenges: promote sustainable growth, jobs, mobility, security, and good governance. Regarding the African startups (see our dossier page 23), there is a need to improve their innovation capacities with regards to emerging technologies. They also need better access to investment and business opportunities. On the other hand, European startups need better access to emerging markets, possible soft-landing, and a better understanding of the African local innovations ecosystem. 
 
-![image](impact.png)
 
 A recent phenomenon in Africa is the booming development of “Tech Hubs”, offering facilities and support for tech and digital entrepreneurs (see our dossier page 9). However, the Tech Hubs often need more technical expertise such as hardware, software, networking, and cloud-based data management. The WaziHub project aims to improve the IoT capacity of the Tech Hubs by offering technology and training. We are creating a network of connected IoT Tech Hubs throughout Africa, in which each hub can collaborate with each other. They can share best practices, experience, knowledge and services. 
 

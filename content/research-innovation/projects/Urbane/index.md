@@ -9,6 +9,22 @@ weight: 6
 acknowledgement:
   text: This project has received funding from the European Union’s Horizon Europe research and innovation programme under grant agreement No 101059232.
   logo: /img/eu-flag.png
+countries:
+  - France
+  - Marroco
+  - Germany
+  - Greece
+  - Italy
+  - Cyprus
+  - Senegal
+  - Belgium
+  - Switzerland
+  - Nigeria
+  - Serbia
+  - Netherlands
+  - Burkina Faso
+  - Ghana
+  - United Kingdom
 website: https://urbane-project.eu
 duration: 07.2022-07.2026
 

@@ -1,12 +1,15 @@
 ---
-title: WAZIHUB Presented at East West University in Bangladesh
+title: "NEWS: WAZIHUB in Bangladesh"
 cover: cover.webp
 description: "IoT and Big Data for Sustainable Development"
 category: NEWS
 date: 2019-11-03
 ---
 
-![image](cover.webp)
+<!-- ![image](cover.webp) -->
+{{<floating_image image="cover.webp" float="right" width="450px" >}}
+
+## WAZIHUB Presented at East West University in Bangladesh
 
 The Department of Computer Science and Engineering at East West University in Bangladesh held a seminar on January 23, 2018, focused on the theme 
 "IoT and Big Data for Sustainable Development". The seminar was organized to increase awareness among students and faculty about the potential of

@@ -9,7 +9,8 @@ weight: 1
 
 ## Fostering IoT solutions for sustainable development in Africa
 
-![image](ideation.png)
+{{<floating_image image="ideation.png" float="right">}}
+<!-- ![image](ideation.png) -->
 
 The first leg of our journey takes us to the African continent, in particular to the Sub-Saharan countries. In this developing part of the world there are many initiatives led by many NGOs, as well as public and private organisations with humanitarian objectives. They all have in common an interest and commitment towards accelerating the speed at which African countries can develop due to innovation and new technologies that improve people's’ lives while sustaining the economy.
 
