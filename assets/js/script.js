@@ -1,25 +1,23 @@
 // homepage banner slider
 document.addEventListener("DOMContentLoaded", function () {
-  const sliderContainers = document.querySelectorAll(".slider-container");
+  const sliderContainers = document.querySelectorAll(".slider-wrapper");
   sliderContainers.forEach(function (container, i) {
     const sliderBullets = container.querySelectorAll(".slider-nav > a");
-    const sliderImages = container.querySelectorAll(".slider > div");
+    const slider = container.querySelectorAll(".slider")[0];
+    const slides = container.querySelectorAll(".slider > .slide");
 
     let index = 0;
     sliderBullets.forEach(function (bullet, i) {
       bullet.addEventListener("click", function () {
-        const image = sliderImages[i];
-        const slider = image.parentElement;
-        slider.scrollLeft = image.offsetLeft;
+        slider.scrollLeft = slides[i].offsetLeft;
       });
     });
 
     setInterval(() => {
-      index++;
-      index = index % sliderImages.length;
-      const image = sliderImages[index];
-      const slider = image.parentElement;
-      slider.scrollLeft = image.offsetLeft;
+      console.log(index)
+      console.log(slides.length)
+      index = (index + 1) % slides.length;
+      slider.scrollLeft = slides[index].offsetLeft;
     }, 5000);
   });
 });
