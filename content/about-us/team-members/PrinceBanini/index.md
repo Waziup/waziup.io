@@ -1,6 +1,6 @@
 ---
 name: Prince Banini
-role: Talent Program Manager
+role: Program Manager
 cover: Prince.jpg
 weight: -6
 ---

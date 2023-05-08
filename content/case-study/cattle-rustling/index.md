@@ -8,7 +8,7 @@ date: 2022-03-19
 
 ### COMBATING CATTLE RUSTLING WITH WAZIUP TECHNOLOGY
 
-![image](cover.png)
+{{<floating_image image="cover.png" float="right" width="600px" >}}
 
 ### LoRaWAN Collar
 Low-Power, Long-Range and ready to use tracking device for livestock to increase farm profits and to prevent cattle rustling 

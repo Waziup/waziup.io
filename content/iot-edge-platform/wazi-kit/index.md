@@ -2,6 +2,8 @@
 title: "WaziKit : IoT Prototyping Kit"
 ---
 
+TODO: text to be revised.
+
 {{<floating_image image="img/wazi-hardware.jpg" float="right" width="400px" >}}
 
 Waziup is aimed at providing affordable and accessible Internet of Things (IoT) solutions to African entrepreneurs and developers. One of the key initiatives is the provision of free IoT development kits to selected applicants.
@@ -26,4 +28,4 @@ In addition to providing free IoT development kits, Waziup also offers training 
 
 In conclusion, the provision of free IoT development kits by Waziup is a game-changer for African entrepreneurs and developers looking to explore the potential of IoT technology. By removing the cost barrier to entry, Waziup is enabling more individuals to develop innovative solutions to real-world problems and helping to drive economic growth and development across the continent.
 
-**Get your prototyping kit now!** [Contact Us](../../contact)
+**Get your prototyping kit now!** [Contact Us](/contact)

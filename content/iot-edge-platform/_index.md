@@ -1,11 +1,12 @@
 ---
-title: DEVELOP, DEPLOY, CONNECT !
+title: IoT Edge Platform
 hero: |
   ## IoT Edge Platform
   
-  * Free and Open-Source
-  * Long range with LoRa network
-  * Working with or without Internet!
+  * Long range with LoRaWAN network
+  * Runs your applications at the Edge
+  * Working with or without Internet
+  * Open-Source
 
 wazigate: |
   **WaziGate** is an IoT LoRaWAN Gateway, ideal for all your remote IoT applications. The Gateway can cover up to 100 IoT Sensors and actuator nodes: Weather stations, soil monitoring, GPS applications. The possibilities are endless! You can host your own applications directly in the gateway. The WaziGate features:

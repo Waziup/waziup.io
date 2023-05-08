@@ -1,16 +1,14 @@
 {{ define "main" }}
-<div class="page">
+<div class="page project">
 
-  <div style="display: flex;flex-direction: column;">
-    <div class="page-banner">
-      {{.Title}}
-    </div>
-    <img src="/img/hero-curve_.svg" style="width: 100%; object-fit: fill;margin-top: -3;" alt="hero-curve">
+  <div class="page-banner">
+    {{.Title}}
   </div>
+  <img src="/img/hero-curve_.svg" style="width: 100%; object-fit: fill;margin-top: -3;" alt="hero-curve">
 
   <div class="single">
-    <div class="flex-box">
-      <div class="order-1"> 
+    <div class="project-main">
+      <div class="project-desc"> 
         {{ .Content | safeHTML }}
       </div>
       <div class="project-id">
@@ -32,7 +30,9 @@
         {{.Page.Params.duration}}
         </br>
         </br>
-        <a href={{.Page.Params.website}} target=_blank>Website</a>
+        {{if .Page.Params.website}}
+          <a href={{.Page.Params.website}} target=_blank>Website</a>
+        {{end}}
       </div>
     </div>
     </br>

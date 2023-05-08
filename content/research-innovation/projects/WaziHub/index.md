@@ -8,16 +8,16 @@ layout: project
 weight: 1
 acknowledgement:
   text: This project has received funding from the Horizon 2020 research and innovation programme under grant agreement No 101016895
-  logo: /img/eu-flag.png
+  logo: /img/logos/eu-flag.png
 countries:
   - Senegal
   - Uganda
+  - Kenya
   - Germany
   - France
   - Italy
   - Kenya
-  - Zambia
-  - United States
+  - South Africa
 website: www.wazihub.com
 duration: 3 years
 ---
