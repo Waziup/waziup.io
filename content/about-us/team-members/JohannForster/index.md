@@ -1,6 +1,6 @@
 ---
 name: Johann Forster
-role: Senior Programmer
-cover: Johann.jpg
+role: Senior Full-Stack Software Engineer
+cover: johann_forster.jpg
 weight: -8
 ---
