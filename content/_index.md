@@ -23,7 +23,7 @@ services:
     text: We support startups with our Acceleration Program and incubate with technical bootcamps, networking activities, and business development.
 
   - title: Research Projects
-    text: We are currently part of 5 research projects, funded by the European Commission and the German BMBF.
+    text: We are active in research & innovation and development projects in various technical and application fields.
     icon: find_in_page
 
 technology: |
