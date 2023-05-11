@@ -18,7 +18,7 @@ countries:
   - Italy
   - Kenya
   - South Africa
-website: www.wazihub.com
+website: https://www.wazihub.com
 duration: 3 years
 ---
 
