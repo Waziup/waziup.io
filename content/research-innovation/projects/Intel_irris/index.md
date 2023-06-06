@@ -2,11 +2,11 @@
 title: Intel-IrriS
 logo: img/logo.png
 description: "Intel-IrriS Prima Project: Improving Water Management for Small-Scale Farmers"
-category: PRIMA | EU
+category: PRIMA | BMBF
 date: 2022-01-01
 weight: 3
 acknowledgement:
-  logo: img/prima-logo.png
+  logo: /img/logos/prima-logo.png
   text: This project has received funding from PRIMA and the European Union’s Horizon Europe research and innovation programme.
 countries:
   - France

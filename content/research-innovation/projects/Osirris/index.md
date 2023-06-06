@@ -11,13 +11,12 @@ countries:
   - Tunisia
 acknowledgement:
   text: This project has received funding from the TUNGER 2+2 research and innovation programme. The German project partners are funded by the BMBF and the Tunisian project partners are funded by the Tunisian Ministry of Higher Education and Scientific Research (MoHESR) under the guideline of TUNGER 2+2.
-  logo: img/bmbf-logo.png
+  logo: /img/logos/bmbf-logo.png
 duration: 3 years  
 
 ---
 
 ## Precision Irrigation with Cost-effective and Autonomic IoT Devices using Artificial Intelligence at the Edge
-
 
 ![archi](img/archi.png)
 

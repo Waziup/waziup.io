@@ -2,7 +2,7 @@
 title: "Waziup e.V." 
 hasHero: true
 services:
-  - title: Skills Development & Training
+  - title: Skills & Training
     icon: school
     text: We offer IoT capacity building for your developers & engineers. We organize hackathons and bootcamps on your premises.
 
@@ -23,7 +23,7 @@ services:
     text: We support startups with our Acceleration Program and incubate with technical bootcamps, networking activities, and business development.
 
   - title: Research Projects
-    text: We are active in research & innovation and development projects in various technical and application fields.
+    text: We are active in Research & Innovation projects in several technical and application fields.
     icon: find_in_page
 
 technology: |

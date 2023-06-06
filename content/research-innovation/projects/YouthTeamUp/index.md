@@ -8,13 +8,17 @@ weight: 7
 status: inactive
 layout: project
 duration: 3 years
+countries:
+- Germany
+- Italy
+- Tanzania
+- Zambia
 acknowledgement:
   text: This project has received funding from the Erasmus+ programme of the European Union
-  logo: /img/eu-flag.png
+  logo: /img/logos/eu-flag.png
 
 ---
 
-## Supporting IoT innovations in African Tech Hubs 
 
 Section under construction.
-Feel free to contact us! [Contact Us](/contact)
+Feel free to [Contact Us!](/contact)

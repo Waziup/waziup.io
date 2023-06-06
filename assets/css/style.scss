@@ -1289,22 +1289,40 @@ h1 {
 }
 
 
-/***************** Page contents ******************/
+/***************** Page elements ******************/
 
-//Project box
-.project-id {
-	// margin-top: 100px;
-	margin-left: 50px;
-	padding: 30px;
-	min-width: 300px;
-	background-color: $waziup-off-white;
-	text-align: left;
-	order: 2;
+//Project page
+.project {
 
-	@media (max-width:$md) {
-		margin-left: 0;
-		order: 1;
-	}
+  .project-main {
+	  display: flex;
+    gap: 3rem;
+
+  	@media (max-width:$md) {
+  		flex-direction: column;
+  	}
+  }
+
+  .project-desc {
+  	min-width: 300px;
+  }
+
+  .project-id {
+  	padding: 30px;
+  	min-width: 300px;
+  	background-color: $waziup-off-white;
+  	text-align: left;
+    height: 100%;
+  
+  	@media (max-width:$md) {
+  		margin-left: 0;
+  	}
+  }
+  
+  .project-ack {
+    display:flex;
+    gap: 1rem;
+  }
 }
 
 .team-member-container {
@@ -1820,27 +1838,4 @@ h1 {
 	}
 }
 
-.flex-box {
-	display: flex;
-
-	@media (max-width:$md) {
-		flex-direction: column;
-	}
-}
-
-.order-1 {
-	order: 1;
-
-	@media (max-width:$md) {
-		order: 2;
-	}
-}
-
-.order-2 {
-	order: 2;
-
-	@media (max-width:$md) {
-		order: 1;
-	}
-}
 

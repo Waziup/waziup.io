@@ -34,6 +34,6 @@ EXPOSE 9000
 
 COPY hooks.json /etc/hooks.json
 COPY scripts /scripts
-ADD nginx.conf /etc/nginx/conf.d/default.conf
+ADD nginx.conf /etc/nginx/sites-available/default
 
 ENTRYPOINT [ "bash", "/scripts/start.sh" ]

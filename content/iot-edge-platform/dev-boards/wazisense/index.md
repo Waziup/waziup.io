@@ -6,9 +6,11 @@ category: Development Board
 weight: -3
 ---
 
-{{<floating_image image="wazisense_2.webp" float="right" width="600px" >}}
+# WaziSense: The dev board for your agriculture applications!
 
-**About Devboard:** The wazisense is an all in one style development board for projects involving outdoor sensing and agricultural purposes. Fitted with a lora sx1276 chip, its able to communicate with a lora enabled gateway over long distances. It has supercaps that enable it to keep running for a few more hours in the event of power loss. It also has terminal connectors which make it easy to hookup peripherals and deploy outdoor solutions with ease.
+{{<floating_image image="wazisense_2.webp" float="right" width="400px" >}}
+
+The wazisense is an all in one style development board for projects involving outdoor sensing and agricultural purposes. Fitted with a LoRa sx1276 chip, it is able to communicate with a LoRa enabled gateway over long distances. It has supercaps that enable it to keep running for a few more hours in the event of power loss. It also has terminal connectors which make it easy to hookup peripherals and deploy outdoor solutions with ease.
 
 **Features:**
 - Lora support (SX1276 Chip)
@@ -29,7 +31,7 @@ weight: -3
 - Analog Input Pins: 6
 - External Interrupts: 2
 - DC Current per I/O Pin: 40 mA
-- Flash Memory: 32KB of which 2 KB used by bootloader *
-- SRAM: 2 KB *
-- EEPROM: 1 KB *
+- Flash Memory: 32KB of which 2 KB used by bootloader
+- SRAM: 2 KB
+- EEPROM: 1 KB
 - Clock Speed: 8 MHz

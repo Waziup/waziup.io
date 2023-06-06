@@ -1,11 +1,10 @@
 version: '3'
 services:
 
-  webhooks:
-    build: ./webhooks
-    image: webhooks
+  website:
+    build: .
+    image: waziup/website
     restart: unless-stopped
-    container_name: webhooks
     ports:
       - 9000:9000
       - 81:81

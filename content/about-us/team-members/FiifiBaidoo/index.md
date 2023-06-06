@@ -1,6 +1,6 @@
 ---
 name: Fiifi Baidoo
-role: Innovation Manager
+role: Bureau Member
 cover: fiifi.jpg
 weight: -5
 ---

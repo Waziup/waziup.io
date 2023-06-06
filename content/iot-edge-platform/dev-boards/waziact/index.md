@@ -6,9 +6,11 @@ category: Development Board
 weight: -1
 ---
 
-{{<floating_image image="waziact.webp" float="right" width="600px" >}}
+# WaziAct: A board for your actuation applications!
 
-**About Devboard:** The WaziAct is an all in one style development board for projects involving the great outdoor and sensing, unlike the WaziSense, it also has a relay for actuation. Fitted with a lora sx1276 chip, its able to communicate with a lora enabled gateway over long distances. It also has terminal connectors which make it easy to hookup peripherals and deploy solutions with ease.
+{{<floating_image image="waziact.webp" float="right" width="350px" >}}
+
+The WaziAct is an all-in-one development board for projects involving the great outdoor and sensing, however unlike the WaziSense, it also has a relay for actuation. Fitted with a LoRa sx1276 chip, its able to communicate with a LoRa enabled gateway over long distances. It also has terminal connectors which make it easy to hookup peripherals and deploy solutions with ease.
 
 **Features:**
 - Lora support (SX1276 Chip)
@@ -29,7 +31,7 @@ weight: -1
 - Analog Input Pins: 6
 - External Interrupts: 2
 - DC Current per I/O Pin: 40 mA
-- Flash Memory: 32KB of which 2 KB used by bootloader *
-- SRAM: 2 KB *
-- EEPROM: 1 KB *
+- Flash Memory: 32KB of which 2 KB used by bootloader
+- SRAM: 2 KB
+- EEPROM: 1 KB
 - Clock Speed: 8 MHz

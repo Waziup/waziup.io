@@ -8,7 +8,7 @@ layout: project
 weight: 6
 acknowledgement:
   text: This project has received funding from the European Union’s Horizon Europe research and innovation programme under grant agreement No 101059232.
-  logo: /img/eu-flag.png
+  logo: /img/logos/eu-flag.png
 countries:
   - France
   - Marroco

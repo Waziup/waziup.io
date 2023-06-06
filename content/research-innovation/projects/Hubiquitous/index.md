@@ -8,7 +8,7 @@ weight: 2
 layout: project
 acknowledgement:
   text: This project has received funding from the Horizon 2020 research and innovation programme under grant agreement No 101016895
-  logo: /img/eu-flag.png
+  logo: /img/logos/eu-flag.png
 website: https://hubiquitous.eu/
 countries:
   - Germany
@@ -19,6 +19,7 @@ countries:
   - Nigeria
   - Tanzania
   - Uganda
+  - Kenya
 duration: 3 years
 ---
  

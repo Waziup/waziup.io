@@ -3,7 +3,7 @@ title: About Us
 mission: |
   ### We Foster IoT Solutions For Sustainable Development
   
-  WAZIUP e.V. is promoting cutting-edge technologies and capacity building toward emerging countries. We have developed affordable and adaptable end-to-end IoT Solutions. WAZIUP Open Source IoT and Cloud platform aims to accelerate social innovation and empower local IoT entrepreneurship.
+  WAZIUP e.V. is a non-profit association promoting cutting-edge technologies and capacity building toward emerging countries. We have developed affordable and adaptable end-to-end IoT Solutions. WAZIUP Open Source IoT and Cloud platform aims to accelerate social innovation and empower local IoT entrepreneurship.
   
   ### We Are Building A Sustainable Future
   
