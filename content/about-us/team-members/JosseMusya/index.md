@@ -1,6 +1,6 @@
 ---
 name: Josee Musya
-role: Developer
+role: Sotfware Developer
 cover: josse.png
 weight: -12
 ---
