@@ -3,13 +3,7 @@ languageCode: 'en-us'
 title: 'Waziup e.V.'
 ignoreErrors: ["error-remote-getjson"]
 paginate: 6
-# markup:
-#   goldmark:
-#     parser:
-#       attribute:
-#         block: true
-#         title: true
-
+date_format: "02 Jan 2006"
 
 menu:
   main:

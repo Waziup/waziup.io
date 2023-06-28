@@ -1,5 +1,5 @@
 ---
-title: "NEWS: Waziup at Rawanda"
+title: IoT Rapid Application Course in Rwanda
 cover: cover.png
 description: Waziup and ACEIoT Empower African Innovators with IoT Rapid Application Course in Rwanda
 category: NEWS

@@ -1,5 +1,5 @@
 ---
-title: "NEWS: The HUBiquitous project"
+title: The HUBiquitous Accelerator Program
 cover: cover.png
 description: "Waziup’s WaziLab Simplifies Prototyping for African Startups in HUBiquitous Accelerator Program"
 category: PROJECT

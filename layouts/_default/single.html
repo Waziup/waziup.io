@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="page" id={{.Params.id}}>
+<div class="page news">
 
   <div style="display: flex;flex-direction: column;">
     <div class="page-banner">
@@ -9,6 +9,7 @@
   </div>
 
   <div class="single">  
+  <span class="date">{{.Date | time.Format ":date_long" }}</span>
     {{ .Content | safeHTML }}
   </div>
 

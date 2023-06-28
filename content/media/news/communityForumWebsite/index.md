@@ -1,5 +1,5 @@
 ---
-title: WAZIUP launches its community forum website
+title: Launching the WAZIUP community forum website
 cover: cover.webp
 description: "YEAY! We launched our community forum"
 category: NEWS

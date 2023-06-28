@@ -1,7 +1,7 @@
 ---
-title: Customizable dashboard on waziGate
+title: New Intel-IrriS dashboard
 cover: cover.png
-description: "Enhance your IoT experience with the new customizable dashboard on Intel - IrriS waziGate"
+description: "Enhance your IoT experience with the new customizable dashboard on Intel-IrriS waziGate"
 category: NEWS
 date: 2022-12-19
 ---

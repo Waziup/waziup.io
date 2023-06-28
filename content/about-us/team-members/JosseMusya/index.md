@@ -1,6 +1,6 @@
 ---
 name: Joseph Musya
-role: Sotfware Developer
+role: Software Developer
 cover: josse.png
 weight: -12
 ---

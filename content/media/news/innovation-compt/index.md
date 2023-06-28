@@ -1,5 +1,5 @@
 ---
-title: "The Innovation Competition: a driver for IoT Open Innovation in Africa"
+title: Launching the Innovation Competition
 cover: cover.webp
 description: "The Innovation Competition: a driver for IoT Open Innovation in Africa"
 category: NEWS

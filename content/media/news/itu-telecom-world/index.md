@@ -1,5 +1,5 @@
 ---
-title: Waziup at ITU telecom world, Durban, South Africa 
+title: Waziup at ITU telecom world in South Africa 
 cover: cover.jpeg
 description: "Waziup at ITU telecom world, Durban, South Africa"
 category: NEWS

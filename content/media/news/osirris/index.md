@@ -1,5 +1,5 @@
 ---
-title: "NEWS: The OSIRRIS project"
+title: Waziup sensor system deployed in Tunisia
 cover: cover.webp
 description: "Installation of Waziup e.V.’s sensor system on Farms in Tunisia"
 category: PROJECT
@@ -9,7 +9,7 @@ date: 2022-12-17
 
 {{<floating_image image="sens_install.jpg" float="right" width="450px" >}}
 
-Dr. -Ing. Abdur Rahim, Felix Markwordt and Dr. -Ing. Corentin Dupont visited Tunisia in December 2022 to install Waziup e.V. 's sensor system on two farms. Each farm received one WaziGate and four microcontrollers equipped with sensors to collect and temporarily store data, which was later sent to WaziCloud for further analysis. These data were essential to train regression models.
+As part of the Osirris project, Dr. -Ing. Abdur Rahim, Felix Markwordt and Dr. -Ing. Corentin Dupont visited Tunisia in December 2022 to install Waziup e.V. 's sensor system on two farms. Each farm received one WaziGate and four microcontrollers equipped with sensors to collect and temporarily store data, which was later sent to WaziCloud for further analysis. These data were essential to train regression models.
 
 
 The first installation took place in Sidi Thabet, where durum wheat was grown, followed by the Agricultural Training center of Sbeitla CFPA, where several apple varieties were cultivated. However, the sensor readings could not be used until the beginning of February due to power outages and other issues. Additionally, the lack of Wi-Fi at the Cherfech farm made it challenging to synchronize with waziCloud.
