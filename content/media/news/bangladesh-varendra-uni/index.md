@@ -1,5 +1,5 @@
 ---
-title: "NEWS: Bangladesh Event"
+title: IoT event in Bangladesh
 cover: cover.webp
 description: IoT event in Bangladesh with Varendra University
 category: NEWS

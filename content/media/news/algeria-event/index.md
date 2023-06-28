@@ -1,5 +1,5 @@
 ---
-title: Waziup News
+title: Waziup event in Algeria
 cover: cover.webp
 description: WAZIUP ORGANISED A TWO DAYS EVENT IN ALGERIA - Jan 15, 2020
 category: NEWS

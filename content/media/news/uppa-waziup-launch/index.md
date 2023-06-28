@@ -1,7 +1,7 @@
 ---
-title: "NEWS: The INTEL-IRRIS project"
+title: Launching the embedded Intel-IrriS Irrigation WaziApp
 cover: cover.webp
-description: "UPPA and Waziup launch - the embedded Intel - IrriS Irrigation WaziApp Application for smarter water usage"
+description: "UPPA and Waziup launch the embedded Intel-IrriS Irrigation WaziApp Application for smarter water usage"
 category: PROJECT
 date: 2022-09-05
 ---
@@ -9,7 +9,7 @@ date: 2022-09-05
 
 {{<floating_image image="image.png" float="right" width="500px" >}}
 
-## UPPA and Waziup launch - the embedded Intel - IrriS Irrigation WaziApp Application for smarter water usage
+## UPPA and Waziup launch the embedded Intel-IrriS Irrigation WaziApp Application for smarter water usage
 
 UPPA and Waziup have jointly developed the embedded Intel - IrriS Irrigation WaziApp Application (IIWA), which is now available for testing! The latest Intel - IrriS WaziGate SD card image includes IIWA, making it even easier for users to access and utilize the application.
 

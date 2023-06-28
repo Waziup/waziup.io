@@ -1,5 +1,5 @@
 ---
-title: WAZIUP at AfricaCom 2018 in Cape Town, South Africa
+title: WAZIUP at AfricaCom 2018
 cover: cover.jpg
 description: WAZIUP at AfricaCom 2018 in Cape Town, South Africa
 category: NEWS

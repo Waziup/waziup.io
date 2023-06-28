@@ -1,5 +1,5 @@
 ---
-title: "NEWS: The INTEL-IRRIS project"
+title: Launching the PRIMA Coding Challenge
 cover: cover.webp
 description: "Waziup is proud to announce the PRIMA Coding Challenge"
 category: PROJECT

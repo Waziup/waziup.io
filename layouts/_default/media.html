@@ -23,8 +23,8 @@
           {{ partial "card.html" (dict
             "Cover"       $cover.RelPermalink
             "Category"    .Params.category
-            "Date"        (.Date.Format "January 2, 2006")
-            "Description" .Description
+            "Date"        (.Date | time.Format ":date_long")
+            "Description" .Params.title
             "Permalink"   .Permalink )}}
         {{ end }}  
       </ul>

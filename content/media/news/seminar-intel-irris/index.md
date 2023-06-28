@@ -1,5 +1,5 @@
 ---
-title: "NEWS: The INTEL-IRRIS project"
+title: Seminar on the IoT and Machine Learning for Smart Precision Agriculture
 cover: cover.png
 description: "Seminar on the application of the Internet of Thing and Machine Learning for Smart Precision Agriculture"
 category: PROJECT
@@ -8,7 +8,7 @@ date: 2022-06-14
 <!-- ![image](cover.png) -->
 {{<floating_image image="cover.png" float="right" width="600px" >}}
 
-## UPPA and Waziup launch - the embedded Intel - IrriS Irrigation WaziApp Application for smarter water usage
+## Seminar on the application of the Internet of Thing and Machine Learning for Smart Precision Agriculture
 
 On June 13th, 2022, the International Water Research Institute (IWRI) of the University Mohammed 6 Polytechnic hosted a seminar on the application of the Internet of Things (IoT) and machine learning for smart precision agriculture. The seminar was organized by Pr K.Baraka and Pr J. Ezzahar of ENSA Safi and CRSA, and featured four guest speakers who shared their expertise on the topic. Two of the guest speakers were from Waziup e.V. 
 

@@ -1,5 +1,5 @@
 ---
-title: "NEWS: The URBANE Project"
+title: Urbane Kickoff Meeting
 cover: cover.jpg
 description: Waziup attended the Urbane Kickoff Meeting
 category: NEWS

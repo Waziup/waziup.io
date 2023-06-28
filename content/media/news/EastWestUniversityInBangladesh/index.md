@@ -1,5 +1,5 @@
 ---
-title: "NEWS: WAZIHUB in Bangladesh"
+title: WAZIHUB in Bangladesh
 cover: cover.webp
 description: "IoT and Big Data for Sustainable Development"
 category: NEWS

@@ -1,5 +1,5 @@
 ---
-title: "NEWS: WaziHub workshop at WSIS Forum"
+title: Workshop at WSIS Forum 2019 in Geneva
 cover: cover.webp
 description: WAZIHUB workshop at WSIS Forum 2019 in Geneva, Switzerland - Nov 05, 2019
 category: NEWS

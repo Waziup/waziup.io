@@ -1,5 +1,5 @@
 ---
-title: "NEWS: The HUBiquitous project"
+title: HUBiquitous project General meeting in Tanzania
 cover: cover.jpg
 description: "Waziup participated in HUBiquitous General Meeting in Tanzania, Showcases Innovative Solution"
 category: PROJECT

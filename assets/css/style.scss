@@ -951,12 +951,12 @@ h1 {
 			flex-direction: column;
 			// justify-content: space-between;
 			width: 100%;
-			padding: 1rem;
+			padding: 0.5rem;
 			overflow: hidden;
 
 			>span {
-				color: #F35E19;
-				font-size: 1em;
+				color: #c7c3c2;
+				font-size: 0.9em;
 			}
 
 			>h3 {
@@ -967,6 +967,9 @@ h1 {
 				-webkit-box-orient: vertical;
 				overflow: hidden;
 				white-space: pre-wrap;
+        margin-top: 0.4em;
+        margin-bottom: 0.4em;
+        text-align: left;
 			}
 		}
 
@@ -1325,6 +1328,7 @@ h1 {
   }
 }
 
+//Team page
 .team-member-container {
 	margin: 2vw auto;
 	display: flex;
@@ -1369,6 +1373,7 @@ h1 {
 	}
 }
 
+//partners
 .partners {
 	display: flex;
 	flex-wrap: wrap;
@@ -1384,6 +1389,7 @@ h1 {
 	;
 }
 
+//Contact us
 .contact-us {
 	display: flex;
 	flex-direction: column;
@@ -1517,6 +1523,17 @@ h1 {
 
 	@media(max-width: $sm) {}
 }
+
+//news
+.news {
+
+  .date {
+		color: #c7c3c2;
+		font-size: 0.9em;
+  }
+
+}
+
 
 
 /***************** Image effects ************************/

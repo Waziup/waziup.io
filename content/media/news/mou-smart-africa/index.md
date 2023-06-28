@@ -1,5 +1,5 @@
 ---
-title: WAZIUP signed a MoU with Smart Africa - Nov 03, 2020
+title: WAZIUP signed a MoU with Smart Africa
 cover: cover.webp
 description: WAZIUP signed a MoU with Smart Africa - Nov 03, 2020
 category: NEWS

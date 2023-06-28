@@ -1,5 +1,5 @@
 ---
-title: "NEWS: The HUBiquitous project"
+title: Waziup in the 7th EU-Africa Business Forum
 cover: cover.png
 description: "Dr. -Ing. Abdur Rahim Participates in 7th EU-Africa Business Forum, Discusses Digital Innovation"
 category: PROJECT

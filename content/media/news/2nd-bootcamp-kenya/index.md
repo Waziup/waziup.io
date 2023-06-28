@@ -1,5 +1,5 @@
 ---
-title: "NEWS: WaziHub Bootcamp Kenya"
+title: "WaziHub Bootcamp in Kenya"
 cover: cover.webp
 description: WAZIHUB second Bootcamp Kenya with @ilabAfrica - Nov 22, 2019
 category: NEWS
@@ -9,7 +9,7 @@ date: 2019-11-22
 
 ## WAZIHUB second Bootcamp Kenya with @ilabAfrica - Nov 22, 2019
 
-@ilabAfrica, which is member of the network of Hubs build by Wazihub for IoT and Big Data innovation held its 2nd bootcamp
+@ilabAfrica, which is member of the network of Hubs build by Wazihub for IoT and Big Data innovation held its 3nd bootcamp
 The second @iLabAfrica Wazihub bootcamp was held on the 15th to 18th October 2019 in Strathmore University premises. The 4 day bootcamp was a practical and classroom led training that engaged the participants to develop their ideas in the field of the Internet of Things (IoT) using the Waziup technology. This workshop was rich in diversity as it engaged different players in the industry including; Liquid Telecom, Strathmore University Business School, and the UN Habitat
 
 <!-- ![image](cover.webp) -->

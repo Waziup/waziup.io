@@ -1,5 +1,5 @@
 ---
-title: Waziup Learning Center
+title: Launching the Waziup Learning Center
 cover: cover.png
 description: "WAZIUP Learning Center: Empowering African Innovators through IoT Education"
 category: NEWS
