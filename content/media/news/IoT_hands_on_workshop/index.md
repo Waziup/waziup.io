@@ -1,7 +1,7 @@
 ---
 title: IoT hands-on workshop
 cover: coverimage.jpg
-description: ""Collaborative Workshop by Leading Technology Organizations Empowers Developers in Circuit Design, IoT, and TinyML""
+description: Collaborative Workshop by Leading Technology Organizations Empowers Developers in Circuit Design, IoT, and TinyML
 category: NEWS
 date: 2023-06-10
 ---
