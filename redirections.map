@@ -1,0 +1,3 @@
+~/documentation/wazidev(.*)$   https://lab.waziup.io/resources/waziup/wazidev; 
+~/documentation/wazigate(.*)$  https://lab.waziup.io/resources/waziup/wazigate;
+~/documentation/wazicloud(.*)$ https://lab.waziup.io/resources/waziup/wazicloud;
