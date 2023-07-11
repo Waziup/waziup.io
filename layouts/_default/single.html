@@ -9,8 +9,12 @@
   </div>
 
   <div class="single">  
-  <span class="date">{{.Date | time.Format ":date_long" }}</span>
-    {{ .Content | safeHTML }}
+    <div>
+      <span class="date">{{.Date | time.Format ":date_long" }}</span>
+    </div>
+    <div>
+      {{ .Content | safeHTML }}
+    </div>
   </div>
 
 </div>

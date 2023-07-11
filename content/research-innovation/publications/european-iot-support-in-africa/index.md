@@ -44,5 +44,5 @@ Wazihub has resulted in successful outcomes in various sectors, becoming product
 ### Related Contents
 - Article [European Commission: Shaping Europe’s digital future](https://digital-strategy.ec.europa.eu/en/news/european-internet-things-technology-supports-innovation-africa)
 - Download [European IoT support innovations in Africa by Waziup](doc.pdf).
-- Video [IoT powered in Africa by Waziup]([Wazihub_Technology_Magazine_2021.pdf](https://www.youtube.com/watch?v=sf7SRVEChbY&feature=youtu.be&ab_channel=WAZIUP)).
+- Video [IoT powered in Africa by Waziup](https://www.youtube.com/watch?v=sf7SRVEChbY&feature=youtu.be&ab_channel=WAZIUP).
 - Video [Wazihub tech hubs in different sectors](https://www.youtube.com/watch?v=hu-v-eukLAc&feature=youtu.be&ab_channel=WAZIUP)

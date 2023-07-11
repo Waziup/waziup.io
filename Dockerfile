@@ -1,9 +1,8 @@
-FROM debian:stretch
+FROM debian:bookworm
 
-# Install dependencies
-RUN apt-get -qq update \
-  && DEBIAN_FRONTEND=noninteractive apt-get -qq install -y --no-install-recommends git ca-certificates curl ssh webhook nginx \
-  && rm -rf /var/lib/apt/lists/*
+RUN apt-get -qq update
+RUN DEBIAN_FRONTEND=noninteractive apt-get -qq install -y --no-install-recommends git ca-certificates curl ssh webhook nginx
+RUN rm -rf /var/lib/apt/lists/*
 
 # Configuration variables
 ENV HUGO_VERSION 0.110.0
@@ -35,5 +34,6 @@ EXPOSE 9000
 COPY hooks.json /etc/hooks.json
 COPY scripts /scripts
 ADD nginx.conf /etc/nginx/sites-available/default
+ADD redirections.map /etc/nginx/snippets/redirections.map
 
 ENTRYPOINT [ "bash", "/scripts/start.sh" ]
