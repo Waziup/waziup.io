@@ -1,5 +1,5 @@
 ---
-title: Launching the PRIMA Coding Challenge
+title: The PRIMA INTEL-IRRIS Coding Challenge - Enhance the INTEL-IRRIS Irrigation WaziApp (IIWA) Application!
 cover: cover.webp
 description: "Waziup is proud to announce the PRIMA Coding Challenge"
 category: PROJECT
