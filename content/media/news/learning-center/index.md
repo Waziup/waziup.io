@@ -1,5 +1,5 @@
 ---
-title: Launching the Waziup Learning Center
+title: Empowering African Innovators - Launching the WAZIUP Learning Center for IoT Solution 
 cover: cover.png
 description: "WAZIUP Learning Center: Empowering African Innovators through IoT Education"
 category: NEWS
