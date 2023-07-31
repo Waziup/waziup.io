@@ -1,5 +1,5 @@
 ---
-title: Waziup event in Algeria
+title: Waziup Commissioned by German Federal Ministry for Economic Affairs and Energy for IoT & LoRaWan Technologies Event at Sidi Abdallah Technopark
 cover: cover.webp
 description: WAZIUP ORGANISED A TWO DAYS EVENT IN ALGERIA - Jan 15, 2020
 category: NEWS

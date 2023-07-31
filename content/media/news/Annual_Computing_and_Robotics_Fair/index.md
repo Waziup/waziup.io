@@ -1,5 +1,5 @@
 ---
-title: Third Annual Computing and Robotics Fair
+title: WAZIUP e. V. at Alliance High School 3rd Annual Computing and Robotics Fair 2023
 cover: coverimage.jpg
 description: "Third Annual Computing and Robotics Fair"
 category: NEWS

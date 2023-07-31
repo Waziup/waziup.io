@@ -1,5 +1,5 @@
 ---
-title: IoT hands-on workshop
+title: Joint Collaborative Workshop by IEEE Student Branches and Societies in Kenya, in partnership with Waziup 
 cover: coverimage.jpg
 description: Collaborative Workshop by Leading Technology Organizations Empowers Developers in Circuit Design, IoT, and TinyML
 category: NEWS
