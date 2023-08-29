@@ -4,6 +4,7 @@ cover: cover.webp
 description: "Installation of Waziup e.V.’s sensor system on Farms in Tunisia"
 category: PROJECT
 date: 2022-12-17
+weight: 4
 ---
 ## Installation of Waziup e.V.’s sensor system on Farms in Tunisia
 

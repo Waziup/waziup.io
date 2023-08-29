@@ -4,6 +4,7 @@ cover: coverimage.jpg
 description: "Third Annual Computing and Robotics Fair"
 category: NEWS
 date: 2023-06-17
+weight: 2
 ---
 
 <!-- ![image](cover.webp) -->

@@ -4,6 +4,7 @@ cover: cover.webp
 description: "Waziup is proud to announce the PRIMA Coding Challenge"
 category: PROJECT
 date: 2023-04-04
+weight: 3
 ---
 ## Waziup is proud to announce the PRIMA Coding Challenge
 

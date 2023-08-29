@@ -4,6 +4,7 @@ cover: cover.jpg
 description: WAZIUP participate in Urbane consortium meeting in Rabat, Morocco
 category: NEWS
 date: 2022-11-24
+weight: 6
 ---
 
 <!-- ![image](cover.jpg) -->

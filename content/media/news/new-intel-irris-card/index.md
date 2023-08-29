@@ -4,6 +4,7 @@ cover: cover.png
 description: "New INTEL-IRRIS SD CARD Image Released with Enhanced features on WaziGate framework"
 category: NEWS
 date: 2023-04-19
+weight: 3
 ---
 
 # New INTEL-IRRIS SD CARD Image Released with Enhanced features on WaziGate framework  

@@ -4,6 +4,7 @@ cover: cover.webp
 description: WAZIHUB workshop at WSIS Forum 2019 in Geneva, Switzerland - Nov 05, 2019
 category: NEWS
 date: 2019-11-05
+weight: 1
 ---
 
 <!-- ![image](image.webp) -->

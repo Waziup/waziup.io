@@ -4,6 +4,7 @@ cover: coverimage.jpg
 description: "Dr. -ing. Abdur Rahim Managing Director at Waziup e.V., representing HUBiquitous in AU-EU innovation Event"
 category: NEWS
 date: 2022-11-25
+weight: 2
 ---
 
 <!-- ![image](cover.webp) -->

@@ -4,6 +4,7 @@ cover: cover.webp
 description: "UPPA and Waziup launch the embedded Intel-IrriS Irrigation WaziApp Application for smarter water usage"
 category: PROJECT
 date: 2022-09-05
+weight: 3
 ---
 <!-- ![image](image.png) -->
 

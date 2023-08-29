@@ -4,6 +4,7 @@ cover: cover.webp
 description: Smart Village kickoff in Saint-Louis - March 18, 2020
 category: NEWS
 date: 2020-03-05
+weight: 1
 ---
 
 ## Smart Village kickoff in Saint-Louis
