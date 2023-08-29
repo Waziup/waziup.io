@@ -1331,6 +1331,8 @@ h1 {
 		text-align: left;
 		margin-bottom: 8px;
 		padding-bottom: 8px;
+		display: flex;
+		flex-direction: column;
 	
 		&:hover {
 			> a, span, > a::before {
