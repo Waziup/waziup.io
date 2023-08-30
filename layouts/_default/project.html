@@ -46,7 +46,10 @@
           </br>
           </br>
           {{if .Page.Params.website}}
-          <a href={{.Page.Params.website}} target=_blank>Website</a>
+          <div style="display: flex; align-items: cenrer; gap: 8px;">
+            <img src="/img/svg/ico-website.svg" alt="hero-curve">
+            <a href={{.Page.Params.website}} style="text-decoration: none; color: #407BFF;" target=_blank>Website</a>
+          </div>
           {{end}}
         </div>
 
@@ -68,11 +71,8 @@
         </div>
       </div>
 
-
     </div>
     </br>
-
-
   </div>
 
 </div>

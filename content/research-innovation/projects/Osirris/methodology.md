@@ -1,6 +1,0 @@
-Methodology
-$$$
-## Methodology
-methodological informations
-
----

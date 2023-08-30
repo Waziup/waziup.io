@@ -39,7 +39,7 @@ The various components of the OSIRRIS platform will run on open and affordable h
 Methodology
 $$$
 ## Methodology
-{{include methodology.md}}
+i tried so hard but could not go far..
 
 ---
 
