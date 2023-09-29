@@ -4,6 +4,7 @@ cover: cover.webp
 description: WAZIHUB second Bootcamp Kenya with @ilabAfrica - Nov 22, 2019
 category: NEWS
 date: 2019-11-22
+weight: 1
 ---
 
 

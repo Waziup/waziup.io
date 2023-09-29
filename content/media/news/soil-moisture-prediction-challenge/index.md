@@ -4,6 +4,7 @@ cover: cover.webp
 description: Winners of WAZIHUB Soil Moisture Prediction Challenge with Microsoft & Zindi - Nov 08, 2019
 category: NEWS
 date: 2019-11-08
+weight: 1
 ---
 
 <!-- ![image](cover.webp) -->

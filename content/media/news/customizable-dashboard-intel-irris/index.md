@@ -4,6 +4,7 @@ cover: cover.png
 description: "Enhance your IoT experience with the new customizable dashboard on Intel-IrriS waziGate"
 category: NEWS
 date: 2022-12-19
+weight: 3
 ---
 
 # Enhance your IoT experience with the new customizable dashboard on Intel - IrriS waziGate

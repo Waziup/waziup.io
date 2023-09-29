@@ -573,39 +573,39 @@ h1 {
 	list-style-position: inside;
 	scroll-margin-top: 5rem;
 
-  //section titles
-  h1 {
-  	margin-top: 0.5rem;
-  	margin-bottom: 3.5rem;
-  	display: flex;
-  	flex-direction: column;
-  	text-align: center;
-  	width: 100%;
-  	justify-content: center;
-  	align-items: center;
-  	font-size: 3rem;
-  	font-weight: 600;
-  	gap: .7rem;
-  
-    // Small underline after the title 
-    &:after {
-    	content: "";
-    	height: 1px;
-    	bottom: 0;
-    	width: 8%;
-    	left: 25%;
-    	border-top: .35rem solid coral;
-    	border-radius: 1rem;
-    	margin-top: 1rem;
-    }
-  }
-	
-  // Banded sections of alternated colors
+	//section titles
+	h1 {
+		margin-top: 0.5rem;
+		margin-bottom: 3.5rem;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		font-size: 3rem;
+		font-weight: 600;
+		gap: .7rem;
+
+		// Small underline after the title 
+		&:after {
+			content: "";
+			height: 1px;
+			bottom: 0;
+			width: 8%;
+			left: 25%;
+			border-top: .35rem solid coral;
+			border-radius: 1rem;
+			margin-top: 1rem;
+		}
+	}
+
+	// Banded sections of alternated colors
 	+.banded:nth-of-type(even) {
 		background-color: $waziup-off-white;
 	}
 
-  //Section bullets
+	//Section bullets
 	ul {
 		padding-left: 15px;
 
@@ -665,8 +665,8 @@ h1 {
 	}
 
 	//Dynamic margins according to screen size 
-  //TODO: screen size breaks should be done in one place only (now it's in sections, single, banner...)
-  //It should be done in a single "container" class.
+	//TODO: screen size breaks should be done in one place only (now it's in sections, single, banner...)
+	//It should be done in a single "container" class.
 	padding: 3rem 20vw;
 
 	@media (max-width:$xl) {
@@ -967,9 +967,9 @@ h1 {
 				-webkit-box-orient: vertical;
 				overflow: hidden;
 				white-space: pre-wrap;
-        margin-top: 0.4em;
-        margin-bottom: 0.4em;
-        text-align: left;
+				margin-top: 0.4em;
+				margin-bottom: 0.4em;
+				text-align: left;
 			}
 		}
 
@@ -1297,35 +1297,71 @@ h1 {
 //Project page
 .project {
 
-  .project-main {
-	  display: flex;
-    gap: 3rem;
+	.project-main {
+		display: flex;
+		gap: 3rem;
 
-  	@media (max-width:$md) {
-  		flex-direction: column;
-  	}
-  }
+		@media (max-width:$md) {
+			flex-direction: column;
+		}
+	}
 
-  .project-desc {
-  	min-width: 300px;
-  }
+	.project-desc {
+		min-width: 300px;
+	}
 
-  .project-id {
-  	padding: 30px;
-  	min-width: 300px;
-  	background-color: $waziup-off-white;
-  	text-align: left;
-    height: 100%;
-  
-  	@media (max-width:$md) {
-  		margin-left: 0;
-  	}
-  }
-  
-  .project-ack {
-    display:flex;
-    gap: 1rem;
-  }
+	.project-info-section {
+		min-width: 300px;
+	}
+
+	.project-id {
+		padding: 30px;
+		width: 100%;
+		background-color: $waziup-off-white;
+		text-align: left;
+		// height: 100%;
+
+		@media (max-width:$md) {
+			margin-left: 0;
+		}
+	}
+
+	.project-news {
+		border-bottom: 1px solid rgb(221, 221, 221);
+		text-align: left;
+		margin-bottom: 8px;
+		padding-bottom: 8px;
+		display: flex;
+		flex-direction: column;
+	
+		&:hover {
+			> a, span, > a::before {
+				color: #f35e19;
+			}
+		}
+	
+		> a, span {
+			text-decoration: none;
+			font-size: smaller;
+			color: #515b60;
+	
+			&:hover {
+				/* Removed the individual hover effect */
+			}
+		}
+	
+		> a::before {
+			content: '\003e'; /* Greater than sign */
+			display: inline-block;
+			margin-right: 6px;
+		}
+	}
+	
+
+	.project-ack {
+		display: flex;
+		gap: 1rem;
+	}
 }
 
 //Team page
@@ -1527,10 +1563,10 @@ h1 {
 //news
 .news {
 
-  .date {
+	.date {
 		color: #c7c3c2;
 		font-size: 0.9em;
-  }
+	}
 
 }
 
@@ -1756,22 +1792,25 @@ h1 {
 			gap: 3rem;
 			flex: 1 0 100%;
 			scroll-snap-align: start;
-      a {
-  			text-decoration: none;
-      }
-		  @media (max-width: $sm) {
-		  	flex-direction: column;
-		  }
+
+			a {
+				text-decoration: none;
+			}
+
+			@media (max-width: $sm) {
+				flex-direction: column;
+			}
 
 			div {
 				width: 50%;
+
 				@media (max-width: $sm) {
 					width: 100%;
 				}
 			}
 		}
-			
-    h2 {
+
+		h2 {
 			margin: auto;
 			margin-top: 1vw;
 			margin-bottom: 1vw;
@@ -1790,8 +1829,8 @@ h1 {
 			text-align: right;
 			font-size: 1.7em;
 			font-weight: 500;
-      color: white;
-      font-style: italic;
+			color: white;
+			font-style: italic;
 
 			@media (max-width: $sm) {
 				text-align: left;
@@ -1801,7 +1840,7 @@ h1 {
 
 
 		img {
-      width:100%;
+			width: 100%;
 		}
 
 
@@ -1856,3 +1895,38 @@ h1 {
 }
 
 
+.project-tab {
+	>ul {
+		list-style-type: none;
+		display: flex;
+		gap: 24px;
+		padding-left: 0;
+
+		>li {
+			position: relative;
+
+			>a {
+				color: #bf9218;
+				text-decoration: none;
+			}
+
+			&::before {
+				content: "|";
+				position: absolute;
+				left: -12px;
+				color: #ccc;
+			}
+
+			&:first-child::before {
+				content: none;
+			}
+
+			// Add styles for the active class
+			&.active {
+				>a {
+					color: red;
+				}
+			}
+		}
+	}
+}

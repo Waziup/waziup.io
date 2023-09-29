@@ -4,6 +4,7 @@ cover: cover.webp
 description: "IoT and Big Data for Sustainable Development"
 category: NEWS
 date: 2019-11-03
+weight: 1
 ---
 
 <!-- ![image](cover.webp) -->

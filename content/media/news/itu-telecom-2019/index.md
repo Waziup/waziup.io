@@ -4,6 +4,7 @@ cover: cover.webp
 description: WAZIUP at ITU Telecom World 2019 in Budapest
 category: NEWS
 date: 2019-09-25
+weight: 1
 ---
 
 <!-- ![image](cover.webp) -->

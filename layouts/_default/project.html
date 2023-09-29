@@ -8,42 +8,71 @@
 
   <div class="single">
     <div class="project-main">
-      <div class="project-desc"> 
+
+      <!-- project content -->
+      <div class="project-desc">
         {{ .Content | safeHTML }}
+        <!-- bottom investor section -->
+        <div style="display:flex; gap: 1rem;">
+          <div class="w40">
+            <img src={{.Page.Params.acknowledgement.logo}} width="100px">
+          </div>
+          <div class="w60">
+            {{.Page.Params.acknowledgement.text}}
+          </div>
+        </div>
       </div>
-      <div class="project-id">
-        <img src={{.Page.Params.logo}} width="200px">
-        </br>
-        </br>
-        <b>Category:</b>
-        {{.Page.Params.category}}
-        </br>
-        </br>
-        
-        <b>Countries:</b>
-        <ul>
-        {{range .Page.Params.countries}}
-          <li> {{.}} </li>
-        {{end}}
-        </ul>
-        <b>Duration:</b>
-        {{.Page.Params.duration}}
-        </br>
-        </br>
-        {{if .Page.Params.website}}
-          <a href={{.Page.Params.website}} target=_blank>Website</a>
-        {{end}}
+
+      <!-- project informations -->
+      <div class="project-info-section">
+        <!-- logo section -->
+        <div class="project-id">
+          <img src={{.Page.Params.logo}} width="200px">
+          </br>
+          </br>
+          <b>Category:</b>
+          {{.Page.Params.category}}
+          </br>
+          </br>
+
+          <b>Countries:</b>
+          <ul>
+            {{range .Page.Params.countries}}
+            <li> {{.}} </li>
+            {{end}}
+          </ul>
+          <b>Duration:</b>
+          {{.Page.Params.duration}}
+          </br>
+          </br>
+          {{if .Page.Params.website}}
+          <div style="display: flex; align-items: cenrer; gap: 8px;">
+            <img src="/img/svg/ico-website.svg" alt="hero-curve">
+            <a href={{.Page.Params.website}} style="text-decoration: none; color: #407BFF;" target=_blank>Website</a>
+          </div>
+          {{end}}
+        </div>
+
+        <!-- news links -->
+        <div>
+          {{ $newsPage := .Page.GetPage "media/news" }}
+          {{ $news := $newsPage.Pages }}
+
+          <h3>Recent Post</h3>
+          <div>
+            {{ range sort (where $news ".Params.weight" .Weight ) ".Date" "desc" }}
+            {{ $cover := .Resources.GetMatch .Params.cover }}
+            {{ partial "project-inline-news.html" (dict
+            "Permalink" .Permalink
+            "Title" .Params.title
+            "Date" .Params.date)}}
+            {{ end }}
+          </div>
+        </div>
       </div>
+
     </div>
     </br>
-    <div style="display:flex; gap: 1rem;">
-      <div class="w40">
-        <img src={{.Page.Params.acknowledgement.logo}} width="100px">
-      </div>
-      <div class="w60">
-        {{.Page.Params.acknowledgement.text}}
-      </div>
-    </div>
   </div>
 
 </div>

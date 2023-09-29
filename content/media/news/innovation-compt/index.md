@@ -4,6 +4,7 @@ cover: cover.webp
 description: "The Innovation Competition: a driver for IoT Open Innovation in Africa"
 category: NEWS
 date: 2020-11-18
+weight: 1
 ---
 
 
