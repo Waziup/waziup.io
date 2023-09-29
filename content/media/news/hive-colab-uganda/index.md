@@ -4,6 +4,7 @@ cover: cover.webp
 description: IoT party organized by Hive Colab in Uganda
 category: NEWS
 date: 2019-11-22
+weight: 1
 ---
 ## IoT party organized by Hive Colab in Uganda
 

@@ -4,6 +4,7 @@ cover: cover.webp
 description: IoT event in Bangladesh with Varendra University
 category: NEWS
 date: 2019-11-06
+weight: 1
 ---
 
 <!-- ![image](cover.webp) -->

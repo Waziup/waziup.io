@@ -1,9 +1,10 @@
 ---
-title: New INTEL-IRRIS SD CARD Image
+title: The PRIMA INTEL-IRRIS Coding Challenge - Enhance the INTEL-IRRIS Irrigation WaziApp (IIWA) Application!
 cover: cover.png
 description: "New INTEL-IRRIS SD CARD Image Released with Enhanced features on WaziGate framework"
 category: NEWS
 date: 2023-04-19
+weight: 3
 ---
 
 # New INTEL-IRRIS SD CARD Image Released with Enhanced features on WaziGate framework  

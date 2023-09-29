@@ -1,9 +1,10 @@
 ---
-title: Re:publica Event 
+title: Empowering Innovation - Waziup e.V. Leaves a Mark at Re:publica Event 
 cover: coverimage.jpg
 description: "Waziup e.V. Showcases Hubiquitous Solution at Re:publica, Inspiring Technological Advancements and Meaningful Dialogues"
 category: NEWS
 date: 2023-06-05
+weight: 2
 ---
 
 <!-- ![image](cover.webp) -->

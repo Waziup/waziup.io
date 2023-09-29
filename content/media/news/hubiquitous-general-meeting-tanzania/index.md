@@ -4,6 +4,7 @@ cover: cover.jpg
 description: "Waziup participated in HUBiquitous General Meeting in Tanzania, Showcases Innovative Solution"
 category: PROJECT
 date: 2021-04-20
+weight: 2
 ---
 <!-- ![image](cover.jpg) -->
 {{<floating_image image="cover.jpg" float="right" width="500px" >}}

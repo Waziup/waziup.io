@@ -1,9 +1,10 @@
 ---
-title: DIGILOGIC Project
+title: Digitalization Advancing through Collaboration - Waziup e.V. Represents HUBiquitous at the DIGILOGIC Event
 cover: coverimage.jpg
 description: "Europe and Africa Unite to Drive Digitalization Forward: DIGILOGIC Project and HUBiquitous Lead the Way in Transforming Digital Innovation Hubs"
 category: NEWS
 date: 2022-09-20
+weight: 2
 ---
 
 <!-- ![image](cover.webp) -->

@@ -4,6 +4,7 @@ cover: cover.jpg
 description: Waziup attended the Urbane Kickoff Meeting
 category: NEWS
 date: 2022-07-27
+weight: 6
 ---
 
 <!-- ![image](cover.jpg) -->

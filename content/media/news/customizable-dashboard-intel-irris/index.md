@@ -1,9 +1,10 @@
 ---
-title: New Intel-IrriS dashboard
+title: Introducing the Enhanced Intel-Irris WaziGate - Enjoy a Fully Customizable Dashboard with Home Assistant UI
 cover: cover.png
 description: "Enhance your IoT experience with the new customizable dashboard on Intel-IrriS waziGate"
 category: NEWS
 date: 2022-12-19
+weight: 3
 ---
 
 # Enhance your IoT experience with the new customizable dashboard on Intel - IrriS waziGate

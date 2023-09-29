@@ -1,6 +1,6 @@
 ---
 title: WaziHat Pro Single
-description: WaziHat adds LoRa functionality to the raspberry pie
+description: WaziHat adds LoRa functionality to the Raspberry PI
 cover: wazihat_.png
 category: Development Board
 weight: -2
