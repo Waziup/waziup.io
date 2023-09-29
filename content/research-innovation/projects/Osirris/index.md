@@ -39,14 +39,15 @@ The various components of the OSIRRIS platform will run on open and affordable h
 Methodology
 $$$
 ## Methodology
-i tried so hard but could not go far..
+Work in progress.
 
 ---
 
 Pilot
 $$$
 ## Pilot
-some pilot contents
+
+Work in progress.
 
 ---
 
