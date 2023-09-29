@@ -38,6 +38,8 @@ network:
 
 hiring: "At Waziup, we believe in fostering a collaborative, inclusive, and dynamic work culture that enables employees to unleash their full potential and contribute to the company’s mission."
 
+gender: At Waziup e.V., we place a high value on diversity and firmly believe in its transformative power. Our organizational culture is deeply rooted in a set of  core values that include integrity, honesty, reliability, tolerance, and fairness. These principles not only ethos but also serve as the bedrock upon which our corporate culture is built. They are not just words, they are the guiding lights that steer our organization towards success. Our Gender equity plan is coming soon!
+ 
 contact: |
   You can contact us at any moment.
 
