@@ -3,7 +3,7 @@ title: Imprint
 ---
 
 Waziup e.V.  
-Räcknitzhohe 50-52  
+Räcknitzhohe 50/52  
 01217 Dresden  
 Germany  
 contact@waziup.org
