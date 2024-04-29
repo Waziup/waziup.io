@@ -20,7 +20,6 @@ duration: 3 years
 {{< tab-widget >}}
 
 Objectives
-
 $$
 ## Objectives
 ![archi](img/archi.png)
@@ -36,8 +35,7 @@ The various components of the OSIRRIS platform will run on open and affordable h
 ---
 
 Methodology
-$$
-
+$$$
 ## Methodology
 
 ### Project Planning and Stakeholder Engagement
@@ -104,8 +102,7 @@ $$
 ---
 
 Pilot
-
-$$
+$$$
 ## Pilot
 
 In order to properly train the AI models, we will perform a data collection campaign. This campaign will use Waziup tensiometers together with commercial Tensiometers with dataloggers for the pilot.
@@ -116,7 +113,7 @@ In addition, this new technology (OSSIRIS platform) allows farmers controlled, e
 ---
 
 Deliverables
-$$
+$$$
 
 ## Deliverables
 
