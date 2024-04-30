@@ -20,7 +20,8 @@ duration: 3 years
 {{< tab-widget >}}
 
 Objectives
-$$
+$$$
+
 ## Objectives
 ![archi](img/archi.png)
 
@@ -112,10 +113,10 @@ In addition, this new technology (OSSIRIS platform) allows farmers controlled, e
 
 ---
 
-Deliverables
+Results
 $$$
 
-## Deliverables
+## Results
 
 ### Year 2023
 
@@ -126,7 +127,7 @@ $$$
 - WP2, WP3, WP4 D3.1 Design of the OSIRRIS light-weight AI irrigation model
 - WP2, WP3, WP4 D3.2. Report on the development of the OSIRRIS light-weight AI irrigation model
 
-### Detailed Deliverables
+### Detailed results
 
 1. OSIRRIS Irrigation Platform - The main deliverable of the project will be the complete OSIRRIS irrigation platform, comprising the Smart Tensiometer, Edge Irrigation Controller, and associated AI models and inference engines.
 
