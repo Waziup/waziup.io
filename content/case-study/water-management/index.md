@@ -20,7 +20,9 @@ The solution is ideal for businesses, households, residential places and gated c
 
 Majiup solution run on waziup technologies. This encompasses the data collection and data relaying to the gateway. After installing the device on tanks, the wazisense v2.0 is responsible for collecting water level data at an interval of every five minutes. The data is then send to the gateway upto a range of 12km. The communication range depends on the area of deployment. In urban centers, the range is reduced to approximately 6 to 7 km while in rural areas, the distance can be a whopping 15km. The image below shows the architecture of the solution.
 
-![Majiup Architecture](tech-architecture.png)
+<!-- ![Majiup Architecture](tech-architecture.png) -->
+
+![archi](tech-architecture.png#width=700)
 
 The gateway hosts the Majiup application which shows the user interface for the application. This includes the following,
 
@@ -31,7 +33,9 @@ The gateway hosts the Majiup application which shows the user interface for the 
 
 The data collected on the gateway is synced to the cloud when the gateway receives an active internet connection. This step ensures that users can access the app all over the globe using the wazicloud platform. The syncronization of the gatewat to cloud is shown below.
 
-![Application syncronization from wazigate to wazicloud](gateway-cloud.png)
+<!-- ![Application syncronization from wazigate to wazicloud](gateway-cloud.png) -->
+
+![archi](gateway-cloud.png#width=700)
 
 ## Hardware overview
 
