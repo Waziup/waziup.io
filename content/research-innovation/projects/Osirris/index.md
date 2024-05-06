@@ -25,13 +25,23 @@ $$$
 ## Objectives
 ![archi](img/archi.png)
 
-We propose the “OSIRRIS irrigation platform”, an affordable, easily deployable and efficient irrigation system based on IoT and AI with the “Edge computing” architecture concept. We will research and develop a novel distributed AI model for irrigation, able to run both at the sensor level, and at the edge level. This model will use an inference engine to calculate the amount of water needed and the scheduling of irrigation. With respect to other AI irrigation platforms, OSIRRIS will be able to run autonomously, and will not need Internet connection during exploitation.
-The first component of the platform is the “Smart Tensiometer”, an embedded sensor system able to run light-weight AI models for automatic calculation of the local soil water content and plant water stress. The Smart Tensiometers will also be able to perform automatic calibration and corrections. The second component is the Edge irrigation controller, an AI capable IoT gateway. This component will also include an AI model and inference engine, capable of computing an irrigation schedule and enact it. Furthermore, we will research and develop a “multimodal” user interface for improved user experience and acceptance. The system will provide information via simple visual indicators on the tensiometers themselves, a mobile app, SMS notifications and voice commands.
+The following are the objectives for the OSIRRIS irrigation platform.
+
+- Develop the "OSIRRIS irrigation platform" integrating IoT and AI with Edge computing architecture.
+- Design a distributed AI model capable of running at both sensor and edge levels for autonomous irrigation.
+- Create the "Smart Tensiometer," an embedded sensor system for automatic calculation of soil water content and plant water stress.
+- Implement the Edge irrigation controller as an AI-enabled IoT gateway for computing and enacting irrigation schedules.
+- Research and develop a "multimodal" user interface for improved user experience.
+- Utilize open and affordable hardware such as Raspberry Pi and specialized micro-controllers for AI.
 
 {{<floating_image image="img/st_group.png" float="right" width="400px">}}
 
-The various components of the OSIRRIS platform will run on open and affordable hardware system such as Raspberry-PI and specialized micro-controllers for AI. A solar power management will be integrated to make the system fully energy autonomous. The Edge irrigation controller will also be used as a hotspot in order to allow the final user to access the irrigation application locally, effectively removing the need for permanent internet connection. The data privacy will be guaranteed by design. The communications of the system will use the low-power LoRaWAN radio protocol. The Edge-capable gateway developed by Waziup e.V. will be used for the deployment of the OSIRRIS platform. OSIRRIS will use a technical-economical approach to drive the research activities on the irrigation system, integrating hydraulic and agro-economic performance, technological innovation, and environmental aspects. We will pilot and validate the full system in four test sites in Tunisia in operational environments, bringing the TRL of the full system to 6-7.
-
+- Integrate solar power management for full energy autonomy.
+- Enable local access to the irrigation application by using the Edge irrigation controller as a hotspot, eliminating the need for a permanent internet connection.
+- Ensure data privacy by design and use the LoRaWAN radio protocol for communication.
+- Deploy the OSIRRIS platform using the Edge-capable gateway developed by Waziup e.V.
+- Employ a technical-economic approach to drive research activities, integrating hydraulic, agro-economic, technological, and environmental aspects.
+- Pilot and validate the full system in four test sites in Tunisia, aiming to achieve a Technology Readiness Level (TRL) of 6-7.
 
 ---
 
@@ -118,7 +128,7 @@ $$$
 
 ## Results
 
-### Year 2023
+### Year 2023 
 
 - WP 1 D1.1 Report on techno-economic analysis of the proposed irrigation solution
 - WP 1 D1.2 Recommendations for the design of the irrigation system
