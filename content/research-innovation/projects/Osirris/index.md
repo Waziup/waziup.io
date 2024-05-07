@@ -21,7 +21,7 @@ duration: 3 years
 
 Objectives
 
-$$
+$$$
 
 ## Objectives
 ![archi](img/archi.png)
@@ -47,7 +47,7 @@ The following are the objectives for the OSIRRIS irrigation platform.
 ---
 
 Methodology
-$$
+$$$
 
 ## Methodology
 
@@ -116,7 +116,7 @@ $$
 
 Pilot
 
-$$
+$$$
 ## Pilot
 
 In order to properly train the AI models, we will perform a data collection campaign. This campaign will use Waziup tensiometers together with commercial Tensiometers with dataloggers for the pilot.
@@ -127,7 +127,7 @@ In addition, this new technology (OSSIRIS platform) allows farmers controlled, e
 ---
 
 Results
-$$
+$$$
 
 ## Results
 
