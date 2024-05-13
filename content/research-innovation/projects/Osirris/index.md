@@ -133,17 +133,17 @@ $$$
 
 ### Year 2023
 
-- [WP1 D1.1 Report on techno-economic analysis of the proposed irrigation solution.](./deliverables/D1.1.pdf)
+- [D1.1 Report on techno-economic analysis of the proposed irrigation solution.](./deliverables/D1.1.pdf)
 
-- [WP1 D1.2 Recommendations for the design of the irrigation system](./deliverables/D1.2.pdf)
+- [D1.2 Recommendations for the design of the irrigation system](./deliverables/D1.2.pdf)
 
-- [WP2, WP3, WP4 D2.1 Analysis, architecture & design of the low cost AI-capable Smart Tensiometer](./deliverables/D2.1.pdf)
+- [D2.1 Analysis, architecture & design of the low cost AI-capable Smart Tensiometer](./deliverables/D2.1.pdf)
 
-- [WP2, WP3, WP4 D2.2 Report on the development of the low cost AI-capable Smart Tensiometer](./deliverables/D2.2.pdf)
+- [D2.2 Report on the development of the low cost AI-capable Smart Tensiometer](./deliverables/D2.2.pdf)
 
-- [WP2, WP3, WP4 D3.1 Design of the OSIRRIS light-weight AI irrigation model](./deliverables/D3.1.pdf)
+- [D3.1 Design of the OSIRRIS light-weight AI irrigation model](./deliverables/D3.1.pdf)
 
-- [WP2, WP3, WP4 D3.2. Report on the development of the OSIRRIS light-weight AI irrigation model](./deliverables/D3.2.pdf)
+- [D3.2. Report on the development of the OSIRRIS light-weight AI irrigation model](./deliverables/D3.2.pdf)
 
 ### Detailed results
 
