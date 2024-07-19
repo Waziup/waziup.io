@@ -1,5 +1,5 @@
 ---
-title: Water Management
+title: Majiup - Water Management
 cover: cover.png
 description: Improving water management and distribution using technology
 category: Case Study
@@ -8,7 +8,7 @@ date: 2023-02-19
 
 ### Improving water management and distribution using technology
 
-{{<floating_image image="cover.png" float="right" width="600px" >}}
+{{<floating_image image="cover.png" float="right" width="400px" >}}
 
 ### Majiup
 
@@ -20,9 +20,17 @@ The solution is ideal for businesses, households, residential places and gated c
 
 Majiup solution run on waziup technologies. This encompasses the data collection and data relaying to the gateway. After installing the device on tanks, the wazisense v2.0 is responsible for collecting water level data at an interval of every five minutes. The data is then send to the gateway upto a range of 12km. The communication range depends on the area of deployment. In urban centers, the range is reduced to approximately 6 to 7 km while in rural areas, the distance can be a whopping 15km. The image below shows the architecture of the solution.
 
+The image below shows the Majiup edge application.
+
+<!-- ![acrhi](ui.png#width=700) -->
+
+{{<floating_image image="ui.png" float="center" width="700px" >}}
+
 <!-- ![Majiup Architecture](tech-architecture.png) -->
 
-![archi](tech-architecture.png#width=700)
+The architecture used in Majiup is showed below. The image illustrates how the data is sent conveyed from the edge device to the app.
+
+{{<floating_image image="tech-architecture.png" float="center" width="700px" >}}
 
 The gateway hosts the Majiup application which shows the user interface for the application. This includes the following,
 
@@ -35,11 +43,19 @@ The data collected on the gateway is synced to the cloud when the gateway receiv
 
 <!-- ![Application syncronization from wazigate to wazicloud](gateway-cloud.png) -->
 
-![archi](gateway-cloud.png#width=700)
+<!-- ![archi](gateway-cloud.png#width=700) -->
+
+{{<floating_image image="gateway-cloud.png" float="center" width="700px" >}}
 
 ## Hardware overview
 
 Majiup is powered by the following set of hardwares,
+
+Below is an image showing the connection of the hardware
+
+<!-- ![archi](hardware.png#width=700) -->
+
+{{<floating_image image="hardware.png" float="center" width="700px" >}}
 
 - Microcontroller - Wazisense v2.0
 - Sensors - JSN-SR04T Ultrasonic sensor
