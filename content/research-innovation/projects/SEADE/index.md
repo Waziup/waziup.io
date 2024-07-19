@@ -18,7 +18,7 @@ countries:
 acknowledgement:
   text: Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Health and Digital Executive Agency (HADEA).
   logo: /img/logos/eu-flag.png
-website: www.seade-project.eu/
+website: https://www.seade-project.eu/
 
 ---
 
