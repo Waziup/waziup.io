@@ -3,7 +3,7 @@ title: 'SEADE: Strengthening the Europe-Africa Digital Ecosystem Through Increas
 logo: img/logo.png
 description: ""
 category: Horizon Europe
-weight: 7
+weight: 9
 status: active
 layout: project
 duration: 2 years
