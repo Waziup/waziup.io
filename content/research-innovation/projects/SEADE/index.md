@@ -1,5 +1,5 @@
 ---
-title: 'SEADE: Strengthening the Europe-Africa Digital Ecosystem Through Increased R&I Cooperation'
+title: SEADE
 logo: img/logo.png
 description: ""
 category: Horizon Europe
