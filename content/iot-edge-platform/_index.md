@@ -9,7 +9,7 @@ hero: |
   * Open-Source
 
 wazigate: |
-  **WaziGate** is an IoT LoRaWAN Gateway, ideal for all your remote IoT applications. The Gateway can cover up to 100 IoT Sensors and actuator nodes: Weather stations, soil monitoring, GPS applications. The possibilities are endless! You can host your own applications directly in the gateway. The WaziGate features:
+  **WaziGate** is an IoT LoRaWAN Gateway TEST, ideal for all your remote IoT applications. The Gateway can cover up to 100 IoT Sensors and actuator nodes: Weather stations, soil monitoring, GPS applications. The possibilities are endless! You can host your own applications directly in the gateway. The WaziGate features:
   
   * Edge capacity to host your applications
   * LoRa communication up to 10-12 Km
