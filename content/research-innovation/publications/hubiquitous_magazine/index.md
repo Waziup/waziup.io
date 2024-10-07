@@ -37,4 +37,4 @@ problems they face in their daily activities. Due to its low-cost and wide cover
 
 ### Related Contents
 
-- Download: [Hubiquitous Magazine 2024](hubiquitous_magazine.pdf).
+- Download: [Hubiquitous Magazine 2024](hubiquitous_mag.pdf).
