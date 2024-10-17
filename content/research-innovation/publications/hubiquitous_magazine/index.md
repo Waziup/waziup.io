@@ -4,7 +4,7 @@ cover: cover.webp
 description: The rise of Tech Hubs in Africa
 category: Publication
 date: 2024-09-20
-weight: 1
+weight: 5
 ---
 
 ## The rise of Tech Hubs in Africa
