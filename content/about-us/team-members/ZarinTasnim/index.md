@@ -1,6 +1,6 @@
 ---
-name: Zarin Tasmin
-role: Intern
-cover: zarin.png
+name: Tasnim Tareq
+role: Intern (Scientific Research)
+cover: tasnim.jpg
 weight: -14
 ---
