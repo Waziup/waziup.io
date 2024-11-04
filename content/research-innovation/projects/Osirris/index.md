@@ -130,7 +130,7 @@ $$$
 
 ### Year 2023 
 
-- [WP 1 D1.1 Report on techno-economic analysis of the proposed irrigation solution.]("./deliverables/D1.1 Report on techno-economic analysis of the proposed irrigation solution.pdf")
+- [WP 1 D1.1 Report on techno-economic analysis of the proposed irrigation solution.](deliverables/D1.1%20Report%20on%20techno-economic%20analysis%20of%20the%20proposed%20irrigation%20solution.pdf)
 
 - [WP 1 D1.2 Recommendations for the design of the irrigation system]("./deliverables/D1.2 Recommendations for the design of the irrigation system.pdf")
 
