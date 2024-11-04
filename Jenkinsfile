@@ -4,7 +4,6 @@ pipeline {
     stage('Build') {
       steps {
         sh 'docker-compose build'
-        sh 'hugo'
       }
     }
     stage('Run') {
