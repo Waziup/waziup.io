@@ -14,6 +14,11 @@ services:
       GIT_REPO_URL: https://github.com/Waziup/waziup.io-new.git 
       GIT_REPO_BRANCH: main
       GIT_REPO_CONTENT_PATH: .
+    logging:
+      driver: "json-file"
+      options:
+        max-file: "5"   # number of files or file count
+        max-size: "10m" # file size
 
 volumes:
   html:
