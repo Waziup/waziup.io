@@ -20,6 +20,7 @@ duration: 3 years
 {{< tab-widget >}}
 
 Objectives
+
 $$$
 
 ## Objectives
@@ -47,6 +48,7 @@ The following are the objectives for the OSIRRIS irrigation platform.
 
 Methodology
 $$$
+
 ## Methodology
 
 ### Project Planning and Stakeholder Engagement
@@ -113,6 +115,7 @@ $$$
 ---
 
 Pilot
+
 $$$
 ## Pilot
 
@@ -128,19 +131,19 @@ $$$
 
 ## Results
 
-### Year 2023 
+### Year 2023
 
-- [WP 1 D1.1 Report on techno-economic analysis of the proposed irrigation solution.](deliverables/D1.1%20Report%20on%20techno-economic%20analysis%20of%20the%20proposed%20irrigation%20solution.pdf)
+- [D1.1 Report on techno-economic analysis of the proposed irrigation solution.](./deliverables/D1.1.pdf)
 
-- [WP 1 D1.2 Recommendations for the design of the irrigation system]("./deliverables/D1.2 Recommendations for the design of the irrigation system.pdf")
+- [D1.2 Recommendations for the design of the irrigation system](./deliverables/D1.2.pdf)
 
-- [WP2, WP3, WP4 D2.1 Analysis, architecture & design of the low cost AI-capable Smart Tensiometer]("./deliverables/D2.1 Analysis, architecture & design of the low cost AI-capable Smart Tensiometer.pdf")
+- [D2.1 Analysis, architecture & design of the low cost AI-capable Smart Tensiometer](./deliverables/D2.1.pdf)
 
-- [WP2, WP3, WP4 D2.2 Report on the development of the low cost AI-capable Smart Tensiometer]("./deliverables/D2.2 Report on the development of the low cost AI-capable Smart Tensiometer.pdf")
+- [D2.2 Report on the development of the low cost AI-capable Smart Tensiometer](./deliverables/D2.2.pdf)
 
-- [WP2, WP3, WP4 D3.1 Design of the OSIRRIS light-weight AI irrigation model]("./deliverables/D3.1 Design of the OSIRRIS light-weight AI irrigation model.pdf")
+- [D3.1 Design of the OSIRRIS light-weight AI irrigation model](./deliverables/D3.1.pdf)
 
-- [WP2, WP3, WP4 D3.2. Report on the development of the OSIRRIS light-weight AI irrigation model]("./deliverables/D3.2. Report on the development of the OSIRRIS light-weight AI irrigation model.pdf")
+- [D3.2. Report on the development of the OSIRRIS light-weight AI irrigation model](./deliverables/D3.2.pdf)
 
 ### Detailed results
 
