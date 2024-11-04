@@ -19,6 +19,7 @@ acknowledgement:
   text: Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect hoste of the European Union or European Research Executive Agency (REA) Neither the European Union nor the granting authority can be held responsible for them. 
   logo: /img/logos/eu-flag.png
 website: https://www.kijanispace.eu/
+duration: 2024 - 2027 
 
 ---
 
@@ -37,4 +38,4 @@ In order to maximise the project results impact on topic Destinations, KijaniSpa
 - **2. Societal Impact:** (4) Addressing EU policy priorities and global challenges through research and innovation; (5) Delivering benefits and impact through research and innovation missions; (6) Strengthening the uptake of research and innovation in society; and
 - **3. Economic / Technological Impact:** (7) Generating innovation-based growth; (8) Creating more and better jobs; and (9) Leveraging investments in research and innovation.
 
-
+{{<floating_image image="img/impact.png" float="center" width="500px">}}
