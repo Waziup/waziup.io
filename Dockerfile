@@ -24,7 +24,8 @@ RUN \
   https://github.com/sass/dart-sass/releases/download/${SASS_VERSION}/${SASS_BINARY} && \
   tar -C /usr/local -xzf /tmp/dart-sass.tar.gz && \
   rm /tmp/dart-sass.tar.gz
-  
+
+RUN hugo
 
 WORKDIR /tmp
 
