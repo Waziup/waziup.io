@@ -47,7 +47,7 @@
       {{ $key := "AIzaSyA572aZ-VMatfSZfGs7wjaZ-2dc39_meGY" }}
       {{ $channel := "UCGbGcMnBxiJG6Q29LyuKOJQ" }}
       {{ $urlPath := print "https://www.googleapis.com/youtube/v3/search?key=" $key "&channelId=" $channel "&part=snippet,id&order=date&maxResults=30&type=video" }}
-      {{ $data := resources.GetRemote $urlPath | transform.Unmarshal | jsonify }}
+      {{ $data := resources.GetRemote $urlPath | transform.Unmarshal }}
       {{ range $data.items }}
         <div class="item">
           <a href="https://www.youtube.com/watch?v={{ .id.videoId }}" target="_blank">
