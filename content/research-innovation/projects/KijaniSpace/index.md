@@ -24,13 +24,11 @@ duration: 2024 - 2027
 ---
 
 ## Empowering Climate-Smart Agriculture with Copernicus and IoT Innovations for Smallholder Farmers in Africa
+
 KijaniSpace (GreenSpace in Swahili) is a collaborative AU-EU initiative that leverages Copernicus Earth observation data and IoT for climate-smart agriculture in Africa. By integrating Copernicus data with local IoT systems, the project aims to enhance agricultural practices with two key programs: a Training Program for skill-building and product creation, and an Innovation Program for SMS-based experiments. Through its KijaniBox—a Space-IoT solution box—KijaniSpace enables accessible tools for sustainable development, targeting economic growth and green job creation in Africa and Europe.
 
 ### Vision
 The vision of KijaniSpace project is to extend the use of Copernicus Earth observation data for the application of climate-smart agriculture in Africa to regional research and innovation development. To enhance the use of Copernicus data by local African stakeholders, we have proposed several practical but innovative approaches
-
-### Project Overview
-Running from 2024 to 2025, SEADA seeks to address the digital divide and support sustainable development through strategic R&I partnerships. The project operates by establishing collaborative frameworks and fostering connections between researchers, innovators, and policymakers across both continents. By leveraging these connections, SEADA intends to facilitate the transition of research outcomes into practical, market-ready solutions that can drive economic and social progress.
 
 ### Key Impacts
 In order to maximise the project results impact on topic Destinations, KijaniSpace implements an impact- and value driven approach towards topic Destinations via three Key Impact Pathways (KIPs):
