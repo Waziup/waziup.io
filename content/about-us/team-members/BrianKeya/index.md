@@ -1,6 +1,6 @@
 ---
 name: Brian Keya
 role: Product Developer
-cover: brian-pic.jpeg
+cover: brian-new.jpg
 weight: -16
 ---

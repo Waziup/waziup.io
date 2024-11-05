@@ -1,6 +1,6 @@
 ---
 name: Mohammad Nahin Islam
-role: Frontend Developer
+role: UI/UX and Frontend Developer
 cover: Nahin.jpg
 weight: -10
 ---

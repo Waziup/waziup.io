@@ -1,6 +1,6 @@
 ---
 name: Oliver Kipkemei
-role: Intern
+role: Software Developer
 cover: oliver.JPEG
 weight: -13
 ---
