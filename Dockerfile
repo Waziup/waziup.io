@@ -36,6 +36,4 @@ COPY scripts /scripts
 ADD nginx.conf /etc/nginx/sites-available/default
 ADD redirections.map /etc/nginx/snippets/redirections.map
 
-RUN /scripts/refresh.sh
-
 ENTRYPOINT [ "bash", "/scripts/start.sh" ]
