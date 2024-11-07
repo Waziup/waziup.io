@@ -1,7 +1,62 @@
 [
     {
       "id": "refresh",
-      "execute-command": "/scripts/refresh.sh",
-      "command-working-directory": "/tmp"
+      "execute-command": "/root/refresh.sh",
+      "pass-arguments-to-command": [
+        {
+          "source": "payload",
+          "name": "ref"
+        }
+      ],
+      "trigger-rule": {
+        "and": [
+          {
+            "match": {
+              "type": "payload-hash-sha1",
+              "secret": "secret-set-by-docker-entrypoint",
+              "parameter": {
+                "source": "header",
+                "name": "X-Hub-Signature"
+              }
+            }
+          },
+          {
+            "or": [
+              {
+                "match": {
+                  "type": "value",
+                  "value": "ping",
+                  "parameter": {
+                    "source": "header",
+                    "name": "X-GitHub-Event"
+                  }
+                }
+              }, {
+                "and": [
+                  {
+                    "match": {
+                      "type": "value",
+                      "value": "push",
+                      "parameter": {
+                        "source": "header",
+                        "name": "X-GitHub-Event"
+                      }
+                    }
+                  }, {
+                    "match": {
+                      "type": "value",
+                      "value": "refs/heads/main",
+                      "parameter": {
+                        "source": "payload",
+                        "name": "ref"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     }
 ]

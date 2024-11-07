@@ -1,16 +1,12 @@
 #!/bin/bash
-set -e
+set -ex
 
-echo ">>> Start Nginx service ..."
-service nginx start
+echo ">>> Cloning repository ..."
 
-echo ">>> Setup ..."
-# chmod 600 ${GIT_SSH_ID_FILE}
-sed -i "s|refs/heads/master|refs/heads/$GIT_REPO_BRANCH|" /etc/hooks.json
-sed -i "s|set-by-start_sh|$WEBHOOK_SECRET|" /etc/hooks.json
+mkdir -p "$HUGO_DESTINATION"
 
-echo ">>> Building master ..."
-bash /scripts/refresh.sh
+git clone "$GIT_URL" --single-branch --branch "$GIT_BRANCH" repo
 
-echo ">>> Starting webhook ..."
-/usr/bin/webhook -hooks /etc/hooks.json -verbose
+echo ">>> Building site ..."
+
+source build.sh

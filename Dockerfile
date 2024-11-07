@@ -1,18 +1,18 @@
 FROM debian:bookworm
 
 RUN apt-get -qq update
-RUN DEBIAN_FRONTEND=noninteractive apt-get -qq install -y --no-install-recommends git ca-certificates curl ssh webhook nginx
+RUN DEBIAN_FRONTEND=noninteractive apt-get -qq install -y --no-install-recommends git ca-certificates curl ssh webhook
 RUN rm -rf /var/lib/apt/lists/*
 
 # Configuration variables
-ENV HUGO_VERSION 0.110.0
-ENV HUGO_BINARY hugo_extended_${HUGO_VERSION}_linux-amd64.deb
-ENV SASS_VERSION 1.32.8
-ENV SASS_BINARY dart-sass-1.32.8-linux-x64.tar.gz
+ENV HUGO_VERSION=0.110.0
+ENV HUGO_BINARY=hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+ENV SASS_VERSION=1.32.8
+ENV SASS_BINARY=dart-sass-1.32.8-linux-x64.tar.gz
 
-ENV GIT_REPO_CONTENT_PATH ''
-ENV GIT_REPO_BRANCH 'master'
-ENV TARGET_DIR '/target'
+ENV GIT_CONTENT_PATH=.
+ENV GIT_BRANCH=main
+ENV HUGO_DESTINATION=/root/hugo-destination
 
 # Download and install hugo and sass
 RUN \
@@ -26,14 +26,13 @@ RUN \
   rm /tmp/dart-sass.tar.gz
 
 
-WORKDIR /tmp
+WORKDIR /root
 
 # Expose default webhook port
 EXPOSE 9000
 
-COPY hooks.json /etc/hooks.json
-COPY scripts /scripts
-ADD nginx.conf /etc/nginx/sites-available/default
-ADD redirections.map /etc/nginx/snippets/redirections.map
+COPY --chmod=644 hooks.json /root/hooks.json
 
-ENTRYPOINT [ "bash", "/scripts/start.sh" ]
+COPY --chmod=755 scripts/* /root/
+
+ENTRYPOINT ["./docker-entrypoint.sh"]

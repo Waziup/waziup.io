@@ -1,21 +1,13 @@
 #!/bin/bash
-set -e
-echo ">>> Starting build ..."
+set -ex
 
-CONTENT_DIR=$(mktemp -d -t ci-XXXXXXXXXX)
+echo ">>> Cloning branch '$GIT_URL' [$GIT_BRANCH] ..."
 
-echo "Working directory: ${CONTENT_DIR}"
-mkdir -p ${CONTENT_DIR}
+pushd repo
+git reset --hard origin/$GIT_BRANCH
+git pull origin $GIT_BRANCH
+popd
 
-echo ">>> Cloning branch '$BRANCH' ..."
-GIT_SSH_COMMAND="ssh -oStrictHostKeyChecking=no" git clone ${GIT_REPO_URL} --branch $GIT_REPO_BRANCH --single-branch ${CONTENT_DIR}
-mkdir -p ${TARGET_DIR}
-cd ${CONTENT_DIR}/${GIT_REPO_CONTENT_PATH}
+echo ">>> Building site ..."
 
-echo ">>> Hugo building '$HUGO_BASE_URL' ..."
-sed -i "s|^\(baseURL\s*:\s*\).*\$|\1\"$HUGO_BASE_URL\"|" config.yaml
-hugo ${HUGO_PARAMS}
-
-cp -a public/. ${TARGET_DIR}
-
-rm -rf ${CONTENT_DIR}
+bash build.sh
