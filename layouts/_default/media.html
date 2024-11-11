@@ -14,11 +14,11 @@
       Latest updates
     </h1>
     {{ $newsPage := .Page.GetPage "media/news" }} 
-    {{ $news := first 3 $newsPage.Pages }}
+    {{ $news := $newsPage.Pages }}
     
     <div style="margin-top: auto;">
       <ul class="card-group"  id="news-card-group">
-        {{ range sort $news ".Date" "desc" }}
+        {{ range first 3 (sort $news ".Date" "desc") }}
           {{ $cover := .Resources.GetMatch .Params.cover }}
           {{ partial "card.html" (dict
             "Cover"       $cover.RelPermalink
