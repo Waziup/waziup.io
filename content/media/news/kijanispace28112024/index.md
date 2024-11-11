@@ -1,7 +1,7 @@
 ---
 title: New Africa-EU Partnership Aims to Satelite Data-Driven Precision Agriculture
 cover: ks-cover.jpeg
-description: "Waziup at ITU telecom world, Durban, South Africa"
+description: "New Africa-EU Partnership Aims to Satelite Data-Driven Precision Agriculture"
 category: NEWS
 date: 2024-10-10
 ---
