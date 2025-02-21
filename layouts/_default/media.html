@@ -14,11 +14,11 @@
       Latest updates
     </h1>
     {{ $newsPage := .Page.GetPage "media/news" }} 
-    {{ $news := first 3 $newsPage.Pages }}
+    {{ $news := $newsPage.Pages }}
     
     <div style="margin-top: auto;">
       <ul class="card-group"  id="news-card-group">
-        {{ range sort $news ".Date" "desc" }}
+        {{ range first 3 (sort $news ".Date" "desc") }}
           {{ $cover := .Resources.GetMatch .Params.cover }}
           {{ partial "card.html" (dict
             "Cover"       $cover.RelPermalink
@@ -44,11 +44,10 @@
     <div class="youtube-container">
       <!-- Retrieving Video list from Waziup Youtube channel. 
       Get the key from here: https://console.developers.google.com/apis/credentials -->
-      {{ $urlPre := "https://www.googleapis.com" }}
       {{ $key := "AIzaSyA572aZ-VMatfSZfGs7wjaZ-2dc39_meGY" }}
       {{ $channel := "UCGbGcMnBxiJG6Q29LyuKOJQ" }}
-      {{ $urlPath := print "/youtube/v3/search?key=" $key "&channelId=" $channel "&part=snippet,id&order=date&maxResults=30&type=video" }}
-      {{ $data := getJSON $urlPre $urlPath }}
+      {{ $urlPath := print "https://www.googleapis.com/youtube/v3/search?key=" $key "&channelId=" $channel "&part=snippet,id&order=date&maxResults=30&type=video" }}
+      {{ $data := resources.GetRemote $urlPath | transform.Unmarshal }}
       {{ range $data.items }}
         <div class="item">
           <a href="https://www.youtube.com/watch?v={{ .id.videoId }}" target="_blank">

@@ -1,5 +1,8 @@
 pipeline {
   agent any
+  environment {
+    WEBHOOK_SECRET = credentials('webhook-secret')
+  }
   stages {
     stage('Build') {
       steps {
