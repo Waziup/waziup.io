@@ -1333,30 +1333,35 @@ h1 {
 		padding-bottom: 8px;
 		display: flex;
 		flex-direction: column;
-	
+
 		&:hover {
-			> a, span, > a::before {
+
+			>a,
+			span,
+			>a::before {
 				color: #f35e19;
 			}
 		}
-	
-		> a, span {
+
+		>a,
+		span {
 			text-decoration: none;
 			font-size: smaller;
 			color: #515b60;
-	
+
 			&:hover {
 				/* Removed the individual hover effect */
 			}
 		}
-	
-		> a::before {
-			content: '\003e'; /* Greater than sign */
+
+		>a::before {
+			content: '\003e';
+			/* Greater than sign */
 			display: inline-block;
 			margin-right: 6px;
 		}
 	}
-	
+
 
 	.project-ack {
 		display: flex;
@@ -1510,7 +1515,8 @@ h1 {
 	gap: 3rem;
 
 	>img {
-		width: 20%;
+		height: 90px;
+		max-width: 160px;
 		object-fit: contain;
 	}
 
