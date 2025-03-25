@@ -11,6 +11,7 @@ Join Waziup as we mark IoT Day 2025—a global celebration of how Internet of Th
 This year’s theme, “Bridging AI-IoT Technologies and Sustainability,” underscores the transformative power of integrating IoT with cutting-edge advancements in artificial intelligence (AI) and large language models (LLMs).
 
 {{<floating_image image="flyer-ken.png" float="right" width="500px" >}}
+{{<floating_image image="flyer-bd.png" float="right" width="500px" >}} 
 
 ## IoT Day Kenya 2025: Shaping Sustainable Innovation
 **Date:** 9 April 2025 | **Time:** 9:00 AM – 4:00 PM  
@@ -25,7 +26,6 @@ Register now to secure your spot:
 [IoT Day Kenya 2025 Registration Form](https://forms.gle/PvDZP8r7gnx9tUr89)
 
 Interested in partnering? Reach out to us at (contact@waziup.org) to collaborate on this landmark event.
-{{<floating_image image="flyer-bd.png" float="right" width="500px" >}}
 
 
 ## IoT Day Bangladesh 2025: Empowering Young Innovators
