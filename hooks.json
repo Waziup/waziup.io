@@ -45,7 +45,7 @@
                   }, {
                     "match": {
                       "type": "value",
-                      "value": "refs/heads/main",
+                      "value": "ref-set-by-docker-entrypoint",
                       "parameter": {
                         "source": "payload",
                         "name": "ref"
