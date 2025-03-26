@@ -10,6 +10,7 @@ services:
       HUGO_PARAMS: --cleanDestinationDir
       HUGO_DESTINATION: /root/hugo-destination
       WEBHOOK_SECRET: ${WEBHOOK_SECRET}
+      WEBHOOK_PARAMS: -verbose
       GIT_URL: https://github.com/Waziup/waziup.io-new.git 
       GIT_BRANCH: main
       GIT_CONTENT_PATH: .

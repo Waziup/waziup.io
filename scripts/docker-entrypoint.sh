@@ -9,4 +9,4 @@ source start.sh
 echo ">>> Starting webhook ..."
 
 # Run the webhook server
-webhook -hooks hooks.json -verbose
+webhook -hooks hooks.json $WEBHOOK_PARAMS
