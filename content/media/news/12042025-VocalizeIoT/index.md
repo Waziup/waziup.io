@@ -9,7 +9,7 @@ weight: 37
 
 Nairobi, Kenya – April 17, 2025 – The VocalizeIoT project marked another milestone in its mission to bridge the IoT skills gap in Africa with a successful Kenyan Partners Meeting held on April 11th, 2025, at @iLabAfrica, Strathmore University. The meeting brought together key stakeholders to review progress, strategize on vocational training, and explore innovative learning solutions on the WaziLab platform.
 
-{{<floating_image image="meetup.png" float="center" width="500px" >}}
+{{<floating_image image="meetup.jpg" float="center" width="500px" >}}
 
 Key Highlights from the Meeting
 Progress Review: Partners assessed project work packages and deliverables to ensure alignment with goals.
