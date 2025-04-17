@@ -1,5 +1,5 @@
 ---
-title: "Iot Day 2025 in Kenya and Bangladesh"
+title: "IoT Day 2025 in Kenya and Bangladesh"
 cover: cover.png
 description: 'Celebrate IoT Day 2025 with Waziup: Bridging AI, Sustainability, and Empowering the Next Generation'
 category: NEWS
