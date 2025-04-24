@@ -6,6 +6,7 @@ category: NEWS
 date: 2025-04-24
 weight: 41
 ---
+{{<floating_image image="urbane-solar-panel-installation.jpeg" float="right" width="500px" >}}
 
 The **Urbane Project** is accelerating smart agriculture across Africa with recent successful **IoT installations** in **Nigeria and Benin**, reinforcing its mission to empower smallholder farmers with real-time data for better decision-making.
 
