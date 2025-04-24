@@ -7,7 +7,7 @@ date: 2025-04-16
 weight: 39
 ---
 
-{{<floating_image image="kijanibox2.jpg" float="right" width="400px" >}}
+{{<floating_image image="kijanibox2.png" float="right" width="400px" >}}
 
 The first-ever **KijaniBox Stakeholder Validation Workshop** was successfully held on **Kampala, April 15, 2025**  at Silver Springs Hotel, bringing together a dynamic mix of stakeholders to validate the findings of the recently conducted user-centric survey and discuss the future of green energy in Uganda.
 
