@@ -6,7 +6,7 @@ category: NEWS
 date: 2025-04-06
 weight: 43
 ---
-{{<floating_image image="urbane-solar-panel-installation.jpeg" float="right" width="500px" >}}
+{{<floating_image image="sve-launch.jpg" float="right" width="500px" >}}
 
 The YouthTeamUp project is proud to announce the official launch of the **4th Shallow Virtual Exchange (SVE) Program**, an exciting opportunity for young people from Africa, Europe, and beyond to connect, learn, and collaborate on global development challenges.
 
