@@ -6,7 +6,7 @@ category: NEWS
 date: 2025-05-12
 weight: 42
 ---
-{{<floating_image image="softlanding.jpg" float="right" width="500px" >}}
+{{<floating_image image="softlanding-team.png" float="right" width="500px" >}}
 
 The SEADE project officially launched the Softlanding Mission, marking the second stage of its “Route to Market” program. This three-month initiative is designed to empower digital innovators from Tanzania and Europe to access and align with market opportunities in Kenya through a structured blend of training, mentorship, and targeted industry engagement.
 
