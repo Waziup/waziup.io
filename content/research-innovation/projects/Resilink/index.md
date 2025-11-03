@@ -16,7 +16,7 @@ countries:
   - France
   - Algeria
 website: https://resilink.eu/
-duration: 2022-2026
+duration: 4 years
 ---
 
 

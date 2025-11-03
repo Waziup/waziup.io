@@ -6,7 +6,7 @@ category: Horizon Europe
 weight: 11
 status: active
 layout: project
-duration: 2 years
+duration: 4 years
 countries:
 - Germany
 - Italy

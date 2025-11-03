@@ -15,7 +15,7 @@ countries:
   - Germany
   - Greece
 website: https://intel-irris.eu/
-duration: 2021 - 2024  
+duration: 3 years
 layout: project
 ---
 

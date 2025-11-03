@@ -26,7 +26,7 @@ countries:
   - Ghana
   - United Kingdom
 website: https://urbane-project.eu
-duration: 07.2022-07.2026
+duration: 4 years
 
 ---
 
