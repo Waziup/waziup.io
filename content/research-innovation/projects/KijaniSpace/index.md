@@ -1,4 +1,4 @@
----
+<img width="1297" height="846" alt="image" src="https://github.com/user-attachments/assets/cbbbb5ed-4865-4aa2-b40e-4c91ae61175d" />---
 title: KijaniSpace
 logo: img/logo.png
 description: ""
@@ -25,7 +25,7 @@ duration: 2024 - 2027
 
 ## Empowering Climate-Smart Agriculture with Copernicus and IoT Innovations for Smallholder Farmers in Africa
 
-KijaniSpace (GreenSpace in Swahili) is a collaborative AU-EU initiative that leverages Copernicus Earth observation data and IoT for climate-smart agriculture in Africa. By integrating Copernicus data with local IoT systems, the project aims to enhance agricultural practices with two key programs: a Training Program for skill-building and product creation, and an Innovation Program for SMS-based experiments. Through its KijaniBox—a Space-IoT solution box—KijaniSpace enables accessible tools for sustainable development, targeting economic growth and green job creation in Africa and Europe.
+KijaniSpace (GreenSpace in Swahili) is a collaborative AU-EU initiative that leverages Copernicus Earth observation data and IoT for climate-smart agriculture in Africa. By integrating Copernicus data with local IoT systems, the project aims to enhance agricultural practices with two key programs: a Training Program for skill-building and product creation, and an Innovation Program for SMS-based experiments. Through its SpaceIoTBox—a Space-IoT solution box—KijaniSpace enables accessible tools for sustainable development, targeting economic growth and green job creation in Africa and Europe.
 
 ### Vision
 The vision of KijaniSpace project is to extend the use of Copernicus Earth observation data for the application of climate-smart agriculture in Africa to regional research and innovation development. To enhance the use of Copernicus data by local African stakeholders, we have proposed several practical but innovative approaches
