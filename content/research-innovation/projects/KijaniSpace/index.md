@@ -1,4 +1,4 @@
-<img width="1297" height="846" alt="image" src="https://github.com/user-attachments/assets/cbbbb5ed-4865-4aa2-b40e-4c91ae61175d" />---
+---
 title: KijaniSpace
 logo: img/logo.png
 description: ""
