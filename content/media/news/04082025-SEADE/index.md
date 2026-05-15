@@ -1,5 +1,5 @@
 ---
-title: "A IoT Route to Market Program Kicks Off 2026"
+title: "A IoT Route to Market Program Kicks Off"
 cover: cover.png
 description: 'A Program in Kenya and Tanzania, aimed at helping youth and women innovators bring their IoT solutions to market in sectors like agriculture, water, bio-energy, and space technology.'
 category: NEWS
