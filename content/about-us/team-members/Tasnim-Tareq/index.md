@@ -1,6 +1,6 @@
 ---
 name: Tasnim Tareq
-role: Intern (Scientific Research)
+role: Scientific Research
 cover: tasnim.jpg
 weight: -14
 ---
