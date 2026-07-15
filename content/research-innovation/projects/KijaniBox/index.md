@@ -16,7 +16,7 @@ countries:
 acknowledgement:
   text: This project is co-funded by the European Union under Horizon Europe research and innovation programm, project grant agreement No 101147463.
   logo: /img/logos/eu-flag.png
-website: https://www.kijanispace.eu/
+website: https://www.kijanicooling.eu/
 
 ---
 
