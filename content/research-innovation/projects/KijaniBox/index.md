@@ -1,6 +1,6 @@
 ---
 title: KijaniCooling
-logo: img/logo.png
+logo: img/kijanicooling-logo.png
 description: ""
 category: Horizon Europe
 weight: 11
