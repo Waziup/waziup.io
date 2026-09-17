@@ -3,7 +3,7 @@ title: "Waziup Supports Shahinota Cup, Dresden Summer 2026"
 cover: cover.jpg
 description: "Waziup backs local cricket tournament, connecting with Dresden's Bangladeshi community"
 category: NEWS
-date: 2026-14-09
+date: 2026-09-14
 weight: 37
 ---
 
