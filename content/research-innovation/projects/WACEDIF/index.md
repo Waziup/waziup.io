@@ -1,6 +1,6 @@
 ---
 title: WACEDIF
-logo: img/WACEDIF-concept-logo.png
+logo: WACEDIF-concept-logo.png
 description: ""
 category: BMFTR
 weight: 12
