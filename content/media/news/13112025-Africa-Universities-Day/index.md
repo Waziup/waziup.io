@@ -3,7 +3,7 @@ title: "Waziup Represents SEADE at Africa Universities Day Celebrations in Ghana
 cover: cover.jpg
 description: "Waziup contributes to advancing Africa–Europe research and innovation collaboration through SEADE at the Africa Universities Day celebrations in Accra"
 category: NEWS
-date: 2026-11-13
+date: 2025-11-13
 weight: 40
 ---
 
