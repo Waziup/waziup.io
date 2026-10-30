@@ -1,13 +1,13 @@
 ---
 title: "YouthTeamUp Project Concludes, Celebrating Youth Innovation and EU–Africa Collaboration"
-cover: cover.jpg
+cover: cover.png
 description: "After several years of virtual collaboration, learning and innovation, the YouthTeamUp project has officially concluded, having engaged thousands of young people across Africa and Europe and supported the development of 16 Global Impact Projects"
 category: NEWS
 date: 2026-09-05
 weight: 56
 ---
 
-{{<floating_image image="cover.jpg" float="right" width="500px" >}}
+{{<floating_image image="cover.png" float="right" width="500px" >}}
 
 The YouthTeamUp project has officially come to an end, marking the completion of a multi-year initiative that connected young people from Africa and Europe through virtual collaboration, skills development and innovation.
 
