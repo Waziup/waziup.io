@@ -3,7 +3,7 @@ title: "Waziup Supports Regional Innovation through the KijaniSpace East Africa 
 cover: cover.jpg
 description: "Waziup joins regional partners and stakeholders in exploring Space-IoT solutions for climate-smart agriculture and aquaculture in the Lake Victoria Basin"
 category: NEWS
-date: 2026-09-14
+date: 2025-11-18
 weight: 42
 ---
 
