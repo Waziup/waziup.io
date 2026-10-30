@@ -7,7 +7,7 @@ date: 2025-11-18
 weight: 42
 ---
 
-{{<floating_image image="ideation-workshop" float="right" width="500px" >}}
+{{<floating_image image="ideation-workshop.jpg" float="right" width="500px" >}}
 Waziup e.V. participated in the East Africa KijaniSpace Project Ideation Workshop, held in Kisumu, Kenya, from 30–31 October 2025. The workshop brought together regional stakeholders to explore how Space-IoT technologies can address challenges in agriculture and aquaculture across the Lake Victoria Basin.
 
 Under the theme “Harnessing Space-IoT Technologies for Climate-Smart Agriculture and Aquaculture in the Lake Victoria Basin,” the two-day workshop focused on building a shared understanding of regional challenges, familiarizing participants with KijaniSpace technologies and the KijaniBox concept, and encouraging collaborative ideation and co-design of technology-based solutions.
