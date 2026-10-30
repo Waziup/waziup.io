@@ -3,8 +3,8 @@ title: "Africa, Data & Internet of Things Webinar – Edition 2"
 cover: cover.jpg
 description: "Waziup joins international IoT experts and practitioners to discuss how data, connectivity, and locally driven innovation can advance sustainable development across Africa"
 category: NEWS
-date: 2026-09-14
-weight: 37
+date: 2026-03-30
+weight: 46
 ---
 
 {{<floating_image image="cover.jpg" float="right" width="500px" >}}
