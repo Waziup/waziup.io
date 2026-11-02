@@ -7,7 +7,7 @@ date: 2026-10-28
 weight: 55
 ---
 
-{{<floating_image image="euipo.jpg" float="right" width="500px" >}}
+{{<floating_image image="euipo.jpeg" float="right" width="500px" >}}
 Waziup e.V. was represented by its Managing Director, Dr.-Ing. Abdur Rahim Biswas, at the Annual IP Helpdesk Stakeholder Conference 2026, held on 29 October 2026 at the European Union Intellectual Property Office (EUIPO) in Alicante, Spain.
 
 Dr. Rahim joined the panel discussion “IP Helpdesk Impact on EU Business”, representing the Africa IP Helpdesk. He shared Waziup's experience and spoke about how IP support can make a real difference for businesses and innovators, particularly when navigating unfamiliar markets and intellectual property requirements.
