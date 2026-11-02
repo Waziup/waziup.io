@@ -1,5 +1,5 @@
 ---
-title: "Waziup Represents the Africa IP Helpdesk at the Annual IP Helpdesk Stakeholder Conference 2026"
+title: "Waziup at the Annual IP Helpdesk Stakeholder Conference 2026"
 cover: cover.jpg
 description: "Waziup's Managing Director, Dr.-Ing Abdur Rahim Biswas, joined international business and innovation stakeholders to highlight the role of intellectual property support in protecting innovation and enabling business growth."
 category: NEWS
@@ -7,15 +7,15 @@ date: 2026-10-28
 weight: 55
 ---
 
-{{<floating_image image="cover.jpg" float="right" width="500px" >}}
-Waziup e.V. participated in the Annual IP Helpdesk Stakeholder Conference 2026, hosted by the European Union Intellectual Property Office (EUIPO) and the European Commission IP Helpdesk on 29 October 2026 in Alicante, Spain, with an online participation option.
+{{<floating_image image="euipo.jpg" float="right" width="500px" >}}
+Waziup e.V. was represented by its Managing Director, Dr.-Ing. Abdur Rahim Biswas, at the Annual IP Helpdesk Stakeholder Conference 2026, held on 29 October 2026 at the European Union Intellectual Property Office (EUIPO) in Alicante, Spain.
 
-Representing the Africa IP Helpdesk, Dr.-Ing Abdur Rahim Biswas, Managing Director of Waziup, contributed to Panel I, titled “IP Helpdesk Impact on EU Business”, held from 10:15 to 11:30 CET.
+Dr. Rahim joined the panel discussion “IP Helpdesk Impact on EU Business”, representing the Africa IP Helpdesk. He shared Waziup's experience and spoke about how IP support can make a real difference for businesses and innovators, particularly when navigating unfamiliar markets and intellectual property requirements.
 
-During the session, Dr. Abdur shared Waziup's experience and a case study illustrating how IP Helpdesk support can help innovators navigate intellectual property challenges, protect their innovations and identify opportunities for growth in international markets.
+The panel brought together business representatives from Africa, China, Europe, India, Latin America and South-East Asia. Speakers shared their experiences of working across different markets and discussed the practical challenges businesses face when it comes to protecting their ideas and innovations.
 
-The panel brought together business representatives from Africa, China, Europe, India, Latin America and South-East Asia to exchange perspectives on the practical value of intellectual property support for businesses operating across different markets.
+As part of the discussion, Dr. Rahim presented a case study from Waziup's experience, showing how the Africa IP Helpdesk supports innovators in understanding intellectual property issues and finding ways to protect and develop their ideas.
 
-Waziup's participation highlighted the importance of intellectual property awareness and support in helping innovators translate ideas into protected assets, sustainable solutions and business opportunities.
+The event was a great opportunity to meet people working in different regions, exchange experiences and hear first-hand how IP support is helping businesses in practice.
 
-Through its involvement with the Africa IP Helpdesk, Waziup continues to contribute to strengthening innovation ecosystems and supporting entrepreneurs as they navigate intellectual property challenges and international collaboration opportunities.
+Waziup was pleased to contribute to the conversation and share its perspective from working with innovators and entrepreneurs in Africa.
