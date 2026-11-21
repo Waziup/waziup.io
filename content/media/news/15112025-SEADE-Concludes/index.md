@@ -3,7 +3,7 @@ title: "Waziup Celebrates Milestones and Lasting Impact of the SEADE Project"
 cover: cover.jpg
 description: "The SEADE consortium reflects on its achievements, strengthens intellectual property ownership, and plans for the sustainability of project results"
 category: NEWS
-date: 2026-11-15
+date: 2025-11-15
 weight: 41
 ---
 
