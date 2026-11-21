@@ -21,4 +21,4 @@ These updates strengthen WaziGate's capabilities as a gateway for managing IoT n
 
 Waziup continues to improve its IoT infrastructure to support developers, organisations and innovators building connected solutions across different application areas.
 
-Explore and download WaziGate V3.1: downloads.waziup.io
+Explore and download WaziGate V3.1: https://downloads.waziup.io/
