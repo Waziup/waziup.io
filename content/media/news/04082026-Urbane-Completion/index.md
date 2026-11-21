@@ -20,3 +20,5 @@ One of the key lessons from URBANE is that sustainable agricultural transformati
 Although the project has officially concluded, its impact is expected to continue through the tools, knowledge resources, policy recommendations and Long-Term Knowledge Network established during its implementation.
 
 Waziup is proud to have been part of this collaborative initiative and to have contributed to advancing digital innovation for more sustainable, resilient and inclusive farming systems.
+
+Explore more about the Urbane project here: https://urbane-project.eu/wp-urbane/
