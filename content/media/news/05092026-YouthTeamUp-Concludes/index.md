@@ -24,3 +24,5 @@ Although the funded project has concluded, its impact is expected to continue th
 Waziup is proud to have been part of this initiative and to have contributed to a programme that demonstrated the value of youth-led innovation, international collaboration and digital skills development.
 
 We extend our appreciation to the project partners, participants and everyone who contributed to making YouthTeamUp a success.
+
+Get more details about the project here: https://youthteamup.org/
