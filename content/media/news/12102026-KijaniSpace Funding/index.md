@@ -20,3 +20,5 @@ Potential application areas include crop monitoring, irrigation, aquaculture, di
 Through KijaniSpace, Waziup is contributing to efforts that connect space technologies, IoT innovation and entrepreneurship to address agricultural challenges across East Africa.
 
 Are you an eligible SME or start-up with an existing agriculture-related solution? Discover the opportunity and apply: KijaniSpace Space-IoT Innovation Programme
+
+Learn more about the KijaniSpace SpaceIoT Innovation program here : https://www.kijanispace.eu/space-iot-innovation-programme/
