@@ -15,6 +15,8 @@ The meeting provided an opportunity to review progress across key project areas,
 
 A key priority emerging from the discussions was the transition from project outputs towards validation, uptake and long-term impact. This includes advancing the Space-IoT Box, validating pilot applications, strengthening skills development and identifying pathways for replication and EU–AU cooperation.
 
+Find out more here: https://www.kijanispace.eu/2026/09/28/kijanispace-reaches-two-year-milestone-in-mwanza-turning-project-results-into-pathways-for-uptake-and-impact/
+
 With one year of implementation remaining, the focus is increasingly on translating the project's results into sustainable capabilities. By connecting Copernicus Earth Observation, IoT technologies, skills development and partnerships, KijaniSpace aims to build solutions and capacities that can continue creating value beyond the project's lifetime.
 
 As a project partner, Waziup remains committed to contributing to this next phase of implementation and supporting the development of practical Space-IoT applications for agriculture and water monitoring across East Africa.
