@@ -20,3 +20,5 @@ The training is scheduled to run from 21 September to 16 October 2026 at The Nai
 Through initiatives such as SmartKazi Lab, VocalizeIoT and its partners continue to promote practical technology education, strengthen industry-academia collaboration and create pathways for TVET learners to participate in the growing digital economy.
 
 Registration: Apply for SmartKazi Lab Training: https://lnkd.in/dx_kGJbi
+
+Discover more about it here: https://vocalizeiot.org/smartkazi-lab-training-empowering-tvet-learners-with-practical-iot-skills/
