@@ -16,3 +16,5 @@ Although the formal project journey is approaching its conclusion, activities co
 A key focus of the meeting was Intellectual Property Rights (IPR) and the ownership of SEADE's digital tools and resources. Through an interactive workshop, partners mapped the ownership and responsibilities for maintaining the project's outputs, helping establish clear pathways for their continued use and development. The consortium also discussed policy recommendations aimed at strengthening support for Research and Innovation (R&I) actors, particularly in navigating intellectual property rights and protecting their innovations.
 
 Reflecting on the journey, Waziup is proud to have collaborated with inspiring partners across Africa and Europe, supporting entrepreneurs, strengthening innovation ecosystems, and bridging the gap between research and market opportunities. As SEADE moves towards its next chapter, Waziup looks forward to seeing its tools, partnerships, and achievements continue to empower innovators and contribute to digital transformation across Africa and Europe.
+
+Learn more about the SEADE project here: https://www.seade-project.eu/
