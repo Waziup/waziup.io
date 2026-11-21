@@ -19,4 +19,4 @@ Its approach supports smarter water distribution and sustainable water managemen
 
 By bringing technology closer to everyday water operations, MajiUp is working towards a future where every drop can be better monitored, managed and accounted for.
 
-Stay tuned for more updates from MajiUp!
+Stay tuned for more updates from MajiUp on the website: https://www.majiup.com/
