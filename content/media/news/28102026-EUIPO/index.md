@@ -19,3 +19,5 @@ As part of the discussion, Dr. Rahim presented a case study from Waziup's experi
 The event was a great opportunity to meet people working in different regions, exchange experiences and hear first-hand how IP support is helping businesses in practice.
 
 Waziup was pleased to contribute to the conversation and share its perspective from working with innovators and entrepreneurs in Africa.
+
+Learn more about the event here: https://intellectual-property-helpdesk.ec.europa.eu/news-events/upcoming-trainings-events/annual-ip-helpdesk-stakeholder-conference-2026-2026-10-29_en 
