@@ -20,3 +20,5 @@ Beyond the tournament, the event was an opportunity for Waziup to connect direct
 At the closing ceremony, Dr. Rahim addressed participants and organisers, speaking about the importance of community, collaboration, and bringing people together. Waziup was also honoured to present the sponsored jersey to the event organisers as part of the closing activities.
 
 We thank the Bangladesh Diaspora Community in Dresden and all six participating teams for the invitation, and for making 5 September a memorable community occasion.
+
+See the full story here: https://www.facebook.com/61563342880820/posts/-shadhinota-cup-2026-thats-a-wrap-and-just-like-that-shadhinota-cup-comes-to-an-/122231118362444762/
