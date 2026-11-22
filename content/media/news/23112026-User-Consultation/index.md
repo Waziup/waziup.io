@@ -1,13 +1,13 @@
 ---
 title: "User Consultation Platform 2026 to Shape the Future of EU Space Services"
-cover: cover.jpg
+cover: cover.png
 description: "User Consultation Platform 2026 to Shape the Future of EU Space Services"
 category: NEWS
 date: 2026-11-23
 weight: 55
 ---
 
-{{<floating_image image="cover.jpg" float="right" width="500px" >}}
+{{<floating_image image="cover.png" float="right" width="500px" >}}
 
 Registration is now open for the User Consultation Platform (UCP) 2026, organised by the European Union Agency for the Space Programme (EUSPA). The event will take place on 26–27 November 2026 in Prague, Czech Republic, with an option to participate online.
 
