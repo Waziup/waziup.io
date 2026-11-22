@@ -28,3 +28,5 @@ The Learning Expedition served as a crucial bridge between innovation and indust
 ### Acknowledgment
 This milestone would not have been possible without the invaluable support ofthe SEADE consortium, EldoHub, Association of African Universities (AAU), ENRICH in Africa - EiA and our host organizations across Kenya. Their commitment ensured that innovators had access to knowledge, mentorship, and market linkages critical for success.
 As the program concludes, the innovators leave empowered with stronger networks, practical experience, and actionable strategies to transition their AIoT innovations into impactful, market-ready solutions.
+
+Learn more about the program here: https://www.seade-project.eu/digital-youth-training-programme
