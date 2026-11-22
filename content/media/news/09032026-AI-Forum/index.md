@@ -30,3 +30,5 @@ Convened following the Nairobi AI Forum and the AI Impact Summit in Delhi, the e
 For Waziup, the gathering was an important opportunity to strengthen connections with African and European partners, explore new opportunities for collaboration, and contribute to conversations shaping the future of responsible and sustainable AI.
 
 We look forward to building on these engagements and continuing to support inclusive digital innovation and meaningful Africa–Europe partnerships.
+
+Review the full details here: https://ambnairobi.esteri.it/en/news/dall_ambasciata/2026/03/torino-lai-hub-promuove-la-collaborazione-e-la-creazione-di-reti-di-contatti-nel-campo-dellintelligenza-artificiale-tra-africa-ed-europa/
