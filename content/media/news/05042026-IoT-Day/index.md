@@ -20,3 +20,5 @@ The VocalizeIoT team also facilitated a review of the IoT Short Course Curriculu
 The event further showcased practical innovations developed by TVET learners and innovators in smart energy, automation and environmental monitoring. Presentations included AIoT-powered smart home solutions by Nickson Kiprotich of Nuruforge, biometric attendance systems by Philip Nganda of Ruphids Autotech Solutions, and smart agriculture solutions by Bahati Bakulikira of iLabAfrica, Strathmore University.
 
 For Waziup and its VocalizeIoT partners, these engagements highlight the importance of connecting technical education with real-world applications and emerging industry opportunities. Through collaboration among industry, government and training institutions, the project continues to contribute to building relevant IoT skills and strengthening the capacity of TVET learners to participate in the green and digital economy.
+
+Review the full event details here: https://vocalizeiot.org/iot-day-2026-kenya-successfully-showcases-the-future-of-tvet-innovation-and-green-digital-skills/
