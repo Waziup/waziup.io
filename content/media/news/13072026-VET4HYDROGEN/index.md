@@ -17,6 +17,8 @@ The engagement also highlighted the role of labour market mapping in identifying
 
 These insights reinforced the importance of strong collaboration between education institutions, industry and government in preparing learners for emerging employment opportunities.
 
+Get the full story here: https://vocalizeiot.org/vocalizeiot-learns-from-vet4hydrogen-on-building-industry-ready-tvet-skills/
+
 For Waziup, the exchange is particularly relevant to the mission of VocalizeIoT, which focuses on strengthening IoT capacity in TVET institutions across Kenya and Tanzania. Learning from complementary initiatives such as VET4HYDROGEN provides valuable perspectives on developing demand-driven training programmes and equipping learners with skills for the evolving digital and green economies.
 
 Waziup appreciates the VET4HYDROGEN team for facilitating the engagement and looks forward to continued knowledge sharing and collaboration in advancing future-ready technical and vocational education.
