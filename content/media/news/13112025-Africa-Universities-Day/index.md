@@ -18,3 +18,5 @@ The session offered an opportunity to showcase how technology, skills developmen
 Waziup extends its appreciation to Joseph Shitote for representing the SEADE project and to the Association of African Universities (AAU) for organizing the insightful session.
 
 Through SEADE, Waziup remains committed to strengthening innovation ecosystems, supporting capacity building, and fostering meaningful Africa–Europe cooperation.
+
+Get the full story here: https://aau.org/2026/10/for-immediate-release-2026-africa-universities-day-to-focus-on-building-future-ready-african-universities/
