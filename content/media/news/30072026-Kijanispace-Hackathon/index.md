@@ -18,3 +18,5 @@ Throughout the hackathon, participants received mentorship from experts, collabo
 Through its involvement in KijaniSpace, Waziup continues to support practical capacity building in IoT, AI and Earth Observation, empowering young people to develop technology-driven solutions that contribute to sustainable agriculture, food security and climate resilience across Africa.
 
 Waziup extends its appreciation to all participants, mentors, judges, LakeHub and the KijaniSpace partners for contributing to a successful hackathon.
+
+Read more about it here: https://www.kijanispace.eu/space-iot-talent-training-program-kisumu/ 
