@@ -32,3 +32,5 @@ For Waziup, this vision aligns closely with our work in accessible AIoT platform
 Waziup extends its appreciation to all the partners and innovators contributing to the development of sustainable AI ecosystems across Africa.
 
 We look forward to building on the connections and opportunities created at the Nairobi AI Forum 2026 as we continue contributing to Africa's AI and digital transformation journey.
+
+Access additional information here: https://aihubfordevelopment.org/nairobi-ai-forum-2026
