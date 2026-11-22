@@ -28,3 +28,5 @@ Strengthening local capacity to develop and deploy technology solutions.
 The webinar also highlighted the importance of learning from existing technology deployments across different African contexts before introducing solutions based on assumptions that may not reflect local realities.
 
 Through its work in IoT innovation, digital capacity building, and technology development, Waziup continues to champion accessible, locally relevant solutions that empower communities and support sustainable development across Africa.
+
+Register for the event here: https://iotday.org/events/2025/africa-data-and-internet-of-things-online-edition-2/
