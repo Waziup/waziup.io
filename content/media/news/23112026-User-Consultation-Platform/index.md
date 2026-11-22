@@ -4,7 +4,7 @@ cover: cover.png
 description: "EUSPA Opens Registration for User Consultation Platform 2026 to Shape the Future of EU Space Services"
 category: NEWS
 date: 2026-11-23
-weight: 55
+weight: 60
 ---
 
 {{<floating_image image="cover.png" float="right" width="500px" >}}
