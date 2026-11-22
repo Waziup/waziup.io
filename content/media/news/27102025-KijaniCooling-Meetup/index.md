@@ -16,3 +16,5 @@ During the consortium’s second annual meeting, held at Technische Universität
 Discussions also covered biodigester system optimization, local manufacturing and assembly at African pilot sites, market development, stakeholder engagement, and community building. Through collaboration across Kenya, Uganda, and Senegal, KijaniCooling aims to transform organic waste into renewable energy while supporting local communities and promoting circular economies.
 
 Waziup is proud to contribute its IoT expertise to this initiative and looks forward to advancing digital solutions that support sustainable energy development across Africa.
+
+View more info here: https://www.kijanicooling.eu/kijanicooling-consortium-holds-successful-2nd-annual-meeting-in-dresden/
