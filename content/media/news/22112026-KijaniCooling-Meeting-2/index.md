@@ -7,7 +7,7 @@ date: 2026-11-22
 weight: 54
 ---
 
-{{<floating_image image="group.jpg" float="right" width="500px" >}}
+{{<floating_image image="group.png" float="right" width="500px" >}}
 
 The KijaniCooling consortium held its 3rd Annual Project Meeting from 3–5 November 2026 in Italy, bringing together project partners to review progress, exchange technical knowledge and discuss the next steps in developing sustainable organic waste management and cooling solutions for Africa.
 
