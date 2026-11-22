@@ -18,3 +18,5 @@ As the Kenyan pilot lead, Waziup also showcased the SEADE Route to Market traini
 The event provided a valuable platform to connect with researchers, explore collaboration opportunities under Horizon Europe, and share experiences on strengthening innovation ecosystems.
 
 Through SEADE, Waziup continues to support youth-driven innovation, technology development, and stronger research and innovation partnerships between Africa and Europe.
+
+See the details here: https://euraxess.ec.europa.eu/worldwide/africa/events/hybrid-workshop-grant-writing-kenyan-researchers-and-innovators-focused
